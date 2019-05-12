@@ -1,0 +1,62 @@
+.card {
+  @include abstract-card();
+  @include tight-headers();
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  position: relative;
+  word-wrap: break-word;
+
+  @include mq(lg) {
+    flex: 1 0 0%;
+  }
+}
+
+.card-header,
+.card-body {
+  padding: $sp-2 $sp-4 0;
+
+  p {
+    margin-bottom: $sp-1;
+  }
+
+  >*:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding-bottom: $sp-2;
+}
+
+.card-deck {
+  @include abstract-card();
+  @include tight-headers();
+  display: flex;
+  flex-direction: column;
+
+  @include mq(lg) {
+    flex-flow: row wrap;
+  }
+
+  .card {
+    border-radius: 0;
+    border-bottom: $border $border-color;
+    box-shadow: none;
+    margin-bottom: 0;
+
+    @include mq(lg) {
+      border-bottom: none;
+      border-right: $border $border-color;
+
+      &:last-child {
+        border-right: none;
+      }
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}

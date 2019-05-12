@@ -1,0 +1,19 @@
+<section class="module">
+  <h3 class="module-header">{{ page.title }}</h3>
+  <div class="module-body">
+    {{ content }}
+  </div>
+  <div class="module-deck">
+    {% for day in page.days %}
+    <div class="module">
+      <div class="module-header">
+        {{ day.topic | markdownify | remove: '<p>' | remove: '</p>' }}
+      </div>
+      <div class="module-body">
+        <span class="module-date">{{ day.date | date: '%-m/%-d' }}</span>
+        {{ day.description | markdownify }}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

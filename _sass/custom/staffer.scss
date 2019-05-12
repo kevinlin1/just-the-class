@@ -1,0 +1,29 @@
+.role {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: $sp-5;
+}
+
+.staffer {
+  display: flex;
+  flex-basis: 100%;
+  padding: $sp-4;
+
+  @include mq(sm) {
+    flex-basis: 50%;
+  }
+
+  p {
+    @extend .staffer-name, .fs-3;
+  }
+}
+
+.staffer-image {
+  border-radius: 50%;
+  height: $staffer-image-size;
+  margin-right: $sp-4;
+}
+
+.staffer-name {
+  margin: $sp-1;
+}

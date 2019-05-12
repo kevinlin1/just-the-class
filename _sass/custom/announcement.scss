@@ -1,0 +1,11 @@
+.announcement {
+  @extend .card;
+}
+
+.announcement-header {
+  @extend .card-header;
+}
+
+.announcement-body {
+  @extend .card-body;
+}

@@ -1,0 +1,44 @@
+.module {
+  @extend .card;
+}
+
+.module-header {
+  @extend .card-header;
+}
+
+.module-body {
+  @extend .card-body;
+
+  .module-date {
+    @extend .label, .label-purple, .fw-700;
+  }
+
+  span.module-date {
+    border-radius: $border-radius;
+    margin-left: 0;
+    padding-bottom: 0.08em;
+    white-space: nowrap;
+  }
+}
+
+.module-deck {
+  @extend .card-deck;
+  border-bottom: $border $border-color;
+  border-top: $border $border-color;
+  border-radius: 0;
+  box-shadow: none;
+  margin-bottom: 0;
+
+  &:first-child {
+    border-top: none;
+  }
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  p {
+    @extend .fs-3;
+    display: inline;
+  }
+}
