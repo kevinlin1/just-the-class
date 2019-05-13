@@ -11,6 +11,10 @@ $media-queries: (
   xl: 1200px,
 );
 
+body {
+  text-rendering: optimizeLegibility;
+}
+
 div.navigation,
 h1.site-title,
 footer.site-footer {
