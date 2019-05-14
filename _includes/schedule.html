@@ -1,33 +1,32 @@
 {% capture schedule_workspace %}
   {% comment %}
-    Return the HTML for the schedule corresponding to the given key.
+    Return the HTML for the schedule corresponding to the given data.
 
     Parameters:
-      `key` (string): key into `_data/schedule.yml` containing the requested schedule.
+      `data` (site data): site data file containing the requested schedule.
       `interval` (integer): time in minutes between each timeline tick.
       `row_height` (integer): row height in pixels.
   {% endcomment %}
 
-  {% assign timeline = site.data.schedule[include.key].timeline %}
-  {% assign timeline_first = timeline | first %}
+  {% assign timeline_first = include.data.timeline | first %}
   {% capture offset %}{% include _minutes.html time=timeline_first %}{% endcapture %}
 {% endcapture %}{% assign schedule_workspace = '' %}
 <div class="schedule">
   <ul class="schedule-timeline" style="margin-top: {{ include.row_height }}px">
-    {% for time in timeline %}
+    {% for time in include.data.timeline %}
     <li class="schedule-time" style="height: {{ include.row_height }}px">
       {{- time -}}
     </li>
     {% endfor %}
   </ul>
   <ul class="schedule-group">
-    {% for day in site.data.schedule[include.key].schedule %}
+    {% for day in include.data.schedule %}
     <li class="schedule-day">
       <h3 class="schedule-header" style="height: {{ include.row_height }}px">
         {{- day.name -}}
       </h3>
       {% if day.events %}
-      <ul class="schedule-events" style="height: {{ timeline | size | times: include.row_height }}px">
+      <ul class="schedule-events" style="height: {{ include.data.timeline | size | times: include.row_height }}px">
       {% for event in day.events %}
         {%- capture start -%}{% include _minutes.html time=event.start %}{%- endcapture -%}
         {%- capture end -%}{% include _minutes.html time=event.end %}{%- endcapture -%}
