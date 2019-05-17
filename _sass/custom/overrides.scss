@@ -29,6 +29,15 @@ h1.site-title {
   @include mq(md) {
     position: relative;
   }
+
+  a {
+    color: $body-heading-color;
+    background: none;
+
+    &:hover {
+      background: none;
+    }
+  }
 }
 
 button.navigation-list-toggle {
