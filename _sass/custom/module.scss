@@ -10,7 +10,8 @@
   @extend .card-body;
 
   .module-date {
-    @extend .label, .label-purple, .fw-700;
+    @extend .label, .fw-700;
+    background-color: $module-date-color;
   }
 
   span.module-date {
