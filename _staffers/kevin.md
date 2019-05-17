@@ -6,4 +6,4 @@ website: https://kevinl.info
 photo: https://kevinl.info/assets/images/me.png
 ---
 
-[Schedule an appointment](#){: .btn .btn-purple }
+[Schedule an appointment](#){: .btn .btn-outline }
