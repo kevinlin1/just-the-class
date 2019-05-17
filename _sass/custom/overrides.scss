@@ -1,16 +1,3 @@
-$gutter-spacing: $sp-6;
-$gutter-spacing-sm: $sp-4;
-$nav-width: 216px;
-$content-width: 784px;
-$sidebar-color: $body-background-color;
-$media-queries: (
-  xs: 320px,
-  sm: 640px,
-  md: 800px,
-  lg: 1000px,
-  xl: 1200px,
-);
-
 body {
   text-rendering: optimizeLegibility;
 }
