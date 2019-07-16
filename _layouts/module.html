@@ -1,19 +1,21 @@
 <section class="module">
-  <h3 class="module-header">{{ page.title }}</h3>
-  <div class="module-body">
-    {{ content }}
-  </div>
+  <h2 class="module-header">{{ page.title }}</h2>
+  {% if page.days %}
   <div class="module-deck">
     {% for day in page.days %}
     <div class="module">
+      <div class="module-date">{{ day.date | date: '%b %e' }}</div>
       <div class="module-header">
         {{ day.topic | markdownify | remove: '<p>' | remove: '</p>' }}
       </div>
       <div class="module-body">
-        <span class="module-date">{{ day.date | date: '%-m/%-d' }}</span>
         {{ day.description | markdownify }}
       </div>
     </div>
     {% endfor %}
+  </div>
+  {% endif %}
+  <div class="module-body">
+    {{ content }}
   </div>
 </section>

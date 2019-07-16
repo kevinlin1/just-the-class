@@ -36,27 +36,10 @@
   display: flex;
   flex-direction: column;
 
-  @include mq(lg) {
-    flex-flow: row wrap;
-  }
-
   .card {
     border-radius: 0;
     border-bottom: $border $border-color;
     box-shadow: none;
     margin-bottom: 0;
-
-    @include mq(lg) {
-      border-bottom: none;
-      border-right: $border $border-color;
-
-      &:last-child {
-        border-right: none;
-      }
-    }
-
-    &:last-child {
-      border-bottom: none;
-    }
   }
 }

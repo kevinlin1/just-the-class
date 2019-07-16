@@ -2,24 +2,17 @@
   @extend .card;
 }
 
+.module-date {
+  @extend .card-header;
+  flex: 0 0 12.5%;
+}
+
 .module-header {
   @extend .card-header;
 }
 
 .module-body {
   @extend .card-body;
-
-  .module-date {
-    @extend .label, .fw-700;
-    background-color: $module-date-color;
-  }
-
-  span.module-date {
-    border-radius: $border-radius;
-    margin-left: 0;
-    padding-bottom: 0.08em;
-    white-space: nowrap;
-  }
 }
 
 .module-deck {
@@ -41,5 +34,18 @@
   p {
     @extend .fs-3;
     display: inline;
+  }
+
+  .module {
+    flex-direction: row;
+
+    .module-header,
+    .module-body {
+      flex: 1;
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
   }
 }
