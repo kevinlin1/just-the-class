@@ -13,8 +13,8 @@ Multiple schedules can be rendered on a page, each with their own events and hou
 
 ## Weekly Schedule
 
-{% include schedule.html data=site.data.schedule.weekly interval=30 row_height=40 %}
+{% include schedule.html data=site.data.schedule.weekly interval=30 row_height=40 min_day_width=125 %}
 
 ## Office Hours Schedule
 
-{% include schedule.html data=site.data.schedule.office-hours interval=30 row_height=40 %}
+{% include schedule.html data=site.data.schedule.office-hours interval=30 row_height=40 min_day_width=125 %}

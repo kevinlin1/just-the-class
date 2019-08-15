@@ -16,7 +16,6 @@
 
 .schedule-timeline {
   margin-bottom: 0;
-  min-width: $schedule-day-min-width;
   position: absolute;
   width: 100%;
 }
@@ -47,7 +46,6 @@
 .schedule-day {
   border-left: $border $border-color;
   flex: 1 0 0;
-  min-width: $schedule-day-min-width;
   margin: 0;
 
   &:first-of-type {
@@ -70,7 +68,6 @@
 }
 
 .schedule-event {
-  @extend .fw-700;
   background-color: $grey-dk-000;
   border-radius: $border-radius;
   box-shadow: 0 10px 20px rgba(0, 0, 0, .1), inset 0 -3px 0 rgba(0, 0, 0, .2);
@@ -82,8 +79,13 @@
   position: absolute;
   width: 100%;
 
-  div {
-    @extend .fs-2, .fw-700;
+  .name {
+    @extend .fw-700;
+  }
+
+  .time,
+  .location {
+    @extend .fs-2;
   }
 
   &.lecture {
