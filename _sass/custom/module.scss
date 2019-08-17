@@ -4,7 +4,6 @@
 
 .module-date {
   @extend .card-header;
-  flex: 0 0 12.5%;
 }
 
 .module-header {
@@ -37,15 +36,25 @@
   }
 
   .module {
-    flex-direction: row;
-
-    .module-header,
-    .module-body {
-      flex: 1;
+    .module-header {
+      @extend .fw-500;
     }
 
     &:last-child {
       border-bottom: none;
+    }
+
+    @include mq(sm) {
+      flex-direction: row;
+
+      .module-date,
+      .module-body {
+        flex: 0 0 20%;
+      }
+
+      .module-header {
+        flex: 1;
+      }
     }
   }
 }
