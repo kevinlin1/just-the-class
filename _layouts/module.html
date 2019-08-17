@@ -8,14 +8,19 @@
       <div class="module-header">
         {{ day.topic | markdownify | remove: '<p>' | remove: '</p>' }}
       </div>
+      {% if day.description != nil %}
       <div class="module-body">
         {{ day.description | markdownify }}
       </div>
+      {% endif %}
     </div>
     {% endfor %}
   </div>
   {% endif %}
+  {% assign content_strip = content | strip %}
+  {% if content_strip != "" %}
   <div class="module-body">
     {{ content }}
   </div>
+  {% endif %}
 </section>
