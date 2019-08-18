@@ -1,21 +1,14 @@
-<section class="module">
+<div class="module">
   <h3 class="module-header">{{ page.title }}</h3>
   {% if page.days %}
-  <div class="module-deck">
+  <dl class="module-days">
     {% for day in page.days %}
-    <div class="module">
-      <div class="module-date">{{ day.date | date: '%b %e' }}</div>
-      <div class="module-header">
-        {{ day.topic | markdownify | remove: '<p>' | remove: '</p>' }}
-      </div>
-      {% if day.description != nil %}
-      <div class="module-body">
-        {{ day.description | markdownify }}
-      </div>
-      {% endif %}
-    </div>
+    <dt class="module-day main">{{ day.date | date: '%b %e' }}</dt>
+    {% for event in day.events %}
+    <dd class="module-event{% if forloop.first %} main{% endif %}">{{ event | first | markdownify }} {{ event | last | markdownify }}</dd>
     {% endfor %}
-  </div>
+    {% endfor %}
+  </dl>
   {% endif %}
   {% assign content_strip = content | strip %}
   {% if content_strip != "" %}
@@ -23,4 +16,4 @@
     {{ content }}
   </div>
   {% endif %}
-</section>
+</div>

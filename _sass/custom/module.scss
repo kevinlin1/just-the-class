@@ -1,5 +1,9 @@
 .module {
   @extend .card;
+
+  .module-days {
+    grid-template-columns: 1fr 7fr;
+  }
 }
 
 .module-date {
@@ -14,13 +18,9 @@
   @extend .card-body;
 }
 
-.module-deck {
-  @extend .card-deck;
+.module-days {
   border-bottom: $border $border-color;
   border-top: $border $border-color;
-  border-radius: 0;
-  box-shadow: none;
-  margin-bottom: 0;
 
   &:first-child {
     border-top: none;
@@ -30,31 +30,39 @@
     border-bottom: none;
   }
 
-  p {
-    @extend .fs-3;
-    display: inline;
+  .module-day,
+  .module-event {
+    margin: 0;
+    padding: $sp-2 $sp-4;
+
+    &.main {
+      border-top: $border $border-color;
+
+      &:first-of-type {
+        border-top: none;
+      }
+    }
+
+    p {
+      display: inline-block;
+      margin: 0;
+      width: 62.5%;
+
+      +p {
+        width: auto;
+      }
+    }
   }
 
-  .module {
-    .module-header {
-      @extend .fw-500;
-    }
+  .module-day {
+    grid-column-start: 1;
+  }
 
-    &:last-child {
-      border-bottom: none;
-    }
+  .module-event {
+    grid-column-start: 2;
 
-    @include mq(sm) {
-      flex-direction: row;
-
-      .module-date,
-      .module-body {
-        flex: 0 0 20%;
-      }
-
-      .module-header {
-        flex: 1;
-      }
+    +.module-event {
+      padding-top: 0;
     }
   }
 }
