@@ -2,7 +2,11 @@
   @extend .card;
 
   .module-days {
-    grid-template-columns: 1fr 7fr;
+    grid-template-columns: 1fr 4fr;
+
+    @include mq(lg) {
+      grid-template-columns: 1fr 7fr;
+    }
   }
 }
 
@@ -33,7 +37,11 @@
   .module-day,
   .module-event {
     margin: 0;
-    padding: $sp-2 $sp-4;
+    padding: $sp-2;
+
+    @include mq(sm) {
+      padding: $sp-2 $sp-4;
+    }
 
     &.main {
       border-top: $border $border-color;
@@ -46,7 +54,11 @@
     p {
       display: inline-block;
       margin: 0;
-      width: 62.5%;
+      width: 100%;
+
+      @include mq(sm) {
+        width: 62.5%;
+      }
 
       +p {
         width: auto;
