@@ -16,11 +16,3 @@ Modules are rendered according to the layout file defined in `_layouts/module.ht
 {% for module in site.modules %}
 {{ module }}
 {% endfor %}
-
-## Table Calendar
-
-We can also render modules as HTML tables. Modify `_includes/module_table.html` to make changes.
-
-{% for module in site.modules %}
-{% include module_table.html module=module %}
-{% endfor %}
