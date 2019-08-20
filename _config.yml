@@ -64,3 +64,11 @@ defaults:
       type: staffers
     values:
       layout: staffer
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blank_lines: false
+  profile: false
