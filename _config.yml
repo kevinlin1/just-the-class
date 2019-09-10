@@ -28,13 +28,12 @@ search_enabled: true
 heading_anchors: true
 permalink: pretty
 nav_links:
-  Other:
-    Okpy:
-      - 'https://okpy.org'
-    Gradescope:
-      - 'https://gradescope.com'
-    Piazza:
-      - 'https://piazza.com'
+  Okpy:
+    - 'https://okpy.org'
+  Gradescope:
+    - 'https://gradescope.com'
+  Piazza:
+    - 'https://piazza.com'
 aux_links:
   'Kevin Lin':
     - 'https://kevinl.info'

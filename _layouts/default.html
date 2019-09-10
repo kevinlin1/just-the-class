@@ -21,17 +21,15 @@ layout: table_wrappers
       <div class="navigation main-nav js-main-nav">
         {% include nav.html %}
         {% if site.nav_links != nil %}
+        <hr>
         <nav role="navigation" aria-label="Secondary navigation">
-          {% for category in site.nav_links %}
-          <h2 class="navigation-header">{{ category.first }}</h2>
           <ul class="navigation-list">
-            {% for link in category.last %}
+            {% for link in site.nav_links %}
             <li class="navigation-list-item">
               <a href="{{ link.last }}" class="navigation-list-link" target="_blank">{{ link.first }}</a>
             </li>
             {% endfor %}
           </ul>
-          {% endfor %}
         </nav>
         {% endif %}
       </div>
