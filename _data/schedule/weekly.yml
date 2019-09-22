@@ -16,8 +16,8 @@ schedule:
         start: 11:30 AM
         end: 12:30 PM
         location: 310 Soda
-      - name: Lab
-        class: lab
+      - name: Office Hours
+        class: office-hours
         start: 12:30 PM
         end: 2:00 PM
         location: 271 Soda
@@ -34,8 +34,8 @@ schedule:
         start: 11:30 AM
         end: 12:30 PM
         location: 310 Soda
-      - name: Lab
-        class: lab
+      - name: Office Hours
+        class: office-hours
         start: 12:30 PM
         end: 2:00 PM
         location: 271 Soda
@@ -52,8 +52,8 @@ schedule:
         start: 11:30 AM
         end: 12:30 PM
         location: 310 Soda
-      - name: Lab
-        class: lab
+      - name: Office Hours
+        class: office-hours
         start: 12:30 PM
         end: 2:00 PM
         location: 271 Soda
