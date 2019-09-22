@@ -1,6 +1,7 @@
 <div class="announcement">
-  <h2 class="announcement-header">{{ page.title }}</h2>
   <div class="announcement-body">
+    <div class="announcement-header">{{ page.date | date: '%b %e' }}</div>
+    <h2>{{ page.title }}</h2>
     {{ content }}
   </div>
 </div>
