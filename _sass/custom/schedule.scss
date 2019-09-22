@@ -89,14 +89,14 @@
   }
 
   &.lecture {
-    background-color: $purple-000;
+    background-color: $grey-dk-000;
   }
 
   &.section {
-    background-color: $green-100;
+    background-color: $purple-000;
   }
 
-  &.lab {
-    background-color: $red-100;
+  &.office-hours {
+    background-color: $blue-000;
   }
 }
