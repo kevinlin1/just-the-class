@@ -1,20 +1,12 @@
 .role {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: $sp-5;
 }
 
 .staffer {
   display: flex;
-  flex-basis: 100%;
   padding: $sp-4;
 
-  @include mq(sm) {
-    flex-basis: 50%;
-  }
-
   p {
-    @extend .staffer-name, .fs-3;
+    @extend .staffer-name;
   }
 }
 
