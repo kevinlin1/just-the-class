@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Policies
+title: About
 nav_order: 1
 description: >-
     Course policies and information.
 ---
 
-# Policies
+# About
 {:.no_toc}
 
 ## Table of contents
