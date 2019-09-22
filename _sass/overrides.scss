@@ -1,3 +1,11 @@
+a abbr[title] {
+  border-bottom: none;
+}
+
+abbr[title] {
+  text-decoration: none;
+}
+
 summary {
   margin-bottom: 1em;
 }
