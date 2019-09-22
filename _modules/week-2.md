@@ -5,11 +5,11 @@ days:
     events:
       "[Linked Lists & Encapsulation](#)":
         "[3.1](#), [2.2](#), [2.3](#)"
-      "Homework 2 out":
+      "**HW 2 out**{: .label .label-hw-out }":
         null
   - date: 2019-04-09
     events:
-      "**Section**{: .label } [Linked Lists](#)":
+      "**Section**{: .label .label-section } [Linked Lists](#)":
         "Solution"
   - date: 2019-04-10
     events:
@@ -23,6 +23,6 @@ days:
     events:
       "[Runtime Analysis](#)":
         "[8.1](#), [8.2](#), [8.3](#), [8.4](#)"
-      "Homework 2 due":
+      "**HW 2 due**{: .label .label-hw-due }":
         null
 ---

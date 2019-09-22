@@ -5,11 +5,11 @@ days:
     events:
       "[Java & Git](#)":
         "[1.1](#)"
-      "Homework 1 out":
+      "**HW 1 out**{: .label .label-hw-out }":
         null
   - date: 2019-04-02
     events:
-      "**Section**{: .label } [Intro to Java](#)":
+      "**Section**{: .label .label-section } [Intro to Java](#)":
         "Solution"
   - date: 2019-04-03
     events:
@@ -23,6 +23,6 @@ days:
     events:
       "[Tracing, IntLists, & Recursion](#)":
         "[2.1](#)"
-      "Homework 1 due":
+      "**HW 1 due**{: .label .label-hw-due }":
         null
 ---
