@@ -12,13 +12,6 @@ description: >-
 Just the Class, Summer 2019
 {: .mb-0 .fs-6 .text-grey-dk-000 }
 
-{% assign instructors = site.staffers | where: 'role', 'Instructor' %}
-<div class="role">
-  {% for staffer in instructors %}
-  {{ staffer }}
-  {% endfor %}
-</div>
-
 {% if site.announcements %}
 {{ site.announcements.last }}
 <a href="{{ site.baseurl }}/announcements" class="btn btn-outline fs-3">
