@@ -78,3 +78,18 @@
     }
   }
 }
+
+.label.label-hw-out {
+  @extend .label-yellow;
+  @include module-label();
+}
+
+.label.label-hw-due {
+  @extend .label-red;
+  @include module-label();
+}
+
+.label.label-section {
+  @extend .label-purple;
+  @include module-label();
+}
