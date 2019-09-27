@@ -10,3 +10,7 @@ iframe,
 summary {
   margin-bottom: 1em;
 }
+
+summary {
+  @extend .btn, .btn-outline;
+}
