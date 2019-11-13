@@ -10,7 +10,7 @@ description: >-
 # Launch your class website on GitHub Pages
 {: .mb-2 }
 Just the Class, Summer 2019
-{: .mb-0 .fs-6 .text-grey-dk-000 }
+{: .fs-6 .text-grey-dk-000 }
 
 {% if site.announcements %}
 {{ site.announcements.last }}
