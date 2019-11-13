@@ -1,4 +1,5 @@
 ---
+week: 2
 title: Basic Data Structures
 days:
   - date: 2019-04-08

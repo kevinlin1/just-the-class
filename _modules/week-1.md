@@ -1,4 +1,5 @@
 ---
+week: 1
 title: Introduction to Java
 days:
   - date: 2019-04-01
