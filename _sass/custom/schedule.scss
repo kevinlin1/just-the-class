@@ -80,7 +80,7 @@
   width: 100%;
 
   .name {
-    @extend .fw-700;
+    @extend .fs-3, .fw-700;
   }
 
   .time,
