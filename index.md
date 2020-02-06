@@ -14,7 +14,7 @@ Just the Class, Summer 2019
 
 {% if site.announcements %}
 {{ site.announcements.last }}
-<a href="{{ site.baseurl }}/announcements" class="btn btn-outline fs-3">
+<a href="{{ site.baseurl }}{% link announcements.md %}" class="btn btn-outline fs-3">
   All Announcements
 </a>
 {% endif %}
