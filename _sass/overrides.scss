@@ -27,6 +27,26 @@ summary {
   @extend .btn, .btn-outline;
 }
 
-.page-content .katex {
-  font-size: 1.1em;
+.page-content {
+  dl {
+    display: block;
+    grid-template-columns: none;
+  }
+
+  dt {
+    font-weight: 500;
+    text-align: start;
+
+    &::after {
+      content: normal;
+    }
+  }
+
+  dd {
+    font-weight: normal;
+  }
+
+  .katex {
+    font-size: 1.1em;
+  }
 }

@@ -1,4 +1,4 @@
-.module {
+.page-content .module {
   @extend .card;
 
   .module-days {
@@ -7,6 +7,24 @@
     @include mq(lg) {
       grid-template-columns: 1fr 7fr;
     }
+  }
+
+  dl {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+  }
+
+  dt {
+    font-weight: normal;
+    text-align: right;
+
+    &::after {
+      content: ":";
+    }
+  }
+
+  dd {
+    font-weight: 500;
   }
 }
 
