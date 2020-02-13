@@ -7,9 +7,9 @@ description: >-
     for developing course websites.
 ---
 
-# Launch your class website on GitHub Pages
+# {{ site.description }}
 {: .mb-2 }
-Just the Class, Summer 2019
+{{ site.title }}
 {: .fs-6 .text-grey-dk-000 }
 
 {% if site.announcements %}
