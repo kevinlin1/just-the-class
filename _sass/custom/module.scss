@@ -47,6 +47,7 @@
 .module-days {
   border-bottom: $border $border-color;
   border-top: $border $border-color;
+  margin-bottom: 0;
 
   &:first-child {
     border-top: none;
