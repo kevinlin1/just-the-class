@@ -23,3 +23,7 @@
 .staffer-pronouns {
   @extend .label, .text-grey-dk-100, .bg-grey-lt-200;
 }
+
+.staffer-meta {
+  @extend .text-grey-dk-000;
+}

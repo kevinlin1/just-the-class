@@ -17,10 +17,10 @@
     <p><a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
     {% endif %}
     {% if page.section %}
-    <p class="text-grey-dk-000">Quiz Section: {{ page.section | markdownify | strip_html }}</p>
+    <p class="staffer-meta">Quiz Section: {{ page.section | markdownify | strip_html }}</p>
     {% endif %}
     {% if page.office-hours %}
-    <p class="text-grey-dk-000">Office Hours: {{ page.office-hours | markdownify | strip_html }}</p>
+    <p class="staffer-meta">Office Hours: {{ page.office-hours | markdownify | strip_html }}</p>
     {% endif %}
     {{ content }}
   </div>
