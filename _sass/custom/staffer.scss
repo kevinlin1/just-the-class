@@ -19,3 +19,7 @@
 .staffer-name {
   margin: $sp-1;
 }
+
+.staffer-pronouns {
+  @extend .label, .text-grey-dk-100, .bg-grey-lt-200;
+}
