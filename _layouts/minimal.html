@@ -1,0 +1,61 @@
+---
+layout: table_wrappers
+---
+
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+{% include head.html %}
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="link" viewBox="0 0 16 16">
+      <title>Link</title>
+      <path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
+    </symbol>
+  </svg>
+  <div class="page">
+    {% unless page.url == "/" %}
+      {% if page.parent %}
+        <nav class="breadcrumb-nav">
+          <ol class="breadcrumb-nav-list">
+            {% if page.grand_parent %}
+            <li class="breadcrumb-nav-list-item"><a href="{{ first_level_url }}">{{ page.grand_parent }}</a></li>
+            <li class="breadcrumb-nav-list-item"><a href="{{ second_level_url }}">{{ page.parent }}</a></li>
+            {% else %}
+            <li class="breadcrumb-nav-list-item"><a href="{{ first_level_url }}">{{ page.parent }}</a></li>
+            {% endif %}
+            <li class="breadcrumb-nav-list-item"><span>{{ page.title }}</span></li>
+          </ol>
+        </nav>
+      {% endif %}
+    {% endunless %}
+    <div id="main-content" class="page-content" role="main">
+      {% if site.heading_anchors != false %}
+        {% include vendor/anchor_headings.html html=content beforeHeading="true" anchorBody="<svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><use xlink:href=\"#link\"></use></svg>" anchorClass="anchor-heading" %}
+      {% else %}
+        {{ content }}
+      {% endif %}
+
+    {% if page.has_children == true and page.has_toc != false %}
+      <hr>
+      <h2 class="text-delta">Table of contents</h2>
+      {% assign children_list = site.pages | sort:"nav_order" %}
+      <ul>
+        {% for child in children_list %}
+          {% if child.parent == page.title and child.title != page.title %}
+          <li>
+            <a href="{{ child.url | absolute_url }}">{{ child.title }}</a>{% if child.summary %} - {{ child.summary }}{% endif %}
+          </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    {% endif %}
+    {% if site.footer_content != nil %}
+      <hr>
+      <footer role="contentinfo">
+        <p class="text-small text-grey-dk-000 mb-0">{{ site.footer_content }}</p>
+      </footer>
+    {% endif %}
+    </div>
+  </div>
+</body>
+</html>

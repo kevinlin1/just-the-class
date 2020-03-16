@@ -27,6 +27,11 @@ summary {
   @extend .btn, .btn-outline;
 }
 
+.page {
+  max-width: $content-width;
+  margin: auto;
+}
+
 .page-content {
   dl {
     display: block;
