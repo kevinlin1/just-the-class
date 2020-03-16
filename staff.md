@@ -11,18 +11,14 @@ Staff information is stored in the `_staffers` directory and rendered according 
 
 ## Instructors
 
-<div class="role">
-  {% assign instructors = site.staffers | where: 'role', 'Instructor' %}
-  {% for staffer in instructors %}
-  {{ staffer }}
-  {% endfor %}
-</div>
+{% assign instructors = site.staffers | where: 'role', 'Instructor' %}
+{% for staffer in instructors %}
+{{ staffer }}
+{% endfor %}
 
 ## Teaching Assistants
 
-<div class="role">
-  {% assign teaching_assistants = site.staffers | where: 'role', 'Teaching Assistant' %}
-  {% for staffer in teaching_assistants %}
-  {{ staffer }}
-  {% endfor %}
-</div>
+{% assign teaching_assistants = site.staffers | where: 'role', 'Teaching Assistant' %}
+{% for staffer in teaching_assistants %}
+{{ staffer }}
+{% endfor %}
