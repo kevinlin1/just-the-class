@@ -10,7 +10,7 @@ description: >-
 # {{ site.description }}
 {: .mb-2 }
 {{ site.title }}
-{: .fs-6 .text-grey-dk-000 }
+{: .fs-6 .fw-300 }
 
 {% if site.announcements %}
 {{ site.announcements.last }}
