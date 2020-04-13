@@ -33,6 +33,10 @@ summary {
 }
 
 .page-content {
+  a {
+    white-space: normal;
+  }
+
   dl {
     display: block;
     grid-template-columns: none;
