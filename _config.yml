@@ -40,7 +40,6 @@ aux_links:
   'Just the Class on GitHub':
     - 'https://github.com/kevinlin1/just-the-class'
 footer_content: "Based on <a href=\"https://github.com/pmarsceill/just-the-docs\">Just the Docs</a> by Patrick Marsceill."
-nav_footer_content: "Powered by <a href=\"https://github.com/kevinlin1/just-the-class\">Just the Class</a>"
 
 # Collections for website data
 collections:
