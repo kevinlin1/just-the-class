@@ -19,12 +19,12 @@ details {
 
 iframe,
 summary {
-  margin-bottom: 1em;
   max-width: 100%;
 }
 
 summary {
   @extend .btn, .btn-outline;
+  margin-bottom: 1em;
 }
 
 .page {
