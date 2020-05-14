@@ -3,9 +3,9 @@
   {% if page.days %}
   <dl class="module-days">
     {% for day in page.days %}
-    <dt class="module-day main">{{ day.date | date: '%b %e' }}</dt>
+    <dt class="module-day">{{ day.date | date: '%b %e' }}</dt>
     {% for event in day.events %}
-    <dd class="module-event{% if forloop.first %} main{% endif %}">{{ event | first | markdownify }} {{ event | last | markdownify }}</dd>
+    <dd class="module-event">{{ event | first | markdownify }} {{ event | last | markdownify }}</dd>
     {% endfor %}
     {% endfor %}
   </dl>

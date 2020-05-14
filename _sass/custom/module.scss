@@ -45,17 +45,7 @@
 }
 
 .module-days {
-  border-bottom: $border $border-color;
-  border-top: $border $border-color;
   margin-bottom: 0;
-
-  &:first-child {
-    border-top: none;
-  }
-
-  &:last-child {
-    border-bottom: none;
-  }
 
   .module-day,
   .module-event {
@@ -64,14 +54,6 @@
 
     @include mq(sm) {
       padding: $sp-2 $sp-4;
-    }
-
-    &.main {
-      border-top: $border $border-color;
-
-      &:first-of-type {
-        border-top: none;
-      }
     }
 
     p {
@@ -91,6 +73,11 @@
 
   .module-day {
     grid-column-start: 1;
+    border-top: $border $border-color;
+
+    +.module-event {
+      border-top: $border $border-color;
+    }
   }
 
   .module-event {
