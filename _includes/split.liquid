@@ -1,0 +1,34 @@
+{% capture split_workspace %}
+  {% comment %}
+    Split the string on all of the delimiters and join the result.
+
+    Parameters:
+      `content` (string): String to split.
+      `delimiters` (array of strings): Boundary strings defining what to split.
+      `join` (string): Join the resulting parts on this string.
+  {% endcomment %}
+
+  {% assign queries = include.queries | default: empty %}
+  {% assign join = include.join | default: "|" %}
+  {% if queries.size == 0 %}
+    {% assign result = include.content %}
+  {% else %}
+    {% assign result = include.content | split: queries[0] | join: join %}
+    {% assign rest = queries | slice: 1, queries.size %}
+    {% for query in rest %}
+      {% assign temp = result | split: join %}
+      {% assign result = "" %}
+      {% for part in temp %}
+        {% assign split = part | split: query %}
+        {% for subpart in split %}
+          {% comment %}
+            Suppress repeated delimiters (empty strings).
+          {% endcomment %}
+          {% if subpart != "" %}
+            {% assign result = result | append: join | append: subpart %}
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    {% endfor %}
+  {% endif %}
+{% endcapture %}{% assign split_workspace = '' %}{{ result }}

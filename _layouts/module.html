@@ -5,7 +5,11 @@
     {% for day in page.days %}
     <dt class="module-day">{{ day.date | date: '%b %e' }}</dt>
     {% for event in day.events %}
-    <dd class="module-event">{{ event | first | markdownify }} {{ event | last | markdownify }}</dd>
+    {% assign main = event | first %}
+    {% assign info = event | last %}
+    {% capture main %}{% include eval.liquid content=main %}{% endcapture %}
+    {% capture info %}{% include eval.liquid content=info %}{% endcapture %}
+    <dd class="module-event">{{ main | markdownify }} {{ info | markdownify }}</dd>
     {% endfor %}
     {% endfor %}
   </dl>

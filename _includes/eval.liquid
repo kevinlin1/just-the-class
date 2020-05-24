@@ -1,0 +1,38 @@
+{% capture eval_workspace %}
+  {% comment %}
+    Evaluate Liquid tags stored in plaintext.
+
+    Supports:
+      `link` tag for site.pages. Does not raise errors on invalid links.
+
+    Parameters:
+      `content` (string): String containing Liquid tags.
+  {% endcomment %}
+
+  {% capture tags %}{{ "{%|" }}%}{% endcapture %}
+  {% assign tags = tags | split: "|" %}
+
+  {% assign join = "|" %}
+  {% capture parts %}{% include split.liquid content=include.content queries=tags join=join %}{% endcapture %}
+  {% assign parts = parts | split: join %}
+
+  {% assign result = "" %}
+  {% for part in parts %}
+    {% assign subparts = part | split: " " %}
+    {% assign rest = subparts | slice: 1, subparts.size | join: " " %}
+    {% case subparts[0] %}
+      {% when "link" %}
+        {% comment %}
+          Jekyll 4.0 supports Liquefied link tags: https://github.com/jekyll/jekyll/pull/6269
+        {% endcomment %}
+        {% for page in site.pages %}
+          {% if page.path == rest %}
+            {% assign link = page.url | relative_url %}
+            {% assign result = result | append: link %}
+          {% endif %}
+        {% endfor %}
+      {% else %}
+        {% assign result = result | append: part %}
+    {% endcase %}
+  {% endfor %}
+{% endcapture %}{% assign eval_workspace = '' %}{{ result }}
