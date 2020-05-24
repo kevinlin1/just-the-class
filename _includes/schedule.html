@@ -12,7 +12,7 @@
 
   {% assign header_tag = include.header_tag | default: 'h3' %}
   {% assign timeline_first = include.data.timeline | first %}
-  {% capture offset %}{% include _minutes.html time=timeline_first %}{% endcapture %}
+  {% capture offset %}{% include minutes.liquid time=timeline_first %}{% endcapture %}
 {% endcapture %}{% assign schedule_workspace = '' %}
 <div class="schedule">
   <ul class="schedule-timeline" style="margin-top: {{ include.row_height }}px; min-width: {{ include.data.schedule | size | times: include.min_day_width }}px">
@@ -29,8 +29,8 @@
       {% if day.events %}
       <ul class="schedule-events" style="height: {{ include.data.timeline | size | times: include.row_height }}px">
       {% for event in day.events %}
-        {%- capture start -%}{% include _minutes.html time=event.start %}{%- endcapture -%}
-        {%- capture end -%}{% include _minutes.html time=event.end %}{%- endcapture -%}
+        {%- capture start -%}{% include minutes.liquid time=event.start %}{%- endcapture -%}
+        {%- capture end -%}{% include minutes.liquid time=event.end %}{%- endcapture -%}
         {%- assign top = start | minus: offset | times: include.row_height | divided_by: include.interval -%}
         {%- assign height = end | minus: start | times: include.row_height | divided_by: include.interval -%}
         <li class="schedule-event {{ event.class }}"
