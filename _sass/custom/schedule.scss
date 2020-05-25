@@ -15,7 +15,7 @@
 }
 
 .schedule-timeline {
-  margin-bottom: 0;
+  margin: 40px auto 0;
   position: absolute;
   width: 100%;
 }
@@ -23,6 +23,7 @@
 .schedule-time {
   @extend .fs-2;
   color: $grey-dk-000;
+  height: 40px;
   margin: 0;
   padding: $sp-2;
   position: relative;
@@ -48,6 +49,7 @@
   border-left: $border $border-color;
   flex: 1 0 0;
   margin: 0;
+  min-width: 130px;
 
   &:first-of-type {
     border-left: 0;
@@ -58,6 +60,8 @@
   @extend .fw-700;
   align-items: center;
   display: flex;
+  font-size: 18px !important;
+  height: 40px;
   justify-content: center;
   margin: 0;
 }

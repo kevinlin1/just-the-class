@@ -37,11 +37,17 @@ footer_content:
 
 # Collections for website data
 collections:
-  - modules
-  - announcements
-  - staffers
+  announcements:
+  modules:
+  schedules:
+  staffers:
 # Default layouts for each collection type
 defaults:
+  - scope:
+      path: ''
+      type: announcements
+    values:
+      layout: announcement
   - scope:
       path: ''
       type: modules
@@ -49,9 +55,9 @@ defaults:
       layout: module
   - scope:
       path: ''
-      type: announcements
+      type: schedules
     values:
-      layout: announcement
+      layout: schedule
   - scope:
       path: ''
       type: staffers
