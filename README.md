@@ -4,8 +4,7 @@ Just the Class is a GitHub Pages template developed for the purpose of quickly d
 
 - a [course calendar](calendar.md),
 - a [staff](staff.md) page,
-- a weekly [schedule](schedule.md),
-- and [Google Calendar](google-calendar.md) integration.
+- and a weekly [schedule](schedule.md).
 
 Just the Class is built on top of [Just the Docs](https://github.com/pmarsceill/just-the-docs), making it easy to extend for your own special use cases while providing sane defaults for most everything else. This means that you also get:
 
