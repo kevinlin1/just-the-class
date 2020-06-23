@@ -45,8 +45,8 @@
   @extend .card-body;
 }
 
-.module-days {
-  margin-bottom: 0;
+dl.module-days {
+  margin: 0;
 
   .module-day,
   .module-event {
