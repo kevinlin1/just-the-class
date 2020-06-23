@@ -30,6 +30,7 @@
 
 .module-week {
   @extend .label, .text-grey-dk-100, .bg-grey-lt-200;
+  border-radius: $border-radius;
 }
 
 .module-date {
@@ -89,6 +90,7 @@
   }
 
   .label {
+    border-radius: $border-radius;
     margin-left: 0;
     padding-bottom: 0;
 
