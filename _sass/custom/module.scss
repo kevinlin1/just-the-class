@@ -87,19 +87,21 @@
       padding-top: 0;
     }
   }
-}
 
-.label.label-hw-out {
-  @extend .label-yellow;
-  @include module-label();
-}
+  .label {
+    margin-left: 0;
+    padding-bottom: 0;
 
-.label.label-hw-due {
-  @extend .label-red;
-  @include module-label();
-}
+    &.label-hw-out {
+      @extend .label-yellow;
+    }
 
-.label.label-section {
-  @extend .label-purple;
-  @include module-label();
+    &.label-hw-due {
+      @extend .label-red;
+    }
+
+    &.label-section {
+      @extend .label-purple;
+    }
+  }
 }
