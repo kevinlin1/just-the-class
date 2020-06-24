@@ -24,17 +24,3 @@
 .card-body {
   flex: 1 1 auto;
 }
-
-.card-deck {
-  @include abstract-card();
-  @include tight-headers();
-  display: flex;
-  flex-direction: column;
-
-  .card {
-    border-radius: 0;
-    border-bottom: $border $border-color;
-    box-shadow: none;
-    margin-bottom: 0;
-  }
-}
