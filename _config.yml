@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Just the Class
-description: A Jekyll theme for course websites.
+description: A Jekyll template for course websites.
 author: Kevin Lin
 email: me@example.com
 baseurl: '/just-the-class' # the subpath of your site, e.g. /blog
