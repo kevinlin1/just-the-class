@@ -1,6 +1,5 @@
 .card {
   @include abstract-card();
-  @include tight-headers();
   display: flex;
   flex-direction: column;
   min-width: 0;
