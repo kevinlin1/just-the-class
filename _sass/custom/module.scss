@@ -60,9 +60,8 @@
     }
 
     .label {
-      border-radius: $border-radius;
+      @extend .card-meta;
       margin-left: 0;
-      padding-bottom: 0;
 
       &.label-hw-out {
         @extend .label-yellow;
@@ -79,9 +78,8 @@
   }
 }
 
-.module-week {
-  @extend .label, .text-grey-dk-100, .bg-grey-lt-200;
-  border-radius: $border-radius;
+.module-meta {
+  @extend .card-meta, .text-grey-dk-100, .bg-grey-lt-200;
 }
 
 .module-header {
