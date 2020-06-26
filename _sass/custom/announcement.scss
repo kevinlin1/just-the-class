@@ -2,10 +2,15 @@
   @extend .card;
 }
 
-.announcement-header {
-  margin: $sp-1 0 $sp-3;
-}
-
 .announcement-body {
   @extend .card-body;
+
+  h1, h2, h3, h4, h5, h6 {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.announcement-meta {
+  @extend .card-meta, .text-grey-dk-100, .bg-grey-lt-200;
 }
