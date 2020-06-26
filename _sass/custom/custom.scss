@@ -7,3 +7,97 @@
 @import 'module';
 @import 'schedule';
 @import 'staffer';
+
+// Overrides
+a abbr[title] {
+  border-bottom: none;
+}
+
+abbr[title] {
+  text-decoration: none;
+}
+
+code {
+  font-size: 14px;
+  padding: 0.2em 0.4em;
+  border: none;
+}
+
+details {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+iframe,
+summary {
+  max-width: 100%;
+}
+
+summary {
+  @extend .btn, .btn-outline;
+  margin-bottom: 1em;
+}
+
+.main-content-wrap {
+  max-width: $content-width;
+  margin: auto;
+}
+
+.main-content {
+  a {
+    white-space: normal;
+  }
+
+  dl {
+    display: block;
+    grid-template-columns: none;
+  }
+
+  dt {
+    font-weight: 700;
+    text-align: start;
+
+    &::after {
+      content: normal;
+    }
+  }
+
+  dd {
+    font-weight: normal;
+  }
+
+  .katex {
+    font-size: 1.1em;
+  }
+}
+
+[style*="--aspect-ratio"] > :first-child {
+  width: 100%;
+}
+
+[style*="--aspect-ratio"] > img {
+  height: auto;
+}
+
+@supports (--custom:property) {
+  [style*="--aspect-ratio"] {
+    position: relative;
+  }
+
+  [style*="--aspect-ratio"]::before {
+    content: "";
+    display: block;
+    padding-bottom: calc(100% / (var(--aspect-ratio)));
+  }
+
+  [style*="--add-height"]::before {
+    padding-bottom: calc(100% / (var(--aspect-ratio)) + (var(--add-height)));
+  }
+
+  [style*="--aspect-ratio"] > :first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+}
