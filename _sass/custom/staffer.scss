@@ -1,29 +1,23 @@
-.role {
-}
-
 .staffer {
   display: flex;
   padding: $sp-4;
 
-  p {
-    @extend .staffer-name;
+  .staffer-image {
+    border-radius: 50%;
+    height: 100px;
+    margin-right: $sp-4;
   }
-}
 
-.staffer-image {
-  border-radius: 50%;
-  height: 100px;
-  margin-right: $sp-4;
-}
+  p,
+  .staffer-name {
+    margin: $sp-1 !important;
+  }
 
-.staffer-name {
-  margin: $sp-1;
-}
+  .staffer-pronouns {
+    @extend .label, .text-grey-dk-100, .bg-grey-lt-200;
+  }
 
-.staffer-pronouns {
-  @extend .label, .text-grey-dk-100, .bg-grey-lt-200;
-}
-
-.staffer-meta {
-  @extend .text-grey-dk-000;
+  .staffer-meta {
+    @extend .text-grey-dk-000;
+  }
 }
