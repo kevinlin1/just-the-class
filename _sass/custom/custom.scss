@@ -22,6 +22,21 @@ code {
   border: none;
 }
 
+div.highlighter-rouge {
+  position: relative;
+
+  &::after {
+    @extend %card-meta, .text-grey-dk-100;
+
+    background-color: $white;
+    bottom: $sp-2;
+    content: attr(overlay);
+    position: absolute;
+    right: 0;
+    user-select: none;
+  }
+}
+
 details {
   margin-left: 40px;
   margin-right: 40px;
