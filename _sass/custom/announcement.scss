@@ -1,9 +1,9 @@
 .announcement {
-  @extend .card;
+  @extend %card;
 }
 
 .announcement-body {
-  @extend .card-body;
+  @extend %card-body;
 
   h1, h2, h3, h4, h5, h6 {
     display: flex;
@@ -12,5 +12,5 @@
 }
 
 .announcement-meta {
-  @extend .card-meta, .text-grey-dk-100, .bg-grey-lt-200;
+  @extend %card-meta, .text-grey-dk-100, .bg-grey-lt-200;
 }

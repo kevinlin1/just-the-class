@@ -1,4 +1,4 @@
-.card {
+%card {
   @include abstract-card();
   display: flex;
   flex-direction: column;
@@ -11,8 +11,7 @@
   }
 }
 
-.card-header,
-.card-body {
+%card-header {
   padding: $sp-2 $sp-4;
 
   p {
@@ -20,11 +19,13 @@
   }
 }
 
-.card-body {
+%card-body {
+  @extend %card-header;
+
   flex: 1 1 auto;
 }
 
-.card-meta {
+%card-meta {
   @extend .label;
   border-radius: $border-radius;
   padding-bottom: 0;

@@ -1,5 +1,5 @@
 .module {
-  @extend .card;
+  @extend %card;
 
   .module-days {
     display: grid;
@@ -60,7 +60,7 @@
     }
 
     .label {
-      @extend .card-meta;
+      @extend %card-meta;
       margin-left: 0;
 
       &.label-hw-out {
@@ -79,13 +79,13 @@
 }
 
 .module-meta {
-  @extend .card-meta, .text-grey-dk-100, .bg-grey-lt-200;
+  @extend %card-meta, .text-grey-dk-100, .bg-grey-lt-200;
 }
 
 .module-header {
-  @extend .card-header;
+  @extend %card-header;
 }
 
 .module-body {
-  @extend .card-body;
+  @extend %card-body;
 }
