@@ -25,7 +25,9 @@
             style="top: {{ top }}px; height: {{ height }}px;">
           <div class="name">{{ event_name }}</div>
           <div class="time">{{ event_data.start }}–{{ event_data.end }}</div>
+          {% if event_data.location %}
           <div class="location">{{ event_data.location }}</div>
+          {% endif %}
         </li>
       {% endfor %}
       </ul>
