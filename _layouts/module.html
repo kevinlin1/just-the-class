@@ -3,8 +3,10 @@
   {% if page.days %}
   <dl class="module-days">
     {% for day in page.days %}
-    <dt class="module-day">{{ day.date | date: '%b %e' }}</dt>
-    {% for event in day.events %}
+    {% assign date = day | first %}
+    {% assign events = day | last %}
+    <dt class="module-day">{{ date | date: '%b %e' }}</dt>
+    {% for event in events %}
     {% assign main = event | first %}
     {% assign info = event | last %}
     {% capture main %}{% include eval.liquid content=main %}{% endcapture %}
