@@ -2,15 +2,15 @@
   @extend %card;
 
   .module-days {
+    border-bottom: $border $border-color;
     border-top: $border $border-color;
     display: grid;
     grid-template-columns: max-content 1fr;
-    margin: 0;
+    margin: $sp-2 (-$sp-4);
 
     @include mq(lg) {
       grid-template-columns: 1fr 7fr;
     }
-
 
     .module-day,
     .module-event {
@@ -92,9 +92,7 @@
 }
 
 .module-header {
-  @extend %card-header;
 }
 
 .module-body {
-  @extend %card-body;
 }
