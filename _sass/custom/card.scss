@@ -22,11 +22,11 @@
   }
 
   >:first-child {
-    border-top: none;
+    border-top: none !important;
   }
 
   >:last-child {
-    border-bottom: none;
+    border-bottom: none !important;
   }
 }
 
