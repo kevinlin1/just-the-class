@@ -8,7 +8,7 @@ days:
     "**HW 2 out**{: .label .label-hw-out }":
       null
   2019-04-09:
-    "**Section**{: .label .label-section } [Linked Lists](#)":
+    "**Section**{: .label .label-section }[Linked Lists](#)":
       "Solution"
   2019-04-10:
     "[Resizing Arrays](#)":

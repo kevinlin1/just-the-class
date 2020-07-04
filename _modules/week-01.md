@@ -8,7 +8,7 @@ days:
     "**HW 1 out**{: .label .label-hw-out }":
       null
   2019-04-02:
-    "**Section**{: .label .label-section } [Intro to Java](#)":
+    "**Section**{: .label .label-section }[Intro to Java](#)":
       "Solution"
   2019-04-03:
     "[Variables & Objects](#)":
