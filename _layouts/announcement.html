@@ -1,6 +1,6 @@
 <div class="announcement">
+  <h2 class="announcement-header">{% if page.date %}<strong class="announcement-meta">{{ page.date | date: '%b %e' }}</strong> {% endif %}{{ page.title }}</h2>
   <div class="announcement-body">
-    <h2>{{ page.title }}{% if page.date %} <strong class="announcement-meta">{{ page.date | date: '%b %e' }}</strong>{% endif %}</h2>
     {{ content }}
   </div>
 </div>

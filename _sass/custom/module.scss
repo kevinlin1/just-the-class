@@ -2,6 +2,7 @@
   @extend %card;
 
   .module-days {
+    border-top: $border $border-color;
     display: grid;
     grid-template-columns: max-content 1fr;
     margin: 0;
@@ -43,6 +44,14 @@
 
       +.module-event {
         border-top: $border $border-color;
+      }
+
+      &:first-child {
+        border-top: none;
+
+        +.module-event {
+          border-top: none;
+        }
       }
 
       &::after {
