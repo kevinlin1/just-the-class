@@ -8,6 +8,10 @@
     grid-template-columns: max-content 1fr;
     margin: $sp-2 (-$sp-4);
 
+    &:last-child {
+      margin-bottom: 0;
+    }
+
     @include mq(lg) {
       grid-template-columns: 1fr 7fr;
     }
