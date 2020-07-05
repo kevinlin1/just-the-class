@@ -1,5 +1,10 @@
 <div class="module">
-  <h2 class="module-header">{% if page.week %}<strong class="module-meta">Week {{ page.week }}</strong> {% endif %}{{ page.title }}</h2>
+  <h2 class="module-header">
+    {% if page.week %}
+    <strong class="module-meta">Week {{ page.week }}</strong>
+    {% endif %}
+    {{ page.title }}
+  </h2>
   {% if page.days %}
   <dl class="module-days">
     {% for day in page.days %}
