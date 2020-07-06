@@ -16,30 +16,17 @@
       grid-template-columns: 1fr 7fr;
     }
 
-    .module-day,
-    .module-event {
+    %module-item {
       margin: 0;
       padding: $sp-2;
 
       @include mq(sm) {
         padding: $sp-2 $sp-4;
       }
-
-      p {
-        margin: 0;
-        width: 100%;
-
-        @include mq(sm) {
-          width: 62.5%;
-        }
-
-        +p {
-          width: auto;
-        }
-      }
     }
 
     .module-day {
+      @extend %module-item;
       border-top: $border $border-color;
       font-weight: normal;
       grid-column-start: 1;
@@ -63,9 +50,9 @@
     }
 
     .module-event {
+      @extend %module-item;
       display: flex;
       flex-direction: column;
-      font-weight: 500;
       grid-column-start: 2;
 
       @include mq(sm) {
@@ -74,6 +61,22 @@
 
       +.module-event {
         padding-top: 0;
+      }
+
+      p,
+      ol,
+      ul,
+      dl {
+        margin: 0;
+        flex: 1 0 62.5%;
+      }
+
+      p {
+        font-weight: 500;
+
+        +p {
+          flex-shrink: 1;
+        }
       }
     }
 
