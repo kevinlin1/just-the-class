@@ -13,16 +13,16 @@ description: >-
 
 {% if site.announcements %}
 {{ site.announcements.last }}
-[Announcements]({{ site.baseurl }}{% link announcements.md %}){: .btn .btn-outline .fs-3 }
+[Announcements](announcements.md){: .btn .btn-outline .fs-3 }
 {% endif %}
 
 ## Just the Class
 
 Just the Class is a GitHub Pages template developed for the purpose of quickly deploying course websites. In addition to serving plain web pages and files, it provides a boilerplate for:
 
-- a [course calendar](calendar),
-- a [staff](staff) page,
-- and a weekly [schedule](schedule).
+- a [course calendar](calendar.md),
+- a [staff](staff.md) page,
+- and a weekly [schedule](schedule.md).
 
 Just the Class is built on top of [Just the Docs](https://github.com/pmarsceill/just-the-docs), making it easy to extend for your own special use cases while providing sane defaults for most everything else. This means that you also get:
 
