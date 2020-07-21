@@ -1,14 +1,15 @@
 ---
 layout: home
 title: Home
-nav_order: 0
-description: >-
-    Just the Class is a modern, highly customizable, responsive Jekyll template for course websites.
+nav_exclude: true
+seo:
+  type: Course
+  name: Just the Class
 ---
 
-# {{ site.description }}
+# {{ site.tagline }}
 {: .mb-2 }
-{{ site.title }}
+{{ site.description }}
 {: .fs-6 .fw-300 }
 
 {% if site.announcements %}
