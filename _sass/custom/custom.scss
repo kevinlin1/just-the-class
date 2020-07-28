@@ -22,7 +22,7 @@ code {
   border: none;
 }
 
-div.highlighter-rouge {
+div.highlighter-rouge[overlay] {
   position: relative;
 
   &::after {
