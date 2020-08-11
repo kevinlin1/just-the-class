@@ -26,7 +26,7 @@ div.highlighter-rouge[overlay] {
   position: relative;
 
   &::after {
-    @extend %card-meta, .text-grey-dk-100;
+    @extend .label, %card-meta, .text-grey-dk-100;
 
     background-color: $white;
     bottom: $sp-2;
