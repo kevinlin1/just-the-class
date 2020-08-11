@@ -22,7 +22,7 @@ url: 'https://kevinl.info' # the base hostname & protocol for your site, e.g. ht
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
 
 # Theme settings
-remote_theme: pmarsceill/just-the-docs@v0.3.1
+remote_theme: pmarsceill/just-the-docs@v0.3.2
 color_scheme: light
 search_enabled: true
 heading_anchors: true
