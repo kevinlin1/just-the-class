@@ -36,25 +36,20 @@ footer_content:
 
 # Collections for website data
 collections:
+  staffers:
+  modules:
+  schedules:
   announcements:
   lessons:
     permalink: '/:collection/:path/'
     output: true
-  modules:
-  schedules:
-  staffers:
 # Default layouts for each collection type
 defaults:
   - scope:
       path: ''
-      type: announcements
+      type: staffers
     values:
-      layout: announcement
-  - scope:
-      path: ''
-      type: lessons
-    values:
-      layout: page
+      layout: staffer
   - scope:
       path: ''
       type: modules
@@ -67,9 +62,14 @@ defaults:
       layout: schedule
   - scope:
       path: ''
-      type: staffers
+      type: announcements
     values:
-      layout: staffer
+      layout: announcement
+  - scope:
+      path: ''
+      type: lessons
+    values:
+      layout: page
 # Configure collections for Just the Docs
 just_the_docs:
   collections:
