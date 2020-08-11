@@ -65,10 +65,13 @@
         padding-top: 0;
       }
 
+      ol, ul, dl {
+        margin: 0;
+      }
+
       dl {
         display: flex;
         flex-direction: column;
-        margin: 0;
 
         @include mq(sm) {
           flex-direction: row;
