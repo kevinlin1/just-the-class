@@ -1,14 +1,12 @@
 .announcement {
   @extend %card;
-}
 
-.announcement-header {
-  @extend .text-gamma;
-}
+  h1, h2 {
+    @extend .text-gamma;
+  }
 
-.announcement-body {
-}
-
-.announcement-meta {
-  @extend %card-meta, .text-grey-dk-100, .bg-grey-lt-200;
+  .label {
+    @extend %card-meta;
+    margin-left: 0;
+  }
 }

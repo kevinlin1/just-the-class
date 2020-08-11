@@ -17,16 +17,17 @@
   position: relative;
   word-wrap: break-word;
 
-  @include mq(lg) {
-    flex: 1 0 0%;
-  }
-
   >:first-child {
     border-top: none !important;
   }
 
   >:last-child {
     border-bottom: none !important;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 0.5em;
   }
 }
 

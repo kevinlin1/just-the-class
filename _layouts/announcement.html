@@ -1,11 +1,9 @@
 <div class="announcement">
-  <h2 class="announcement-header">
+  <h2>
     {% if page.date %}
-    <strong class="announcement-meta">{{ page.date | date: '%b %e' }}</strong>
+    <strong class="label label-purple">{{ page.date | date: '%b %e' }}</strong>
     {% endif %}
     {{ page.title }}
   </h2>
-  <div class="announcement-body">
-    {{ content }}
-  </div>
+  {{ content }}
 </div>
