@@ -27,7 +27,6 @@ color_scheme: light
 search_enabled: true
 heading_anchors: true
 permalink: pretty
-nav_links:
 aux_links:
   Kevin Lin:
     - 'https://kevinl.info'
