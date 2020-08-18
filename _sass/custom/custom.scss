@@ -26,9 +26,10 @@ div.highlighter-rouge[overlay] {
   position: relative;
 
   &::after {
-    @extend .label, %card-meta, .text-grey-dk-100;
+    @extend .label, .text-grey-dk-100;
 
     background-color: $white;
+    border-radius: $border-radius;
     bottom: $sp-2;
     content: attr(overlay);
     position: absolute;

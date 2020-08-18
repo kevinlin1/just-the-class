@@ -4,9 +4,4 @@
   h1, h2 {
     @extend .text-gamma;
   }
-
-  .label {
-    @extend %card-meta;
-    margin-left: 0;
-  }
 }

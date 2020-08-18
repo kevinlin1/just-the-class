@@ -29,10 +29,10 @@
     margin-top: 0;
     margin-bottom: 0.5em;
   }
-}
 
-%card-meta {
-  border-radius: $border-radius;
-  padding-bottom: 0;
-  user-select: none;
+  .label {
+    border-radius: $border-radius;
+    margin-left: 0;
+    user-select: none;
+  }
 }

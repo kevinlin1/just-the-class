@@ -6,11 +6,6 @@
     @extend .text-gamma;
   }
 
-  .label {
-    @extend %card-meta;
-    margin-left: 0;
-  }
-
   >dl {
     border-bottom: $border $border-color;
     border-top: $border $border-color;
