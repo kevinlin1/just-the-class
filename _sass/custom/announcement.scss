@@ -4,4 +4,8 @@
   h1, h2 {
     @extend .text-gamma;
   }
+
+  .announcement-meta {
+    @extend .text-epsilon;
+  }
 }
