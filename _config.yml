@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: &title Just the Class
+title: Just the Class
 tagline: A Jekyll template for course websites
 description: A modern, highly customizable, responsive Jekyll template for course websites
 author: Kevin Lin
@@ -40,9 +40,6 @@ collections:
   modules:
   schedules:
   announcements:
-  lessons:
-    permalink: '/:collection/:path/'
-    output: true
 # Default layouts for each collection type
 defaults:
   - scope:
@@ -65,18 +62,6 @@ defaults:
       type: announcements
     values:
       layout: announcement
-  - scope:
-      path: ''
-      type: lessons
-    values:
-      layout: page
-# Configure collections for Just the Docs
-just_the_docs:
-  collections:
-    pages:
-      name: *title
-    lessons:
-      name: Lessons
 
 compress_html:
   clippings: all
