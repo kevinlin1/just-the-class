@@ -2,8 +2,15 @@
 .module {
   @extend %card;
 
-  h1, h2 {
-    @extend .text-gamma;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    &:first-child {
+      margin-top: $sp-4;
+    }
   }
 
   >dl {
@@ -12,6 +19,10 @@
     display: grid;
     grid-template-columns: max-content 1fr;
     margin: $sp-2 (-$sp-4);
+
+    &:first-child {
+      margin-top: 0;
+    }
 
     &:last-child {
       margin-bottom: 0;

@@ -2,6 +2,9 @@
 title: Introduction to Java
 ---
 
+## Introduction to Java
+{: .text-gamma }
+
 Sep 28
 : [Java & Git](#)
   : [1.1](#)
