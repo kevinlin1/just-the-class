@@ -36,9 +36,14 @@ Just the Class is built on top of [Just the Docs](https://github.com/pmarsceill/
 Getting started with Just the Class is simple.
 
 1. Create a [new repository based on Just the Class](https://github.com/kevinlin1/just-the-class/generate).
+1. Update `_config.yml` and `index.md` with your course information.
 1. Configure a [publishing source for GitHub Pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages). Your course website is now live!
-1. Update `_config.yml` with your course information.
 1. Edit and create `.md` [Markdown files](https://guides.github.com/features/mastering-markdown/) to add your content.
+
+For a few open-source examples, see the following course websites and their source code.
+
+- [CSE 390HA](https://courses.cs.washington.edu/courses/cse390ha/20au/) is an example of a single-page website: [source code](https://gitlab.cs.washington.edu/cse390ha/20au/website).
+- [CSE 143](https://courses.cs.washington.edu/courses/cse143/20au/) hosts an entire online textbook with full-text search: [source code](https://gitlab.cs.washington.edu/cse143/20au/website).
 
 Continue reading to learn how to setup a development environment on your local computer. This allows you to make incremental changes without directly modifying the live website.
 
