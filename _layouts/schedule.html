@@ -9,24 +9,20 @@
   <ul class="schedule-group">
     {% for day in page.schedule %}
     <li class="schedule-day">
-      {% assign day_name = day | first %}
-      <h2 class="schedule-header">{{ day_name }}</h2>
-      {% assign events = day | last %}
-      {% if events %}
+      <h2 class="schedule-header">{{ day.name }}</h2>
+      {% if day.events %}
       <ul class="schedule-events" style="height: {{ page.timeline | size | times: 40 }}px">
-      {% for event in events %}
-        {% assign event_name = event | first %}
-        {% assign event_data = event | last %}
-        {% capture start %}{% include minutes.liquid time=event_data.start %}{% endcapture %}
-        {% capture end %}{% include minutes.liquid time=event_data.end %}{% endcapture %}
+      {% for event in day.events %}
+        {% capture start %}{% include minutes.liquid time=event.start %}{% endcapture %}
+        {% capture end %}{% include minutes.liquid time=event.end %}{% endcapture %}
         {% assign top = start | minus: offset | times: 40 | divided_by: 30 %}
         {% assign height = end | minus: start | times: 40 | divided_by: 30 %}
-        <li class="schedule-event {% if event_data.class %}{{ event_data.class }}{% else %}{{ event_name | slugify }}{% endif %}"
+        <li class="schedule-event {% if event.class %}{{ event.class }}{% else %}{{ event.name | slugify }}{% endif %}"
             style="top: {{ top }}px; height: {{ height }}px;">
-          <div class="name">{{ event_name }}</div>
-          <div class="time">{{ event_data.start }}–{{ event_data.end }}</div>
-          {% if event_data.location %}
-          <div class="location">{{ event_data.location }}</div>
+          <div class="name">{{ event.name }}</div>
+          <div class="time">{{ event.start }}–{{ event.end }}</div>
+          {% if event.location %}
+          <div class="location">{{ event.location }}</div>
           {% endif %}
         </li>
       {% endfor %}
