@@ -2,9 +2,6 @@
 title: Basic Data Structures
 ---
 
-## Basic Data Structures
-{: .text-gamma }
-
 Oct 5
 : [Linked Lists & Encapsulation](#)
   : [3.1](#), [2.2](#), [2.3](#)
