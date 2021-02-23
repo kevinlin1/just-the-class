@@ -16,24 +16,25 @@ layout: table_wrappers
     </symbol>
   </svg>
 
+  {% capture nav %}
+    {% if site.just_the_docs.collections %}
+      {% assign collections_size = site.just_the_docs.collections | size %}
+      {% for collection_entry in site.just_the_docs.collections %}
+        {% assign collection_key = collection_entry[0] %}
+        {% assign collection_value = collection_entry[1] %}
+        {% assign collection = site[collection_key] %}
+        {% if collection_value.nav_exclude != true %}
+          {% include nav.html pages=collection %}
+        {% endif %}
+      {% endfor %}
+    {% else %}
+      {% include nav.html pages=site.html_pages %}
+    {% endif %}
+  {% endcapture %}
+
   <div id="main-content-wrap" class="main-content-wrap">
     {% unless page.url == "/" %}
       {% if page.parent %}
-        {% capture nav %}
-          {% if site.just_the_docs.collections %}
-            {% assign collections_size = site.just_the_docs.collections | size %}
-            {% for collection_entry in site.just_the_docs.collections %}
-              {% assign collection_key = collection_entry[0] %}
-              {% assign collection_value = collection_entry[1] %}
-              {% assign collection = site[collection_key] %}
-              {% if collection_value.nav_exclude != true %}
-                {% include nav.html pages=collection %}
-              {% endif %}
-            {% endfor %}
-          {% else %}
-            {% include nav.html pages=site.html_pages %}
-          {% endif %}
-        {% endcapture %}
         {%- for node in pages_list -%}
           {%- if node.parent == nil -%}
             {%- if page.parent == node.title or page.grand_parent == node.title -%}
