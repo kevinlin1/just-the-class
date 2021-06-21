@@ -23,8 +23,11 @@ Getting started with Just the Class is simple.
 
 For a few open-source examples, see the following course websites and their source code.
 
-- [CSE 390HA](https://courses.cs.washington.edu/courses/cse390ha/20au/) is an example of a single-page website: [source code](https://gitlab.cs.washington.edu/cse390ha/20au/website).
-- [CSE 143](https://courses.cs.washington.edu/courses/cse143/20au/) hosts an entire online textbook with full-text search: [source code](https://gitlab.cs.washington.edu/cse143/20au/website).
+- [CSE 390HA](https://courses.cs.washington.edu/courses/cse390ha/20au/) ([source code](https://gitlab.cs.washington.edu/cse390ha/20au/website)) is an example of a single-page website that centers modules.
+- [CSE 143](https://courses.cs.washington.edu/courses/cse143/20au/) ([source code](https://gitlab.cs.washington.edu/cse143/20au/website)) hosts an entire online textbook with full-text search.
+- [CSE 373](https://courses.cs.washington.edu/courses/cse373/21su/) ([source code](https://gitlab.cs.washington.edu/cse373-root/21su/website) is an example of a simple website combining Markdown pages with generated HTML files.
+
+Share your website with us in the [show and tell discussion](https://github.com/kevinlin1/just-the-class/discussions/categories/show-and-tell)!
 
 Continue reading to learn how to setup a development environment on your local computer. This allows you to make incremental changes without directly modifying the live website.
 
