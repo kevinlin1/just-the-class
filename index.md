@@ -25,7 +25,7 @@ Just the Class is a GitHub Pages template developed for the purpose of quickly d
 - a [staff](staff.md) page,
 - and a weekly [schedule](schedule.md).
 
-Just the Class is built on top of [Just the Docs](https://github.com/pmarsceill/just-the-docs), making it easy to extend for your own special use cases while providing sane defaults for most everything else. This means that you also get:
+Just the Class is a set of customizations on top of the popular [Just the Docs](https://github.com/pmarsceill/just-the-docs) theme, which provides a robust and thoroughly-tested foundation that makes it easy to extend for your own special use cases. These foundational features include:
 
 - automatic [navigation structure](https://pmarsceill.github.io/just-the-docs/docs/navigation-structure/),
 - instant, full-text [search](https://pmarsceill.github.io/just-the-docs/docs/search/) and page indexing,
