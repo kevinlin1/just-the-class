@@ -1,9 +1,9 @@
 ---
 name: Andre Ye
 role: Leadership
-email: me@example.com
-website: https://kevinl.info
+email: andreye@uw.edu
+website: https://andre-ye.github.io
 photo: kevin.jpg
 ---
 
-My name is Andre!
+I'm the ML Lead at I2. I like to do etc.
