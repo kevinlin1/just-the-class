@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-nav_exclude: true
+nav_exclude: false
 seo:
   type: Course
   name: Home
