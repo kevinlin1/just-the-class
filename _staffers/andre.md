@@ -1,6 +1,6 @@
 ---
 name: Andre Ye
-role: Leadership
+role: Officer
 email: andreye@uw.edu
 website: https://andre-ye.github.io
 photo: kevin.jpg
