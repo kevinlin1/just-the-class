@@ -9,13 +9,14 @@ seo:
   name: Home
 ---
 
-# Interactive Intelligence
+# I2: Interactive Intelligence
 {: .mb-2 .text-blue-100}
 
 Fusing neuroscience and AI to study intelligent computational systems
 {: .fs-6 .fw-300 }
 
-{% if site.announcements %}
-{{ site.announcements.last }}
-[Announcements](announcements.md){: .btn .btn-outline .fs-3 }
-{% endif %}
+[Buttons]
+
+## Announcements
+
+| **2/12/2022** The site was created. Awesome! |
