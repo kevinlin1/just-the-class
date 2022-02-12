@@ -15,7 +15,7 @@ seo:
 Fusing neuroscience and AI to study intelligent computational systems
 {: .fs-6 .fw-300 }
 
-[Buttons]
+I2 is an environment which aims to create a community of project-driven, outcome-oriented students interested in the intersections of reinforcement learning, embodied artificial intelligence, and neuroscience. We make machines learn like humans.
 
 ## Announcements
 
