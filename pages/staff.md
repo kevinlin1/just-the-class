@@ -7,20 +7,31 @@ description: Meet our awesome team members!
 
 # Team
 
-## Leadership
+## President
 
-{% assign instructors = site.staffers | where: 'role', 'Leadership' %}
-{% for staffer in instructors %}
+{% assign president = site.staffers | where: 'role', 'President' %}
+{% for staffer in president %}
 {{ staffer }}
 {% endfor %}
 
-{% assign teaching_assistants = site.staffers | where: 'role', 'Member' %}
-{% assign num_teaching_assistants = teaching_assistants | size %}
-{% if num_teaching_assistants != 0 %}
+{% assign officers = site.staffers | where: 'role', 'Officer' %}
+{% assign num_officers = officers | size %}
+{% if num_officers != 0 %}
+
+## Officers
+
+{% for staffer in officers %}
+{{ staffer }}
+{% endfor %}
+{% endif %}
+
+{% assign member = site.staffers | where: 'role', 'Member' %}
+{% assign num_member = member | size %}
+{% if num_member != 0 %}
 
 ## Members
 
-{% for staffer in teaching_assistants %}
+{% for staffer in member %}
 {{ staffer }}
 {% endfor %}
 {% endif %}
