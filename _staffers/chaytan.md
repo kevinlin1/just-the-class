@@ -1,6 +1,6 @@
 ---
 name: Chaytan Inman
-role: Leadership
+role: President
 email: me@example.com
 website: https://kevinl.info
 photo: kevin.jpg
