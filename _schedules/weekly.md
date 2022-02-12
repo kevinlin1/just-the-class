@@ -1,7 +1,5 @@
 ---
 timeline:
-  - '3:00 PM'
-  - '3:30 PM'
   - '4:00 PM'
   - '4:30 PM'
   - '5:00 PM'
@@ -25,7 +23,7 @@ schedule:
   - name: Friday
     events:
       - name: Admin Meeting
-        start: 9:30 PM
-        end: 10:30 PM
-        location: --
+        start: 7:00 PM
+        end: 8:30 PM
+        location: A place
 ---
