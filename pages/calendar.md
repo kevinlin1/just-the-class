@@ -1,10 +1,11 @@
 ---
 layout: page
-title: Calendar
-description: Listing of course modules and topics.
+title: Meeting Resources
+nav_order: 3
+description: Notes, slides, and content from I2 meetings.
 ---
 
-# Calendar
+# Meeting Resources
 
 {% for module in site.modules %}
 {{ module }}
