@@ -3,20 +3,19 @@ layout: home
 title: Home
 nav_order: 1
 nav_exclude: false
+permalink: /
 seo:
   type: Course
   name: Home
 ---
 
 # Interactive Intelligence
-{: .mb-2 }
+{: .mb-2 .text-blue-100}
 
-Description
+Fusing neuroscience and AI to study intelligent computational systems
 {: .fs-6 .fw-300 }
 
 {% if site.announcements %}
 {{ site.announcements.last }}
 [Announcements](announcements.md){: .btn .btn-outline .fs-3 }
 {% endif %}
-
-For more information, refer to [Just the Docs](https://pmarsceill.github.io/just-the-docs/).
