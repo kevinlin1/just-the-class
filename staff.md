@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Team
+nav_order: 10
 description: Meet our awesome team members!
 ---
 
