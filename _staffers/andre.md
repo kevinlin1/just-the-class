@@ -1,9 +1,9 @@
 ---
-name: Evil Kevin
-role: Teaching Assistant
+name: Andre Ye
+role: Leadership
 email: me@example.com
 website: https://kevinl.info
 photo: kevin.jpg
 ---
 
-I like teaching Computer Science!
+My name is Andre!
