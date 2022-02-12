@@ -1,6 +1,6 @@
 ---
 name: Janna
-role: Leadership
+role: Officer
 email: me@example.com
 website: https://kevinl.info
 photo: kevin.jpg
