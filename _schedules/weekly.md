@@ -14,16 +14,11 @@ schedule:
   - name: Monday
   - name: Tuesday
   - name: Wednesday
+  - name: Thursday
+  - name: Friday
     events:
       - name: Team Meeting
         start: 5:00 PM
         end: 7:00 PM
-        location: SIG CSE
-  - name: Thursday
-  - name: Friday
-    events:
-      - name: Admin Meeting
-        start: 7:00 PM
-        end: 8:30 PM
-        location: A place
+        location: Design Lab in Sieg Hall, Room 233
 ---
