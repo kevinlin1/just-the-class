@@ -19,3 +19,16 @@ Friday, 2/11/2022
 - [Meeting Slides](https://www.canva.com/design/DAE1ZsJC4pY/wZJeTZZbLeALEzL89TrHYQ/view?utm_content=DAE1ZsJC4pY&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton){:target="_blank"}
 - Janna's Neuroscience Slides: ["Neuroscience in I2"](https://docs.google.com/presentation/d/e/2PACX-1vTvKlnlR6KsXcGXlRPVHoSJGS3apWW7QnUpGlMcnD_Nim33h6DyahUrU-FAAUua4g/pub?start=false&loop=false&delayms=3000){:target="_blank"}
 - Andre's Neural Networks Slides: ["Neural Networks as Minds"](https://www.canva.com/design/DAE3pFjSZXo/GNpikNt16oczG71FeoKeCw/view?utm_content=DAE3pFjSZXo&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton){:target="_blank"}
+
+## Links to Papers and Resources from Andre's Presentation
+- [*Perceptrons*](https://mitpress.mit.edu/books/perceptrons), Minsky-Papert
+- [Backpropagation](https://en.wikipedia.org/wiki/Backpropagation#:~:text=In%20machine%20learning%2C%20backpropagation%20(backprop,to%20generically%20as%20%22backpropagation%22.), Wikipedia
+- [Transfer Learning](https://en.wikipedia.org/wiki/Transfer_learning#:~:text=Transfer%20learning%20(TL)%20is%20a,when%20trying%20to%20recognize%20trucks.), Wikipedia
+- [BERT](https://arxiv.org/abs/1810.04805), Devlin et al (self-supervised pretraining)
+- [Unsupervised Representation Learning by Predicting Image Rotations](https://arxiv.org/abs/1803.07728), Gidaris et al (self-supervised pretraining)
+- [Unsupervised Visual Representation Learning by Context Prediction](https://arxiv.org/abs/1505.05192), Doersch et al (self-supervised pretraining)
+- [Siamese Networks](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf), Koch et al (few-shot learning)
+- [Natural Language Descriptions of Deep Visual Features](https://arxiv.org/pdf/2201.11114.pdf), Hernandez et al (NN interpretability)
+- [Efficient Neural Architecture Search](https://arxiv.org/abs/1802.03268), Pham et al (NAS)
+- [Robust Out-of-distribution Detection for Neural Networks](https://arxiv.org/abs/2003.09711), Chen et al (OOD Detection)
+- [MUTAN: Multimodal Tucker Fusion for Visual Question Answering](https://arxiv.org/pdf/1705.06676.pdf), Ben-younes et al (multimodal learning) 
