@@ -29,8 +29,8 @@ Friday, 2/11/2022
 
 ## Links to Papers and Resources from Andre's Presentation
 - [*Perceptrons*](https://mitpress.mit.edu/books/perceptrons), Minsky-Papert
-- [Backpropagation](https://en.wikipedia.org/wiki/Backpropagation#:~:text=In%20machine%20learning%2C%20backpropagation%20(backprop,to%20generically%20as%20%22backpropagation%22.), Wikipedia
-- [Transfer Learning](https://en.wikipedia.org/wiki/Transfer_learning#:~:text=Transfer%20learning%20(TL)%20is%20a,when%20trying%20to%20recognize%20trucks.), Wikipedia
+- [Backpropagation](https://en.wikipedia.org/wiki/Backpropagation), Wikipedia
+- [Transfer Learning](https://en.wikipedia.org/wiki/Transfer_learning), Wikipedia
 - [BERT](https://arxiv.org/abs/1810.04805), Devlin et al (self-supervised pretraining)
 - [Unsupervised Representation Learning by Predicting Image Rotations](https://arxiv.org/abs/1803.07728), Gidaris et al (self-supervised pretraining)
 - [Unsupervised Visual Representation Learning by Context Prediction](https://arxiv.org/abs/1505.05192), Doersch et al (self-supervised pretraining)
