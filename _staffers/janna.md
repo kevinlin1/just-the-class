@@ -2,7 +2,7 @@
 name: Janna Hong
 role: Officer
 email: me@example.com
-website: https://kevinl.info
+website: https://www.linkedin.com/in/janna-hong-662956231/
 photo: janna.jpg
 ---
 
