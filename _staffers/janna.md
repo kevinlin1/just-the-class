@@ -1,5 +1,5 @@
 ---
-name: Janna
+name: Janna Hong
 role: Officer
 email: me@example.com
 website: https://kevinl.info
