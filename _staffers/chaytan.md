@@ -1,8 +1,8 @@
 ---
 name: Chaytan Inman
 role: President
-email: me@example.com
-website: https://kevinl.info
+email: chaytan@uw.edu
+website: https://www.linkedin.com/in/chaytan-inman/
 photo: kevin.jpg
 ---
 
