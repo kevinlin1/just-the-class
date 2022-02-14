@@ -3,7 +3,7 @@
 $green-000: #7a7fe5; 
 
 // $body-background-color: $grey-dk-300;
-$sidebar-color: #d1dce3; //$grey-dk-300;
+$sidebar-color: #eeedff; //$grey-dk-300;
 $border-color: #756bf9;
 
 // $body-text-color: $grey-lt-300;
@@ -19,4 +19,4 @@ $btn-primary-color: #838be0;
 // $code-background-color: $grey-dk-250;
 // $search-background-color: $grey-dk-250;
 // $table-background-color: $grey-dk-250;
-$feedback-color: #7dc3f0; //darken($sidebar-color, 3%);
+$feedback-color: darken($sidebar-color, 10%);
