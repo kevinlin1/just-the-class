@@ -1,7 +1,7 @@
 ---
 name: Janna Hong
 role: Officer
-email: me@example.com
+email: jannahg@uw.edu
 website: https://www.linkedin.com/in/janna-hong-662956231/
 photo: janna.jpg
 ---
