@@ -9,7 +9,7 @@ seo:
   name: Home
 ---
 
-# I2: Interactive Intelligence
+# I2: Interactive Intelligence - Test
 {: .mb-2 .text-green-000}
 
 Fusing neuroscience and AI to study intelligent computational systems
