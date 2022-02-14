@@ -19,7 +19,7 @@ Fusing neuroscience and AI to study intelligent computational systems
 
 I2 is an environment which aims to create a community of project-driven, outcome-oriented students interested in the intersections of reinforcement learning, embodied artificial intelligence, and neuroscience. We make machines learn like humans.
 
-[Discord](https://discord.gg/DZuyeyVHVV){: .btn .btn-test } 
+[Discord](https://discord.gg/DZuyeyVHVV){: .btn .btn-i2purple } 
 [About](/about){: .btn .btn-i2blue } 
 [Team](/staff){: .btn .btn-i2gold }
 
