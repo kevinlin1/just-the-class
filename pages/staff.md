@@ -2,6 +2,7 @@
 layout: page
 title: Team
 nav_order: 10
+permalink: /staff
 description: Meet our awesome team members!
 ---
 
