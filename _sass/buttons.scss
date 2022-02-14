@@ -117,6 +117,10 @@
   @include btn-color($white, $green-100);
 }
 
+.btn-test {
+  @include btn-color($white, #6858ee);
+}
+
 .btn-i2purple {
   @include btn-color($white, #6858ee);
 }
