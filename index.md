@@ -10,7 +10,7 @@ seo:
 ---
 
 # I2: Interactive Intelligence
-{: .mb-2 .text-blue-100}
+{: .mb-2 .text-green-000}
 
 Fusing neuroscience and AI to study intelligent computational systems
 {: .fs-6 .fw-300 }
