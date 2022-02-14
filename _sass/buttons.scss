@@ -116,3 +116,15 @@
 .btn-green {
   @include btn-color($white, $green-100);
 }
+
+.btn-i2purple {
+  @include btn-color($white, #6858ee);
+}
+
+.btn-i2blue {
+  @include btn-color($white, #6f93cd);
+}
+
+.btn-i2gold {
+  @include btn-color($white, #d6bfbe);
+}
