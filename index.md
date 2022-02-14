@@ -21,7 +21,7 @@ I2 is an environment which aims to create a community of project-driven, outcome
 
 [Discord](https://discord.gg/DZuyeyVHVV){: .btn .btn-test } 
 [About](/about){: .btn .btn-i2blue } 
-[Team](/team){: .btn .btn-i2gold }
+[Team](/staff){: .btn .btn-i2gold }
 
 ## Announcements
 
