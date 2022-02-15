@@ -33,6 +33,11 @@ aux_links:
     - 'https://bamboozled.net'
 footer_content:
 
+# Google Analytics Tracking (optional)
+# e.g, UA-1234567-89
+ga_tracking: UA-220485381-1
+ga_tracking_anonymize_ip: false # Use GDPR compliant Google Analytics settings (true/nil by default)
+
 # Collections for website data
 collections:
   staffers:
