@@ -12,7 +12,7 @@ permalink: /resources/meeting-1
 Friday, 2/11/2022
 {: .fs-6 .fw-300 }
 
-## Recap
+## Agenda
 1. Introduction to I2's purpose and goals
 2. Member ice breakers - name, major, life goals/dreams, relevant experiences, good vs. evil
 3. AGI Presentation by Chaytan
