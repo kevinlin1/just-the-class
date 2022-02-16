@@ -19,7 +19,7 @@ description: I2's purpose, mission, and goals.
 
 ## About
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam ut porttitor leo a diam. Erat nam at lectus urna duis convallis convallis tellus id. Pellentesque elit eget gravida cum sociis natoque penatibus et magnis. Ultrices vitae auctor eu augue ut lectus arcu. Morbi tristique senectus et netus et malesuada. Turpis tincidunt id aliquet risus feugiat in ante. Consequat interdum varius sit amet mattis vulputate enim nulla. Felis eget nunc lobortis mattis aliquam. Eu non diam phasellus vestibulum lorem sed risus. A condimentum vitae sapien pellentesque habitant morbi tristique. Orci dapibus ultrices in iaculis nunc sed augue lacus viverra. Proin sagittis nisl rhoncus mattis rhoncus urna neque. Dictum varius duis at consectetur lorem donec massa sapien. Blandit cursus risus at ultrices mi tempus imperdiet. Laoreet sit amet cursus sit amet dictum sit amet justo. Felis eget nunc lobortis mattis aliquam faucibus. Nam aliquam sem et tortor consequat.
+Interactive Intelligence is a team of students at the University of Washington working to make computation resemble what humans describe as intelligence. We are uniquely interdisciplinary, blending ideas from neuroscience to inform the structure of our algorithms and computations. We explore the many different approaches of engineered intelligence, from neuromorphic hardware to meta-cognitive machine learning algorithms. We are a project driven, outcome oriented team, and throughout Winter and Spring quarters we will be making, experimenting, and creating!
 
 ## Formal RSO Constitution
 *Shortened in some places*
