@@ -17,7 +17,7 @@ Fusing neuroscience and AI to study intelligent computational systems
 
 ![](https://interactive-intelligence.github.io/assets/images/site-banner.png)
 
-I2 is an environment which aims to create a community of project-driven, outcome-oriented students interested in the intersections of reinforcement learning, embodied artificial intelligence, and neuroscience. We make machines learn like humans.
+I2 is an environment which aims to create a community of project-driven, outcome-oriented students at the University of Washington interested in the intersections of reinforcement learning, embodied artificial intelligence, and neuroscience. Our goal is to make machines learn like humans.
 
 [Join our Discord server](https://discord.gg/DZuyeyVHVV){: .btn .btn-i2purple } 
 
