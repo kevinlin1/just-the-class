@@ -15,8 +15,7 @@ schedule:
     events:
       - name: Admin Meeting
         start: 7:30 PM
-        end: 8:00 PM
-        location: None
+        end: 8:30 PM
   - name: Tuesday
     events:
       - name: Journal Club
