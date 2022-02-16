@@ -15,8 +15,9 @@ schedule:
       - name: Admin Meeting
         start: 7:30 PM
         end: 8:00 PM
+        location: None
   - name: Tuesday
-      - name: (Tentative) Journal Club
+      - name: Journal Club
         start: 4:00 PM
         end: 6:00 PM
         location: Hybrid
