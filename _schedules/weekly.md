@@ -12,7 +12,14 @@ timeline:
   - '8:30 PM'
 schedule:
   - name: Monday
+      - name: Admin Meeting
+        start: 7:30 PM
+        end: 8:00 PM
   - name: Tuesday
+      - name: (Tentative) Journal Club
+        start: 4:00 PM
+        end: 6:00 PM
+        location: Hybrid
   - name: Wednesday
   - name: Thursday
   - name: Friday
