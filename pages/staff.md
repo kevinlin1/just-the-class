@@ -8,6 +8,8 @@ description: Meet our awesome team members!
 
 # Team
 
+| If you're interested in joining or want some more information, please email the president or one of the officers or join one of our meetings! |
+
 ## President
 
 {% assign president = site.staffers | where: 'role', 'President' %}
