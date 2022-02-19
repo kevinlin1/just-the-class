@@ -12,11 +12,25 @@ permalink: /resources/meeting-3
 Friday, 2/25/2022
 {: .fs-6 .fw-300 }
 
+---
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
 ## Agenda
 To be decided
 
+---
+
 ## Deliverables for Next Week
 None yet
+
+---
 
 ## Notes
 None yet
