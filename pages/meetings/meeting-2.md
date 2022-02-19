@@ -8,9 +8,22 @@ permalink: /resources/meeting-2
 ---
 
 # Meeting #2
+{: .no_toc }
 
 Friday, 2/18/2022
 {: .fs-6 .fw-300 }
+
+View the meeting recording [here](https://washington.zoom.us/rec/share/sYPA4932R2D2yi5KPZYHST7GFEuzfGCHTJ5DUwJUj1f3QNUfYlj-v7U235PxBu_v.CjFpI0KbdbWbXCaR){:target="_blank"}. Note that the audio quality is poor at times.
+
+---
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
 
 ## Agenda
 1. Take a team photo!
@@ -21,8 +34,12 @@ Friday, 2/18/2022
 6. Discuss possibility of a journal club;
 7. Solicit personal information to put on the website
 
+---
+
 ## Deliverables for Next Week
 None yet
+
+---
 
 ## Notes
 ### Characteristics of Intelligence
@@ -57,7 +74,7 @@ None yet
 - We will identify topics we want to identify and research more deeply in groups of 2 to 3 people.
 - Brainstorming topics that we might want to do those presentations on.
 
-#### Project Suggestions
+### Project Suggestions
 - Libraries available for us to use
 - Biologically plausible neural networks
   - Spiking neural networks
