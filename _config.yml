@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: I2
-tagline: Description
-description: Description
+tagline: Fusing neuroscience and AI to study intelligent computational systems
+description: Fusing neuroscience and AI to study intelligent computational systems
 baseurl: '/' # the subpath of your site, e.g. /blog
 url: 'https://interactive-intelligence.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
