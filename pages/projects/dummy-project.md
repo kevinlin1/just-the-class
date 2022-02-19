@@ -9,12 +9,14 @@ permalink: /projects/dummy-project
 
 # Dummy Project
 
-Tagline
+Dummies are cool
 {: .fs-6 .fw-300 }
 
-## Description
-Lorem ipsum
+## Dummies
+foo
 
-## Links
+## Are
+bar
 
-## Cool Stuff
+## Cool
+baz
