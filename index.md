@@ -23,6 +23,8 @@ I2 is an environment which aims to create a community of project-driven, outcome
 
 ## Announcements
 
+| **2/19/2022** Notes for [Meeting 2](https://interactive-intelligence.github.io/resources/meeting-2) have been published. Please fill out the interest form and Journal Club when2meet in the Discord server soon! |
+
 | **2/13/2022** Our next meeting will be this Friday (2/18) from 5:00 PM to 7:00 PM in the Design lab at Sieg Hall, Room 233. See you there! |
 
 | **2/12/2022** The site was born. Keep your eyes open for updates! |
