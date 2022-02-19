@@ -27,11 +27,7 @@ search_enabled: true
 heading_anchors: true
 permalink: pretty
 aux_links:
-  Aux Link:
-    - 'https://bamboozled.net'
-  Aux Link 2:
-    - 'https://bamboozled.net'
-footer_content:
+footer_content: I2: Fusing neuroscience and AI to study intelligent computational systems.
 
 # Google Analytics Tracking (optional)
 # e.g, UA-1234567-89
