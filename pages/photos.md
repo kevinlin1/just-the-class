@@ -2,7 +2,7 @@
 layout: default
 title: Photos
 description: A photo gallery
-nav_order: 11
+nav_order: 12
 ---
 
 # Photos
