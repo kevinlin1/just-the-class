@@ -37,7 +37,7 @@ View the meeting recording [here](https://washington.zoom.us/rec/share/sYPA4932R
 ---
 
 ## Deliverables for Next Week
-None yet
+We're in the process of gathering interest and assigning groups; once we get responses, we'll be able to assign research groups to research more into their specified area and give a presentation on possible directions.
 
 ---
 
