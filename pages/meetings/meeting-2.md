@@ -35,14 +35,15 @@ None yet
 - Organisms do not necessarily take immediate action for their survival
 - Trauma and intelligence - trauma has been shown to impedede brain structure. 
 - Is intelligence static? Can smart people be dumb in the moment?
-- Is intelligence a scale - a ball - how many dimensions?
+- Is intelligence a scale, a ball? How many dimensions of intelligence are relevant?
 - Transferability across environments
 - Parasites and hijacking
 - Replika
-- Servitude, *Race After Technology*
-- Relating to the human brain
+- Concepts of slavery and servitude
+  - *Robot* - originating from Slavic for slave
+- *Race After Technology*
 - Anticipating or forecasting consequences or rewards.
-- intelligence - using the enviornment around us to benefit ourselves - correlation with intelligence
+- Intelligence - using the enviornment around us to benefit ourselves - correlation with intelligence.
 - Parasites - get into hosts and change the structure of the brain or the body to benefit themselves.
 - Communication and intelligence
 
