@@ -45,40 +45,60 @@ We're in the process of gathering interest and assigning groups; once we get res
 ### Characteristics of Intelligence
 - Creativity (what is creativity)?
   - Procedural
-  - Randomness - creativity
+  - Randomness as creativity (e.g. random vector inputs to GANs or VAEs)
   - Novelty of strategy
   - Abstractions
 - Meta-knowledge, self-identity, self actualization
 - Organisms do not necessarily take immediate action for their survival
-- Trauma and intelligence - trauma has been shown to impedede brain structure. 
+  - Long term planning as an indication of intelligence
+  - Anticipating or forecasting consequences or rewards
+- Trauma and intelligence - trauma has been shown to impede brain structure.
 - Is intelligence static? Can smart people be dumb in the moment?
 - Is intelligence a scale, a ball? How many dimensions of intelligence are relevant?
 - Transferability across environments
 - Parasites and hijacking
+  - Get into hosts and change the structure of the brain or the body to benefit themselves
+  - Who is smarter: the parasite or the person / host?
 - Replika
+- Example of people in real life falling in love with code – is this code intelligent? What does it understand?
 - Concepts of slavery and servitude
   - *Robot* - originating from Slavic for slave
-- *Race After Technology*
-- Anticipating or forecasting consequences or rewards.
-- Intelligence - using the enviornment around us to benefit ourselves - correlation with intelligence.
-- Parasites - get into hosts and change the structure of the brain or the body to benefit themselves.
+- *Race After Technology* book recommendation
+- Using the environment as a metric or indication of intelligence
 - Communication and intelligence
+  - Empathy could be useful for intelligence
+  - Teaching as one metric or indication of intelligence
+- Is it possible to be intelligent without action? Yes – paraplegics for example. Is it possible to become intelligent without ever taking actions?
+- Role of central nervous system in intelligence
+  - Organisms without CNS can still make decisions, ie fungi choose which route to take for food
+  - Changes the time scale of action due to electrical properties
+  - Are trees intelligent
+    - We can’t know certain things, can never experience the perspective of the tree, can never know the experience of others
+    - Standpoint epistemology as it relates to understanding intelligence
+    - Is the neocortex necessary or helpful for intelligence?
+  - Is emotional intelligence necessary or helpful – socialization
+    - Rate of information transfer between individuals as a hallmark of human intelligence
 
-### Projects
-- We're a project-based club!
-- Goals - learning, presenting about topics we know about, designing, principles that govern what we want to mkae
+## Projects
+- We’re a project-based club!
+- Goals - learning, presenting about topics we know about, designing, principles that govern what we want to make
 - Member Expectations
-  - Let's actually do stuff!
-  - Projects and tasks - if you are assigned to do a task and you have difficulties, be communicative - inform people and communicate!
-- We still have a lot to learn - we don't know exactly where to go with a project.
-- We will identify topics we want to identify and research more deeply in groups of 2 to 3 people.
-- Brainstorming topics that we might want to do those presentations on.
+  - Let’s actually do stuff!
+  - Projects and tasks - if you are assigned to do a task and you have difficulties, be communicative - inform project leaders and communicate!
+- We still have a lot to learn - we don’t know exactly where to go with a project.
+- We will identify topics we want to identify and research more deeply in groups of 2 to 3 people
+  - After presenting on these topics and suggesting several projects for each, we will narrow down which we will work on
 
-### Project Suggestions
+## Project Suggestions
 - Libraries available for us to use
+  - For example, TF, Keras, NumPy
 - Biologically plausible neural networks
-  - Spiking neural networks
+  - e.g. Spiking neural networks, Hebbian learning
 - Biologically/neurologically informed neural networks/computational structures
-- Swarm intelligence
+  - Eusociality
+- Meta-modeling, meta cognitive networks
+- Swarm intelligence of robotics or coded agents
 - Simulated training for robotics/reinforcement learning settings - translation into the physical world.
-- Cybernetic enhancement - using neural networks to enhance the properties of biological entities.
+- Cybernetic enhancement - using neural networks to enhance the properties of biological entities
+  - e.g. Neuralink
+
