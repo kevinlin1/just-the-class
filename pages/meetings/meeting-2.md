@@ -85,7 +85,7 @@ We're in the process of gathering interest and assigning groups; once we get res
   - Is emotional intelligence necessary or helpful – socialization
     - Rate of information transfer between individuals as a hallmark of human intelligence
 
-## Projects
+### Projects
 - We’re a project-based club!
 - Goals - learning, presenting about topics we know about, designing, principles that govern what we want to make
 - Member Expectations
@@ -95,7 +95,7 @@ We're in the process of gathering interest and assigning groups; once we get res
 - We will identify topics we want to identify and research more deeply in groups of 2 to 3 people
   - After presenting on these topics and suggesting several projects for each, we will narrow down which we will work on
 
-## Project Suggestions
+### Project Suggestions
 - Libraries available for us to use
   - For example, TF, Keras, NumPy
 - Biologically plausible neural networks
