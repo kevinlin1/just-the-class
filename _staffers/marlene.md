@@ -3,7 +3,7 @@ name: Marlene Meili Liu Grieskamp
 role: Member
 email: mgrieskamp@gmail.com
 website: 
-photo: blank.png
+photo: marlene.jpg
 ---
 
 CS
