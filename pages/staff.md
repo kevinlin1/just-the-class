@@ -11,7 +11,7 @@ description: Meet our awesome team members!
 Meet our awesome team members!
 {: .fs-6 .fw-300 }
 
-| If you're interested in joining or want some more information, please email the president or one of the officers or join one of our meetings! |
+| If you're interested in joining or want some more information, please shoot us an email @ `interintel@uw.edu` and/or hop into a meeting! |
 
 ## President
 
