@@ -20,7 +20,7 @@ Fusing neuroscience and AI to study intelligent computational systems
 I2 is an environment which aims to create a community of project-driven, outcome-oriented students at the University of Washington interested in the intersections of reinforcement learning, embodied artificial intelligence, and neuroscience. Our goal is to make machines learn like humans.
 
 [Join our Discord server](https://discord.gg/DZuyeyVHVV){: .btn .btn-blue } 
-[Contact us @ `interintel@uw.edu`](mailto:interintel@uw.edu){: .btn .btn-purple } 
+[Contact us @ interintel@uw.edu](mailto:interintel@uw.edu){: .btn .btn-purple } 
 
 ## Announcements
 
