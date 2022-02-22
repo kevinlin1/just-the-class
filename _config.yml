@@ -27,7 +27,7 @@ search_enabled: true
 heading_anchors: true
 permalink: pretty
 aux_links:
-footer_content: I2 - Fusing neuroscience and AI to study intelligent computational systems. Contact us at `interintel@uw.edu`.
+footer_content: I2 - Fusing neuroscience and AI to study intelligent computational systems. Contact us at interintel@uw.edu.
 
 # Google Analytics Tracking (optional)
 # e.g, UA-1234567-89
