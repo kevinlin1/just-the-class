@@ -2,7 +2,7 @@
 name: Shaun Christopher Lee
 role: Member
 email: shauncl8@uw.edu
-website:
+website: https://www.instagram.com/shaunchristopherlee/
 photo: shaun.jpg
 ---
 
