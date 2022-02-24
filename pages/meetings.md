@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Meeting Resources
+title: Meetings
 nav_order: 4
 has_children: true
 permalink: /meetings
 ---
 
-# Meeting Resources
+# Meetings
 
 Meetings Notes, Resources, Slides, & More
 {: .fs-6 .fw-300 }
