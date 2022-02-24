@@ -9,13 +9,17 @@ timeline:
   - '7:00 PM'
   - '7:30 PM'
   - '8:00 PM'
-  - '8:30 PM'
 schedule:
   - name: Monday
     events:
+      - name: Journal Club
+        start: 5:00 PM
+        end: 6:00 PM
+        location: TBD
       - name: Admin Meeting
-        start: 7:30 PM
-        end: 8:30 PM
+        start: 6:00 PM
+        end: 7:00 PM
+        location: Top Secret
   - name: Tuesday
   - name: Wednesday
   - name: Thursday
