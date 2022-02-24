@@ -8,5 +8,5 @@ permalink: /meetings
 
 # Meetings
 
-Meetings Notes, Resources, Slides, & More
+Meetings Agendas, Slides, Notes, + More
 {: .fs-6 .fw-300 }
