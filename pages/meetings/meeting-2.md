@@ -36,11 +36,6 @@ View the meeting recording [here](https://washington.zoom.us/rec/share/sYPA4932R
 
 ---
 
-## Deliverables for Next Week
-We're in the process of gathering interest and assigning groups; once we get responses, we'll be able to assign research groups to research more into their specified area and give a presentation on possible directions.
-
----
-
 ## Resources
 - Meeting Slides: ["Interactive Intelligence"](https://www.canva.com/design/DAE1ZsJC4pY/wZJeTZZbLeALEzL89TrHYQ/view?utm_content=DAE1ZsJC4pY&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton){:target="_blank"}
 - [Janna's Neuroscience Images](https://drive.google.com/drive/folders/1z8lQDlAfP1j007d42tQGL_K0uSPPgHIA?usp=sharing){:target="_blank"}
