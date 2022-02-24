@@ -53,7 +53,7 @@ Based on the form interest, the following research groups have been created:
 | Meta-Modeling and Self-Aware Networks | Sabrina, Marlene, Andre |
 | Neuroscience of Predictive Coding & Memory | Janna, Jay, Alec |
 
-Next meeting, each group will give an informal presentation sharing their research. Please see
+Next meeting, each group will give an informal presentation sharing their research. *If you want to be involved in another topic, let us know and we'll add you!*
 
 ### Presentation Guidelines & Objectives
 You will research a given topic in small interdisciplinary groups, then give a small presentation on what you learned. The idea is to discover what experts are doing in your topic/field, and where our team may be able to add value through our own project. 
