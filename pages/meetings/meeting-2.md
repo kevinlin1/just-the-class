@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Meeting 2
-parent: Meeting
+parent: Meetings
 nav_order: -2
 has_children: false
 permalink: /meetings/meeting-2
