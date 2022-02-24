@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Meeting 4
-parent: Meeting Resources
+parent: Meetings
 nav_order: -4
 has_children: false
 permalink: /resources/meeting-4
