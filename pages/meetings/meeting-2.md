@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Meeting 2
-parent: Meeting Resources
+parent: Meeting
 nav_order: -2
 has_children: false
-permalink: /resources/meeting-2
+permalink: /meetings/meeting-2
 ---
 
 # Meeting #2
