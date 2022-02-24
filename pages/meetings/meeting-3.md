@@ -41,8 +41,32 @@ Friday, 2/25/2022
 
 ---
 
-## Deliverables for Next Week
-None yet
+## Deliverables
+Based on the form interest, the following research groups have been created:
+
+| Topic | People |
+| --- | --- |
+| Biologically Informed/Plausible Networks | Drew, Chanh |
+| Reinforcement Learning | Varun, Aditya, Timothy |
+| Neuromorphic Computing Hardware | Yegor, Chris |
+| Swarm Intelligence/Robots/Coded Agents | Ary, Jason, Chaytan |
+| Meta-Modeling and Self-Aware Networks | Sabrina, Marlene, Andre |
+| Neuroscience of Predictive Coding & Memory | Janna, Jay, Alec |
+
+Next meeting, each group will give an informal presentation sharing their research. Please see
+
+### Presentation Guidelines & Objectives
+You will research a given topic in small interdisciplinary groups, then give a small presentation on what you learned. The idea is to discover what experts are doing in your topic/field, and where our team may be able to add value through our own project. 
+ 
+| Use whatever form of creating slides works best for you - Canva, Google Slides, PowerPoint - your choice. |
+
+Touch on the following questions, not necessarily in this order:
+- How does this topic relate to the idea of intelligence
+  - Does it have neuroscience ties? Computer science ties? Other related fields in which it is relevant? (These ties are not requirements for the topic, just an open question.)
+- What are some interesting recent papers, projects, or advances in this topic?
+- What are at least 2 project ideas or directions that would build upon the progress of this field?
+- Any libraries/technologies required/could help with implementation?
+- What do we need to know more about to better understand this topic?
 
 ---
 
