@@ -23,7 +23,20 @@ Friday, 2/25/2022
 ---
 
 ## Agenda
-To be decided
+1. Housekeeping `5:10-5:20`
+  1. Agenda
+  2. Journal Club Announcement
+  3. Social Media
+  4. Discord Tutorial - Joining as a Member
+2. Discussion Questions `5:20-5:50`
+  - Key components of thought
+  - How much do you trust your brain?
+    - Perception and truth
+    - What do trees feel?
+  - Is Siri intelligent?
+3. Card Games - resolving the spoons tournament `5:50-6:00`
+4. Presentation Groups and Work Time `6:00-6:30`
+5. Ideas for Journal Club `6:30-6:50`
 
 ---
 
