@@ -8,6 +8,7 @@ permalink: /meetings/meeting-3
 ---
 
 # Meeting #3
+{: .no_toc }
 
 Friday, 2/25/2022
 {: .fs-6 .fw-300 }
