@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Meeting 3
-parent: Meeting Resources
+parent: Meetings
 nav_order: -3
 has_children: false
-permalink: /resources/meeting-3
+permalink: /meetings/meeting-3
 ---
 
 # Meeting #3
@@ -14,7 +14,7 @@ Friday, 2/25/2022
 
 ---
 
-## Table of contents
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
