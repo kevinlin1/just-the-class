@@ -24,11 +24,11 @@ I2 is an environment which aims to create a community of project-driven, outcome
 
 ## Announcements
 
-| **2/25/2022** Notes for [Meeting 3](https://interactive-intelligence.github.io/meetings/meeting-3#discussion) have been published. Note that our *first Journal Club meeting is happening this Monday*. Please visit the [Journal Club page](https://interactive-intelligence.github.io/jc) for updates and to sign up to present! |
+| **2/25/2022** Notes for [Meeting 3](https://interactive-intelligence.github.io/meetings/win2022/meeting-3) have been published. Note that our *first Journal Club meeting is happening this Monday*. Please visit the [Journal Club page](https://interactive-intelligence.github.io/jc) for updates and to sign up to present! |
 
-| **2/13/2022** The agenda and research group assignments for [Meeting 3](https://interactive-intelligence.github.io/meetings/meeting-3) have been published. See you all at our third meeting *this Friday*! |
+| **2/13/2022** The agenda and research group assignments for [Meeting 3](https://interactive-intelligence.github.io/meetings/win2022/meeting-3) have been published. See you all at our third meeting *this Friday*! |
 
-| **2/19/2022** Notes for [Meeting 2](https://interactive-intelligence.github.io/meetings/meeting-2) have been published. Please fill out the interest form and Journal Club when2meet in the Discord server soon! |
+| **2/19/2022** Notes for [Meeting 2](https://interactive-intelligence.github.io/meetings/win2022/meeting-2) have been published. Please fill out the interest form and Journal Club when2meet in the Discord server soon! |
 
 | **2/13/2022** Our next meeting will be this Friday (2/18) from 5:00 PM to 7:00 PM in the Design lab at Sieg Hall, Room 233. See you there! |
 
