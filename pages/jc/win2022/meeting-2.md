@@ -4,7 +4,6 @@ title: Meeting 2
 parent: Winter 2022
 grandparent: Journal Club
 nav_order: -2
-has_children: false
 permalink: /jc/win2022/meeting-2
 ---
 
