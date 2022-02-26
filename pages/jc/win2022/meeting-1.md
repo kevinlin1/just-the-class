@@ -2,15 +2,16 @@
 layout: default
 title: Meeting 1
 parent: Journal Club
+grandparent: Winter 2022
 nav_order: -1
 has_children: false
-permalink: /jc/meeting-1
+permalink: /jc/win2022/meeting-1
 ---
 
 # Meeting #1
 {: .no_toc }
 
-Friday, 2/11/2022
+Monday, 2/28/2022
 {: .fs-6 .fw-300 }
 
 ---
