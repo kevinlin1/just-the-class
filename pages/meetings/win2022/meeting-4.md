@@ -2,6 +2,7 @@
 layout: default
 title: Meeting 4
 parent: Meetings
+grand_parent: Winter 2022
 nav_order: -4
 has_children: false
 permalink: /resources/meeting-4
