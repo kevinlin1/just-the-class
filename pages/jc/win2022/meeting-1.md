@@ -4,8 +4,9 @@ title: Meeting 1
 parent: Winter 2022
 grandparent: Journal Club
 nav_order: 1
-<!-- permalink: /jc/win2022/meeting-1 -->
 ---
+
+<!-- permalink: /jc/win2022/meeting-1 -->
 
 # Meeting #1
 {: .no_toc }
