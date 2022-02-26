@@ -97,7 +97,7 @@ Touch on the following questions, not necessarily in this order:
 - Attaching emotions to events - instinctive judgements.
 - Outliers
   - Is our idea of reality constructed by majority? What if the outlier is 'correct'? How do we choose whether to include outliers or not? What about the *gradient of outlier-ness* - i.e. which data points are 'more typical' than others?
-    - Out of Distribution Detection - what is the distribution of very high-dimensional datasets? See Balestriero, Pesenti, LeCun: ["Is our idea of reality constructed by majority? What if the outlier is correct"](https://arxiv.org/abs/2110.09485){:target="_blank"}
+    - Out of Distribution Detection - what is the distribution of very high-dimensional datasets? See Balestriero, Pesenti, LeCun: ["Learning in High Dimension Always Amounts to Extrapolation"](https://arxiv.org/abs/2110.09485){:target="_blank"}
   - Idea that the more independent observations of the same phenomena occur the more likely to be true? 
     - Example of DNA and transcribing proteins being analogous to computing and executing programs, these phenomena independently emerged, so does that evidence an objective reality
     - What about all the people that report seeing elves when they take DMT (independently reporting same hallucinations)? What is their 'truth'/'experience'?
