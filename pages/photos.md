@@ -9,4 +9,4 @@ nav_order: 12
 
 *A team photo taken on Meeting 2, 2/18/2022.*
 
-![Team photo, 2/18/22](https://interactive-intelligence.github.io/assets/images/feb-18-photo.jpg)
+![Team photo, 2/18/22](https://raw.githubusercontent.com/interactive-intelligence/files/main/photos/feb-18-photo.jpg)
