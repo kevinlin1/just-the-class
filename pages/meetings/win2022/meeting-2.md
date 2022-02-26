@@ -5,7 +5,7 @@ parent: Winter 2022
 grand_parent: Meetings
 nav_order: -2
 has_children: false
-permalink: /meetings/meeting-2
+permalink: /meetings/win2022/meeting-2
 ---
 
 # Meeting #2
