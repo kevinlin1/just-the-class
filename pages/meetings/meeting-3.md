@@ -82,7 +82,7 @@ Touch on the following questions, not necessarily in this order:
 
 ### Discussion
 *Should we trust our brain?*
-- Shephard's Tone - the perception of continuously increasing/decreasing pitch.
+- Shepard's Tone - the perception of continuously increasing/decreasing pitch.
   - Optical (and audio) illusions as examples that we do not perceive reality or objective truth
 - Do you trust your brain?
 - Success rate of information being given. 
