@@ -1,6 +1,6 @@
 ---
 layout: default
-title: JC Meeting 1
+title: Meeting 1
 parent: Winter 2022
 grandparent: Journal Club
 nav_order: -1
