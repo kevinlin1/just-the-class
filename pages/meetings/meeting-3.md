@@ -42,6 +42,8 @@ Friday, 2/25/2022
 ---
 
 ## Deliverables
+Have a presentation ready with your group for next week (Meeting 4)!
+
 Based on the form interest, the following research groups have been created:
 
 | Topic | People |
@@ -71,4 +73,40 @@ Touch on the following questions, not necessarily in this order:
 ---
 
 ## Notes
-None yet
+- Discord tutorial - make sure to go to `#role-react` and click the brain emoji to be given the Member role.
+- Journal Club - scheduled for Monday, 5-6 PM, Sieg Hall 332
+- Interested in helping us out with social media? Message us!
+
+### Discussion
+*Should we trust our brain?*
+- Shephard's Tone - the perception of continuously increasing/decreasing pitch.
+- Do you trust your brain?
+- Success rate of information being given. 
+- Whenever possible - try to offload everything from the brain - memory, etc. 
+- Complementary relationship between human and machine properties
+- Rely on data and things other than our brain - Hume and induction
+- More precise measurement
+- Abstract and precise truths
+- Metaphorical truth - something that is not necessarily true but is useful.
+- Attaching emotions to events - instinctive judgements.
+- Outliers
+- Should we trust AI?
+- Court cases - how emotions can bias the truth, skewing events, etc.
+- Voices in your head - who is write? Who knows about what we think?
+- Both cells and CPUs share similar features that have been independently developed.
+- Godel's incompleteness theorem
+- Aristotelian models - we like discrete representations and dislike fuzzy understandings.
+- Legal and symbolic systems
+- Measuring brain waves during the human computation of "1+1" - how similar are the computations?
+
+### Groups
+- Everyone has been assigned a group. The group will conduct independent research and present on their research. 
+
+
+
+
+
+
+
+
+
