@@ -22,3 +22,10 @@ Monday, 2/28/2022
 {:toc}
 
 ---
+
+## Lineup
+
+## What's Hidden in a Randomly Weighted Neural Network?
+*View slides in a new tab [here](https://interactive-intelligence.github.io/files/jc/presentations/win2022/meeting-1/I2 JC - Randomly Weighted NN.pdf){:target="_blank"}.*
+
+<iframe src="https://interactive-intelligence.github.io/files/jc/presentations/win2022/meeting-1/I2 JC - Randomly Weighted NN.pdf" width="100%" height="600" style="border:1px solid black;"></iframe>
