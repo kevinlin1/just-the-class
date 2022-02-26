@@ -101,7 +101,11 @@ Touch on the following questions, not necessarily in this order:
 
 ### Groups
 - Everyone has been assigned a group. The group will conduct independent research and present on their research. 
+- Initial documents and communications are happening in the drive and in the discord.
 
+### Journal Club Possibilities
+- Information theory textbooks, interviews on AGI, classic neural network papers, neuromorphic hardware, recorded lectures, etc. - see slides for full list of possibilities.
+- Have one person present or take charge of a paper that is shared beforehand and present during the Journal Club.
 
 
 
