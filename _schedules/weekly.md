@@ -15,7 +15,7 @@ schedule:
       - name: Journal Club
         start: 5:00 PM
         end: 6:00 PM
-        location: Design Lab in Sieg Hall, Room 332
+        location: Sieg Hall, Room 332
       - name: Admin Meeting
         start: 6:00 PM
         end: 7:00 PM
