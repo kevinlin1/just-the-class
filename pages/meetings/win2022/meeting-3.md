@@ -24,6 +24,8 @@ Friday, 2/25/2022
 
 ---
 
+Meeting recording available [here](https://washington.zoom.us/rec/share/dbYTOIyTqHGeBOkif03VzpXKEcQli2auWIzbAkM3uWh_AOxwVxHWkPo6Lj3lK70x.T6QNJoq59zIoaQ4F?startTime=1645838011000){:target="_blank"}.
+
 ## Agenda
 1. Housekeeping `5:10-5:20`
   1. Agenda
