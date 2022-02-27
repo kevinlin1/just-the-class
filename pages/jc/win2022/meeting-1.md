@@ -2,6 +2,7 @@
 layout: default
 title: Meeting 1
 parent: Winter 2022
+grand_parent: Journal Club
 nav_order: 1
 nav_exclude: false
 ---
