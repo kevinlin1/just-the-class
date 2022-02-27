@@ -2,7 +2,7 @@
 layout: default
 title: Meeting 2
 parent: Winter 2022
-grandparent: Journal Club
+grand_parent: Journal Club
 nav_order: -2
 permalink: /jc/win2022/meeting-2
 ---
