@@ -5,11 +5,8 @@ parent: Winter 2022
 grand_parent: Journal Club
 nav_order: 1
 nav_exclude: false
+permalink: /jc/win2022/meeting-1
 ---
-
-<!-- parent: Winter 2022
-grandparent: Journal Club -->
-<!-- permalink: /jc/win2022/meeting-1 -->
 
 # Meeting #1
 {: .no_toc }
