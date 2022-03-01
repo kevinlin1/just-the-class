@@ -2,7 +2,7 @@
 name: Alec Bunn
 role: Member
 email: abunn2@uw.edu
-website: https://www.linkedin.com/in/charles-strauss-a53883161/
+website: https://www.linkedin.com/in/alecbunn/
 photo: alec.jpg
 ---
 
