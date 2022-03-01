@@ -29,7 +29,6 @@ Monday, 2/28/2022
 | Presenter | Paper/Topic | Description |
 | --- | --- | --- |
 | Andre | [What’s Hidden in a Randomly Weighted Neural Network?](https://arxiv.org/pdf/1911.13299.pdf){:target="_blank"} (paper) | Ramanujan et al. demonstrate that large neural networks contain some pretty bizarre behavior: particularly, they find that a completely randomly initialized neural network (i.e. no training at all) contains subnetworks that have equivalent performance to a similarly-sized fully trained neural network. The results make us rethink how neural network training operates and its limitations in modeling the brain and neurological structures. (Some of the co-authors are from the UW!) |
-| -- | [Predictive Coding Models of Perception](https://simons.berkeley.edu/talks/david-cox-4-16-18){:target="_blank"} (recorded lecture) | The ability to predict future states of the world is essential for planning behavior, and it is arguably a central pillar of intelligence.  In the field of sensory neuroscience, "predictive coding" -- the notion that circuits in cerebral actively predict their own activity -- has been an influential theoretical framework for understanding visual cortex.  In my talk, I will bring together the idea of predictive coding with modern tools of machine learning to build practical, working vision models that predict their inputs in both space and time. These networks learn to predict future frames in a video sequence, with each layer in the network making local predictions and only forwarding deviations from those predictions to subsequent network layers. We show that these networks are able to robustly learn to predict the movement of synthetic (rendered) objects, and that in doing so, the networks learn internal representations that are useful for decoding latent object parameters (e.g. pose) that support object recognition with fewer training views. |
 
 
 ---
@@ -41,8 +40,6 @@ Monday, 2/28/2022
 
 <iframe src="https://interactive-intelligence.github.io/files/jc/presentations/win2022/meeting-1/I2 JC - Randomly Weighted NN.pdf" width="100%" height="400" style="border:1px solid black;"></iframe>
 
-### Discussion Notes
-
 ### More Reading
 - "What's Hidden in a Randomly Weighted Neural Network?" Ramanujan & Wortsman et al. arXiv, 2020. https://arxiv.org/pdf/1911.13299.pdf.
 - "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks". Frankle & Carbin. arXiv, 2019. https://arxiv.org/pdf/1803.03635.pdf.
@@ -53,5 +50,16 @@ Monday, 2/28/2022
 
 ---
 
-## Predictive Coding Models of Perception
-
+## Discussion Notes
+- Untrained neural networks perform as well as trained networks
+- Spiking neural networks
+- Stop learning at 25? pruning
+- Visual differentiation similar to pruning (rd)
+- Most neurons clustered in cerebellum
+  - Most responsible for motor coordination
+- Is the random subnetwork vs a trained network similar architectures
+- You can remove half of the brain (get rid of 43 billion neurons, which is half of 86 billion…) and still function normally
+- Comparative underdevelopment of even the largest natural language models, which have hundreds of billions of parameters but comparatively few neurons
+- Recovery from removing half the brain based on how young you are when it happens?
+- Relationship between neural network pruning and biological pruning
+- Do computational neural networks have inhibitory/excitatory properties? For instance, biological neurons have these properties and it makes the cell more or less likely to reach a threshold and fire an action potential.
