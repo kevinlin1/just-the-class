@@ -35,12 +35,23 @@ Monday, 2/28/2022
 ---
 
 ## What's Hidden in a Randomly Weighted Neural Network?
-No content yet
-<!-- *View slides in a new tab [here](https://interactive-intelligence.github.io/files/jc/presentations/win2022/meeting-1/I2 JC - Randomly Weighted NN.pdf){:target="_blank"}.*
 
-<iframe src="https://interactive-intelligence.github.io/files/jc/presentations/win2022/meeting-1/I2 JC - Randomly Weighted NN.pdf" width="100%" height="400" style="border:1px solid black;"></iframe> -->
+### Presentation Slides
+*View slides in a new tab [here](https://interactive-intelligence.github.io/files/jc/presentations/win2022/meeting-1/I2 JC - Randomly Weighted NN.pdf){:target="_blank"}.*
+
+<iframe src="https://interactive-intelligence.github.io/files/jc/presentations/win2022/meeting-1/I2 JC - Randomly Weighted NN.pdf" width="100%" height="400" style="border:1px solid black;"></iframe>
+
+### Discussion Notes
+
+### More Reading
+- "What's Hidden in a Randomly Weighted Neural Network?" Ramanujan & Wortsman et al. arXiv, 2020. https://arxiv.org/pdf/1911.13299.pdf.
+- "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks". Frankle & Carbin. arXiv, 2019. https://arxiv.org/pdf/1803.03635.pdf.
+- "Understanding Deep Learning Requires Re-thinking Generalization". Zhang et al. arXiv, 2017. https://arxiv.org/pdf/1611.03530.pdf.
+- "Distinct Sources of Deterministic and Stochastic Components of Action Timing Decisions in Rodent Frontal Cortex". Murakami et al. Neuron, 2017. https://doi.org/10.1016/j.neuron.2017.04.040.
+- "Individual Differences Among Deep Neural Network Models". Mehrer & Kietzmann et al. Nature, 2020. https://www.nature.com/articles/s41467-020-19632-w.
+- "Artificial Neural Nets Finally Yield Clues to How Brains Learn". Ananthaswamy. Quanta, 2021. https://www.quantamagazine.org/artificial-neural-nets-finally-yield-clues-to-how-brains-learn-20210218/.
 
 ---
 
 ## Predictive Coding Models of Perception
-No content yet
+
