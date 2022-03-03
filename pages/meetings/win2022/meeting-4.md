@@ -25,7 +25,10 @@ Friday, 3/2/2022
 ---
 
 ## Agenda
-To be decided
+1. Presentations, 2 groups + discussion `~20 min each`
+2. Research/project ideation work time
+3. Devleop a possible project list based on presentations
+
 
 ---
 
