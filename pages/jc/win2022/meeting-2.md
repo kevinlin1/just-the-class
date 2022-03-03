@@ -27,12 +27,12 @@ Monday, 3/7/2022
 
 | Presenter | Paper/Topic | Description |
 | --- | --- | --- |
-| Charles | Sparse Coding | Forthcoming |
+| Charles | [Deep Sparse Coding for Invariant Multimodal Halle Berry Neurons](https://arxiv.org/pdf/1711.07998v2.pdf) | Briefly, it has been shown that there are individual neurons in human brains which are active when someone looks at the face of Halle Berry. A team of scientists, in this paper, set out to recreate that neuron, along with many others, using a biologically inspired approach to building a neural network, known as sparse coding. Most modern deep learning architectures are feed-forward systems, where the neurons don't really compete across layers, and a critical constraint known as sparsity is missing. Sparsity, in this context, refers to having most neurons be inactive when representing a piece of data, as opposed to allowing any neuron to have any value like in a dense neural network. Dense is the opposite of sparse. Dense neural networks are generally 99% active, non-zero. Sparse neural networks have like 1% non-zero activations. Sparsity is good for many reasons, from being more robust to being more "brain-like". Because only 1% of the neurons are active, you might use less energy for representing the same input data than a dense neural network. Because of the constring that sparsity provides, finding a small, imperceptible perturbation becomes harder. |
 | -- | [Predictive Coding Models of Perception](https://simons.berkeley.edu/talks/david-cox-4-16-18){:target="_blank"} (recorded lecture) | The ability to predict future states of the world is essential for planning behavior, and it is arguably a central pillar of intelligence.  In the field of sensory neuroscience, "predictive coding" -- the notion that circuits in cerebral actively predict their own activity -- has been an influential theoretical framework for understanding visual cortex.  In my talk, I will bring together the idea of predictive coding with modern tools of machine learning to build practical, working vision models that predict their inputs in both space and time. These networks learn to predict future frames in a video sequence, with each layer in the network making local predictions and only forwarding deviations from those predictions to subsequent network layers. We show that these networks are able to robustly learn to predict the movement of synthetic (rendered) objects, and that in doing so, the networks learn internal representations that are useful for decoding latent object parameters (e.g. pose) that support object recognition with fewer training views. |
 
 ---
 
-## Sparse Coding
+## Deep Sparse Coding for Invariant Multimodal Halle Berry Neurons
 
 ### Presentation Notes
 
