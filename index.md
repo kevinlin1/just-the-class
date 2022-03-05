@@ -24,6 +24,8 @@ I2 is an environment which aims to create a community of project-driven, outcome
 
 ## Announcements
 
+| **3/5/2022** Notes for [Meeting 4](https://interactive-intelligence.github.io/meetings/win2022/meeting-3) have been published. Thanks to the Reinforcement Learning and Neuromorphic Computing groups for awesome presentations! |
+
 | **2/25/2022** Notes for [Meeting 3](https://interactive-intelligence.github.io/meetings/win2022/meeting-3) have been published. Note that our *first Journal Club meeting is happening this Monday*. Please visit the [Journal Club page](https://interactive-intelligence.github.io/jc) for updates and to sign up to present! |
 
 | **2/13/2022** The agenda and research group assignments for [Meeting 3](https://interactive-intelligence.github.io/meetings/win2022/meeting-3) have been published. See you all at our third meeting *this Friday*! |
