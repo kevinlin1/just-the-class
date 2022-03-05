@@ -39,21 +39,21 @@ Friday, 2/11/2022
 
 Link: ["Interactive Intelligence"](https://www.canva.com/design/DAE1ZsJC4pY/wZJeTZZbLeALEzL89TrHYQ/view?utm_content=DAE1ZsJC4pY&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton){:target="_blank"}
 
-<iframe src="https://www.canva.com/design/DAE1ZsJC4pY/wZJeTZZbLeALEzL89TrHYQ/view?utm_content=DAE1ZsJC4pY&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" width="100%" height="400" style="border:1px solid black;"></iframe>
+<iframe src="https://interactive-intelligence.com/files/presentations/win2022/week-1/Interactive Intelligence.pdf" width="100%" height="400" style="border:1px solid black;"></iframe>
 
 ---
 
 ## Neuroscience in I2
 Janna's Neuroscience Slides: ["Neuroscience in I2"](https://docs.google.com/presentation/d/e/2PACX-1vTvKlnlR6KsXcGXlRPVHoSJGS3apWW7QnUpGlMcnD_Nim33h6DyahUrU-FAAUua4g/pub?start=false&loop=false&delayms=3000){:target="_blank"}
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTvKlnlR6KsXcGXlRPVHoSJGS3apWW7QnUpGlMcnD_Nim33h6DyahUrU-FAAUua4g/pub?start=false&loop=false&delayms=3000" width="100%" height="400" style="border:1px solid black;"></iframe>
+<iframe src="https://interactive-intelligence.com/files/presentations/win2022/week-1/Neuroscience Properties (I2).pptx.pdf" width="100%" height="400" style="border:1px solid black;"></iframe>
 
 ---
 
-## Neural Networks as MInds
+## Neural Networks as Minds
 Andre's Neural Networks Slides: ["Neural Networks as Minds"](https://www.canva.com/design/DAE3pFjSZXo/GNpikNt16oczG71FeoKeCw/view?utm_content=DAE3pFjSZXo&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton){:target="_blank"}
 
-<iframe src="https://www.canva.com/design/DAE3pFjSZXo/GNpikNt16oczG71FeoKeCw/view?utm_content=DAE3pFjSZXo&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" width="100%" height="400" style="border:1px solid black;"></iframe>
+<iframe src="https://interactive-intelligence.com/files/presentations/win2022/week-1/NNs as Minds.pdf" width="100%" height="400" style="border:1px solid black;"></iframe>
 
 ### Links to Papers and Resources from Andre's Presentation
 - [*Perceptrons*](https://mitpress.mit.edu/books/perceptrons), Minsky-Papert
