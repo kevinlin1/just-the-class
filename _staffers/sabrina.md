@@ -12,4 +12,7 @@ Informatics
 she/her
 {: .label .label-green }
 
+Social Media Head
+{: .label .label-purple }
+
 I’ve been interested in machine learning / AI for a long time. My primary goal is exploring, learning as much I can, and meeting others with similar interests! My favourite things are drawing, listening to 80s music, chilling with my cat and meeting new people! Fun fact: I’m trying to learn French! I also TA for INFO 101 :) [Instagram](https://instagram.com/sabrina.burka){:target="_blank"}
