@@ -1,10 +1,11 @@
-<!-- ---
+---
 layout: default
 title: Papers
-nav_order: 5
+nav_order: 2
+parent: Resources
 has_children: false
 permalink: /papers
---- -->
+---
 
 # Papers and Articles
 
