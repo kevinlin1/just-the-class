@@ -29,6 +29,7 @@ Friday, 3/2/2022
 2. Research/project ideation work time
 3. Develop a possible project list based on presentations
 
+[Meeting Recording for 1st Half](https://washington.zoom.us/rec/share/RyEhIA_hKJa4zt7Kyyq1CYwFEKgy-SVwkAmXSItwWPTpAapBAHurCVSZcQX6mR9T.MBGcp3QqM8NUfiz9){:target="_blank"}, [Meeting Recording for 2nd Half](https://washington.zoom.us/rec/share/LbV4167lddbm1OZ6mLh1ygN_7y4mCUuAiKg1MPcc9rYQbty6tYq-y96G7DGKwT9I.uc4Tz5CHuIZswZmV){:target="_blank"}
 
 ---
 
