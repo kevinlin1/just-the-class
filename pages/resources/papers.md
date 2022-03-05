@@ -4,7 +4,7 @@ title: Papers
 nav_order: 2
 parent: Resources
 has_children: false
-permalink: /papers
+permalink: /resources/papers
 ---
 
 # Papers and Articles
