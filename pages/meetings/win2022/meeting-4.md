@@ -27,18 +27,19 @@ Friday, 3/2/2022
 ## Agenda
 1. Presentations, 2 groups + discussion `~20 min each`
 2. Research/project ideation work time
-3. Devleop a possible project list based on presentations
+3. Develop a possible project list based on presentations
 
 
 ---
 
 ## Deliverables for Next Week
-None yet
+Groups that have not presented this week will be giving presentations next week.
 
 ---
 
 ## Notes
 - Motivation - algorithms for computing don't learn like humans do, how can we make them more like humans?
+- Take ideas and inspiration from neuroscience and manifest them in computing
 
 ### Reinforcement Learning
 - Reinforcement - when you do something over and over again.
@@ -47,12 +48,14 @@ None yet
 - Oxford Dictionary - defines intelligence as the ability to acquire and apply knowledge and skills
 - Reinforcement Learning - acquires knowledge as machines find the best possible behavior, done by learning from mistakes. 
 - Ties to psychology - operant conditioning. Positive vs negative reinforcement.
+  - Positive reinforcement gives a stimuli (either a reward or punishment) after an event
+  - Negative reinforcement just doesn’t respond after an event / takes away the stimuli 
 - Reinforcement learning in the field of Computer Science.
 - Reward hypothesis - any goal can be formalized as the outcome of maximizing a cumulative reward.
-- Markov Decision Process - nodes represent states; an agent can travel along connections with a certain probability.
+- Formulate optimization problems as Markov Decision Processes - nodes represent states; an agent can take an action with some probability of doing that to get to a different node / state
 - Recent advancements in Reinforcement Learning. 
-- Applications: self-driving cars, games (tetris, snake, etc.)
-- Deep Q Learning
+  - Applications: self-driving cars, games (tetris, snake, etc.)
+- Deep Q Learning to estimate values of possible actions given the state
 
 ### Neuromorphic Computing
 - Goal - quick survey of the field and research.  Opportunities for neuromorphic computing algorihtms and applications.
@@ -64,14 +67,14 @@ None yet
 - Applications - why do we care?
   - Edge computing (energetically efficient)
   - Machine learning (rapidly training and flexibility)
-  - Coprocessor in heterogenous systems
+  - Coprocessor in heterogeneous systems
 - Edge computing - Loihi graph
 - ANNs to GPU are mathematical and abstractive approaches - we can try to run native simulations in hopes of being more efficient.
 - Set up the neural network on-device in which the neurons are built into the hardware *on the chip*.
 - Physical systems through hardware can be directly executed
 - If we do work with these, will be using simulations of neuromorphic chips.
 - Coprocessor for novel domains - how can neuromorphic computing be used for differential equation solving, graph problems, optimization, etc.
-- We can continue the spirit of Moore's law using heterogenous systems
+- We can continue the spirit of Moore's law using heterogeneous systems
 - Spiking Neural Network - generalizes to very broad neural networks, all nerual networks.
   - Use spike-based inputs instead of typical one-hot vectors or scalar values. 
   - Spikes are temporal
@@ -88,16 +91,6 @@ None yet
   - Applications
   - Algorithms - theoretical guarantees on SNNs, convergence - SNNs are a superset of ANNs, but just because SNNs can represent ANN functions does not necessarily mean that they can converge to those functions. Increasing the space dimensionality makes the problem harder.
   - Co-design - engineering relevant properties into the hardware to open up exploitation of desired properties.
-  - Hardware - materials sciecne and material discovery, architecture desing and fabrication
+  - Hardware - materials science and material discovery, architecture desing and fabrication
 - Neuron - can be mapped as an electrical circuit. ANN is modeled by the RC circuit properties of a neuron. 
-- Newman computing - CPU, memory, stream bits back and forth. Neuromorphic computing - event-based, more distributed and agglomeration of neurons.
-
-
-
-
-
-
-
-
-
-
+- Newman computing - CPU, memory, stream bits back and forth. Neuromorphic computing - event-based, more distributed and agglomeration of neurons, no separation of computation and memory
