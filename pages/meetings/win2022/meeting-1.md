@@ -35,14 +35,27 @@ Friday, 2/11/2022
 
 ---
 
-## Slides
-- Meeting Slides & Chaytan's AGI Slides: ["Interactive Intelligence"](https://www.canva.com/design/DAE1ZsJC4pY/wZJeTZZbLeALEzL89TrHYQ/view?utm_content=DAE1ZsJC4pY&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton){:target="_blank"}
-- Janna's Neuroscience Slides: ["Neuroscience in I2"](https://docs.google.com/presentation/d/e/2PACX-1vTvKlnlR6KsXcGXlRPVHoSJGS3apWW7QnUpGlMcnD_Nim33h6DyahUrU-FAAUua4g/pub?start=false&loop=false&delayms=3000){:target="_blank"}
-- Andre's Neural Networks Slides: ["Neural Networks as Minds"](https://www.canva.com/design/DAE3pFjSZXo/GNpikNt16oczG71FeoKeCw/view?utm_content=DAE3pFjSZXo&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton){:target="_blank"}
+## Meeting Slides and AGI
+
+Link: ["Interactive Intelligence"](https://www.canva.com/design/DAE1ZsJC4pY/wZJeTZZbLeALEzL89TrHYQ/view?utm_content=DAE1ZsJC4pY&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton){:target="_blank"}
+
+<iframe src="https://www.canva.com/design/DAE1ZsJC4pY/wZJeTZZbLeALEzL89TrHYQ/view?utm_content=DAE1ZsJC4pY&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" width="100%" height="400" style="border:1px solid black;"></iframe>
 
 ---
 
-## Links to Papers and Resources from Andre's Presentation
+## Neuroscience in I2
+Janna's Neuroscience Slides: ["Neuroscience in I2"](https://docs.google.com/presentation/d/e/2PACX-1vTvKlnlR6KsXcGXlRPVHoSJGS3apWW7QnUpGlMcnD_Nim33h6DyahUrU-FAAUua4g/pub?start=false&loop=false&delayms=3000){:target="_blank"}
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTvKlnlR6KsXcGXlRPVHoSJGS3apWW7QnUpGlMcnD_Nim33h6DyahUrU-FAAUua4g/pub?start=false&loop=false&delayms=3000" width="100%" height="400" style="border:1px solid black;"></iframe>
+
+---
+
+## Neural Networks as MInds
+Andre's Neural Networks Slides: ["Neural Networks as Minds"](https://www.canva.com/design/DAE3pFjSZXo/GNpikNt16oczG71FeoKeCw/view?utm_content=DAE3pFjSZXo&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton){:target="_blank"}
+
+<iframe src="https://www.canva.com/design/DAE3pFjSZXo/GNpikNt16oczG71FeoKeCw/view?utm_content=DAE3pFjSZXo&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" width="100%" height="400" style="border:1px solid black;"></iframe>
+
+### Links to Papers and Resources from Andre's Presentation
 - [*Perceptrons*](https://mitpress.mit.edu/books/perceptrons), Minsky-Papert
 - [Backpropagation](https://en.wikipedia.org/wiki/Backpropagation), Wikipedia
 - [Transfer Learning](https://en.wikipedia.org/wiki/Transfer_learning), Wikipedia
