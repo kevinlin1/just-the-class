@@ -41,6 +41,8 @@ View the meeting recording [here](https://washington.zoom.us/rec/share/sYPA4932R
 - Meeting Slides: ["Interactive Intelligence"](https://www.canva.com/design/DAE1ZsJC4pY/wZJeTZZbLeALEzL89TrHYQ/view?utm_content=DAE1ZsJC4pY&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton){:target="_blank"}
 - [Janna's Neuroscience Images](https://drive.google.com/drive/folders/1z8lQDlAfP1j007d42tQGL_K0uSPPgHIA?usp=sharing){:target="_blank"}
 
+<iframe src="https://interactive-intelligence.com/files/presentations/win2022/week-1/Interactive Intelligence.pdf" width="100%" height="400" style="border:1px solid black;"></iframe>
+
 --
 
 ## Notes
