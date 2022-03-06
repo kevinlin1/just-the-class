@@ -23,6 +23,8 @@ I2 is an environment which aims to create a community of project-driven, outcome
 [Contact us @ interintel@uw.edu](mailto:interintel@uw.edu){: .btn .btn-purple } 
 [![](https://user-images.githubusercontent.com/73039742/156947342-99cff128-204c-44ec-a6f5-88147a983755.png)](https://www.instagram.com/uw_i2/){:target="_blank"}
 
+<a href="https://www.instagram.com/uw_i2/"><img src="https://user-images.githubusercontent.com/73039742/156947342-99cff128-204c-44ec-a6f5-88147a983755.png" width="50" height="50" /></a>
+
 ## Announcements
 
 | **3/5/2022** Notes for [Meeting 4](https://interactive-intelligence.github.io/meetings/win2022/meeting-3) have been published. Thanks to the Reinforcement Learning and Neuromorphic Computing groups for awesome presentations! |
