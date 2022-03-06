@@ -21,6 +21,7 @@ I2 is an environment which aims to create a community of project-driven, outcome
 
 [Join our Discord server](https://discord.gg/DZuyeyVHVV){: .btn .btn-blue } 
 [Contact us @ interintel@uw.edu](mailto:interintel@uw.edu){: .btn .btn-purple } 
+[![Foo](https://user-images.githubusercontent.com/73039742/156947342-99cff128-204c-44ec-a6f5-88147a983755.png)](https://www.instagram.com/uw_i2/)
 
 ## Announcements
 
