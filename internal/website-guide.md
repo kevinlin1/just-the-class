@@ -146,5 +146,22 @@ To embed media, use the following syntax: `<iframe src="link to media" width="10
 
 <iframe src="https://interactive-intelligence.github.io/files/presentations/win2022/week-1/NNs as Minds.pdf" width="100%" height="400" style="border:1px solid black;"></iframe>
 
+---
+
+## Tables
+
+```markdown
+| Column 1 | Column 2 | Column 3|
+| --- | --- | --- |
+| a | b | c |
+| d | e | f |
+| g | h | i |
+```
+
+| Column 1 | Column 2 | Column 3|
+| --- | --- | --- |
+| a | b | c |
+| d | e | f |
+| g | h | i |
 
 
