@@ -31,11 +31,22 @@ Use a single asterisk for *italics* and two for **bold**.
 
 To indent an entire body of text, use the right arrow >.
 
-> This is an indented body of text. It can be used for things like quotes.
+> This is an indented body of text. It can be used for things like quotes. *If you combine me with italics, then I can look super professional.*
+
+> - Someone famous, 1900-1905
 
 ```markdown
-> This is an indented body of text. It can be used for things like quotes.
+> This is an indented body of text. It can be used for things like quotes. *If you combine me with italics, then I can look super professional.*
+
+> - Someone famous, 1900-1905
 ```
+
+Notice the line of gap used to separate the two onto separate lines. If there is no gap, then the two lines will be read as part of the same line:
+
+> This is an indented body of text. It can be used for things like quotes. *If you combine me with italics, then I can look super professional.*
+> - Someone famous, 1900-1905
+
+When in doubt, always add another line of spacing.
 
 ---
 
