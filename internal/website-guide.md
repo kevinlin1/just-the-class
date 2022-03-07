@@ -1,3 +1,10 @@
+---
+layout: default
+title: Website Guide
+nav_exclude: true
+search_exclude: true
+---
+
 # Website Guide
 {: .no_toc}
 
