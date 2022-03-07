@@ -58,6 +58,10 @@ Groups that have not presented this week will be giving presentations next week.
   - Applications: self-driving cars, games (tetris, snake, etc.)
 - Deep Q Learning to estimate values of possible actions given the state
 
+Access slides [here](https://interactive-intelligence.github.io/files/presentations/win2022/week-4/RL.pdf){:target="_blank"}
+
+<iframe src="https://interactive-intelligence.github.io/files/presentations/win2022/week-4/RL.pdf" width="100%" height="400" style="border:1px solid black;"></iframe>
+
 ### Neuromorphic Computing
 - Goal - quick survey of the field and research.  Opportunities for neuromorphic computing algorihtms and applications.
 - Brains have desirable properties - energy efficient, fast at learning, use unique computational operations
