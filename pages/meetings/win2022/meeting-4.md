@@ -63,6 +63,9 @@ Access slides [here](https://interactive-intelligence.github.io/files/presentati
 <iframe src="https://interactive-intelligence.github.io/files/presentations/win2022/week-4/RL.pdf" width="100%" height="400" style="border:1px solid black;"></iframe>
 
 ### Neuromorphic Computing
+
+See Chris Kang's [video](https://drive.google.com/file/d/1vhg3pIVSNSfTtIKrvh3hjWmSfdjdiG1A/view?usp=sharing){:target="_blank"} on Neuromorphic Computing.
+
 - Goal - quick survey of the field and research.  Opportunities for neuromorphic computing algorihtms and applications.
 - Brains have desirable properties - energy efficient, fast at learning, use unique computational operations
 - Hardware and software need to be co-designed: they can't exist in isolation
@@ -99,3 +102,5 @@ Access slides [here](https://interactive-intelligence.github.io/files/presentati
   - Hardware - materials science and material discovery, architecture desing and fabrication
 - Neuron - can be mapped as an electrical circuit. ANN is modeled by the RC circuit properties of a neuron. 
 - Newman computing - CPU, memory, stream bits back and forth. Neuromorphic computing - event-based, more distributed and agglomeration of neurons, no separation of computation and memory
+
+
