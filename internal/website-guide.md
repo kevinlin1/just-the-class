@@ -32,6 +32,7 @@ Use a single asterisk for *italics* and two for **bold**.
 To indent an entire body of text, use the right arrow >.
 
 > This is an indented body of text. It can be used for things like quotes.
+
 ```markdown
 > This is an indented body of text. It can be used for things like quotes.
 ```
