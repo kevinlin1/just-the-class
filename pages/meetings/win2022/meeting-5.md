@@ -35,4 +35,10 @@ None yet
 ---
 
 ## Notes
-None yet
+
+### Meta-Modeling & Self Aware Networks
+Acces slides [here](http://interactive-intelligence.github.io/files/presentations/win2022/week-5/Meta-Modeling%20&%20Self%20Aware%20Networks.pdf){:target="_blank"}
+
+<iframe src="http://interactive-intelligence.github.io/files/presentations/win2022/week-5/Meta-Modeling%20&%20Self%20Aware%20Networks.pdf" width="100%" height="400" style="border:1px solid black;"></iframe>
+
+
