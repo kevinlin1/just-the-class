@@ -16,7 +16,7 @@ Friday, 2/11/2022
 
 ---
 
-## Table of contents
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
