@@ -28,34 +28,55 @@ Monday, 3/7/2022
 | Presenter | Paper/Topic | Description |
 | --- | --- | --- |
 | Charles | [Deep Sparse Coding for Invariant Multimodal Halle Berry Neurons](https://arxiv.org/pdf/1711.07998v2.pdf) (paper) | Briefly, it has been shown that there are individual neurons in human brains which are active when someone looks at the face of Halle Berry. A team of scientists, in this paper, set out to recreate that neuron, along with many others, using a biologically inspired approach to building a neural network, known as sparse coding. Most modern deep learning architectures are feed-forward systems, where the neurons don't really compete across layers, and a critical constraint known as sparsity is missing. Sparsity, in this context, refers to having most neurons be inactive when representing a piece of data, as opposed to allowing any neuron to have any value like in a dense neural network. Dense is the opposite of sparse. Dense neural networks are generally 99% active, non-zero. Sparse neural networks have like 1% non-zero activations. Sparsity is good for many reasons, from being more robust to being more "brain-like". Because only 1% of the neurons are active, you might use less energy for representing the same input data than a dense neural network. Because of the constring that sparsity provides, finding a small, imperceptible perturbation becomes harder. |
-| -- | [Predictive Coding Models of Perception](https://simons.berkeley.edu/talks/david-cox-4-16-18){:target="_blank"} (recorded lecture) | The ability to predict future states of the world is essential for planning behavior, and it is arguably a central pillar of intelligence.  In the field of sensory neuroscience, "predictive coding" -- the notion that circuits in cerebral actively predict their own activity -- has been an influential theoretical framework for understanding visual cortex.  In my talk, I will bring together the idea of predictive coding with modern tools of machine learning to build practical, working vision models that predict their inputs in both space and time. These networks learn to predict future frames in a video sequence, with each layer in the network making local predictions and only forwarding deviations from those predictions to subsequent network layers. We show that these networks are able to robustly learn to predict the movement of synthetic (rendered) objects, and that in doing so, the networks learn internal representations that are useful for decoding latent object parameters (e.g. pose) that support object recognition with fewer training views. |
+<!-- | -- | [Predictive Coding Models of Perception](https://simons.berkeley.edu/talks/david-cox-4-16-18){:target="_blank"} (recorded lecture) | The ability to predict future states of the world is essential for planning behavior, and it is arguably a central pillar of intelligence.  In the field of sensory neuroscience, "predictive coding" -- the notion that circuits in cerebral actively predict their own activity -- has been an influential theoretical framework for understanding visual cortex.  In my talk, I will bring together the idea of predictive coding with modern tools of machine learning to build practical, working vision models that predict their inputs in both space and time. These networks learn to predict future frames in a video sequence, with each layer in the network making local predictions and only forwarding deviations from those predictions to subsequent network layers. We show that these networks are able to robustly learn to predict the movement of synthetic (rendered) objects, and that in doing so, the networks learn internal representations that are useful for decoding latent object parameters (e.g. pose) that support object recognition with fewer training views. | -->
 
 ---
 
 ## Deep Sparse Coding for Invariant Multimodal Halle Berry Neurons
 
-### Presentation Notes
-- Hello world
-- Abcd
-- foo fee
+*Presentation Notes*
+- Deep neural networks have been used for tumor detection.
+- Adversarial examples - invisible perturbations that fool NNs, but not humans.
+- Most deep neural networks are not explainable models.
+- Sparse Coding NNs show robustness to adversarial examples.
+- Use an overcomplete set of features used for criteria
+- Use a sparse layer
+- Build 2 different tumor detection neural networks
+  - A deep denoising autoencoder vs sparse coding neural network - both are denoising models that remove perturbations or noise from the input.
+- Adversarially attack each model
+  - Apply the FSGM to the deep model
+  - Apply a new adversarial attack to the sparse model
+- Analyze the adversarial perturbations. Can perturbations fool humans?
+- Deep Denoising Autoencoder - autoencoders take in an image and output an image, with the goal of reconstructing the original image. A deep classifier is attached to the latent space in order to perform the desired output.
+- Denoising autoencoders can denoise the input - removing perturbations from the data itself.
+- Sparse coding model - we use a sparse encoder
+- Same properties of denoising
+- The adversarial examples generated by the sparse coding model technique are much more meaningful - 'adding nuclei'
+- The sparse coding model is very robust to deep attacks.
+- Smoothness of learned representations, adversarial attacks as a symptom of jagged representations
 
-### Discussion Notes
+---
 
-Long term memory is stored in prefrontal cortex
+## Discussion Notes
 
-• Combined firing of neuron represents that memory (engram) 
+Long term memory is stored in prefrontal cortex: 
 
-Use fluorescent protein and release only when the mouse is forming memories to examine which neurons are involved 
+- Combined firing of neuron represents that memory (engram) 
+- Use fluorescent protein and release only when the mouse is forming memories to examine which neurons are involved
 
 Examples:
 
-• Optogenetics — put mice in different context and stimulate the same neurons that activate fear
-• Found sparse representation of the neurons involved 
-• Grid cells 
+- Optogenetics — put mice in different context and stimulate the same neurons that activate fear
+- Found sparse representation of the neurons involved 
+- Grid cells 
 
 How do we perceive color? (Answer: Very complex!) 
-![image](https://user-images.githubusercontent.com/99622705/157157677-149f6d32-0d74-4eea-8bf1-849edd39c8c7.jpeg)
-![image](https://user-images.githubusercontent.com/99622705/157157922-37aae2b0-f3fa-4e4d-abef-e95ce9963b8c.jpeg)![image](https://user-images.githubusercontent.com/99622705/157157943-c5fccea5-711c-4099-a635-fbbf383b64e1.jpeg)
+
+<img src="(https://user-images.githubusercontent.com/99622705/157157677-149f6d32-0d74-4eea-8bf1-849edd39c8c7.jpeg" width="60%" />
+
+<img src="(https://user-images.githubusercontent.com/99622705/157157922-37aae2b0-f3fa-4e4d-abef-e95ce9963b8c.jpeg" width="60%" />
+
+<img src="(https://user-images.githubusercontent.com/99622705/157157943-c5fccea5-711c-4099-a635-fbbf383b64e1.jpeg" width="60%" />
 
 
 
