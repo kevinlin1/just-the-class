@@ -35,6 +35,9 @@ Monday, 3/7/2022
 ## Deep Sparse Coding for Invariant Multimodal Halle Berry Neurons
 
 ### Presentation Notes
+- Hello world
+- Abcd
+- foo fee
 
 ### Discussion Notes
 
