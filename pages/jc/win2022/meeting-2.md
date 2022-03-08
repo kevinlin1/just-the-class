@@ -72,11 +72,11 @@ Examples:
 
 How do we perceive color? (Answer: Very complex!) 
 
-<img src="(https://user-images.githubusercontent.com/99622705/157157677-149f6d32-0d74-4eea-8bf1-849edd39c8c7.jpeg" width="60%" />
+<img src="https://user-images.githubusercontent.com/99622705/157157677-149f6d32-0d74-4eea-8bf1-849edd39c8c7.jpeg" width="60%" />
 
-<img src="(https://user-images.githubusercontent.com/99622705/157157922-37aae2b0-f3fa-4e4d-abef-e95ce9963b8c.jpeg" width="60%" />
+<img src="https://user-images.githubusercontent.com/99622705/157157922-37aae2b0-f3fa-4e4d-abef-e95ce9963b8c.jpeg" width="60%" />
 
-<img src="(https://user-images.githubusercontent.com/99622705/157157943-c5fccea5-711c-4099-a635-fbbf383b64e1.jpeg" width="60%" />
+<img src="https://user-images.githubusercontent.com/99622705/157157943-c5fccea5-711c-4099-a635-fbbf383b64e1.jpeg" width="60%" />
 
 
 
