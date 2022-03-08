@@ -41,3 +41,23 @@ Monday, 3/7/2022
 
 ### Discussion Notes
 
+Long term memory is stored in prefrontal cortex
+• Combined firing of neuron represents that memory (engram) 
+
+Use fluorescent protein and release only when the mouse is forming memories to examine which neurons are involved 
+
+Examples:
+• Optogenetics — put mice in different context and stimulate the same neurons that activate fear
+• Found sparse representation of the neurons involved 
+• Grid cells 
+
+How do we perceive color? (Answer: Very complex!) 
+![image](https://user-images.githubusercontent.com/99622705/157157677-149f6d32-0d74-4eea-8bf1-849edd39c8c7.jpeg)
+![image](https://user-images.githubusercontent.com/99622705/157157922-37aae2b0-f3fa-4e4d-abef-e95ce9963b8c.jpeg)![image](https://user-images.githubusercontent.com/99622705/157157943-c5fccea5-711c-4099-a635-fbbf383b64e1.jpeg)
+
+
+
+
+
+
+
