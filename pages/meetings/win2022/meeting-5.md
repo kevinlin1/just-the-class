@@ -25,7 +25,15 @@ Friday, 3/9/2022
 ---
 
 ## Agenda
-To be decided
+From 5 - 7:30pm! Extra time to discuss :)
+- Swarm, meta, bio, predictive coding - 90 minutes (20 min. each + buffer)
+- Break - 10 minutes
+- Project discussion - rest of time (~50 minutes)
+  - Random stimuli - 10 minutes, generating ideas
+  - Keep an ongoing list of all ideas
+  - Share ideas - 10 minutes
+  - Weeding out ideas - 5 minutes
+  - Interest-based migration - rest of the time (25 min)
 
 ---
 
