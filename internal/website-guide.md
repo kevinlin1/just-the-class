@@ -155,7 +155,15 @@ To resize an image, use the HTML command
 ```html
 <img src="imgurl" width="60%" />
 ```
-You can also set the `height` parameter.
+You can also set the `height` parameter if desired, but generally `width` is a better consistent parameter.
+
+If you want to center the images, wrap all images in `<center>...</center>` tags, like such:
+```html
+<center>
+<img src="imgurl" width="60%" />
+</center>
+```
+
 
 ---
 
