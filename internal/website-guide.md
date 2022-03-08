@@ -148,6 +148,17 @@ In order to generate a table of contents for a web page, paste the following cod
 
 ---
 
+## Images
+To put an image, use the syntax `![alt text](https://imgurl.jpg)`. If you have an image pasted to the clipboard, you can ctrl/cmd+V it into the editor and GitHub will upload for you.
+
+To resize an image, use the HTML command
+```html
+<img src="imgurl" width="60%" />
+```
+You can also set the `height` parameter.
+
+---
+
 ## Embedding Media
 
 To embed media, use the following syntax: `<iframe src="link to media" width="100%" height="400" style=style="border:1px solid black;"></iframe>`. You can adjust the width and height parameters to change the size of the media embed.
