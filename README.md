@@ -1,3 +1,13 @@
+---
+layout: home
+title: Just the Class
+nav_exclude: true
+permalink: index.html
+seo:
+  type: Course
+  name: Just the Class
+---
+
 # Just the Class
 
 Just the Class is a GitHub Pages template developed for the purpose of quickly deploying course websites. In addition to serving plain web pages and files, it provides a boilerplate for:
@@ -17,7 +27,7 @@ Just the Class is a set of customizations on top of the popular [Just the Docs](
 Getting started with Just the Class is simple.
 
 1. Create a [new repository based on Just the Class](https://github.com/kevinlin1/just-the-class/generate).
-1. Update `_config.yml` and `index.md` with your course information.
+1. Update `_config.yml` and `index.md` with your course information. Be sure to update the `baseurl` and `url` to the appropriate paths (eg. "/20au" and "https://courses.cs.washington.edu/", respectively.).
 1. Configure a [publishing source for GitHub Pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages). Your course website is now live!
 1. Edit and create `.md` [Markdown files](https://guides.github.com/features/mastering-markdown/) to add your content.
 
