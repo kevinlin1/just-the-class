@@ -25,6 +25,8 @@ I2 is an environment which aims to create a community of project-driven, outcome
 
 ## Announcements
 
+| **3/11/2022** Meeting notes and slides for our last meeting of the quarter have been published [here](https://interactive-intelligence.github.io/meetings/win2022/meeting-5). We will not have another meeting next Friday (finals week) or the Friday after that (Spring Break), but we will have a Journal Club this upcoming Monday (3/14) at HUB 238 from 5 to 7 PM. See you there for the last JC of the quarter! Also see the updated [Topic Index](https://interactive-intelligence.github.io/resources/topic-index) to quickly navigate content members have created. |
+
 | **3/7/2022** Our next meeting (Meeting 5) will be two and a half hours long, thirty minutes longer than our usual meetings. Check out the agenda for [Meeting 5](https://interactive-intelligence.github.io/meetings/win2022/meeting-5). |
 
 | **3/6/2022** I2 officially has an [Instagram](https://www.instagram.com/uw_i2/){:target="_blank"}! Thanks to Sabrina for managing our social media presence. Keep posted for updates and information there! |
