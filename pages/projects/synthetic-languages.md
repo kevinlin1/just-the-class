@@ -7,7 +7,7 @@ has_children: false
 permalink: /projects/synthetic-languages
 ---
 
-# Synthetic Language
+# Synthetic Languages
 
 Allowing AI populations to independently develop a language for optimal communication
 {: .fs-6 .fw-300 }
