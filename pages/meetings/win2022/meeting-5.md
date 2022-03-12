@@ -11,7 +11,7 @@ permalink: /meetings/win2022/meeting-5
 # Meeting 5
 {: .no_toc }
 
-Friday, 3/9/2022
+Friday, 3/11/2022
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,7 +38,7 @@ From 5 - 7:30pm! Extra time to discuss :)
 ---
 
 ## Deliverables for Next Week
-None yet
+This was the last meeting of the quarter! There are no concrete deliverables for next week, but keep thinking about ideas over Spring Break so we're ready to jump into projects starting Spring Quarter :)
 
 ---
 
