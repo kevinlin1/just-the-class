@@ -3,6 +3,7 @@ layout: default
 title: Photos
 description: A photo gallery
 nav_order: 12
+nav_exclude: true
 ---
 
 # Photos
