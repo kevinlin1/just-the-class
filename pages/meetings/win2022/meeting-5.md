@@ -45,14 +45,22 @@ None yet
 ## Notes
 
 ### Meta-Modeling & Self Aware Networks
+Acces slides [here](https://interactive-intelligence.github.io/files/presentations/win2022/week-5/Meta-Modeling%20&%20Self%20Aware%20Networks.pdf){:target="_blank"}
+
+<iframe src="https://interactive-intelligence.github.io/files/presentations/win2022/week-5/Meta-Modeling%20&%20Self%20Aware%20Networks.pdf" width="100%" height="400" style="border:1px solid black;"></iframe>
+
+### Predictive Coding
+Acces slides [here](https://interactive-intelligence.github.io/files/presentations/win2022/week-5/Predictive%20Coding.pdf){:target="_blank"}
+
+<iframe src="https://interactive-intelligence.github.io/files/presentations/win2022/week-5/Predictive%20Coding.pdf" width="100%" height="400" style="border:1px solid black;"></iframe>
+
+
+### Swarm Intelligence
+
 Acces slides [here](http://interactive-intelligence.github.io/files/presentations/win2022/week-5/Meta-Modeling%20&%20Self%20Aware%20Networks.pdf){:target="_blank"}
 
 <iframe src="http://interactive-intelligence.github.io/files/presentations/win2022/week-5/Meta-Modeling%20&%20Self%20Aware%20Networks.pdf" width="100%" height="400" style="border:1px solid black;"></iframe>
 
-### Predictive Coding
-
-
-### Swarm Intelligence
 - Swarm intelligence: you don't want a central controller of many individual things, rather - give autonomy to the individual agents and have them converge to certain optimal solutions.
 - When you have many different agents, coordinating all the actions at once is difficult.
 - We hope that agents converge to a solution and do what we want - potentially risky. No guaranteed behavior.
@@ -69,6 +77,11 @@ Acces slides [here](http://interactive-intelligence.github.io/files/presentation
 - A central computer cannot compute the goals and surrounding states of all of the states in a system. Swarm computing becomes more relevant. Individual agents with only their internal state and surrounding observations can cooperate to achieve a goal.
 
 ### Biologically Informed/Plausible Networks
+
+Acces slides [here](https://interactive-intelligence.github.io/files/presentations/win2022/week-5/Biologically%20Informed_Plausible%20Networks%20Presentation.pdf){:target="_blank"}
+
+<iframe src="https://interactive-intelligence.github.io/files/presentations/win2022/week-5/Biologically%20Informed_Plausible%20Networks%20Presentation.pdf" width="100%" height="400" style="border:1px solid black;"></iframe>
+
 - Biologically plausible networks - networks that can perform their function in a way that could plausibly be done by biological systems.
   - Backpropagation not bio-plausible (?) because information cannot be rapidly sent antidromically from neuron synapses.
   - Following Hebbian plasticity rules
