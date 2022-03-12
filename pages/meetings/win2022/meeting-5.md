@@ -29,11 +29,8 @@ From 5 - 7:30pm! Extra time to discuss :)
 - Swarm, meta, bio, predictive coding - 90 minutes (20 min. each + buffer)
 - Break - 10 minutes
 - Project discussion - rest of time (~50 minutes)
-  - Random stimuli - 10 minutes, generating ideas
-  - Keep an ongoing list of all ideas
-  - Share ideas - 10 minutes
-  - Weeding out ideas - 5 minutes
-  - Interest-based migration - rest of the time (25 min)
+  - Break into small groups and come up with proj ideas (15 min)
+  - Share ideas in large group
 
 ---
 
@@ -45,19 +42,44 @@ This was the last meeting of the quarter! There are no concrete deliverables for
 ## Notes
 
 ### Meta-Modeling & Self Aware Networks
-Acces slides [here](https://interactive-intelligence.github.io/files/presentations/win2022/week-5/Meta-Modeling%20&%20Self%20Aware%20Networks.pdf){:target="_blank"}
+Access slides [here](https://interactive-intelligence.github.io/files/presentations/win2022/week-5/Meta-Modeling%20&%20Self%20Aware%20Networks.pdf){:target="_blank"}
 
 <iframe src="https://interactive-intelligence.github.io/files/presentations/win2022/week-5/Meta-Modeling%20&%20Self%20Aware%20Networks.pdf" width="100%" height="400" style="border:1px solid black;"></iframe>
 
+- Modeling: a representation of phenomena from data
+- Meta-Modeling: A representation of models from meta-data (data about the models ie weights/biases)
+- External MM: teach others by representing our own model and communicating it
+- Internal MM: teach ourselves about ourselves by modeling our own models
+- Neural Architecture Search (NAS) as a form of meta modeling
+  - DARTS
+  - High cost of computing, have to train model and a model to understand the model
+- Self:
+  - 1) Aware of env and goals
+  - 2) Predict effects on self
+  - 3) Adapt to effects of env on self to achieve goals
+- Meta modeling used for self-healing agents, model when agent is injured
+- Used to model quality of packet transfer
+- MinMaxNN uses meta modeling to select actions that best suit a goal
+- Meta modeling in LeCunn's world model high level "configurator"
 ### Predictive Coding
-Acces slides [here](https://interactive-intelligence.github.io/files/presentations/win2022/week-5/Predictive%20Coding.pdf){:target="_blank"}
+Access slides [here](https://interactive-intelligence.github.io/files/presentations/win2022/week-5/Predictive%20Coding.pdf){:target="_blank"}
 
 <iframe src="https://interactive-intelligence.github.io/files/presentations/win2022/week-5/Predictive%20Coding.pdf" width="100%" height="400" style="border:1px solid black;"></iframe>
 
+- Brain encodes prediction / expectation of the world
+  - Bigger violations cause more learning
+  - Ex if you get scared / didn't expect something you will update your model more
+- Categorizes and filters out unuseful information
+- Predictive coding causes us to preemptively fill in information that isn't there based on our prior beliefs
+  - Triangle optical illusion example
+- Pred coding also allows your brain to have a confidence estimate
+  - Ex we trust our vision less when it's foggy or dark
+  - Not well expressed in NNs
+- Multiple levels of predictive coding can expect larger features of objects like edges or contours instead of exact pixel values or colors
 
 ### Swarm Intelligence
 
-Acces slides [here](http://interactive-intelligence.github.io/files/presentations/win2022/week-5/Meta-Modeling%20&%20Self%20Aware%20Networks.pdf){:target="_blank"}
+Access slides [here](http://interactive-intelligence.github.io/files/presentations/win2022/week-5/Meta-Modeling%20&%20Self%20Aware%20Networks.pdf){:target="_blank"}
 
 <iframe src="http://interactive-intelligence.github.io/files/presentations/win2022/week-5/Meta-Modeling%20&%20Self%20Aware%20Networks.pdf" width="100%" height="400" style="border:1px solid black;"></iframe>
 
@@ -75,10 +97,12 @@ Acces slides [here](http://interactive-intelligence.github.io/files/presentation
 - Give autonomy to individuals in a swarm: abstracts low-level control and reduces computational demands of a central controller.
 - Self-driving vehicles. Traffic is a complex system consisting of many independent agents.
 - A central computer cannot compute the goals and surrounding states of all of the states in a system. Swarm computing becomes more relevant. Individual agents with only their internal state and surrounding observations can cooperate to achieve a goal.
+- Macro action formation to compose low level actions into computable larger actions by a central controller
+  - Let agents decide how to fulfill macro actions of central controller
 
 ### Biologically Informed/Plausible Networks
 
-Acces slides [here](https://interactive-intelligence.github.io/files/presentations/win2022/week-5/Biologically%20Informed_Plausible%20Networks%20Presentation.pdf){:target="_blank"}
+Access slides [here](https://interactive-intelligence.github.io/files/presentations/win2022/week-5/Biologically%20Informed_Plausible%20Networks%20Presentation.pdf){:target="_blank"}
 
 <iframe src="https://interactive-intelligence.github.io/files/presentations/win2022/week-5/Biologically%20Informed_Plausible%20Networks%20Presentation.pdf" width="100%" height="400" style="border:1px solid black;"></iframe>
 
