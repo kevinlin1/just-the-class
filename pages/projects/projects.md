@@ -1,10 +1,10 @@
-<!-- ---
+---
 layout: default
 title: Projects
 nav_order: 3
 has_children: true
 permalink: /projects
---- -->
+---
 
 # Projects
 
@@ -15,10 +15,12 @@ What we're working on!
 
 ## Project Ideas
 
+*A collection of project ideas brainstormed and developed through exploratory research in Winter quarter.*
+
 | Name | Description | Questions |
 | --- | --- | --- | 
 | GAN Swarm or Actor Critic, RL Swarm | Many agents that can compete adversarially and maybe also communicate and cooperate. |  Would this implement swarm intelligence methods of distributed agent level computation or is it a swarm just due to the large number of agents? What sort of environment? What sort of goals? |
-| Communicating Models | Give mdoels a protocol to communicate between each other as inputs and outputs of each | Has it been done? What kind of models would benefit most from this? |
+| Synthetic Language | Give mdoels a protocol to communicate between each other as inputs and outputs of each | Has it been done? What kind of models would benefit most from this? |
 | Fungal Computing | Grow mushrooms (maybe we can talk with the Indoor Farming RSO) and try to compute with them. | How? Could we instead use priciples of how fungi communicate and grow in silico instead of literally growing them? |
 | Memory ML network | Use something like a Hopfield network to encode memory in NNs. | Is this similar to any parts of the brain? How is memory represented in the brain? |
 | Hebbian Learning | Update the weights of NNs based on the firing rate of previous and next layers similar to how the brain stregthens and weakens synapses. | What work has been done on this already? What type of NNs do we want to apply it to? |
