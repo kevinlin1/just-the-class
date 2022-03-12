@@ -51,16 +51,18 @@ Access slides [here](https://interactive-intelligence.github.io/files/presentati
 - External MM: teach others by representing our own model and communicating it
 - Internal MM: teach ourselves about ourselves by modeling our own models
 - Neural Architecture Search (NAS) as a form of meta modeling
+  - Efficient NAS
   - DARTS
   - High cost of computing, have to train model and a model to understand the model
 - Self:
-  - 1) Aware of env and goals
-  - 2) Predict effects on self
-  - 3) Adapt to effects of env on self to achieve goals
+  1. Aware of env and goals
+  2. Predict effects on self
+  3. Adapt to effects of env on self to achieve goals
 - Meta modeling used for self-healing agents, model when agent is injured
 - Used to model quality of packet transfer
 - MinMaxNN uses meta modeling to select actions that best suit a goal
 - Meta modeling in LeCunn's world model high level "configurator"
+
 ### Predictive Coding
 Access slides [here](https://interactive-intelligence.github.io/files/presentations/win2022/week-5/Predictive%20Coding.pdf){:target="_blank"}
 
