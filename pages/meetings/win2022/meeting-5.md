@@ -49,4 +49,60 @@ Acces slides [here](http://interactive-intelligence.github.io/files/presentation
 
 <iframe src="http://interactive-intelligence.github.io/files/presentations/win2022/week-5/Meta-Modeling%20&%20Self%20Aware%20Networks.pdf" width="100%" height="400" style="border:1px solid black;"></iframe>
 
+### Predictive Coding
+
+
+### Swarm Intelligence
+- Swarm intelligence: you don't want a central controller of many individual things, rather - give autonomy to the individual agents and have them converge to certain optimal solutions.
+- When you have many different agents, coordinating all the actions at once is difficult.
+- We hope that agents converge to a solution and do what we want - potentially risky. No guaranteed behavior.
+- Real-world applications. We need to think about potential challenges.
+- Swarm control is generally used in the military for drone. Applications often involve robotics.
+- Biological analogs - bees, ant colonies, schools of fish, society, immune system, artificial immune systems, slime molds.
+  - Move together, but without a central controller.
+- Fungal computing. Fungal colonies are simultaneously a mass of single-celled fungi and a massive unicellular organismm.
+  - Fungal cells can propagate electrical signals, which allows for the processing of Boolean logic. 
+  - Biological computing - a lot of interesting properties.
+- Fungus is alive - it perceives in the same way that organisms do, respond to physical inputs naturally. Allows the building to 'make decisions' based on changes in lighting, air quality, physical damage, etc.
+- Give autonomy to individuals in a swarm: abstracts low-level control and reduces computational demands of a central controller.
+- Self-driving vehicles. Traffic is a complex system consisting of many independent agents.
+- A central computer cannot compute the goals and surrounding states of all of the states in a system. Swarm computing becomes more relevant. Individual agents with only their internal state and surrounding observations can cooperate to achieve a goal.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
