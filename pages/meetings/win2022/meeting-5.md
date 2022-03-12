@@ -79,9 +79,7 @@ Access slides [here](https://interactive-intelligence.github.io/files/presentati
 
 ### Swarm Intelligence
 
-Access slides [here](http://interactive-intelligence.github.io/files/presentations/win2022/week-5/Meta-Modeling%20&%20Self%20Aware%20Networks.pdf){:target="_blank"}
-
-<iframe src="http://interactive-intelligence.github.io/files/presentations/win2022/week-5/Meta-Modeling%20&%20Self%20Aware%20Networks.pdf" width="100%" height="400" style="border:1px solid black;"></iframe>
+Access slides [here](https://www.canva.com/design/DAE5zKyksg0/TOmQfjYojpqzzhvWSOHwPQ/view?utm_content=DAE5zKyksg0&utm_campaign=designshare&utm_medium=link&utm_source=viewer){:target="_blank"}
 
 - Swarm intelligence: you don't want a central controller of many individual things, rather - give autonomy to the individual agents and have them converge to certain optimal solutions.
 - When you have many different agents, coordinating all the actions at once is difficult.
