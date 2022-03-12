@@ -25,5 +25,3 @@ What we're working on!
 | Memory ML network | Use something like a Hopfield network to encode memory in NNs. | Is this similar to any parts of the brain? How is memory represented in the brain? |
 | Hebbian Learning | Update the weights of NNs based on the firing rate of previous and next layers similar to how the brain stregthens and weakens synapses. | What work has been done on this already? What type of NNs do we want to apply it to? |
 | Predictive Coding | Predict some feature of the environment as well as the next input from the environment ot the model, RL based agents. We could measure the difference in performance between non-pred. coding and pred. coding networks. | Has it been done? At what level of granularity do we want to predict the next input? The exact inputs or larger features of it? |
-
----
