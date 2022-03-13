@@ -34,6 +34,8 @@ Monday, 3/14/2022
 
 ## Emergence of Grounded Compositional Language in Multi-Agent Populations
 
+A popular science article has been written on this paper: [here](https://www.wired.com/2017/03/openai-builds-bots-learn-speak-language/){:target="_blank"}.
+
 *Access slides [here](https://interactive-intelligence.github.io/files/jc/presentations/win2022/meeting-3/Emergence%20of%20Grounded%20Compositional%20Language.pdf).*
 
 <iframe src="https://interactive-intelligence.github.io/files/jc/presentations/win2022/meeting-3/Emergence%20of%20Grounded%20Compositional%20Language.pdf" width="100%" height="400" style="border:1px solid black;"></iframe>
