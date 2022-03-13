@@ -23,8 +23,7 @@ Topic Tags: `CS`: Computer Science, `RL`: Reinforcement Learning, `DL`: Deep Lea
 | `AI`, `DL`, `Bio` | Biologically plausible deep learning – but how far can we go with shallow networks? | [arXiv](https://arxiv.org/pdf/1905.04101.pdf) |
 | `AI`, `DL`, `Bio` | A Biologically Plausible Learning Algorithm for Neural Networks | [IBM Blog](https://www.ibm.com/blogs/research/2019/04/biological-algorithm/) |
 | `AI`, `DL` | Self-Aware Neural Network Systems: A Survey and New Perspective | [IEEE Explore](https://ieeexplore.ieee.org/document/9045930) |
-| `AI`, `DL` | Adversarial Perturbations Are Not So Weird: Entanglement of Robust and
-Non-Robust Features in Neural Network Classifiers | [arXiv](https://arxiv.org/pdf/1905.02175.pdf) |
+| `AI`, `DL` | Adversarial Perturbations Are Not So Weird: Entanglement of Robust and Non-Robust Features in Neural Network Classifiers | [arXiv](https://arxiv.org/pdf/1905.02175.pdf) |
 | `AI`, `DL` | Adversarial Examples Are Not Bugs, They Are Features | [arXiv](https://arxiv.org/pdf/1905.02175.pdf) |
 | `AI`, `DL` | Simulated Policy Learning in Video Models | [Google AI](https://ai.googleblog.com/2019/03/simulated-policy-learning-in-video.html) |
 | `NS` | Changes in subjective experience elicited by direct stimulation of the human orbitofrontal cortex | [PubMed Central](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6202946/) |
