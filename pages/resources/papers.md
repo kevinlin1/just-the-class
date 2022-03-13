@@ -18,6 +18,21 @@ Topic Tags: `CS`: Computer Science, `RL`: Reinforcement Learning, `DL`: Deep Lea
 
 | Topic(s) | Title | Platform |
 | --- | --- | --- |
+| `CS`, `NS` | Opportunities for neuromorphic computing algorithms and applications | [Nature](https://www.nature.com/articles/s43588-021-00184-y) |
+| `AI`, `DL`, `Bio`, `NS` | Deep Predictive Coding Network for Object Recognition |  [arXiv](https://arxiv.org/ftp/arxiv/papers/1802/1802.04762.pdf) |
+| `AI`, `DL`, `Bio` | Biologically plausible deep learning – but how far can we go with shallow networks? | [arXiv](https://arxiv.org/pdf/1905.04101.pdf) |
+| `AI`, `DL`, `Bio` | A Biologically Plausible Learning Algorithm for Neural Networks | [IBM Blog](https://www.ibm.com/blogs/research/2019/04/biological-algorithm/) |
+| `AI`, `DL` | Self-Aware Neural Network Systems: A Survey and New Perspective | [IEEE Explore](https://ieeexplore.ieee.org/document/9045930) |
+| `AI`, `DL` | Adversarial Perturbations Are Not So Weird: Entanglement of Robust and
+Non-Robust Features in Neural Network Classifiers | [arXiv](https://arxiv.org/pdf/1905.02175.pdf) |
+| `AI`, `DL` | Adversarial Examples Are Not Bugs, They Are Features | [arXiv](https://arxiv.org/pdf/1905.02175.pdf) |
+| `AI`, `DL` | Simulated Policy Learning in Video Models | [Google AI](https://ai.googleblog.com/2019/03/simulated-policy-learning-in-video.html) |
+| `NS` | Changes in subjective experience elicited by direct stimulation of the human orbitofrontal cortex | [PubMed Central](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6202946/) |
+| `Bio`, `NS` | Adolescent Neurodevelopment | [PubMed Central](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3982854/) |
+| `AI`, `DL` | Improving Sparse Training with RigL | [Google AI](https://ai.googleblog.com/2020/09/improving-sparse-training-with-rigl.html) |
+| `AI`, `NS` | AI Generated Faces Are More Trustworthy Than Real Faces Say Researchers Who Warn of “Deep Fakes” | [Neuroscience News](https://neurosciencenews.com/ai-generated-faces-trust-20071/) |
+| `Bio`, `NS` | First-in-human implant of a “closed-loop” bioelectronic research system for investigating treatments for brain disorders | [Oxford Neuro](https://www.neuroscience.ox.ac.uk/news/first-in-human-implant-of-a-201cclosed-loop201d-bioelectronic-research-system-for-investigating-treatments-for-brain-disorders) |
+| `Bio` | From one cell to many: How did multicellularity evolve? | [Science Daily](https://www.sciencedaily.com/releases/2014/01/140125172414.htm) |
 | `NS`, `Bio` | An Artificial Network Kept on The 'Edge of Chaos' Acts Much Like a Human Brain | [ScienceAlert](https://www.sciencealert.com/an-artificial-network-kept-on-the-edge-of-chaos-acts-much-like-a-human-brain?fbclid=IwAR3_PdbxP_gFiTp0xh-Bp5hR1LXof8H_1UyCQM7n_1IQNeJHYXc7zp1_ms4) |
 | `QC`, `CS` | A quantum-inspired classical algorithm for recommendation systems | [arXiv](https://arxiv.org/pdf/1807.04271.pdf) |
 | `DL`, `CS` | A Universal Law of Robustness via Isoperimetry | [arXiv](https://arxiv.org/pdf/2105.12806.pdf) |
