@@ -29,6 +29,8 @@ Monday, 3/14/2022
 | --- | --- | --- |
 | Andre | [Emergence of Grounded Compositional Language in Multi-Agent Populations](https://arxiv.org/pdf/1703.04908.pdf){:target="_blank"} (paper) | *Abstract*: By capturing statistical patterns in large corpora, machine learning has enabled significant advances in natural language processing, including in machine translation, question answering, and sentiment analysis. However, for agents to intelligently interact with humans, simply capturing the statistical patterns is insufficient. In this paper we investigate if, and how, grounded compositional language can emerge as a means to achieve goals in multi-agent populations. Towards this end, we propose a multi-agent learning environment and learning methods that bring about emergence of a basic compositional language. This language is represented as streams of abstract discrete symbols uttered by agents over time, but nonetheless has a coherent structure that possesses a defined vocabulary and syntax. We also observe emergence of nonverbal communication such as pointing and guiding when language communication is unavailable. |
 
+*After this presentation, we will have an 'idea zoo symposium' - many members are thinking about cool ideas and this will be a place to share and think through them together.*
+
 ---
 
 ## Emergence of Grounded Compositional Language in Multi-Agent Populations
