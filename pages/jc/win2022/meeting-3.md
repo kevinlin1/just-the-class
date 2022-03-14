@@ -38,12 +38,3 @@ A popular science article has been written on this paper: [here](https://www.wir
 *Access slides [here](https://interactive-intelligence.github.io/files/jc/presentations/win2022/meeting-3/Emergence%20of%20Grounded%20Compositional%20Language.pdf).*
 
 <iframe src="https://interactive-intelligence.github.io/files/jc/presentations/win2022/meeting-3/Emergence%20of%20Grounded%20Compositional%20Language.pdf" width="100%" height="400" style="border:1px solid black;"></iframe>
-
-
-
-
-
-
-
-
-files/jc/presentations/win2022/meeting-3/Emergence of Grounded Compositional Language.pdf
