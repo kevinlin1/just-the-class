@@ -40,3 +40,29 @@ A popular science article has been written on this paper: [here](https://www.wir
 *Access slides [here](https://interactive-intelligence.github.io/files/jc/presentations/win2022/meeting-3/Emergence%20of%20Grounded%20Compositional%20Language.pdf).*
 
 <iframe src="https://interactive-intelligence.github.io/files/jc/presentations/win2022/meeting-3/Emergence%20of%20Grounded%20Compositional%20Language.pdf" width="100%" height="400" style="border:1px solid black;"></iframe>
+
+---
+
+## Idea Symposium
+- Split neural network - each neuron becomes two neural networks.
+  - Shared weights
+	- Systematic activation function discovery
+	- Modeling the neuron using a more complex unit of computation
+	- 'First order' networks vs $$n$$th order networks
+- Lottery Ticket Hypothesis + variations
+  - ‘Progressive Random Search’ optimizer - begin from a good ticket and freeze, randomize + freeze more, repeat
+- Adversarial examples on humans - do adversarial examples exist for humans? Can we find them? Is there a difference between those two questions?
+- Adversarial attacks on Hebbian networks
+- Second derivative optimizer - using concavity estimations to better understand movement
+  - Relationship to Taylor series
+
+---
+
+## Additional Discussed Papers
+- [Understanding Deep Learning Requires Rethinking Generalization](https://arxiv.org/pdf/1611.03530.pdf)
+- [Backprop Diffusion is Biologically Plausible](https://arxiv.org/pdf/1912.04635.pdf)
+- [Feature Visualization: How neural networks build up their understanding of images](https://distill.pub/2017/feature-visualization/)
+- [Deconstructing Lottery Tickets: Zeros, Signs, and the Supermask](https://arxiv.org/pdf/1905.01067.pdf)
+- [The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks](https://arxiv.org/pdf/1803.03635.pdf)
+- [Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets](https://arxiv.org/pdf/2201.02177.pdf)
+- [Stanford Seminar: Can the brain do backprop?](https://www.youtube.com/watch?v=VIRCybGgHts)
