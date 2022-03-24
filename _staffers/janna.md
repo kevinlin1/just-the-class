@@ -9,4 +9,4 @@ photo: janna.jpg
 Neuroscience Lead
 {: .label .label-blue }
 
-Hello! I’ve long been fascinated by diverse neural circuits directing how our brains make sense of everchanging data in a complex world. The neural pathways are translated into behaviors which govern an individual’s quality of life.  Specifically, my interest is utilizing computational methods to mimic the way the human brain operates to recognize patterns and solve common problems in the fields of neuroscience, AI, ML, and DL.
+Hello! I’ve long been fascinated by how diverse neural circuits direct how our brains make sense of everchanging data in a complex world. The neural pathways are translated into behaviors which govern an individual’s quality of life.  Specifically, my interest is utilizing computational methods to mimic the way the human brain operates to recognize patterns and solve common problems in the fields of neuroscience, AI, ML, and DL.
