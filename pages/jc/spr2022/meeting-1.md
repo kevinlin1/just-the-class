@@ -22,3 +22,12 @@ Monday, x/x/2022
 {:toc}
 
 ---
+
+
+## Lineup
+
+| Presenter | Paper/Topic | Description |
+| --- | --- | --- |
+| Varun | The Backpropagation Algorithm | Varun will give a long-form explanation and exploration of the backpropagation algorithm. |
+| Janna | | |
+
