@@ -29,5 +29,5 @@ Monday, x/x/2022
 | Presenter | Paper/Topic | Description |
 | --- | --- | --- |
 | Varun | The Backpropagation Algorithm | Varun will give a long-form explanation and exploration of the backpropagation algorithm. |
-| Janna | Neural Circuitry of Reward Prediction Error | Janna will dive into one research paper and discuss these questions: Which computation does dopamine use? How do brains make optimal predictions? How do dopamine neurons create reward prediction error? |
+| Janna | Neural Circuitry of Reward Prediction Error | Janna will dive into one research paper and discuss these questions: Which computation does dopamine use? How do brains make optimal predictions? How do dopamine neurons create reward prediction error? etc. |
 
