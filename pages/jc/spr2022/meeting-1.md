@@ -10,7 +10,7 @@ permalink: /jc/spr2022/meeting-1
 # Meeting #1
 {: .no_toc }
 
-Monday, x/x/2022
+Monday, 3/28/2022
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,5 +29,13 @@ Monday, x/x/2022
 | Presenter | Paper/Topic | Description |
 | --- | --- | --- |
 | Varun | The Backpropagation Algorithm | Varun will give a long-form explanation and exploration of the backpropagation algorithm. |
-| Janna | Neural Circuitry of Reward Prediction Error | Janna will dive into one research paper and discuss these questions: Which computation does dopamine use? How do brains make optimal predictions? How do dopamine neurons create reward prediction error? etc. |
+
+---
+
+## Viewing
+Varun's awesome lecture/presentation is available for viewing, generously recorded on Yegor's phone:
+- [Part 1](https://drive.google.com/file/d/1ZP74BWm3JYMUvcPp1i9yMrYTSKf_zdjk/view?usp=sharing)
+- [Part 2](https://drive.google.com/file/d/1QaVkqC5tWH4sROZkv26zLU1Jo7hFXzV_/view?usp=sharing)
+
+
 
