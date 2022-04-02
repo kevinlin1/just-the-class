@@ -25,6 +25,7 @@ schedule:
         location: Top Secret
   - name: Tuesday
   - name: Wednesday
+    events:
       - name: Emergent Lang Meeting
         start: 3:30 PM
         end: 5:00 PM
