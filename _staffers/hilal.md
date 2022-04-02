@@ -2,7 +2,7 @@
 name: Hilal Mufti
 role: Member
 email: hilalmufti1@gmail.com 
-website: https://www.linkedin.com/in/varunananth1
+website:
 photo: blank.png
 ---
 
