@@ -21,15 +21,14 @@ schedule:
         location: Sieg Hall, Room 332
       - name: Admin Meeting
         start: 6:30 PM
-        end: 7:00 PM
-        location: Top Secret
+        end: 7:15 PM
   - name: Tuesday
   - name: Wednesday
     events:
       - name: Emergent Lang Meeting
-        start: 3:30 PM
-        end: 5:00 PM
-        location: TBD
+        start: 4:00 PM
+        end: 6:00 PM
+        location: Suzzallo 328
   - name: Thursday
   - name: Friday
     events:
