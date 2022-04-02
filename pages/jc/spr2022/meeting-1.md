@@ -37,5 +37,6 @@ Varun's awesome lecture/presentation is available for viewing, generously record
 - [Part 1](https://drive.google.com/file/d/1ZP74BWm3JYMUvcPp1i9yMrYTSKf_zdjk/view?usp=sharing)
 - [Part 2](https://drive.google.com/file/d/1QaVkqC5tWH4sROZkv26zLU1Jo7hFXzV_/view?usp=sharing)
 
-
+*Math! :)*
+![image](https://user-images.githubusercontent.com/73039742/161366675-2acbed8b-9a56-452c-a8a4-af4140120cea.png)
 
