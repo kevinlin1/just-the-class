@@ -9,4 +9,10 @@ photo: marlene.jpg
 CS
 {: .label .label-blue }
 
+RL
+{: .label .label-purple }
+
+Environment
+{: .label .label-purple }
+
 I like the brain.
