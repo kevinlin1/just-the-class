@@ -7,6 +7,9 @@ photo: janna.jpg
 ---
 
 Neuroscience Lead
+{: .label .label-yellow }
+
+Neuroscience
 {: .label .label-blue }
 
 RL
