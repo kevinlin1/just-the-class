@@ -9,7 +9,7 @@ photo: janna.jpg
 Neuroscience Lead
 {: .label .label-yellow }
 
-Neuroscience
+Neuro
 {: .label .label-blue }
 
 RL
