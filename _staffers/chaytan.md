@@ -7,6 +7,9 @@ photo: chaytan.jpg
 ---
 
 Team Captain
+{: .label .label-yellow }
+
+CS
 {: .label .label-blue }
 
 RL
