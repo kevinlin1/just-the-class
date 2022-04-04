@@ -3,7 +3,7 @@ name: Eric Xia
 role: Member
 email: ericxia@uw.edu
 website: https://www.linkedin.com/in/eric-xia-seattle/
-photo: blank.png
+photo: eric.jpg
 ---
 
 Math
