@@ -16,7 +16,7 @@ schedule:
   - name: Monday
     events:
       - name: Journal Club
-        start: 5:00 PM
+        start: 5:30 PM
         end: 6:30 PM
         location: Sieg Hall, Room 332
       - name: Admin Meeting
