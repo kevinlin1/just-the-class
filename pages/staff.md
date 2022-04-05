@@ -31,6 +31,15 @@ Meet our awesome team members!
 {% endfor %}
 {% endif %}
 
+{% assign advisors = site.staffers | where: 'role', 'Advisor' %}
+
+## Facultyh Advisors
+
+{% for staffer in advisors %}
+{{ staffer }}
+{% endfor %}
+{% endif %}
+
 {% assign member = site.staffers | where: 'role', 'Member' %}
 {% assign num_member = member | size %}
 {% if num_member != 0 %}
