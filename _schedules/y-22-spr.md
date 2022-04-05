@@ -23,6 +23,11 @@ schedule:
         start: 6:30 PM
         end: 7:15 PM
   - name: Tuesday
+    events:
+      - name: RL Meeting
+        start: 2:00 PM
+        end: 3:00 PM
+        location: CSE2
   - name: Wednesday
     events:
       - name: Emergent Lang Meeting
