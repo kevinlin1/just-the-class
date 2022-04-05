@@ -29,7 +29,6 @@ Meet our awesome team members!
 {% for staffer in officers %}
 {{ staffer }}
 {% endfor %}
-{% endif %}
 
 {% assign advisors = site.staffers | where: 'role', 'Advisor' %}
 
