@@ -33,7 +33,7 @@ Meet our awesome team members!
 
 {% assign advisors = site.staffers | where: 'role', 'Advisor' %}
 
-## Facultyh Advisors
+## Faculty Advisors
 
 {% for staffer in advisors %}
 {{ staffer }}
