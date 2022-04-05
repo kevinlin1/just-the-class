@@ -28,5 +28,14 @@ Monday, 4/4/2022
 
 | Presenter | Paper/Topic | Description |
 | --- | --- | --- |
-| Janna | Neural Circuitry of Reward Prediction Error | Janna will dive into one research paper and discuss these questions: Which computation does dopamine use? How do brains make optimal predictions? How do dopamine neurons create reward prediction error? etc. |
+| Janna | Neural Circuitry of Reward Prediction Error | Janna will dive into one research paper and discuss these questions: Which computation does dopamine use? How do brains make optimal predictions? How do dopamine neurons create reward prediction error? |
+
+---
+
+## Presentation
+Click [here](https://www.canva.com/design/DAE8EI-Gxtw/IjwU2OS72nlLAl1979iO9A/view?utm_content=DAE8EI-Gxtw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton){:target="_blank"} to access the presentation slides.
+
+---
+
+## Notes
 
