@@ -33,7 +33,7 @@ Monday, 4/4/2022
 ---
 
 ## Recording
-Click [here] (https://drive.google.com/file/d/13rzFbvtSzko1a9hhUA7KpgQL74H4Dvwf/view?usp=sharing) for the presentation recording!
+Click [here](https://drive.google.com/file/d/13rzFbvtSzko1a9hhUA7KpgQL74H4Dvwf/view?usp=sharing) for the presentation recording!
 
 ## Presentation
 Click [here](https://www.canva.com/design/DAE8EI-Gxtw/IjwU2OS72nlLAl1979iO9A/view?utm_content=DAE8EI-Gxtw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton){:target="_blank"} to access the presentation slides.
