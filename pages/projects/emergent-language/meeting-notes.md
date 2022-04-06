@@ -2,7 +2,7 @@
 layout: default
 title: Meeting Notes
 parent: Emergent Language
-grandparent: Projects
+grand_parent: Projects
 nav_order: 1
 has_children: false
 permalink: /projects/emergent-lang/meeting-notes
