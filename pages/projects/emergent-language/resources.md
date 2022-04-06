@@ -2,7 +2,7 @@
 layout: default
 title: Resources
 parent: Emergent Language
-grandparent: Projects
+grand_parent: Projects
 nav_order: 100
 has_children: false
 permalink: /projects/emergent-lang/resources
