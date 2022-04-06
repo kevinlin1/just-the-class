@@ -11,7 +11,7 @@ permalink: /projects/emergent-lang/resources
 # Resources
 {: .no_toc }
 
-Allowing AI populations to independently develop language
+Papers, articles, and other material
 {: .fs-6 .fw-300 }
 
 ---
