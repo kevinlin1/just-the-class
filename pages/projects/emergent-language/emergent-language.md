@@ -3,7 +3,7 @@ layout: default
 title: Emergent Language
 parent: Projects
 nav_order: 2
-has_children: false
+has_children: true
 permalink: /projects/emergent-lang
 ---
 
