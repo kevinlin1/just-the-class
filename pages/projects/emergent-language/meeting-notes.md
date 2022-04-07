@@ -47,6 +47,8 @@ Our room is reserved from 4:00 PM to 6:00 PM. We may meet anywhere from 1 to 2 h
 5. Discuss new directions and ideas, assign people to work on certain directions. `Ideally most time during the meeting is spent on this.`
 
 ### Notes
+{: .no_toc}
+
 - Split in literature - autoencoder vs signal game.
 - Compositional - better defined in the context. You're able to decompose and recompose language as parts, which can be stitched together however you like. 
   - A sentence depends on its parts, and you can build things up from it.
@@ -63,8 +65,17 @@ Our room is reserved from 4:00 PM to 6:00 PM. We may meet anywhere from 1 to 2 h
 
 ![image](https://user-images.githubusercontent.com/73039742/162102783-e77218f2-75fe-47df-a71a-d29c31cbcfd8.png)
 
+### Mini-Lectures
+{: .no_toc}
+
+Alec and Yegor gave awesome mini-lectures on CNNs, RNNs, and backprop as an introduction to major components used in this project's system design.
+- [CNNs (Alec)](https://drive.google.com/file/d/1UBkArt7jjIUqJtPyww3jqXiOBcdZ3UJ2/view?usp=sharing){:target="_blank"}
+- [RNNs (Alec)](https://drive.google.com/file/d/1hre37gRNW7eWILAiAd99FrJszItNivu6/view?usp=sharing){:target="_blank"}
+- [RNNs (Yegor)](https://drive.google.com/file/d/17dNeO5WVfb7MQqjdRd4BFUsJrHS4beTn/view?usp=sharing){:target="_blank"}
+- [Backprop (Alec)](https://drive.google.com/file/d/1M1ocvD43xPQMWG-y1D5w7Eo9vdAhoiQe/view?usp=sharing){:target="_blank"}
 
 ### Tasks
+{: .no_toc}
 
 | Person | Task |
 | --- | --- |
