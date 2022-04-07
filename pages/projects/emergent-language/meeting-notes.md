@@ -47,9 +47,17 @@ Our room is reserved from 4:00 PM to 6:00 PM. We may meet anywhere from 1 to 2 h
 5. Discuss new directions and ideas, assign people to work on certain directions. `Ideally most time during the meeting is spent on this.`
 
 ### Notes
-
-
-
+- Split in literature - autoencoder vs signal game.
+- Compositional - better defined in the context. You're able to decompose and recompose language as parts, which can be stitched together however you like. 
+  - A sentence depends on its parts, and you can build things up from it.
+- Imposing language-like mathematical formulations on the language encoding. 
+- Discrete properties emerge from even continuous representations.
+- Why does discreteness emerge in human language? To remove noise, categorical.
+  - Potential idea: if we want a continuous output, add in noise.
+  - VQ-VAE adapted for language
+- Maximizing the concept of understanding. Make the models share weights (?)
+- Alternate technique - add visual understanding to the language representation before decoding.
+- Optimize language based on language or optimize language based on image?
 
 
 
