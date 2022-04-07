@@ -59,7 +59,20 @@ Our room is reserved from 4:00 PM to 6:00 PM. We may meet anywhere from 1 to 2 h
 - Alternate technique - add visual understanding to the language representation before decoding.
 - Optimize language based on language or optimize language based on image?
 
+*Crude drawing of a 'no image signal' architecture (top) vs a 'yes image signal architecture' (bottom) for the problem of image object similarity.*
 
+![image](https://user-images.githubusercontent.com/73039742/162102783-e77218f2-75fe-47df-a71a-d29c31cbcfd8.png)
+
+
+### Tasks
+
+| Person | Task |
+| --- | --- |
+| Alec | Create 'no image signal' architecture |
+| Amelia | Research computational linguistics > language quantitative metrics |
+| Andre | Create shape dataset |
+| Eric | Research computational linguistics > language quantitative metrics |
+| Yegor | Create 'yes image signal' architecture
 
 
 
