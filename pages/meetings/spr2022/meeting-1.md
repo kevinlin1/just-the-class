@@ -31,7 +31,3 @@ Friday, 4/1/2022
 4. Go over quarter schedule
 5. Form teams and begin working, set up recurring group meetings
 
----
-
-
-
