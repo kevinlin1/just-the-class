@@ -30,7 +30,7 @@ Future additions may include mimicking the role of the brain’s memory through 
 
 The RL algorithm will try to optimize its ability to predict inputs from an environment based on random interactions with the websites on the internet. These inputs (and predicted outputs) will be multimodal text and images from the webpage that results from interaction.
 
-[Project Proposal] (https://docs.google.com/document/d/1mw_phs-BgumofocYYcUpDUTiiu0GCah364vF0r70nUM/edit?usp=sharing)
+[Project Proposal](https://docs.google.com/document/d/1mw_phs-BgumofocYYcUpDUTiiu0GCah364vF0r70nUM/edit?usp=sharing)
 
 ---
 
