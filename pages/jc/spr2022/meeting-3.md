@@ -46,17 +46,27 @@ Monday, 4/11/2022
 - Within each column, there are six layers.
 - A cortical column - mini-columnsa re small groups of pyramidal neurons that exist within one layer of each cortical column.
 - Some of the mini-columns form 'residual connections' or standard linear connectives with other mini-columns.
-- Hawinnks' claim: if the cortex has the same structure everywhere and learns, then there exists a general learning algorithm from this structure.
+- Hawkin's claim: if the cortex has the same structure everywhere and learns, then there exists a general learning algorithm from this structure.
 - Neocortex has pyramidal neurons: thousands of inputs from other neurons on synapses. Why so many synapses? When you get far from the body, the input becomes too weak to trigger action potentials. 
+
+Each neuron has thousands of dendrites 
+- Basal dendrites are far away and too weak to produce an action potential 
+  - How does this distance play a role?
+
 - **Learning**: input to prediction to next input to model adjustment.
 - Predictive coding model: update less when you correctly predict the next input, update more when it was unexpected.
+- Input → Prediction → Next Input → Adjust Model
 
-### Learning Criteria
+### Learning Criteria 
 1. Local learning rules
 2. Continuous learning - you can't just train in one environment and expect it to never train. Learning must be able to be continuously applied to new environmnets.
 3. Contextual information and prior experience - incorporates prior experience in the brain.
 4. Multiple simultaneous predictions - you can make multiple simultaneous predictions without necessarily being conscious of them.
 5. Robust to noise
+
+- No mechanism for "ground truth"
+- Brain is always aware of surrounding, but selectivey aware 
+- Dynamics of learning are changing (continuous)
 
 What biological mechanisms meet these?
 
@@ -68,6 +78,7 @@ Encode a prediction by making it easier to make the neurons we think will fire t
 Dendritic updates: if the next input was unexpected, the primed neurons do not fire faster. All the neurons encoding the unexpected input fire.
 
 Only a few neurons fire at once in order to represent a given input. If a dense amount of neurons fire, then this pattern can be easily confused with other patterns. (Think - dense vs sparse networks, vanilla vs sparse autoencoders.)
+- Importance of sparsity 
 
 
 
