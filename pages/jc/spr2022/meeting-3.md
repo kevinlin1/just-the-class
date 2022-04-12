@@ -34,6 +34,8 @@ Monday, 4/11/2022
 
 ## [Slides](https://www.canva.com/design/DAE9bEp7nQY/BSySVb2vsIr_xWTvddE0mQ/view?utm_content=DAE9bEp7nQY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
+<iframe src="https://interactive-intelligence.github.io/files/041122 Dendritic Spike JC.pdf" width="100%" height="400" style="border:1px solid black;"></iframe> 
+
 ## Notes
 - With backprop, you can compute what you're supposed to get from an error signal; there is no way in the brain to send a corrective to each neruon (maybe).
 - Implication of backpropagation - every forward pass must also have a reciprocal neuron that goes the other way to propagate error. However, it is not true that every neuron in the brain has such capabilities (e.g. comes in self-updating 'pairs')
