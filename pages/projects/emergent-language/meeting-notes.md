@@ -31,7 +31,7 @@ Agendas, notes, and ideas from project meetings
 
 We will meet in CSE2 (exact room to be announced in Discord before meeting starts) at 4:00 PM. The tentative agenda is as follows.
 
-1. Friendly and lively chatter about life (`~10 min max')
+1. Friendly and lively chatter about life (`~10 min max`)
 2. Brief progress updates on tasks (`~10 min max`)
 3. Evolution of the dataset - designing the dataset and further expansions (`~30 min max`)
 4. Deep learning and computational linguistics - measuring and interpreting generated languages (`Most of the time`)
