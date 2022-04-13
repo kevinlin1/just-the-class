@@ -24,6 +24,36 @@ Agendas, notes, and ideas from project meetings
 
 ---
 
+## Meeting 2, 4/13/22
+
+### Agenda and Goals
+{: .no_toc}
+
+We will meet in CSE2 (exact room to be announced in Discord before meeting starts) at 4:00 PM. The tentative agenda is as follows.
+
+1. Friendly and lively chatter about life (`~10 min max')
+2. Brief progress updates on tasks (`~10 min max`)
+3. Evolution of the dataset - designing the dataset and further expansions (`~30 min max`)
+4. Deep learning and computational linguistics - measuring and interpreting generated languages (`Most of the time`)
+5. Modeling approaches (`Remainder of time`)
+
+### Notes
+{: .no_toc}
+
+### Tasks
+{: .no_toc}
+
+
+| Person | Task |
+| --- | --- |
+| Alec |  |
+| Amelia |  |
+| Andre |  |
+| Eric |  |
+| Yegor |  |
+
+---
+
 ## Meeting 1, 4/6/22
 
 ### Agenda and Goals
@@ -83,7 +113,7 @@ Alec and Yegor gave awesome mini-lectures on CNNs, RNNs, and backprop as an intr
 | Amelia | Research computational linguistics > language quantitative metrics |
 | Andre | Create shape dataset |
 | Eric | Research computational linguistics > language quantitative metrics |
-| Yegor | Create 'yes image signal' architecture
+| Yegor | Create 'yes image signal' architecture |
 
 
 
