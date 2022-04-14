@@ -107,8 +107,9 @@ Current results seem compositional.
 - Zipf's law - we see that the frequenices of tokens in the generated sequences falls more or less into Zipf's law (the $$n$$th most common token appears about $$\frac{1}{n}$$ as often as the most common token).
 
 <center>
-<img src="https://user-images.githubusercontent.com/73039742/163292186-7b73fa15-5a6f-48d7-b94d-c190a9bd5b4f.pn" width="60%" />
+<img src="https://user-images.githubusercontent.com/73039742/163292186-7b73fa15-5a6f-48d7-b94d-c190a9bd5b4f.png" width="60%" />
 </center>
+
 
 
 - Train a very simple model to answer simple questions based on the sequence input to statistically extract information.
