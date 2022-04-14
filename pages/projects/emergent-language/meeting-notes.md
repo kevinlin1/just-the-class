@@ -40,17 +40,92 @@ We will meet in CSE2 (exact room to be announced in Discord before meeting start
 ### Notes
 {: .no_toc}
 
+#### Dataset
+{: .no_toc}
+- Yegor's dataset work: [Demo notebook](https://github.com/interactive-intelligence/emergent-lang/blob/main/shapedata-demo.ipynb){:target="_blank"}, [Script](https://github.com/interactive-intelligence/emergent-lang/blob/main/shapedata.py){:target="_blank"}
+- Two scenes are considered different if they do not share the same objects (defined by the color and the shape attributes).
+- The dataset includes meta-data on shapes and colors.
+- Goal of the network - should be semantically meaningful, we want some sort of language to enmerge. If we just use an autoencoder, we will end up with very specific information encoded. The best we do is a vector-quantized autoencoder, which is not quite language-like. 
+- This task seems especially suited to describe what is in the scene.
+- Dataset includes arbitrary rotation.
+- Possible extensions:
+  - Different sizes - needs to more fully understand the semantic properties of the object.
+- Potential usage of capsule networks
+- Potential training of directly training a visual unit without any language - train a raw Siamese network on the dataset. 
+- Video based dataset with motions
+- Dataset with arbitrary colors - helps to impose a discrete vocabulary onto a quasi-continuous color spectrum.
+
+#### Linguistic Measurements
+{: .no_toc}
+
+Paper notes - "Determining Compositionality of Word Expressions Using Various Word Space Models and Measures
+- Working with a set of English expressions rather than artificially generated languages
+- 5 different world space models
+- Certain word space methods with the highest correlations of predicting compositionality are the ones that require the largest datasets of different documents
+- Maybe dubious to apply natural language synthesized languages to generate languages without being computationally grounded.
+- Maybe makes sense to roll our own analysis of how language is generated?
+
+Current results seem compositional.
+- Vector quantization - take a vector that should theoretically be an abstract embedding, and snap the entire space to a discrete set of tokens.
+- Model - listening, speaking, and visual units.
+- The model is quite simple, but it seems to work well.
+
+*Example demonstration of synonymous encodings.*
+
+![image](https://user-images.githubusercontent.com/73039742/163288088-6c2c1cd8-a983-4263-a453-88fd2010bb5c.png)
+
+*Collected generated language information.*
+
+![image](https://user-images.githubusercontent.com/73039742/163288162-e75c90cd-732b-4096-8c9f-b77473fd1cd0.png)
+
+- Activation maximization to find the optimal image that is described by some sentence.
+- A lot of rules can be intuitively grasped just via experimentation.
+- Argument/statement for compositionality: 
+- Decreasing vocabulary size may help with compositionality - prevents the network from merely developing everything.
+- Compositionality: a symbol for one axis appears consistently irrespective of other axis dimnesions. 
+- Current model exhibits dumb compositionality. We see that a token exists for green (`0`), and `4` seems to distinguish 'pointiness'.
+
+*Green square, triangle, circle (in that order)*.
+
+<center>
+<img src="https://user-images.githubusercontent.com/73039742/163289871-e9a8062b-decd-41a4-9da4-45c83272ff3d.png" width="60%" />
+</center>
+
+- Extrapolation by holding out on certain shapes: e.g. add a star, very pointy object, hold out on green triangle and see if the language still applies.
+- Weakness in meaningful extrapolation of object counting - any number of blue circles beyond 1 is the same sequence of tokens, which is entirely different from the token sequence used for one blue circle. It abscribes 'one vs many' to different tokens.
+- Potentially add boundaries to prevent training via color estimation.
+- Augment the dataset - produces different but similar scenes with a lot of objects. 
+- The rules make sense, but they're probably too complicated - decrease vocabulary size.
+- Set up Turing test - Andre.
+
+#### Modeling
+{: .no_toc}
+- How to make models variable length?
+- Cost per token/metabolism cost for speaking, introduce a 'silence'/'pause' token.
+- Dually output the desired length of the sequence to cut off.
+- Recurr length generation and set threshold. "I will not stop speaking until what I have said is sufficient to describe what I mean."
+- Zipf's law - we see that the frequenices of tokens in the generated sequences falls more or less into Zipf's law (the $$n$$th most common token appears about $$\frac{1}{n}$$ as often as the most common token).
+
+<center>
+<img src="https://user-images.githubusercontent.com/73039742/163292186-7b73fa15-5a6f-48d7-b94d-c190a9bd5b4f.pn" width="60%" />
+</center>
+
+
+- Train a very simple model to answer simple questions based on the sequence input to statistically extract information.
+- Counting - generate a pathological dataset
+- Increase sophistication/power of the model - LSTMs, attention, etc.
+- Will help up with larger image sizes.
+
 ### Tasks
 {: .no_toc}
 
-
 | Person | Task |
 | --- | --- |
-| Alec |  |
-| Amelia |  |
-| Andre |  |
-| Eric |  |
-| Yegor |  |
+| Alec | Work on Siamese architecture, work on porting over PyTorch to TF |
+| Amelia | Once the pattern dataset is finished, work on statistical/programmatic analysis on pattern recognition |
+| Andre | Turing test program for Friday, beef up DLSM, Siamese discrete-language architecture testing, work on porting over PyTorch to TF |
+| Eric | Work on object similarity problem without language to develop better visual unit |
+| Yegor | Clean up analysis code, export dataset into a more usable format (with image references included), fixing and debugging model. Ask NLP professor how to make explicitly variable-length representations internally. |
 
 ---
 
