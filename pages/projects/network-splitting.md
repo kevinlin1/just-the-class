@@ -7,7 +7,7 @@ has_children: false
 permalink: /projects/network-split
 ---
 
-# RL
+# Network Splitting
 {: .no_toc }
 
 Tagline
