@@ -24,6 +24,20 @@ Agendas, notes, and ideas from project meetings
 
 ---
 
+## Meeting 3, 4/20/22
+
+### Agenda and Goals
+{: .no_toc}
+
+We will meet in CSE2 (exact room to be announced in Discord before meeting starts) at 4:00 PM. The tentative agenda is as follows.
+
+1. Friendly and lively chatter about life (`~10 min max`)
+2. Brief progress updates on tasks (`~10 min max`)
+3. Go over website access information (`~20 min max`)
+4. ...
+
+---
+
 ## Meeting 2, 4/13/22
 
 ### Agenda and Goals
