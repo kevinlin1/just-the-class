@@ -22,7 +22,7 @@ The objective of this project is not to force machines to understand the syntact
 
 The hope of this project is to develop language models capable of representing information in a form similar to that of humans. It has long been known that syntactics guide semantics; perhaps this may lead to less explicit and more abstract neural network 'thought'.
 
-This project meets every Wednesday at 3:30 to 5:00 PM. See the Schedule page for the most up to date information about location and time.
+This project meets every Wednesday at 4:00 to 6:00 PM. See the Schedule page for the most up to date information about location and time.
 
 Development phases:
 1. Train and evaluate computational linguistics approaches on a modified VQ-VAE
