@@ -28,3 +28,5 @@ Development phases:
 1. Train and evaluate computational linguistics approaches on a modified VQ-VAE
 2. Modify Mordatch & Abbeel's "emergent language" environment
 3. Train on a predator-prey environment for adversarial language development
+
+**Team members**: Alec, Amelia, Andre, Eric, Yegor
