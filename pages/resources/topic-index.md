@@ -34,10 +34,21 @@ Index of Club Content by Topic
 
 ---
 
+## Neural Network Theory
+
+| Name | Source | Tags |
+| --- | --- | --- |
+| [CNNs, RNNs, Backprop](https://interactive-intelligence.github.io/projects/emergent-lang/meeting-notes#mini-lectures) | Spr 2022 Emergent Lang. Meeting 1 | `Neural Networks`, `Deep Learning` |
+| [Backpropagation](https://interactive-intelligence.github.io/jc/spr2022/meeting-1#viewing) | Spr 2022 JC Week 1 | `Math`, `Neural Networks`, `Deep Learning` |
+
+---
+
 ## Neuroscience
 
 | Name | Source | Tags |
 | --- | --- | --- |
+| [Biological Prediction and the Neocortex](https://interactive-intelligence.github.io/jc/spr2022/meeting-3) | Spr 2022 JC Week 3 | `Neuroscience` |
+| [Neural Circutry of Reward Prediction Error](https://interactive-intelligence.github.io/jc/spr2022/meeting-2) | Spr 2022 JC Week 2 | `Neuroscience`, `Computational neuroscience`, `Math` |
 | [Biologically Plausible Networks](https://interactive-intelligence.github.io/meetings/win2022/meeting-5#biologically-informedplausible-networks) | Win 2022 Wk 5 | `Biology`, `Neuroscience`, `ML`, `DL`, `Research presentation` |
 | [Predictive Coding](https://interactive-intelligence.github.io/meetings/win2022/meeting-5#predictive-coding) | Win 2022 Wk 5 | `Neuroscience`, `ML`, `RL`, `Research presentation` |
 | [Neuromorphic Computing](https://interactive-intelligence.github.io/meetings/win2022/meeting-4#neuromorphic-computing) | Win 2022 Wk 4 | `Neuroscience`, `Computing`, `Neural networks` |
