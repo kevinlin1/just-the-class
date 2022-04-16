@@ -40,5 +40,3 @@ Click [here](https://www.canva.com/design/DAE8EI-Gxtw/IjwU2OS72nlLAl1979iO9A/vie
 
 ---
 
-## Notes
-
