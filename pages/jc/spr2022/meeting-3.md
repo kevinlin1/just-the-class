@@ -36,7 +36,8 @@ Monday, 4/11/2022
 
 <iframe src="https://interactive-intelligence.github.io/files/041122 Dendritic Spike JC.pdf" width="100%" height="400" style="border:1px solid black;"></iframe> 
 
-## [Recording] (https://drive.google.com/file/d/1Fc2Rgi6WXivtktXXUWhDp1vDW900t8hs/view?usp=sharing)
+## Recording
+[Access here](https://drive.google.com/file/d/1Fc2Rgi6WXivtktXXUWhDp1vDW900t8hs/view?usp=sharing){:target="_blank"}.
 
 ## Notes
 - With backprop, you can compute what you're supposed to get from an error signal; there is no way in the brain to send a corrective to each neruon (maybe).
