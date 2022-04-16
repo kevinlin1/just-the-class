@@ -31,12 +31,9 @@ Friday, 4/15/2022
 
 ---
 
-## Announcements
+## Emergent Language
 
-
----
-
-## Updates
+[Turing Test](https://www.kaggle.com/code/washingtongold/human-vs-elm-geo-scene-similarity-battle){:target="_blank"}
 
 
 
