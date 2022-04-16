@@ -32,7 +32,9 @@ Monday, 4/11/2022
 
 ---
 
-## [Slides](https://www.canva.com/design/DAE9bEp7nQY/BSySVb2vsIr_xWTvddE0mQ/view?utm_content=DAE9bEp7nQY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+## Slides
+
+[Access in an external URL here](https://www.canva.com/design/DAE9bEp7nQY/BSySVb2vsIr_xWTvddE0mQ/view?utm_content=DAE9bEp7nQY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton){:target="_blank"}.
 
 <iframe src="https://interactive-intelligence.github.io/files/041122 Dendritic Spike JC.pdf" width="100%" height="400" style="border:1px solid black;"></iframe> 
 
