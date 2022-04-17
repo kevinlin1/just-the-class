@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Results
+title: Experiments
 parent: Emergent Language
 grand_parent: Projects
 nav_order: 2
 has_children: false
-permalink: /projects/emergent-lang/results
+permalink: /projects/emergent-lang/exp
 ---
 
-# Results
+# Experiments
 {: .no_toc }
 
 Aggregated experiments and results
@@ -41,6 +41,8 @@ Each of the 10 tokens becomes reliably associated with a certain number of objec
 
 ![image](https://user-images.githubusercontent.com/73039742/163699572-65cc4e9a-8bc3-4590-a1ad-92b9a678a243.png)
 
+Full results [here](https://drive.google.com/file/d/1XNlA4-Zv61-IshDQd8-4NxNUQAyaLYH0/view?usp=sharing){:target="_blank"}.
+
 **Variation 2: Varied Shape Counting.** There are three shapes (circle, square, triangle) and one color (red). Reaches 0.267393 BCE.
 
 ![image](https://user-images.githubusercontent.com/73039742/163699588-53cbb985-8bc0-4690-aedb-ee8925106732.png)
@@ -53,6 +55,8 @@ Each of the 10 tokens becomes reliably associated with a certain number of objec
 
 ![image](https://user-images.githubusercontent.com/73039742/163699605-5015bdaf-7d22-476a-8e00-352334fe48ad.png)
 
+Full results [here](https://drive.google.com/file/d/1XNlA4-Zv61-IshDQd8-4NxNUQAyaLYH0/view?usp=sharing){:target="_blank"}.
+
 **Variation 3: General Object Counting.** There are three shapes (circle, square, triangle) and three colors (red, green, blue). Reaches 0.340383 BCE.
 
 ![image](https://user-images.githubusercontent.com/73039742/163699621-cc3ff39d-e5b4-404d-9c3b-297e6587f21a.png)
@@ -61,12 +65,11 @@ Each of the 10 tokens becomes somewhat reliably associated with a certain number
 
 ![image](https://user-images.githubusercontent.com/73039742/163699652-35ee2b6f-d35c-4f2b-a234-41abc6cd5c29.png)
 
-
 ![image](https://user-images.githubusercontent.com/73039742/163699647-f42dd091-9823-4b50-b5fe-b3a7afba0af8.png)
 
 ![image](https://user-images.githubusercontent.com/73039742/163699657-e3a9ff51-7a31-4ae9-8463-5c91040fcd9a.png)
 
-
+Full results [here](https://drive.google.com/file/d/1_-kw1U2-I7Zl-8IXZbxRspHFCWgfGgN_/view?usp=sharing){:target="_blank"}.
 
 
 ---
