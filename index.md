@@ -22,6 +22,8 @@ I2 is an environment which aims to create a community of project-driven, outcome
 <a href="https://discord.gg/DZuyeyVHVV"><img src="https://user-images.githubusercontent.com/73039742/156947590-e515ea57-2803-4752-a6fa-cf0c561fdfe6.png" width="50" height="50" /></a>
 <a href="mailto:interintel@uw.edu"><img src="https://user-images.githubusercontent.com/73039742/156947555-2db4cf96-3e4d-4bd9-b9d8-ca50c12a153c.png" width="50" height="50" /></a>
 <a href="https://www.instagram.com/uw_i2/"><img src="https://user-images.githubusercontent.com/73039742/156947342-99cff128-204c-44ec-a6f5-88147a983755.png" width="50" height="50" /></a>
+<a href="https://www.youtube.com/channel/UCnOSBig3HbEHFUi2HBA7EtA"><img src="https://user-images.githubusercontent.com/73039742/163734307-a4185ed6-5135-4b0a-b421-41bee8eddd4b.png" width="50" height="50" /></a>
+
 
 ## Announcements
 
