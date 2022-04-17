@@ -27,7 +27,7 @@ Aggregated experiments and results
 ## Shape Scene Similarity
 
 ### Simple Shape Counting
-All experiments use a language defined by `{seq_len=1, vocab_size=10}`; a dataset defined by `64x64x3` images, outline and rotation enabled, and `{min_shapes=1, max_shapes=10}`; and a model trained for 1000 batches of 256 samples with a DLSM architecture (see specifics at the end of the section).
+All experiments use a language defined by `{seq_len=1, vocab_size=10}`; a dataset defined by `64x64x3` images, outline and rotation enabled, and `{min_shapes=1, max_shapes=10}`; and a model trained for 1000 batches of 256 samples with a DLSM architecture (see specifics in the linked full results).
 
 **Variation 1: Single Shape Counting.** There is only one shape (square) and one color (red). Reaches 0.106625 BCE.
 
