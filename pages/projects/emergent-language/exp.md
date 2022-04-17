@@ -35,11 +35,17 @@ All experiments use a language defined by `{seq_len=1, vocab_size=10}`; a datase
 
 Each of the 10 tokens becomes reliably associated with a certain number of objects from 1 to 10.
 
-![image](https://user-images.githubusercontent.com/73039742/163699559-3238aeef-f837-4aee-834b-d252f462b495.png)
+<center>
+<img src="https://user-images.githubusercontent.com/73039742/163699559-3238aeef-f837-4aee-834b-d252f462b495.png" width="60%" />
+</center>
 
-![image](https://user-images.githubusercontent.com/73039742/163699562-92d1d60e-bd14-4a72-b9d8-730be57abe5d.png)
+<center>
+<img src="https://user-images.githubusercontent.com/73039742/163699562-92d1d60e-bd14-4a72-b9d8-730be57abe5d.png" width="60%" />
+</center>
 
-![image](https://user-images.githubusercontent.com/73039742/163699572-65cc4e9a-8bc3-4590-a1ad-92b9a678a243.png)
+<center>
+<img src="https://user-images.githubusercontent.com/73039742/163699572-65cc4e9a-8bc3-4590-a1ad-92b9a678a243.png" width="60%" />
+</center>
 
 Full results [here](https://drive.google.com/file/d/1XNlA4-Zv61-IshDQd8-4NxNUQAyaLYH0/view?usp=sharing){:target="_blank"}.
 
@@ -49,11 +55,18 @@ Full results [here](https://drive.google.com/file/d/1XNlA4-Zv61-IshDQd8-4NxNUQAy
 
 Each of the 10 tokens becomes reliably associated with a certain number of objects from 1 to 10. As expected, there is some error for larger numbers of objects due to overlap.
 
-![image](https://user-images.githubusercontent.com/73039742/163699599-714a5a13-4874-4f81-8b18-f8ee35426f46.png)
 
-![image](https://user-images.githubusercontent.com/73039742/163699593-c614820c-fab1-426e-92c0-f1218151873d.png)
+<center>
+<img src="https://user-images.githubusercontent.com/73039742/163699599-714a5a13-4874-4f81-8b18-f8ee35426f46.png" width="60%" />
+</center>
 
-![image](https://user-images.githubusercontent.com/73039742/163699605-5015bdaf-7d22-476a-8e00-352334fe48ad.png)
+<center>
+<img src="https://user-images.githubusercontent.com/73039742/163699593-c614820c-fab1-426e-92c0-f1218151873d.png" width="60%" />
+</center>
+
+<center>
+<img src="https://user-images.githubusercontent.com/73039742/163699605-5015bdaf-7d22-476a-8e00-352334fe48ad.png" width="60%" />
+</center>
 
 Full results [here](https://drive.google.com/file/d/1XNlA4-Zv61-IshDQd8-4NxNUQAyaLYH0/view?usp=sharing){:target="_blank"}.
 
@@ -63,11 +76,18 @@ Full results [here](https://drive.google.com/file/d/1XNlA4-Zv61-IshDQd8-4NxNUQAy
 
 Each of the 10 tokens becomes somewhat reliably associated with a certain number of objects from 1 to 10. There is more error in exact counting for large shape numbers as in Variation 2, but some of the counting is imperfect for smaller object counts, too.
 
-![image](https://user-images.githubusercontent.com/73039742/163699652-35ee2b6f-d35c-4f2b-a234-41abc6cd5c29.png)
+<center>
+<img src="https://user-images.githubusercontent.com/73039742/163699652-35ee2b6f-d35c-4f2b-a234-41abc6cd5c29.png" width="60%" />
+</center>
 
-![image](https://user-images.githubusercontent.com/73039742/163699647-f42dd091-9823-4b50-b5fe-b3a7afba0af8.png)
+<center>
+<img src="https://user-images.githubusercontent.com/73039742/163699647-f42dd091-9823-4b50-b5fe-b3a7afba0af8.png" width="60%" />
+</center>
 
-![image](https://user-images.githubusercontent.com/73039742/163699657-e3a9ff51-7a31-4ae9-8463-5c91040fcd9a.png)
+<center>
+<img src="https://user-images.githubusercontent.com/73039742/163699657-e3a9ff51-7a31-4ae9-8463-5c91040fcd9a.png" width="60%" />
+</center>
+
 
 Full results [here](https://drive.google.com/file/d/1_-kw1U2-I7Zl-8IXZbxRspHFCWgfGgN_/view?usp=sharing){:target="_blank"}.
 
