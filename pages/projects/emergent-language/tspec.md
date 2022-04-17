@@ -30,6 +30,14 @@ Detailed ideas and development
 
 ### Language Siamese Model
 
+---
+
+## Properties of Language
+
+### Groundedness
+
+### Compositionality
+
 
 
 
