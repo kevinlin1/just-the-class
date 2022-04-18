@@ -34,9 +34,17 @@ Detailed ideas and development
 
 ## Properties of Language
 
-### Groundedness
+This section describes various properties of language we hope to see demonstrated by the created synthetic language. The first three ({discrete, sequential, variable-length}) are explicitly built into the design of the architecture, the remainder are metrics that may have auxiliary or indirect effect on the model.
 
-### Compositionality
+### Discrete
+
+### Sequential
+
+### Variable-Length
+
+### Grounded
+
+### Compositional
 
 
 
