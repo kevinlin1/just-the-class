@@ -91,5 +91,34 @@ Each of the 10 tokens becomes somewhat reliably associated with a certain number
 
 Full results [here](https://drive.google.com/file/d/1_-kw1U2-I7Zl-8IXZbxRspHFCWgfGgN_/view?usp=sharing){:target="_blank"}.
 
+### Progressive Language Expansion
+Idea: begin with a very simple setup (e.g. just blue squares), then slowly introduce new attributes (e.g. blue squares, triangles, circles; then all combinations of {blue, red, blue} and {squares, triangles, circles}) and observe if language is retained and how it adapts to new environmental stimulus.
+
+### Building a Better Visual Unit
+So far, the following architecture performs well and better than other more complex architectures, which can be derived by adding additional convolutions, increasing the number of kernels, etc. It is difficult to find a better architecture.
+
+```python
+class VisionModule(nn.Module):
+    def __init__(self):
+        super(VisionModule, self).__init__()
+
+        self.cnn = nn.Sequential(
+            nn.Conv2d(3, 16, 5, padding='same'),
+            nn.SiLU(),
+            nn.MaxPool2d(2),
+
+            nn.Conv2d(16, 32, 3, padding='same'),
+            nn.SiLU(),
+            nn.MaxPool2d(2),
+            
+            nn.Flatten(),
+            nn.Linear(int(32*IMG_DIM/4*IMG_DIM/4), 64),
+
+            nn.BatchNorm1d(64),
+        )
+
+    def forward(self, x):
+        return self.cnn(x)
+```
 
 ---
