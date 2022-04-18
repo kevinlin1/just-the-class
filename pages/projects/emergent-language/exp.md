@@ -91,6 +91,14 @@ Each of the 10 tokens becomes somewhat reliably associated with a certain number
 
 Full results [here](https://drive.google.com/file/d/1_-kw1U2-I7Zl-8IXZbxRspHFCWgfGgN_/view?usp=sharing){:target="_blank"}.
 
+### Pushing the Limits of Language
+What is the relationship between a combination of permitted {vocabulary size, sequence length} and the performance?
+
+Preliminary findings:
+- 4 tokens seems to be the minimum vocabulary size for decent performance
+- Increasing sequence length can actually have deleterious effects
+- The model generally performs well when the vocabulary size is large and the sequence length is small
+
 ### Progressive Language Expansion
 Idea: begin with a very simple setup (e.g. just blue squares), then slowly introduce new attributes (e.g. blue squares, triangles, circles; then all combinations of {blue, red, blue} and {squares, triangles, circles}) and observe if language is retained and how it adapts to new environmental stimulus.
 
