@@ -12,7 +12,15 @@ permalink: /guest-speakers/grossberg
 Monday, 4/18/22
 {: .fs-6 .fw-300 }
 
-| We are extremely honored to announce that we will host Stephen Grossberg, a founder of the fields of theoretical psychology and cognitive science, computational neuroscience, and biologically-inspired technology as our speaker for Jounral Club on 4/18/22. |
+| We are extremely honored to announce that we hosted Stephen Grossberg, a founder of the fields of theoretical psychology and cognitive science, computational neuroscience, and biologically-inspired technology as our speaker for Journal Club on 4/18/22. |
+
+---
+
+## Table of Contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 ---
 
@@ -31,13 +39,11 @@ Forthcoming.
 
 ---
 
-## Research and Work
+## Slides
 
-| Work | Description |
-| --- | --- |
-| [*Conscious Mind, Resonant Brain: How Each Brain Becomes a Mind*](https://global.oup.com/academic/product/conscious-mind-resonant-brain-9780190070557?cc=us&lang=en&), Oxford University Press, 2021. | "This book provides an introductory and self-contained description of... modern theories of mind and brain have recently proposed... Accessibly written, and lavishly illustrated, *Conscious Mind/Resonant Brain* is the magnum opus of one of the most influential scientists of the past 50 years, and will appeal to a broad readership across the sciences and humanities." |
-| ["Towards Solving the Hard Problem of Consciousness: The Varieties of Brain Resonances and the Conscious Experiences that they Support"](https://www.youtube.com/watch?v=D6DFiChZ2DY&t=561s), TSC 2017. | |
-| ["From Designs for Autonomous Adaptive Agents to Clinical Disorders](https://sites.bu.edu/steveg/files/2020/07/Grossberg-WCCI-keynote-Glasgow-video.mp4): Linking Cortically-Mediated Learning to Alzheimer’s Disease, Autism, Amnesia, and Sleep", WCCI Keynote, 2020. | |
+Access slides in a new tab [here](https://www.canva.com/design/DAE-S05nUIY/twz9_rOwiWu2FE8AFNvUxw/view){:target="_blank"}.
+
+<iframe src="https://interactive-intelligence.github.io/files/Grossberg_Slides.pdf" width="100%" height="400" style="border:1px solid black;"></iframe>
 
 ---
 
@@ -172,7 +178,7 @@ Forthcoming.
 - In the interim, due to the world wide web, there were large databases that you could query for.
 - The speed of networks beecame blindingly fast.
 - Large databases and fast computation allow for the training of backpropagation networks on millions of pictures.
-- "Animal classification is a joke!" to the field of deep learning.
+- Animal/object classification is a "joke!" to the broader field of learning.
 - Deep learning is a weak, damaged model that teaches Grossberg nothing.
 - Deep learning isn't bad to learn some sort of predictions for applications, it can be useful, use it. But do not delude yourself about what deep leanring is. Know the strengths and weaknesses of the models you use.
 - Intellectual dishonesty of how some people describe the significance of deep learning. Deep learning is never compared to benchmarks, according to Grossberg.
@@ -185,14 +191,10 @@ If you want to dedicate your life towards something, you must be dying to know t
 
 ---
 
+## Resources and Further Reading
 
-
-
-
-
-
-
-
-
-
-
+| Work | Description |
+| --- | --- |
+| [*Conscious Mind, Resonant Brain: How Each Brain Becomes a Mind*](https://global.oup.com/academic/product/conscious-mind-resonant-brain-9780190070557?cc=us&lang=en&), Oxford University Press, 2021. | "This book provides an introductory and self-contained description of... modern theories of mind and brain have recently proposed... Accessibly written, and lavishly illustrated, *Conscious Mind/Resonant Brain* is the magnum opus of one of the most influential scientists of the past 50 years, and will appeal to a broad readership across the sciences and humanities." |
+| ["Towards Solving the Hard Problem of Consciousness: The Varieties of Brain Resonances and the Conscious Experiences that they Support"](https://www.youtube.com/watch?v=D6DFiChZ2DY&t=561s), TSC 2017. | |
+| ["From Designs for Autonomous Adaptive Agents to Clinical Disorders](https://sites.bu.edu/steveg/files/2020/07/Grossberg-WCCI-keynote-Glasgow-video.mp4): Linking Cortically-Mediated Learning to Alzheimer’s Disease, Autism, Amnesia, and Sleep", WCCI Keynote, 2020. | |
