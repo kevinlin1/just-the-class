@@ -176,6 +176,14 @@ To embed media, use the following syntax: `<iframe src="link to media" width="10
 
 <iframe src="https://interactive-intelligence.github.io/files/presentations/win2022/week-1/NNs as Minds.pdf" width="100%" height="400" style="border:1px solid black;"></iframe>
 
+To embed a YouTube video, use the following code:
+
+```
+{% include youtubePlayer.html id="8gMWfV2AHpI" %}
+```
+
+Place the video ID in lieu of the default shown.
+
 ---
 
 ## Tables
