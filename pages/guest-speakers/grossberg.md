@@ -8,6 +8,7 @@ permalink: /guest-speakers/grossberg
 ---
 
 # Stephen Grossberg
+{: .no_toc }
 
 Monday, 4/18/22
 {: .fs-6 .fw-300 }
