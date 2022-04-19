@@ -36,7 +36,10 @@ Please review his biography [here](https://sites.bu.edu/steveg/files/2016/06/Gro
 ---
 
 ## Recording
-Forthcoming.
+
+Access the video in a [separate tab](){:target="_blank"}.
+
+{% include youtubePlayer.html id="4EU7vvSvV-0" %}
 
 ---
 
