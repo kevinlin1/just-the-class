@@ -203,6 +203,19 @@ Alec and Yegor gave awesome mini-lectures on CNNs, RNNs, and backprop as an intr
 - [RNNs (Yegor)](https://drive.google.com/file/d/17dNeO5WVfb7MQqjdRd4BFUsJrHS4beTn/view?usp=sharing){:target="_blank"}
 - [Backprop (Alec)](https://drive.google.com/file/d/1M1ocvD43xPQMWG-y1D5w7Eo9vdAhoiQe/view?usp=sharing){:target="_blank"}
 
+Convolutional Neural Networks
+
+{% include youtubePlayer.html id="ngjj56m4ZJU" %}
+
+Recurrent Neural Networks
+
+{% include youtubePlayer.html id="5nQ7RtFk4QQ" %}
+
+Backpropagation
+
+{% include youtubePlayer.html id="TmfLcEcCDpE" %}
+
+
 ### Tasks
 {: .no_toc}
 
