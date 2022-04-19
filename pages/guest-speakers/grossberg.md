@@ -37,7 +37,7 @@ Please review his biography [here](https://sites.bu.edu/steveg/files/2016/06/Gro
 
 ## Recording
 
-View the full transcript [here](https://interative-intelligence.github.io/files/grossberg_transcript){:target="_blank"}.
+View the full transcript [here](https://interactive-intelligence.github.io/files/grossberg_transcript){:target="_blank"}.
 
 Access the video in a [separate tab](https://youtu.be/jaU9USoQXuI){:target="_blank"}.
 
