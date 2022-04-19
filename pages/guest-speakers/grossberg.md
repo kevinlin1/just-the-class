@@ -164,7 +164,29 @@ Forthcoming.
 
 *See additional student questions in the recording!*
 
+**AI History and Development**
+
+> "I couldn't care less about deep learning! Deep learning is a fad." - Grossberg.
+
+- Backpropagation has problems, no internal representations. Backpropagation faded, and other models became more popular.
+- In the interim, due to the world wide web, there were large databases that you could query for.
+- The speed of networks beecame blindingly fast.
+- Large databases and fast computation allow for the training of backpropagation networks on millions of pictures.
+- "Animal classification is a joke!" to the field of deep learning.
+- Deep learning is a weak, damaged model that teaches Grossberg nothing.
+- Deep learning isn't bad to learn some sort of predictions for applications, it can be useful, use it. But do not delude yourself about what deep leanring is. Know the strengths and weaknesses of the models you use.
+- Intellectual dishonesty of how some people describe the significance of deep learning. Deep learning is never compared to benchmarks, according to Grossberg.
+- Catastrophic forgetting can be avoided by sparsification of the network, which has been tried in neural networks. You don't need sparsification if you have self-stabilizing models. We don't have 100 layers in our full brain, not even for classification or recognition.
+- Deep learning is untrustworthy and unreliable in a specific scientific sense.
+
 ---
+
+
+
+
+
+
+
 
 
 
