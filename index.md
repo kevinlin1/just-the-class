@@ -27,6 +27,8 @@ I2 is an environment which aims to create a community of project-driven, outcome
 
 ## Announcements
 
+| **4/18/2022** Huge thanks to Stephen Grossberg for a very interesting and eventful Journal Club! View notes, recordings, and resources from the event [here](https://interactive-intelligence.github.io/guest-speakers/grossberg){:target="_blank"}. |
+
 | **4/7/2022** We are extremely honored to announce that our club will have Stephen Grossberg, a founder of the field of computational neuroscience, as our guest speaker for [Spring JC Week 4](https://interactive-intelligence.github.io/jc/spr2022/meeting-4){:target="_blank"}! |
 
 | **4/5/2022** Welcome [Dr. Eric Chudler](https://interactive-intelligence.github.io/staff#faculty-advisors){:target="_blank"}, our first faculty advisor! |
