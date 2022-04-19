@@ -162,6 +162,8 @@ Forthcoming.
 - Grossberg as Einstein of the mind - why don't we know about Grossberg? We live in a world with a low signal-to-noise ratio, and the nature of the mind and nature of Einstein's work was unappreciated much during his lifetime.
 - Cognitive impenetrability - people didn't know that the mind was in the brain. People thought it was in the pancreas, the heart, etc. We don't need to worry about the components - all we need to worry about are thoguhts, feelings, and so on - we can live in a macroscopic world.
 
+*See additional student questions in the recording!*
+
 ---
 
 
