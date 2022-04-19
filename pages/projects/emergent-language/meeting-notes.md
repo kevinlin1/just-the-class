@@ -30,6 +30,8 @@ Agendas, notes, and ideas from project meetings
 {: .no_toc}
 
 
+
+
 ---
 
 ## Meeting 3, 4/20/22
@@ -44,6 +46,12 @@ We will meet in CSE2 (exact room to be announced in Discord before meeting start
 3. Go over website access info, how to put up resources, results, and agenda items (`~20 min max`)
 4. Discuss different variable-length sequence techniques (`~40 min max`)
 5. Additional experiment and brainstorming discussion (`Remainder of time`)
+
+### Notes
+{: .no_toc}
+
+#### Variable-Length Sequences
+{: .no_toc }
 
 ---
 
