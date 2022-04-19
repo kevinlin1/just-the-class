@@ -37,9 +37,17 @@ Please review his biography [here](https://sites.bu.edu/steveg/files/2016/06/Gro
 
 ## Recording
 
-Access the video in a [separate tab](){:target="_blank"}.
+Access the video in a [separate tab](https://youtu.be/jaU9USoQXuI){:target="_blank"}.
 
-{% include youtubePlayer.html id="4EU7vvSvV-0" %}
+{% include youtubePlayer.html id="jaU9USoQXuI" %}
+
+Check out some clips, too.
+
+{% include youtubePlayer.html id="5DKEkp1vkB0" %}
+
+{% include youtubePlayer.html id="5LgN440VThw" %}
+
+
 
 ---
 
