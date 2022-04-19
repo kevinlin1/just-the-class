@@ -179,6 +179,10 @@ Forthcoming.
 - Catastrophic forgetting can be avoided by sparsification of the network, which has been tried in neural networks. You don't need sparsification if you have self-stabilizing models. We don't have 100 layers in our full brain, not even for classification or recognition.
 - Deep learning is untrustworthy and unreliable in a specific scientific sense.
 
+**Advice for Students**
+
+If you want to dedicate your life towards something, you must be dying to know the answer and fall in love with the data.
+
 ---
 
 
