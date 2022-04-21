@@ -28,13 +28,22 @@ In autoencoding task, the desired output is identical to the output. The decoder
 Empirically, we observe good performance on the MNIST dataset with a sufficiently large vocabulary size and sequence length.
 
 *A static demonstration of autoencoder reconstructive capabilities and internal + quantized language/'communication'.*
-![initial autoencoding task](https://user-images.githubusercontent.com/73039742/164372921-41279cd8-cfeb-485d-8ec0-5a65206a4924.png)
+
+<center>
+<img src="https://user-images.githubusercontent.com/73039742/164372921-41279cd8-cfeb-485d-8ec0-5a65206a4924.png" width="60%" />
+</center>
 
 *A dynamic demonstration of autoencoder reconstructive capabilities along the temporal/sequential language/'communication' axis.*
-![training progression](https://interactive-intelligence.github/io/files/languageProgression.gif)
+
+<center>
+<img src="https://interactive-intelligence.github/io/files/languageProgression.gi" width="60%" />
+</center>
 
 *The autoencoder even generates auto-blurred genetalia in infancy!*
-![image](https://user-images.githubusercontent.com/73039742/164372535-b114c99c-f0d3-4d3c-a31b-f731d68600be.png)
+
+<center>
+<img src="https://user-images.githubusercontent.com/73039742/164372535-b114c99c-f0d3-4d3c-a31b-f731d68600be.png" width="60%" />
+</center>
 
 However, the task of autoencoding with a language latent space becomes practically and philosophically dubious for any dataset more complex than MNIST, like CIFAR-10/100, ImageNet, or a semantic subset like the Stanford Dogs and Cats dataset. There really are only perhaps twenty or less actual digit forms; all remaining digits closely conform to one of these digit forms, since the dataset is low-resolution, centered, and grayscale. A network can reliably autoencode MNIST just be learning these digit form 'templates'. However, for more complex datasets, autoencoding as a task for emergent language becomes philosophically problematic. The purpose of language is not to encode information in a way that optimizes for minimum information loss; rather, it is inherently abstract. However, autoencoding rewards the development of explicit structures and information systems, which is in fact antithetical to the purpose of the project.
 
