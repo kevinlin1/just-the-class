@@ -17,11 +17,8 @@ schedule:
     events:
       - name: Journal Club
         start: 5:30 PM
-        end: 6:30 PM
+        end: 7:30 PM
         location: Sieg Hall, Room 128
-      - name: Admin Meeting
-        start: 6:30 PM
-        end: 7:15 PM
   - name: Tuesday
     events:
       - name: RL Meeting
