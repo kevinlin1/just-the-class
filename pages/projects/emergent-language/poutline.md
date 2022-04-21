@@ -18,6 +18,14 @@ The description on the home page of the Emergent Language project page gives an 
 
 ---
 
+## Table of Contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
 ## Tasks
 
 ### Autoencoding with Language Latent Space
