@@ -110,7 +110,6 @@ Idea: begin with a very simple setup (e.g. just blue squares), then slowly intro
 So far, the following architecture performs well and better than other more complex architectures, which can be derived by adding additional convolutions, increasing the number of kernels, etc. It is difficult to find a better architecture.
 
 <details><summary>Open to see code</summary>
- 
 <pre>
 <code>
 class VisionModule(nn.Module):
@@ -134,8 +133,8 @@ class VisionModule(nn.Module):
 
     def forward(self, x):
         return self.cnn(x)
-<code>
-<pred> 
+</code>
+</pred> 
 </details>
 
 ---
