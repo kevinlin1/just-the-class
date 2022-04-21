@@ -127,6 +127,10 @@ What we want:
 #### Misc
 {: .no_toc }
 - `min_shapes = 0` and developing a nothing token
+- Audio, multimodal inputs for language
+- GAN-type model
+- Cheating the Vector Quantizer - when you listen to yourself, don't quantize: listen to what you mean, not what you say. Instead of actually quantizing, have a loss when shifted off: just quantize directly. (This is how it is done).
+- Maybe not use quantization at all, maybe add loss to encourage clustering/discrete behavior.
 
 
 ---
