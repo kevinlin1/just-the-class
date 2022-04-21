@@ -5,10 +5,10 @@ parent: Emergent Language
 grand_parent: Projects
 nav_order: 1
 has_children: false
-permalink: /projects/emergent-lang/tspec
+permalink: /projects/emergent-lang/poutline
 ---
 
-# Technical Specifications
+# Project Outline
 {: .no_toc }
 
 Detailed ideas and development
