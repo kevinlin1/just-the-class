@@ -137,4 +137,14 @@ class VisionModule(nn.Module):
 </pred> 
 </details>
 
+### Alec Mode
+
+**Vanilla Alec Mode**
+
+**Strong Alec Mode**
+
+### Variable Length Sequences
+
+### Operation PyTorch to TensorFlow
+
 ---
