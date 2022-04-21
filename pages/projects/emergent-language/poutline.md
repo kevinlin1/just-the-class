@@ -36,7 +36,7 @@ Empirically, we observe good performance on the MNIST dataset with a sufficientl
 *A dynamic demonstration of autoencoder reconstructive capabilities along the temporal/sequential language/'communication' axis.*
 
 <center>
-<img src="https://interactive-intelligence.github/io/files/languageProgression.gi" width="60%" />
+<img src="https://interactive-intelligence.github.io/files/languageProgression.gif" width="60%" />
 </center>
 
 *The autoencoder even generates auto-blurred genetalia in infancy!*
