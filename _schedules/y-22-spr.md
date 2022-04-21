@@ -27,13 +27,13 @@ schedule:
       - name: RL Meeting
         start: 3:00 PM
         end: 4:00 PM
-        location: CSE2
+        location: CSE2 124
   - name: Wednesday
     events:
       - name: Emergent Lang Meeting
         start: 4:00 PM
         end: 6:00 PM
-        location: Suzzallo 328
+        location: CSE2 324
   - name: Thursday
   - name: Friday
     events:
