@@ -32,6 +32,44 @@ Agendas, notes, and ideas from project meetings
 
 ---
 
+
+## Meeting with Han, 4/21/22
+- The input is a language itself - find structures within the image, then build connections in the image.
+- Desired properties: groundedness, compositionality, abstract representation.
+- How do you measure learnedness?
+- How does the model get the ability to distinguish beteen concepts.
+
+Interpretability
+- Eventually after some training, the model develops language. What kind of data makes the model capture the similarity/dissimilarity? 
+- How does the model rely that it is similar - what signals is the model using?
+- Accuracy and performance of a subset.
+- Influence functions - take out something, measure how influential a method is. Take one single test image, then see which group of training data is most important to the image. Perform analysis over relevance.
+- Map the importance of training samples to that of a test sample. Ignoring the sequences, we see which training samples are relevant.
+- The language should first be in the model - check if it is in the vector-quantized component either.
+- Ignore quantization to get a 'purer' representation to understand what is capable of being processed again. Debugging the visual unit.
+- SHAP - application to language tokens.
+- Data Shapley - Shapley methods on the data rather than necessarily the input. 
+- Tracin method - tracing gradient descent explainability.
+
+Variable-Length Architectures
+- Stopping may be easier in a reinforcement learning context.
+- External module controls which mode you want to get in.
+- Generate long sequence and then prune from it.
+- Minimum Description Length (MDL) - [Wikipedia](https://en.wikipedia.org/wiki/Minimum_description_length#MDL_in_machine_learning){:target="_blank"}.
+- Generate a long sequence, then use a technique like MDL to compress it.
+- When you compress it too much, you'll lose properties - but maybe you can converge to a balanced point. Obtain a naturally sized diagram.
+- Figure out the high-level project. Show something, have a reachable goal. Research question, try to solve the research question.
+- Set a solid research goal and work towards it.
+- Variable-length itself can be a piece of analysis.
+- Information and automatic encoding - conservative encoding of minimum information.
+
+Data
+- What are good tasks in which having a discrete latent space is better than a continuous explicit one?
+- Machine translation - try to build an abstracted version of language that can control the generation and the instantiated language, an abstract latent representation of the languages.
+
+
+---
+
 ## Meeting 3, 4/20/22
 
 ### Agenda and Goals
