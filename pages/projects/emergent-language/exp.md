@@ -114,6 +114,9 @@ Idea: begin with a very simple setup (e.g. just blue squares), then slowly intro
 
 ### Variable Length Sequences
 
+### Out of Distribution Prediction
+[Green shape], etc. - recognizing new colors.
+
 ### Operation PyTorch to TensorFlow
 
 ---
