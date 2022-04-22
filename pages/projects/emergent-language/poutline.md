@@ -80,8 +80,10 @@ Heavily inspired by Choi et al.'s paper ["Compositional Observer Communication L
 This section describes various properties of language we hope to see demonstrated by the created synthetic language. The first three ({discrete, sequential, variable-length}) are explicitly built into the design of the architecture, the remainder are metrics that may have auxiliary or indirect effect on the model.
 
 ### Discrete
+Language is represented and understood in discrete symbols. An emergent language should possess properties of discreteness/quantization, as opposed to working with traditional real-valued vectors. The most explicit form of discreteness is generating language in one-hot form: the token in the vocabulary with the highest probability is selected at each time step. However, other acceptable forms of discreteness include Vector-Quantized Variational Autoencoder (VQ-VAE)-style mechanisms, in which continuous vectors are 'snapped' to the closest embedding in a limited and trainable set of embeddings. This can be interpreted as directly associating tokens with an embedding.
 
 ### Sequential
+Language is inherently ordered and temporal. Thus, it must possess an intrinsic ordering - as opposed to a standard vector which is mapped to and from in a dense, fully-connected way. A language is sequential if the processes by which it is generated recognize temporality: for instance, generation and interpretation via recurrent or transformer-like methods. However, being sequential does not mean that the specific order is rigid/static. In English, larger sequences of tokens can be rearranged with minimal modification to semantics. (Larger seuences of tokens can be rearranged with minimal modification to semantics in English.) In fact, we hope to see evidence of similar behavior in an emergent language - low-level rigid ordering (the building blocks of syntax) with high-level interchangeability of semantic expression.
 
 ### Variable-Length
 
