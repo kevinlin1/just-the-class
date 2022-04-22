@@ -87,7 +87,11 @@ Language is inherently ordered and temporal. Thus, it must possess an intrinsic 
 
 ### Variable-Length
 
+
 ### Grounded
+Large language models trained to model human language data learn sophisticated syntactic relationships between symbols, to the point of being able to perform seemingly complex operations with language. However, these models' lack of robustness has been well documented, and stems from a fundamental flaw within language models: lack of groundedness. That is, a language model may know the meaning of a token and its complex relationships with other tokens, but its understanding is restricted to the syntactic level of language. On the other hand, humans have a deeper semantic understanding of language. Language is a reference, rather than an ends, to understand semantics. A primary goal of this project is to observe robustness in an emergent language stemming from groundedness.
+
+Groundedness is an abstract concept, but fundamentally it must demonstrate that the language's tokens are fundamentally rooted in the semantic rather than the syntactic level. This can be assessed by testing the relationship between tokens and the underlying semantic objects, for instance by perturbing the representation in ways that shouldn't affect the semantics and measuring the change in language activity.
 
 ### Compositional
 
