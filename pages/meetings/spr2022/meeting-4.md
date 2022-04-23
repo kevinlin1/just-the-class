@@ -17,4 +17,4 @@ Friday, 4/22/2022
 ---
 
 ## Agenda
-1. Work time in groups (`~180 min`)
+1. Work time in groups (`~120 min`)
