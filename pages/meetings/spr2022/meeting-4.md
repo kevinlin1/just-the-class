@@ -15,3 +15,5 @@ Friday, 4/22/2022
 {: .fs-6 .fw-300 }
 
 ---
+
+Work time in groups. (2 hours) 
