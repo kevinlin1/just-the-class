@@ -26,6 +26,59 @@ The description on the home page of the Emergent Language project page gives an 
 
 ---
 
+## Overarching Goal
+We want to create a deep learning system attempting to solve a task from which a 'language' that demonstrate properties of human language emerges. 
+
+### Why do we want to do this?
+{: .no_toc }
+
+Such an emergent language is grounded in the model's actual understanding of the task and the semantics involved, and doesn't just rely upon syntactic dependencies. That is, it demonstrates *groundedness*.
+
+![image](https://user-images.githubusercontent.com/73039742/164838769-93ee0f4b-2e5a-420c-9449-683c0aa4f008.png)
+
+
+---
+
+## Properties of Language
+
+This section describes various properties of language we hope to see demonstrated by the created synthetic language. The first three ({discrete, sequential, variable-length}) are explicitly built into the design of the architecture, the remainder are metrics that may have auxiliary or indirect effect on the model.
+
+### Discrete
+Language is represented and understood in discrete symbols. An emergent language should possess properties of discreteness/quantization, as opposed to working with traditional real-valued vectors. The most explicit form of discreteness is generating language in one-hot form: the token in the vocabulary with the highest probability is selected at each time step. However, other acceptable forms of discreteness include Vector-Quantized Variational Autoencoder (VQ-VAE)-style mechanisms, in which continuous vectors are 'snapped' to the closest embedding in a limited and trainable set of embeddings. This can be interpreted as directly associating tokens with an embedding.
+
+### Sequential
+Language is inherently ordered and temporal. Thus, it must possess an intrinsic ordering - as opposed to a standard vector which is mapped to and from in a dense, fully-connected way. A language is sequential if the processes by which it is generated recognize temporality: for instance, generation and interpretation via recurrent or transformer-like methods. However, being sequential does not mean that the specific order is rigid/static. In English, larger sequences of tokens can be rearranged with minimal modification to semantics. (Larger seuences of tokens can be rearranged with minimal modification to semantics in English.) In fact, we hope to see evidence of similar behavior in an emergent language - low-level rigid ordering (the building blocks of syntax) with high-level interchangeability of semantic expression.
+
+### Variable-Length
+
+
+### Grounded
+Large language models trained to model human language data learn sophisticated syntactic relationships between symbols, to the point of being able to perform seemingly complex operations with language. However, these models' lack of robustness has been well documented, and stems from a fundamental flaw within language models: lack of groundedness. That is, a language model may know the meaning of a token and its complex relationships with other tokens, but its understanding is restricted to the syntactic level of language. On the other hand, humans have a deeper semantic understanding of language. Language is a reference, rather than an ends, to understand semantics. A primary goal of this project is to observe robustness in an emergent language stemming from groundedness.
+
+Groundedness is an abstract concept, but fundamentally it must demonstrate that the language's tokens are fundamentally rooted in the semantic rather than the syntactic level. This can be assessed by testing the relationship between tokens and the underlying semantic objects, for instance by perturbing the representation in ways that shouldn't affect the semantics and measuring the change in language activity.
+
+### Compositional
+
+### Hockett's Design Features
+
+View complete descriptions [here](https://en.wikipedia.org/wiki/Hockett%27s_design_features#Design_features_of_language){:target="_blank"}
+
+*Clearly irrelevant features have been ommitted.*
+
+| Feature | Relevance |
+| --- | --- |
+| Interchangeability | Comes with the model; the model should be capable of generating every possible sequence. Language is accessible to all models. |
+| Total Feedback | Recurrent models demonstrate this property. Models like the DLSM explicitly builds this listening-speaking design into the architecture. |
+| Semanticity | This is a part of groundedness. |
+| Arbitrariness | This is built into the experiment design; the language is initialized randomly and therefore emergence of symbols is arbitrary. |
+| Discreteness | The discreteness itself is built into the expreriment design; that is, a limited set of vectors/tokens are accessible to construct the language. Additionally, the language should demonstrate the presence of a discrete syntax. |
+| Displacement | This is perhaps a part of abstraction, but is not relevant to the current task scope. This may be demonstrable in a reinforcement learning context. |
+| Productivity | The ability to develop essential attributes that can be combined in meaningful ways to form novel utterances (e.g. trained on all combinations of shapes except for green triangle, but is able to represent green triangle by virtue of having experience with green things and triangle things). |
+
+Note: a lot of the features that were ommitted likely would have been modelable/demonstrable by an RL environment project.
+
+---
+
 ## Tasks
 
 ### Autoencoding with Language Latent Space
@@ -62,8 +115,11 @@ If we replace the generator with a vector-quantized autoencoder (i.e. the same a
 
 We have not seen much success with this approach.
 
-### Geometric Scene Similarity
+### Object-Based Geometric Scene Similarity
 Heavily inspired by Choi et al.'s paper ["Compositional Observer Communication Learning from Raw Visual Input"](https://arxiv.org/pdf/1804.02341v1.pdf){:target="_blank"}, the geometric scene similarity task is the most successful one to date, both philosophically and pragmatically. 
+
+### Relation-Based Geometric Scene Similarity
+
 
 ---
 
@@ -74,27 +130,6 @@ Heavily inspired by Choi et al.'s paper ["Compositional Observer Communication L
 ### Language Siamese Model
 
 ---
-
-## Properties of Language
-
-This section describes various properties of language we hope to see demonstrated by the created synthetic language. The first three ({discrete, sequential, variable-length}) are explicitly built into the design of the architecture, the remainder are metrics that may have auxiliary or indirect effect on the model.
-
-### Discrete
-Language is represented and understood in discrete symbols. An emergent language should possess properties of discreteness/quantization, as opposed to working with traditional real-valued vectors. The most explicit form of discreteness is generating language in one-hot form: the token in the vocabulary with the highest probability is selected at each time step. However, other acceptable forms of discreteness include Vector-Quantized Variational Autoencoder (VQ-VAE)-style mechanisms, in which continuous vectors are 'snapped' to the closest embedding in a limited and trainable set of embeddings. This can be interpreted as directly associating tokens with an embedding.
-
-### Sequential
-Language is inherently ordered and temporal. Thus, it must possess an intrinsic ordering - as opposed to a standard vector which is mapped to and from in a dense, fully-connected way. A language is sequential if the processes by which it is generated recognize temporality: for instance, generation and interpretation via recurrent or transformer-like methods. However, being sequential does not mean that the specific order is rigid/static. In English, larger sequences of tokens can be rearranged with minimal modification to semantics. (Larger seuences of tokens can be rearranged with minimal modification to semantics in English.) In fact, we hope to see evidence of similar behavior in an emergent language - low-level rigid ordering (the building blocks of syntax) with high-level interchangeability of semantic expression.
-
-### Variable-Length
-
-
-### Grounded
-Large language models trained to model human language data learn sophisticated syntactic relationships between symbols, to the point of being able to perform seemingly complex operations with language. However, these models' lack of robustness has been well documented, and stems from a fundamental flaw within language models: lack of groundedness. That is, a language model may know the meaning of a token and its complex relationships with other tokens, but its understanding is restricted to the syntactic level of language. On the other hand, humans have a deeper semantic understanding of language. Language is a reference, rather than an ends, to understand semantics. A primary goal of this project is to observe robustness in an emergent language stemming from groundedness.
-
-Groundedness is an abstract concept, but fundamentally it must demonstrate that the language's tokens are fundamentally rooted in the semantic rather than the syntactic level. This can be assessed by testing the relationship between tokens and the underlying semantic objects, for instance by perturbing the representation in ways that shouldn't affect the semantics and measuring the change in language activity.
-
-### Compositional
-
 
 
 
