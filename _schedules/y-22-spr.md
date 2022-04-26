@@ -22,14 +22,14 @@ schedule:
   - name: Tuesday
     events:
       - name: RL Meeting
-        start: 3:00 PM
-        end: 4:00 PM
+        start: 4:00 PM
+        end: 5:00 PM
         location: CSE2 124
   - name: Wednesday
     events:
       - name: Emergent Lang Meeting
-        start: 4:00 PM
-        end: 6:00 PM
+        start: 5:30 PM
+        end: 7:30 PM
         location: CSE2 324
   - name: Thursday
   - name: Friday
