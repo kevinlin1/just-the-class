@@ -26,9 +26,9 @@ Monday, 4/11/2022
 
 ## Lineup
 
-| Presenter | Paper/Topic | Description |
-| --- | --- | --- |
-| Chaytan | Biological Prediction - "Why Neurons Have Thousands of Synapses, a Theory of Sequence Memory in Neocrtex" | Forthcoming |
+| Presenter | Paper/Topic |
+| --- | --- |
+| Chaytan | Biological Prediction - "Why Neurons Have Thousands of Synapses, a Theory of Sequence Memory in Neocrtex" |
 
 ---
 
