@@ -37,6 +37,65 @@ We will meet in CSE2 (exact room to be announced in Discord before meeting start
 4. Discussion about variable length methods (`~30 min max`)
 5. Additional idea discussion and brainstorming (`Remainder of time`)
 
+### Outlining Goals and Current Phase
+{: .no_toc }
+
+End of quarter - implementation and explanation of a DLSM model.
+
+- Avoid 'build a model to `__________`'.
+- Goal: to build DLSM model variations to do well on mediocre-strength Alec mode.
+  - Capsule network for visual unit
+  - Very large or small vocabularies
+  - Benchmark - compare against a model without language, pretrain the visual unit and freeze
+  - Transformers and attention, LSTMs, more complicated language generation
+- Philosophically - is this the best way to generate language.
+- Structuring experiment parameters more systematically.
+- Dataset that is complicated enough to the point where it can't do that.
+- Hexagon and star are added - can add
+- Increase image resolution to 100 by 100.
+  - Mediocre-strength Alec mode - three colors, five shapes, between one and five objects.
+- Trying not Alec mode with very large sizes.
+- Trying out OOD experiments.
+- Add attention layer to language output
+
+Future Task
+- Relationships dataset, force development of language in which relationships are necessary.
+- Look more into attention
+- Use mediocre-strength Alec mode.
+
+### Philosophical Interpretation of Language
+{: .no_toc }
+
+- Based on empirical performance, this is not necessary an invalid language generation method.
+- Designing OOD experiments
+- Increasing the number of colors
+- Is variable length important? When working with fixed length, develops poor encodings. 
+
+### Variable-Length Sequence
+{: .no_toc }
+
+- Offloads processing to the listener that we want to be instead integrated into the language.
+- How to deal with this?
+
+### VQ Problems
+{: .no_toc }
+
+- Variational Quantizer is problematic - sort of just does similarity search quantizer, concepts are embedded in the same space.
+- Use discretization with softmax directly out of the language generation unit and directly convert to labels.
+- Concrete distribution vs Straight-Through Estimator
+  - Continuous and Discrete combination
+  - Interpolate between a discrete and continuous distributions.
+- Sample from softmax instead of taking argmax of softmax.
+- 'Soft snap' vector quantization - probabilistically scale with distance squared
+
+### Language Generation
+{: .no_toc }
+- Sampling a low-probability word, then choose the next word - overall probability is higher than greedy sampling policy
+- Build beam-search style language searching within the network
+- Biggest current generation issue - deterministic
+- Softmax version - clearer/purer understanding. 
+- Sampling is important - deterministic nature limits the model.
+
 ---
 
 
