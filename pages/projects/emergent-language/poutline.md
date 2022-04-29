@@ -116,9 +116,12 @@ If we replace the generator with a vector-quantized autoencoder (i.e. the same a
 We have not seen much success with this approach.
 
 ### Object-Based Geometric Scene Similarity
-Heavily inspired by Choi et al.'s paper ["Compositional Observer Communication Learning from Raw Visual Input"](https://arxiv.org/pdf/1804.02341v1.pdf){:target="_blank"}, the geometric scene similarity task is the most successful one to date, both philosophically and pragmatically. 
+Heavily inspired by Choi et al.'s paper ["Compositional Observer Communication Learning from Raw Visual Input"](https://arxiv.org/pdf/1804.02341v1.pdf){:target="_blank"}, the geometric scene similarity task is the most successful one to date, both philosophically and pragmatically. The model observes two geometric scenes and must determine whether they represent the same set of objects or not. Each geometric scene is comprised of a certain number of objects; each object is a certain color and a certain shape. Two scenes are considered the same if there is a one-to-one correspondence between a unique color-shape combination between both images.
 
 ### Relation-Based Geometric Scene Similarity
+A more complex task is to incorporate relationships between objects into the visual representation of the scene. Philosophically and linguistically, the scenes in object-based geometric scene similarity only semantically contain nouns and adjectives. However, verbs are relationships and enable more complex interactions and formulations of language, as verbs are explicitly compositional. In a relation-based geometric scene similarity task, a scene is comprised not only of a set of objects, but a set of objects and relationships between them. For instance, some objects reside within other objects and  lines (unidirectional, bidirectional, or adirectional) connecting different objects. For two scenes to be the same, not only must the same objects be present, but the relationships between them must be retained. This requires a formulation of relationships.
+
+### Movement Scene Similarity
 
 
 ---
@@ -126,6 +129,16 @@ Heavily inspired by Choi et al.'s paper ["Compositional Observer Communication L
 ## Models
 
 ### Dual Listener-Speaker Model
+
+Standard DLSM:
+
+![image](https://user-images.githubusercontent.com/73039742/165869742-998e4676-8325-466b-8c23-cbfadac68cde.png)
+
+DLSM with Variable-Length Mechanism:
+
+![image](https://user-images.githubusercontent.com/73039742/165869782-482bd757-0cfa-4763-bd16-4e3012f0b59c.png)
+
+
 
 ### Language Siamese Model
 
