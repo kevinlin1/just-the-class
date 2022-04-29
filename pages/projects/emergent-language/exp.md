@@ -115,8 +115,14 @@ Idea: begin with a very simple setup (e.g. just blue squares), then slowly intro
 ### Variable Length Sequences
 
 ### Out of Distribution Prediction
-[Green shape], etc. - recognizing new colors.
+- The network seems to be capable of generating novel tokens.
 
-### Operation PyTorch to TensorFlow
+### Complicating the Generation Unit
+- Using LSTMs vastly outperforms GRUs. To use LSTMs, set the cell state to the generated image latent vector $$z$$ (output of the visual unit) and the initial hidden state to a random vector ('sampling' speech).
+- Using Bidirectional LSTMs yields slightly better performance. Still need to test impact on quality of generated words.
+
+### Complicating the Visual Unit
+- Increasing the number of convolutional layers helps improve performance.
+- Still testing: using a capsule network.
 
 ---
