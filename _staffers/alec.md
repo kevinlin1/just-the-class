@@ -9,13 +9,8 @@ photo: alec.jpg
 CS
 {: .label .label-blue }
 
-RL
-{: .label .label-purple }
-
 Emergent Lang
 {: .label .label-purple }
 
-Environment
-{: .label .label-purple }
 
 Super smash bros god
