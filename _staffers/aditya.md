@@ -3,7 +3,7 @@ name: Aditya Deepak Setty
 role: Member
 email: ads1103@uw.edu
 website: https://www.instagram.com/aditya_deepak_setty/
-photo: blank.png
+photo: aditya.jpg
 ---
 
 Neuroscience
