@@ -9,7 +9,7 @@ description: Recording I2 history.
 # For the Record
 {:.no_toc}
 
-(Un)Official I2 Leaderboard
+The (Un)Official I2 History Books
 {: .fs-6 .fw-300 }
 
 ## Soccer
