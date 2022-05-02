@@ -123,12 +123,18 @@ Idea: begin with a very simple setup (e.g. just blue squares), then slowly intro
 
 ### Complicating the Visual Unit
 - Increasing the number of convolutional layers helps improve performance.
-- Still testing: using a capsule network.
+- Capsule network - too complicated and not worth it as it takes up all the task that the language is supposed to perform. Maybe a good benchmark though.
 
 ### Softmax-Argmax Quantizer
 - Using the Softmax-Argmax sampler with a double-LSTM speaker and listener performs as well as using the VQ-VAE-style quantizer. There is a slightly larger number of unique generated sequences. Still need to test language quality.
 - Softmax-argmax quantizer reaches godly performance on a 3-shape-type, 3-color, 3-objects Alec mode task.
 
 ### Random Sampler
+
+### Gumbel-Softmax Sampler
+Success!
+
+### Sparsity Restraint on Visual Unit
+Output must be somewhat sparse.
 
 ---
