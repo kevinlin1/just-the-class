@@ -66,6 +66,17 @@ Forthcoming!
 - Hacky fix - positional encoding. Use multiple sine waves to encode the positional information.
 - Transformer - equal path lengths, speeds, avoid gradient vanishing and explosion
 
+---
+
+## Recommended Resources
+Yegor has recommended additional resources to learn about attention and transformers.
+
+- [Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/){:target="_blank"}
+- [Harvard NLP - Attention](https://nlp.seas.harvard.edu/2018/04/03/attention.html){:target="_blank"}
+- [PyTorch - Transformer Tutorial](https://pytorch.org/tutorials/beginner/transformer_tutorial.html){:target="_blank"}
+- ["Attention is All You Need" Paper](https://arxiv.org/pdf/1706.03762.pdf){:target="_blank"}
+- [Transformer Slides from CSE 447 @ UW](https://courses.cs.washington.edu/courses/cse447/22sp/assets/slides/lec13.pdf){:target="_blank"}
+
 
 
 
