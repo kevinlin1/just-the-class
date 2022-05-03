@@ -24,6 +24,23 @@ Agendas, notes, and ideas from project meetings
 
 ---
 
+## Meeting 5, 5/4/22
+
+### Agenda and Goals
+{: .no_toc}
+
+We will meet in CSE2 (exact room to be announced in Discord before meeting starts) at 5:30 PM. Note in Discord if you do not have building access, since CSE2 locks at 5:00 PM; a member will give you access. The tentative agenda is as follows.
+
+1. Friendly and lively chatter about life (`~10 min max`)
+2. Progress updates on tasks (`~10 min max`)
+3. Alec-OOD Task (`~10 min max`)
+4. Novel language updates: LSTMs, Bidirectionality (`~30 min max`)
+5. Gumbel-Softmax quantizer (`~30 min max`)
+6. Additional ideas (sparse visual unit, etc.) (`Remainder of time`)
+
+
+---
+
 ## Meeting 4, 4/27/22
 
 ### Agenda and Goals
