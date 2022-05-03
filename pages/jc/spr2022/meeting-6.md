@@ -29,8 +29,53 @@ Monday, 5/2/2022
 | Presenter | Paper/Topic |
 | --- | --- |
 | Yegor | Attention and Transformers |
-| Yegor | SIGBOVIC Paper |
 
 ---
+
+## Slides
+
+<iframe src="https://interactive-intelligence.github.io/files/Attention_Transformers%20JC.pdf" width="100%" height="400" style="border:1px solid black;"></iframe>
+
+---
+
+## Recording
+Forthcoming!
+
+---
+
+## Notes
+- Sequence to sequence problems - particularly used for translation tasks, but can also be used for other tasks. 
+- Generate the next word task.
+- Recurrent networks - old approach. Lots of information is crammed into a single vector, and information must take a long, meandering patht rhough the system.
+- Recurrent netwrks - previous states are propoagated throughout time steps. 
+- In seq2seq problems, the output of the enocding is passed into a recurrent decoder.
+- Many translation problems have complicated dependencies (e.g. gendered words) that need to be navigated.
+- Attention - recurrence free, enables large models. Can model complex dependencies well and is trainable.
+- Attention - pick and choose which words have to do with which other words.
+- Query, Key, Value
+  - Query - almost serves a lookup-table like function.
+  - Keys - how things are looked up.
+  - Values - what we're actually looking up.
+- Steps
+  1. Take every word and embedding
+  2. Obtain queries, keys, and values for each token just by taking the embedding and multiplying it by a matrix. This transforms it into a different space. Fundamentally, represents a step to separate information out.
+- Attention operation - one formula. Dot product between the query and the key, scaled by the vectors passed into softmax and multiplied by value vector
+- Multi-head attention. 
+- Symbols can have multiple meanings. Multihead attention - project into smaller queries, keys, values and perform attention
+- Problem - when we take the weighted average of the words, we lose all positional information; we effectively have a bag of words model.
+- Hacky fix - positional encoding. Use multiple sine waves to encode the positional information.
+- Transformer - equal path lengths, speeds, avoid gradient vanishing and explosion
+
+
+
+
+
+
+
+
+
+
+
+
 
 
