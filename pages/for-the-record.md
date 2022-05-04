@@ -33,3 +33,8 @@ The (Un)Official I2 History Books
 *DLSM model: tries to solve problem, gives up, tries again, does better.*
 
 ![image](https://user-images.githubusercontent.com/73039742/166171636-3a4a8efc-3eab-455e-93d8-dd7cb391925e.png)
+
+*Chaytan's matplotlib skills flex*
+
+![image](https://user-images.githubusercontent.com/35582442/166622344-150dd3e8-2db7-4530-9acd-6b7bb2ed70ca.png)
+
