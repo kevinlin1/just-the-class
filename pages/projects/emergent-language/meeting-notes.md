@@ -38,6 +38,29 @@ We will meet in CSE2 (exact room to be announced in Discord before meeting start
 5. Gumbel-Softmax quantizer (`~30 min max`)
 6. Additional ideas (sparse visual unit, etc.) (`Remainder of time`)
 
+### Notes
+- Important to pass in quantized vectors back into the recurrent unit?
+- Note - make OOD different label really accessible to either OOD or ID.
+- Visual unit - possibly finding too explicit things?
+- Possibility - mapping multiple scenes to the same sequence.
+- Standardized task - weak Alec mode, three shapes, RGB; OOD - red squares (1 to 3 numbers)
+- Sparse visual unit, nonlinear visual unit
+- Variable length - impose a cost. 
+- Number of unique sequences.
+- Shrink down language by penalizing both vocabulary size and variable-length sequences.
+- Shrinking down vocabulary usage might be totally worthless
+
+| 
+
+
+
+
+
+
+
+
+
+
 
 ---
 
