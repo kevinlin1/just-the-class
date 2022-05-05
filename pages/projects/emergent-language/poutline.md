@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Technical Specifications
+title: Project Outline
 parent: Emergent Language
 grand_parent: Projects
 nav_order: 1
@@ -117,6 +117,44 @@ We have not seen much success with this approach.
 
 ### Object-Based Geometric Scene Similarity
 Heavily inspired by Choi et al.'s paper ["Compositional Observer Communication Learning from Raw Visual Input"](https://arxiv.org/pdf/1804.02341v1.pdf){:target="_blank"}, the geometric scene similarity task is the most successful one to date, both philosophically and pragmatically. The model observes two geometric scenes and must determine whether they represent the same set of objects or not. Each geometric scene is comprised of a certain number of objects; each object is a certain color and a certain shape. Two scenes are considered the same if there is a one-to-one correspondence between a unique color-shape combination between both images.
+
+#### Metrics
+This section outlines the standardized experiment conditions and metrics for which we are pursuing model development for this task.
+
+To measure the model's understanding of this task, we use three metrics under *Alec mode*. In Alec mode, each scene is comprised only of the number of objects, the color of all the objects, and the shape of all the objects. For instance, we may have three red squares or one blue circle, but never multiple shapes of different types. The purpose of Alec mode is to allow the scene to be decomposed into three essential attributes, whereas a generic task becomes more of a brute listing task.
+
+We hold out one combination of shapes (arbitarily, we have settled upon *red squares*). The model is trained on all combinations of color and shape, with between 1 and 3 objects in each scene (inclusive), except for red squares. This means that the model sees red shapes (red circle, red triangle) and square objects (blue square, green square) but not the specific combination of red and square. This set constitutes the *in-distribution* set - this is what the model is exposed to and trained on. The *in-distribution accuracy* (abbreviated as ID accuracy) is simply the accuracy the model incurs on this in-distribution dataset.
+
+*A sample of the in-distribution dataset.*
+
+![image](https://user-images.githubusercontent.com/73039742/166870862-fd5819f7-7002-49bf-b416-7153403e180d.png)
+
+The *out-of-distribution dataset* (OOD) comprises of scene pairs in which at least one of the scenes features out-of-distribution shapes. The purpose of this dataset is to evaluate the performance of the model on novel combinations of abstract features that it has not been trained on before. The *out-of-distribution accuracy* (abbreviated as OOD accuracy) is the accuracy of the model on this OOD dataset. To generate the out-of-distribution dataset, use the following algorithm:
+
+1. Randomly select whether the target label should be 1 (two scenes are the same) or 0 (two scenes are different) with equal probability.
+2. If the target label is 1:
+  1. Select a set of OOD shapes.
+  2. Generate two scenes using the same OOD shapes.
+3. If the target label is 0:
+  1. Select a set of OOD shapes.
+  2. Select a set of shapes, ID or OOD, that is different from the set chosen in 3a.
+  3. Generate two scenes using the sets in 3a and 3b.
+
+[Graphs forthcoming]
+
+The *out-of-distribution color-spec accuracy* (abbreviated as OOD CS accuracy) is the model performance on a slightly modified OOD dataset, in which inputs with a label of 0 (i.e. the two scenes are different) must all be of the same color. This prevents the model from easily exploiting color to perform well on OOD contxexts in which two scenes are different. To generate the OOD CS dataset, use the following algorithm:
+
+1. Randomly select whether the target label should be 1 (two scenes are the same) or 0 (two scenes are different) with equal probability.
+2. If the target label is 1:
+  1. Select a set of OOD shapes.
+  2. Generate two scenes using the same OOD shapes.
+3. If the target label is 0:
+  1. Select a set of OOD shapes.
+  2. Select a set of shapes, ID or OOD, that is different from the set chosen in 3a but which has the same color as the set of shapes in 3a.
+  4. Generate two scenes using the sets in 3a and 3b.
+
+[Graphs forthcoming]
+
 
 ### Relation-Based Geometric Scene Similarity
 A more complex task is to incorporate relationships between objects into the visual representation of the scene. Philosophically and linguistically, the scenes in object-based geometric scene similarity only semantically contain nouns and adjectives. However, verbs are relationships and enable more complex interactions and formulations of language, as verbs are explicitly compositional. In a relation-based geometric scene similarity task, a scene is comprised not only of a set of objects, but a set of objects and relationships between them. For instance, some objects reside within other objects and  lines (unidirectional, bidirectional, or adirectional) connecting different objects. For two scenes to be the same, not only must the same objects be present, but the relationships between them must be retained. This requires a formulation of relationships.
