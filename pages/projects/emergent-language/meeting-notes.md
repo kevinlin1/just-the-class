@@ -52,6 +52,9 @@ We will meet in CSE2 (exact room to be announced in Discord before meeting start
 - Shrink down language by penalizing both vocabulary size and variable-length sequences.
 - Shrinking down vocabulary usage might be totally worthless
 
+![image](https://user-images.githubusercontent.com/73039742/166869694-460e9c56-f9f3-4156-bb59-c2bb1f9a7866.png)
+
+
 ### Responsibilities
 {: .no_toc}
 
