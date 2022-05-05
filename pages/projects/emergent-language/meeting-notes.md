@@ -39,6 +39,8 @@ We will meet in CSE2 (exact room to be announced in Discord before meeting start
 6. Additional ideas (sparse visual unit, etc.) (`Remainder of time`)
 
 ### Notes
+{: .no_toc}
+
 - Important to pass in quantized vectors back into the recurrent unit?
 - Note - make OOD different label really accessible to either OOD or ID.
 - Visual unit - possibly finding too explicit things?
@@ -50,17 +52,12 @@ We will meet in CSE2 (exact room to be announced in Discord before meeting start
 - Shrink down language by penalizing both vocabulary size and variable-length sequences.
 - Shrinking down vocabulary usage might be totally worthless
 
-| 
+### Responsibilities
+{: .no_toc}
 
-
-
-
-
-
-
-
-
-
+- Andre - sparse visual unit, nonlinear visual unit, just visual unit
+- Yegor - finish OOD unit, add modern developments
+- etc.
 
 ---
 
