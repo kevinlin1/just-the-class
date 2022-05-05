@@ -131,27 +131,31 @@ We hold out one combination of shapes (arbitarily, we have settled upon *red squ
 
 The *out-of-distribution dataset* (OOD) comprises of scene pairs in which at least one of the scenes features out-of-distribution shapes. The purpose of this dataset is to evaluate the performance of the model on novel combinations of abstract features that it has not been trained on before. The *out-of-distribution accuracy* (abbreviated as OOD accuracy) is the accuracy of the model on this OOD dataset. To generate the out-of-distribution dataset, use the following algorithm:
 
+```
 1. Randomly select whether the target label should be 1 (two scenes are the same) or 0 (two scenes are different) with equal probability.
 2. If the target label is 1:
-  1. Select a set of OOD shapes.
-  2. Generate two scenes using the same OOD shapes.
+  a. Select a set of OOD shapes.
+  b. Generate two scenes using the same OOD shapes.
 3. If the target label is 0:
-  1. Select a set of OOD shapes.
-  2. Select a set of shapes, ID or OOD, that is different from the set chosen in 3a.
-  3. Generate two scenes using the sets in 3a and 3b.
+  a. Select a set of OOD shapes.
+  b. Select a set of shapes, ID or OOD, that is different from the set chosen in 3a.
+  c. Generate two scenes using the sets in 3a and 3b.
+```
 
 [Graphs forthcoming]
 
 The *out-of-distribution color-spec accuracy* (abbreviated as OOD CS accuracy) is the model performance on a slightly modified OOD dataset, in which inputs with a label of 0 (i.e. the two scenes are different) must all be of the same color. This prevents the model from easily exploiting color to perform well on OOD contxexts in which two scenes are different. To generate the OOD CS dataset, use the following algorithm:
 
+```
 1. Randomly select whether the target label should be 1 (two scenes are the same) or 0 (two scenes are different) with equal probability.
 2. If the target label is 1:
-  1. Select a set of OOD shapes.
-  2. Generate two scenes using the same OOD shapes.
+  a. Select a set of OOD shapes.
+  b. Generate two scenes using the same OOD shapes.
 3. If the target label is 0:
-  1. Select a set of OOD shapes.
-  2. Select a set of shapes, ID or OOD, that is different from the set chosen in 3a but which has the same color as the set of shapes in 3a.
-  4. Generate two scenes using the sets in 3a and 3b.
+  a. Select a set of OOD shapes.
+  b. Select a set of shapes, ID or OOD, that is different from the set chosen in 3a but which has the same color as the set of shapes in 3a.
+  c. Generate two scenes using the sets in 3a and 3b.
+```
 
 [Graphs forthcoming]
 
