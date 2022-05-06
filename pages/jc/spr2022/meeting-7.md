@@ -23,9 +23,20 @@ Monday, 5/9/2022
 
 ---
 
-
 ## Lineup
 
 | Presenter | Paper/Topic |
 | --- | --- |
 | Andre | Measuring Intelligence |
+
+---
+
+## Presentation
+
+---
+
+## Recording
+
+---
+
+## Papers
