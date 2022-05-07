@@ -38,8 +38,27 @@ Monday, 5/2/2022
 
 ---
 
-## Recording
+## Recordings
 Forthcoming!
+
+*Part 1: Transformers*
+
+<iframe src="https://www.youtube.com/embed/0eLq76NAL1w" 
+    width="560" 
+    height="315"
+    frameborder="0" 
+    allowfullscreen>
+</iframe>
+
+*SIGBOVIK papers - TurkSort and RISE*
+
+
+<iframe src="https://www.youtube.com/embed/CerTElZVpmY" 
+    width="560" 
+    height="315"
+    frameborder="0" 
+    allowfullscreen>
+</iframe>
 
 ---
 
