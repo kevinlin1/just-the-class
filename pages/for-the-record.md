@@ -16,7 +16,10 @@ The (Un)Official I2 History Books
 
 | Date | Winning Team |
 | --- | --- |
+| 5/6 | Amelia, Andre, Roman* |
 | 4/29 | Alec, Andre, Amelia |
+
+*The victory is somewhat disputed because Andre probably guarded the goal too closely to be fair. However, in my defense, it was 5-2. That's pretty statistically significant.
 
 ## Weirdest Model Generated Results
 
