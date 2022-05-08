@@ -1,16 +1,16 @@
 ---
 layout: default
-title: Meeting 9
+title: Meeting 10
 parent: Spring 2022
 grand_parent: Journal Club
-nav_order: -9
-permalink: /jc/spr2022/meeting-9
+nav_order: -10
+permalink: /jc/spr2022/meeting-10
 ---
 
-# Meeting #9
+# Meeting #10
 {: .no_toc }
 
-Monday, 5/23/2022
+Monday, 5/30/2022
 {: .fs-6 .fw-300 }
 
 ---
