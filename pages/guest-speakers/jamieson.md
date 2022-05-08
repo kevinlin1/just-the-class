@@ -1,6 +1,6 @@
 ---
 layout: default
-title: TBD
+title: Kevin Jamieson
 nav_order: 2
 parent: Guest Speakers
 has_children: false
@@ -28,8 +28,6 @@ Forthcoming.
 
 
 
-
-- 
 
 
 
