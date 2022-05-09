@@ -37,6 +37,13 @@ The (Un)Official I2 History Books
 
 ![image](https://user-images.githubusercontent.com/73039742/166171636-3a4a8efc-3eab-455e-93d8-dd7cb391925e.png)
 
+*DLSM model: can't pick between the extremes of language utilization.*
+
+![image](https://user-images.githubusercontent.com/73039742/167470601-5cfb1c1b-3538-4b18-80c6-407e7ae2d871.png)
+
+
+## Awesome Plots
+
 *Chaytan's matplotlib skills flex*
 
 ![image](https://user-images.githubusercontent.com/35582442/166622344-150dd3e8-2db7-4530-9acd-6b7bb2ed70ca.png)
