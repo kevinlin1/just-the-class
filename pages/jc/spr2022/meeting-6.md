@@ -39,9 +39,17 @@ Monday, 5/2/2022
 ---
 
 ## Recordings
-Forthcoming!
 
-*Part 1: Transformers*
+*Part 1: Attention*
+
+<iframe src="https://www.youtube.com/embed/dLhiainJPnE" 
+    width="560" 
+    height="315"
+    frameborder="0" 
+    allowfullscreen>
+</iframe>
+
+*Part 2: Transformers*
 
 <iframe src="https://www.youtube.com/embed/0eLq76NAL1w" 
     width="560" 
