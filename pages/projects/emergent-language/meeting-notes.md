@@ -24,6 +24,23 @@ Agendas, notes, and ideas from project meetings
 
 ---
 
+## Meeting 6, 5/11/22
+
+### Agenda and Goals
+{: .no_toc}
+
+We will meet in CSE2 (exact room to be announced in Discord before meeting starts) at 5:30 PM. Note in Discord if you do not have building access, since CSE2 locks at 5:00 PM; a member will give you access. The tentative agenda is as follows.
+
+1. Friendly and lively chatter about life (`~10 min max`)
+2. Updates on significance of language and quantization (`~20 min max`)
+3. Updates on visual unit design (`~20 min max`)
+4. Updates on variable-length vocabulary size (`~20 min max`)
+5. Discussion on possible future tasks (ARC, Relational Scene Task) (`~30 min max`)
+
+### Notes
+{: .no_toc}
+
+
 ## Meeting 5, 5/4/22
 
 ### Agenda and Goals
