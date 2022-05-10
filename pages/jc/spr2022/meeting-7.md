@@ -50,6 +50,13 @@ Open in a new tab [here](https://interactive-intelligence.github.io/files/Measur
 ## Recording
 Forthcoming
 
+<iframe src="https://www.youtube.com/embed/9FJFwa6gPvo" 
+    width="560" 
+    height="315"
+    frameborder="0" 
+    allowfullscreen>
+</iframe>
+
 ---
 
 ## Notes
