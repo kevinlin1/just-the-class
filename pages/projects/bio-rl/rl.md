@@ -32,30 +32,14 @@ One application of the RL algorithm will try to optimize its ability to predict 
 
 [Project Proposal](https://docs.google.com/document/d/1mw_phs-BgumofocYYcUpDUTiiu0GCah364vF0r70nUM/edit?usp=sharing)
 
----
-
-## Ideas
-Variable learning rate
-Variable epsilon value so that we explore more when future discount is closer to 1
-More biological neurons
-Make TD learning more like brain calculations and model other neurotransmitters that  affect learning? Grossberg networks?
-
---- 
-
-## Updates
-*To be updated.*
-
----
-
-## Findings
-*More exciting findings forthcoming.*
-
----
 
 ## Phases
-*Phases/path forthcoming.*
-
----
-
-## Resources
-*More reearch and resources forthcoming.*
+*Phase 1*  
+Learn the math and theory behind existing reinforcement learning algorithms and discover
+correlations to the brain.   
+*Phase 2*  
+Test and implement various biologically inspired RL algorithms in well understood environments like OpenAI gym and
+other RL benchmarks.  
+*Phase 3*  
+Test these algorithms in increasingly more complex environments with increasingly more complex action sets that mirror
+the real world and those of real agents.
