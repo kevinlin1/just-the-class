@@ -24,6 +24,19 @@ Agendas, notes, and ideas from project meetings
 
 ---
 
+## Meeting 8, 5/25/22
+
+### Agenda and Goals
+{: .no_toc}
+
+We will meet in CSE2 (exact room to be announced in Discord before meeting starts) at 5:30 PM. Note in Discord if you do not have building access, since CSE2 locks at 5:00 PM; a member will give you access. The tentative agenda is as follows.
+
+1. Friendly and lively chatter about life (`~10 min max`)
+2. Work significantly on writing paper
+
+
+---
+
 ## Meeting 6, 5/11/22
 
 ### Agenda and Goals
@@ -40,6 +53,26 @@ We will meet in CSE2 (exact room to be announced in Discord before meeting start
 ### Notes
 {: .no_toc}
 
+- Language is valuable, discretization is valuable
+- Distribution analysis is important
+- Red squares and blue circles
+- If OOD Acc > ID Acc, something is sus and we should determine what's going on.
+- Color spec OOD accuracy
+- ConvNeXt Tiny architecture as visual unit
+- Paper - describe what we've learned so far
+
+Next steps and tasks
+- Two camera perspectives of a scene, multiple objects - maybe reduce to the same problems?
+- Relational-geometric shape dataset
+- Procedurally generated shape challenge
+- Yegor - try to wrap up and perfect PyTorch version of things, then move on to alternate shape dataset where shapes are procedurally generated.
+- Summer - target setting up an environment.
+- RL groundedness - a word can have a sense, what is the meaning of a word? Also has a reference. Instead of focusing on groundedness - words have meaning/sense or/and reference.
+
+RL Ideas
+- *Intelligent swarm search* - each agent needs to go to a certain location, they can see a small region around them and communicate location information to other agents. Agents can solve the problem just via random walk/systematic walk, but can solve the problem a lot faster with communication. Add landmarks to the scene.
+- *Predator-prey system* - optimize for collective food count in a world with predators and spawning food.
+- Global vs direct messaging
 
 ## Meeting 5, 5/4/22
 
