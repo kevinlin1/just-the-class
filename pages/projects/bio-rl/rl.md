@@ -3,8 +3,8 @@ layout: default
 title: Bio-RL
 parent: Projects
 nav_order: 1
-has_children: false
-permalink: /projects/rl
+has_children: true
+permalink: /projects/bio-rl
 ---
 
 # Bio-RL
@@ -28,7 +28,7 @@ The goal of the Bio-RL project is to create a reinforcement learning algorithm t
 
 Future additions may include mimicking the role of the brain’s memory through structures like Hopfield Networks, exploring spiking neural networks or active dendrite based models, or exploring how to test the network in a neuromorphic computing context.
 
-The RL algorithm will try to optimize its ability to predict inputs from an environment based on random interactions with the websites on the internet. These inputs (and predicted outputs) will be multimodal text and images from the webpage that results from interaction.
+One application of the RL algorithm will try to optimize its ability to predict inputs from an environment based on random interactions with the websites on the internet. These inputs (and predicted outputs) will be multimodal text and images from the webpage that results from interaction.
 
 [Project Proposal](https://docs.google.com/document/d/1mw_phs-BgumofocYYcUpDUTiiu0GCah364vF0r70nUM/edit?usp=sharing)
 

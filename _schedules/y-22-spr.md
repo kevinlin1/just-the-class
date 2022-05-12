@@ -22,8 +22,8 @@ schedule:
   - name: Tuesday
     events:
       - name: RL Meeting
-        start: 4:00 PM
-        end: 5:00 PM
+        start: 3:30 PM
+        end: 7:00 PM
         location: CSE2 124
   - name: Wednesday
     events:
