@@ -29,9 +29,13 @@ Share all of our socials and links in one place [here](https://linktr.ee/interac
 
 *Affiliated with...*
 
-![image](https://user-images.githubusercontent.com/73039742/168341119-2b12fe20-e93f-49fb-a4dd-bb3538811067.png)
+<center>
+<img src="https://user-images.githubusercontent.com/73039742/168341119-2b12fe20-e93f-49fb-a4dd-bb3538811067.png" width="60%" />
+</center>
 
-![image](https://user-images.githubusercontent.com/73039742/168341203-af039d67-8607-4234-a286-25360d536169.png)
+<center>
+<img src="https://user-images.githubusercontent.com/73039742/168341203-af039d67-8607-4234-a286-25360d536169.png" width="60%" />
+</center>
 
 
 
