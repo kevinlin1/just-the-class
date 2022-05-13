@@ -50,7 +50,7 @@ I decided to tackle the first spiking criteria through a simple implementation: 
 The spiking constant was 5, and in this test I could not observe any largely significant difference between the two (Non spiked on left, spiking on right). The graphs were messy so perhaps that is an issue. May re-run tests with greater # of epochs. Will also experiment with a greater spiking value to elicit some kind of change. Can also check out other spiking criteria.
 
 #### Results
-Inconclusive/Ineffective
+Inconclusive/Ineffective  
 Screen Shot 2022-05-12 at 6.12.48 PM<img width="436" alt="image" src="https://user-images.githubusercontent.com/35582442/168195215-b933466d-29c3-4aad-84c0-3a093f6179fe.png">
 Screen Shot 2022-05-12 at 6.13.20 PM<img width="436" alt="image" src="https://user-images.githubusercontent.com/35582442/168195222-d0650c47-b9a2-4d66-98c5-b511d2ba70e5.png">
 
