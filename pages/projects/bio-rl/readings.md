@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Readings and Resources
-parent: Bio RL
+parent: Bio-RL
 grand_parent: Projects
 nav_order: 2
 has_children: false
