@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Experiments
-parent: Bio RL
+parent: Bio-RL
 grand_parent: Projects
 nav_order: 3
 has_children: false
