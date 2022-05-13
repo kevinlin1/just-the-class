@@ -1,11 +1,11 @@
 .announcement {
-  @extend .card;
-}
+  @extend %card;
 
-.announcement-header {
-  margin: $sp-1 0 $sp-3;
-}
+  h1, h2 {
+    @extend .text-gamma;
+  }
 
-.announcement-body {
-  @extend .card-body;
+  .announcement-meta {
+    @extend .text-epsilon;
+  }
 }

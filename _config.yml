@@ -14,41 +14,40 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Just the Class
-description: A Jekyll theme for course websites.
+tagline: A Jekyll template for course websites
+description: A modern, highly customizable, responsive Jekyll template for course websites
 author: Kevin Lin
-email: me@example.com
 baseurl: '/just-the-class' # the subpath of your site, e.g. /blog
 url: 'https://kevinl.info' # the base hostname & protocol for your site, e.g. http://example.com
-exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
 # Theme settings
-remote_theme: pmarsceill/just-the-docs@v0.2.7
+remote_theme: just-the-docs/just-the-docs@v0.3.3
 color_scheme: light
 search_enabled: true
 heading_anchors: true
 permalink: pretty
-nav_links:
-  Okpy:
-    - 'https://okpy.org'
-  Gradescope:
-    - 'https://gradescope.com'
-  Piazza:
-    - 'https://piazza.com'
 aux_links:
-  'Kevin Lin':
+  Kevin Lin:
     - 'https://kevinl.info'
-  'Just the Class on GitHub':
+  Just the Class on GitHub:
     - 'https://github.com/kevinlin1/just-the-class'
-footer_content: "Based on <a href=\"https://github.com/pmarsceill/just-the-docs\">Just the Docs</a> by Patrick Marsceill."
-nav_footer_content: "Powered by <a href=\"https://github.com/kevinlin1/just-the-class\">Just the Class</a>"
+footer_content:
 
 # Collections for website data
 collections:
-  - modules
-  - announcements
-  - staffers
+  staffers:
+  modules:
+  schedules:
+  announcements:
 # Default layouts for each collection type
 defaults:
+  - scope:
+      path: ''
+      type: staffers
+    values:
+      layout: staffer
+      subpath: '/assets/images/'
   - scope:
       path: ''
       type: modules
@@ -56,14 +55,14 @@ defaults:
       layout: module
   - scope:
       path: ''
+      type: schedules
+    values:
+      layout: schedule
+  - scope:
+      path: ''
       type: announcements
     values:
       layout: announcement
-  - scope:
-      path: ''
-      type: staffers
-    values:
-      layout: staffer
 
 compress_html:
   clippings: all
@@ -72,3 +71,6 @@ compress_html:
   startings: []
   blanklines: false
   profile: false
+
+plugins:
+  - jekyll-seo-tag

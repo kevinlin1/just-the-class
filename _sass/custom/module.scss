@@ -1,118 +1,97 @@
-.page-content .module {
-  @extend .card;
+.main-content .module,
+.module {
+  @extend %card;
 
-  .module-days {
-    grid-template-columns: 1fr 4fr;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    &:first-child {
+      margin-top: $sp-4;
+    }
+  }
+
+  >dl {
+    border-bottom: $border $border-color;
+    border-top: $border $border-color;
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    margin: $sp-2 (-$sp-4);
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
 
     @include mq(lg) {
       grid-template-columns: 1fr 7fr;
     }
-  }
 
-  dl {
-    display: grid;
-    grid-template-columns: max-content 1fr;
-  }
-
-  dt {
-    font-weight: normal;
-    text-align: right;
-
-    &::after {
-      content: ":";
-    }
-  }
-
-  dd {
-    font-weight: 500;
-  }
-}
-
-.module-week {
-  @extend .label, .text-grey-dk-100, .bg-grey-lt-200;
-}
-
-.module-date {
-  @extend .card-header;
-}
-
-.module-header {
-  @extend .card-header;
-}
-
-.module-body {
-  @extend .card-body;
-}
-
-.module-days {
-  border-bottom: $border $border-color;
-  border-top: $border $border-color;
-  margin-bottom: 0;
-
-  &:first-child {
-    border-top: none;
-  }
-
-  &:last-child {
-    border-bottom: none;
-  }
-
-  .module-day,
-  .module-event {
-    margin: 0;
-    padding: $sp-2;
-
-    @include mq(sm) {
-      padding: $sp-2 $sp-4;
-    }
-
-    &.main {
-      border-top: $border $border-color;
-
-      &:first-of-type {
-        border-top: none;
-      }
-    }
-
-    p {
-      display: inline-block;
+    %module-item {
       margin: 0;
-      width: 100%;
+      padding: $sp-2;
 
       @include mq(sm) {
-        width: 62.5%;
+        padding: $sp-2 $sp-4;
+      }
+    }
+
+    >dt {
+      @extend %module-item;
+      border-top: $border $border-color;
+      font-weight: normal;
+      text-align: right;
+
+      +dd {
+        border-top: $border $border-color;
       }
 
-      +p {
-        width: auto;
+      &:first-child {
+        border-top: none;
+
+        +dd {
+          border-top: none;
+        }
+      }
+
+      &::after {
+        content: ":";
+      }
+    }
+
+    >dd {
+      @extend %module-item;
+
+      +dd {
+        padding-top: 0;
+      }
+
+      ol, ul, dl {
+        margin: 0;
+      }
+
+      dl {
+        display: flex;
+        flex-direction: column;
+
+        @include mq(sm) {
+          flex-direction: row;
+        }
+
+        dt {
+          flex: 0 0 62.5%;
+          margin: 0;
+        }
+
+        dd {
+          margin: 0;
+        }
       }
     }
   }
-
-  .module-day {
-    grid-column-start: 1;
-  }
-
-  .module-event {
-    grid-column-start: 2;
-
-    +.module-event {
-      padding-top: 0;
-    }
-  }
-}
-
-.label.label-hw-out {
-  @extend .label-yellow;
-  @include module-label();
-}
-
-.label.label-hw-due {
-  @extend .label-red;
-  @include module-label();
-}
-
-.label.label-section {
-  @extend .label-purple;
-  @include module-label();
 }

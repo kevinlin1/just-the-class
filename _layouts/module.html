@@ -1,19 +1,4 @@
+<h2 class="fs-4" id="{{ page.title | slugify }}" >{{ page.title }}</h2>
 <div class="module">
-  <h3 class="module-header"><strong class="module-week">{{ page.week }}</strong> {{ page.title }}</h3>
-  {% if page.days %}
-  <dl class="module-days">
-    {% for day in page.days %}
-    <dt class="module-day main">{{ day.date | date: '%b %e' }}</dt>
-    {% for event in day.events %}
-    <dd class="module-event{% if forloop.first %} main{% endif %}">{{ event | first | markdownify }} {{ event | last | markdownify }}</dd>
-    {% endfor %}
-    {% endfor %}
-  </dl>
-  {% endif %}
-  {% assign content_strip = content | strip %}
-  {% if content_strip != "" %}
-  <div class="module-body">
-    {{ content }}
-  </div>
-  {% endif %}
+  {{ content }}
 </div>

@@ -1,40 +1,33 @@
-.card {
+@mixin abstract-card() {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07), 0 4px 14px rgba(0, 0, 0, 0.05);
+  margin: $sp-4 (-$gutter-spacing-sm);
+
+  @include mq(md) {
+    border-radius: $border-radius;
+    margin: $sp-4 0;
+  }
+}
+
+%card {
   @include abstract-card();
-  @include tight-headers();
   display: flex;
   flex-direction: column;
   min-width: 0;
+  padding: 0 $sp-4;
   position: relative;
   word-wrap: break-word;
 
-  @include mq(lg) {
-    flex: 1 0 0%;
+  >:first-child {
+    border-top: none !important;
   }
-}
 
-.card-header,
-.card-body {
-  padding: $sp-2 $sp-4;
-
-  p {
-    margin-bottom: $sp-2;
+  >:last-child {
+    border-bottom: none !important;
   }
-}
 
-.card-body {
-  flex: 1 1 auto;
-}
-
-.card-deck {
-  @include abstract-card();
-  @include tight-headers();
-  display: flex;
-  flex-direction: column;
-
-  .card {
-    border-radius: 0;
-    border-bottom: $border $border-color;
-    box-shadow: none;
-    margin-bottom: 0;
+  .label {
+    border-radius: $border-radius;
+    margin-left: 0;
+    user-select: none;
   }
 }
