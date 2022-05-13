@@ -11,7 +11,7 @@ permalink: /projects/bio-rl/readings
 # Readings
 {: .no_toc }
 
-Papers, articles, and other material we have learned and used in development
+Papers, articles, and other material from which we have learned and used in development
 {: .fs-6 .fw-300 }
 
 ---
