@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Experiments
-parent: Bio RL
+title: Future
+parent: Bio-RL
 grand_parent: Projects
 nav_order: 3
 has_children: false
 permalink: /projects/bio-rl/future
 ---
 
-# Experiments
+# Future
 {: .no_toc }
 
 Aggregated experiments and results
