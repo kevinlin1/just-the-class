@@ -36,20 +36,20 @@ Tanh ReLU combo
 worked best. 
 [Further details here](https://github.com/interactive-intelligence/actor-critic/tree/main/bio_rl/results)
 
-### Spiked Learning Rate
+### Spiked Learning Rate  
 #### Justification  
 It is a well observed phenomena in the brain that when a misprediction occurs, neuronal activity is relatively larger than if that same prediction had been accurate. As such, we sought to emulate similar behavior within the actor model by increasing the learning rate (mu) within the model under certain criteria. The criteria for possible testing include:  
 - When the total model reward breaks a previously set threshold
 - When the model loss across a certain number of episodes is steadily decreasing
   - May not work due to the training nature of actor critics… Rewarded not punished so increasing the learning rate on poor performance may drive poorer performance. Will investigate empirically
 - When the model’s reward decreases
-    - May not work due to the training nature of actor critics… Rewarded not punished so increasing the learning rate on poor performance may drive poorer performance. Will investigate empirically
-####Implementation
-I decided to tackle the first spiking criteria through a simple implementation: When the reward for an episode breaks a threshold (set by the previous highest reward in an epoch), the learning rate is spiked (multiplied) by a constant set in the config file.
+    - May not work due to the training nature of actor critics… Rewarded not punished so increasing the learning rate on poor performance may drive poorer performance. Will investigate empirically.  
+#### Implementation
+I decided to tackle the first spiking criteria through a simple implementation: When the reward for an episode breaks a threshold (set by the previous highest reward in an epoch), the learning rate is spiked (multiplied) by a constant set in the config file.  
 
 The spiking constant was 5, and in this test I could not observe any largely significant difference between the two (Non spiked on left, spiking on right). The graphs were messy so perhaps that is an issue. May re-run tests with greater # of epochs. Will also experiment with a greater spiking value to elicit some kind of change. Can also check out other spiking criteria.
 
-#### Results
+#### Results  
 Inconclusive/Ineffective  
 Screen Shot 2022-05-12 at 6.12.48 PM<img width="436" alt="image" src="https://user-images.githubusercontent.com/35582442/168195215-b933466d-29c3-4aad-84c0-3a093f6179fe.png">
 Screen Shot 2022-05-12 at 6.13.20 PM<img width="436" alt="image" src="https://user-images.githubusercontent.com/35582442/168195222-d0650c47-b9a2-4d66-98c5-b511d2ba70e5.png">
