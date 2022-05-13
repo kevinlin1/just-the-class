@@ -27,6 +27,13 @@ I2 is an environment which aims to create a community of project-driven, outcome
 
 Share all of our socials and links in one place [here](https://linktr.ee/interactive_intelligence){:target="_blank"}.
 
+*Affiliated with...*
+
+![image](https://user-images.githubusercontent.com/73039742/168341119-2b12fe20-e93f-49fb-a4dd-bb3538811067.png)
+
+![image](https://user-images.githubusercontent.com/73039742/168341203-af039d67-8607-4234-a286-25360d536169.png)
+
+
 
 ## Announcements
 
