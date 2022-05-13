@@ -26,7 +26,7 @@ Aggregated experiments and results
 ## Cartpole Comparisons
 
 ### Vanilla Advantage Actor Critic (A2C)
-Screen Shot 2022-05-12 at 6.14.25 PM<img width="527" alt="image" src="https://user-images.githubusercontent.com/35582442/168195194-614b66b1-33cc-44c9-9ff1-f4d974f428f3.png">
+<img width="527" alt="image" src="https://user-images.githubusercontent.com/35582442/168195194-614b66b1-33cc-44c9-9ff1-f4d974f428f3.png">
 #### Activation Function Experiments
 Testing combinations of {ELU, Sigmoid, LeakyReLU, ReLU, Tanh, Hardswish, Hardsigmoid, HardTanh and more} activation functions
 on the Actor and Critic respectively.
@@ -44,6 +44,7 @@ It is a well observed phenomena in the brain that when a misprediction occurs, n
   - May not work due to the training nature of actor critics… Rewarded not punished so increasing the learning rate on poor performance may drive poorer performance. Will investigate empirically
 - When the model’s reward decreases
     - May not work due to the training nature of actor critics… Rewarded not punished so increasing the learning rate on poor performance may drive poorer performance. Will investigate empirically.  
+
 #### Implementation
 I decided to tackle the first spiking criteria through a simple implementation: When the reward for an episode breaks a threshold (set by the previous highest reward in an epoch), the learning rate is spiked (multiplied) by a constant set in the config file.  
 
@@ -51,23 +52,23 @@ The spiking constant was 5, and in this test I could not observe any largely sig
 
 #### Results  
 Inconclusive/Ineffective  
-Screen Shot 2022-05-12 at 6.12.48 PM<img width="436" alt="image" src="https://user-images.githubusercontent.com/35582442/168195215-b933466d-29c3-4aad-84c0-3a093f6179fe.png">
-Screen Shot 2022-05-12 at 6.13.20 PM<img width="436" alt="image" src="https://user-images.githubusercontent.com/35582442/168195222-d0650c47-b9a2-4d66-98c5-b511d2ba70e5.png">
+<img width="436" alt="image" src="https://user-images.githubusercontent.com/35582442/168195215-b933466d-29c3-4aad-84c0-3a093f6179fe.png">
+<img width="436" alt="image" src="https://user-images.githubusercontent.com/35582442/168195222-d0650c47-b9a2-4d66-98c5-b511d2ba70e5.png">
 
 
 ### A2C with Memory Replay
 #### Results
 Converged after roughly 1100 episodes.
-Screen Shot 2022-05-12 at 6.13.51 PM<img width="527" alt="image" src="https://user-images.githubusercontent.com/35582442/168195247-59e6e110-d3c9-4f5e-92bc-4144f7207804.png">
-Screen Shot 2022-05-12 at 6.13.39 PM<img width="527" alt="image" src="https://user-images.githubusercontent.com/35582442/168195281-b31feb21-75f5-4253-9647-a0b3c299ab63.png">
+<img width="527" alt="image" src="https://user-images.githubusercontent.com/35582442/168195247-59e6e110-d3c9-4f5e-92bc-4144f7207804.png">
+<img width="527" alt="image" src="https://user-images.githubusercontent.com/35582442/168195281-b31feb21-75f5-4253-9647-a0b3c299ab63.png">
 
 
 ### Proximal Policy Optimization (PPO)
 
 #### Results
 Converged after roughly 600 episodes.
-Screen Shot 2022-05-12 at 6.14.04 PM<img width="527" alt="image" src="https://user-images.githubusercontent.com/35582442/168195295-88a53f6a-e63b-441f-a7f9-42004d788700.png">
-Screen Shot 2022-05-12 at 6.14.15 PM<img width="527" alt="image" src="https://user-images.githubusercontent.com/35582442/168195300-893adc4b-411e-4494-a226-ef530eb14be0.png">
+<img width="527" alt="image" src="https://user-images.githubusercontent.com/35582442/168195295-88a53f6a-e63b-441f-a7f9-42004d788700.png">
+<img width="527" alt="image" src="https://user-images.githubusercontent.com/35582442/168195300-893adc4b-411e-4494-a226-ef530eb14be0.png">
 
 
 ---
