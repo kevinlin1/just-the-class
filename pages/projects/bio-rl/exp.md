@@ -3,7 +3,7 @@ layout: default
 title: Experiments
 parent: Bio-RL
 grand_parent: Projects
-nav_order: 3
+nav_order: 1
 has_children: false
 permalink: /projects/bio-rl/exp
 ---
