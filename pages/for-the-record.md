@@ -45,6 +45,11 @@ The (Un)Official I2 History Books
 
 ![image](https://user-images.githubusercontent.com/73039742/167777166-22889686-443c-4998-bd5a-8b48086e0c14.png)
 
+*DLSM model: creatively draws a lava moat and castle.*
+
+![image](https://user-images.githubusercontent.com/73039742/168405996-d462d605-7ab5-495b-af89-985dbad348bc.png)
+
+
 
 
 ## Awesome Plots
