@@ -34,10 +34,11 @@ Index of Club Content by Topic
 
 ---
 
-## Neural Network Theory
+## Fundamentals of Deep Learning
 
 | Name | Source | Tags |
 | --- | --- | --- |
+| [Attention and Transformers](https://interactive-intelligence.github.io/jc/spr2022/meeting-6) | Spr 2022 JC Week 6 | `Deep Learning`, `Neural Networks`, `Transformers` |
 | [CNNs, RNNs, Backprop](https://interactive-intelligence.github.io/projects/emergent-lang/meeting-notes#mini-lectures) | Spr 2022 Emergent Lang. Meeting 1 | `Neural Networks`, `Deep Learning` |
 | [Backpropagation](https://interactive-intelligence.github.io/jc/spr2022/meeting-1#viewing) | Spr 2022 JC Week 1 | `Math`, `Neural Networks`, `Deep Learning` |
 
@@ -47,6 +48,7 @@ Index of Club Content by Topic
 
 | Name | Source | Tags |
 | --- | --- | --- |
+| [Q&A with Stephen Grossberg](https://interactive-intelligence.github.io/jc/spr2022/meeting-4) | Spr 2022 JC Week 4 | `Neuroscience`, `AI`, `Deep Learning`, `Adaptive Resonance Theory` |
 | [Biological Prediction and the Neocortex](https://interactive-intelligence.github.io/jc/spr2022/meeting-3) | Spr 2022 JC Week 3 | `Neuroscience` |
 | [Neural Circutry of Reward Prediction Error](https://interactive-intelligence.github.io/jc/spr2022/meeting-2) | Spr 2022 JC Week 2 | `Neuroscience`, `Computational neuroscience`, `Math` |
 | [Biologically Plausible Networks](https://interactive-intelligence.github.io/meetings/win2022/meeting-5#biologically-informedplausible-networks) | Win 2022 Wk 5 | `Biology`, `Neuroscience`, `ML`, `DL`, `Research presentation` |
@@ -64,6 +66,14 @@ Index of Club Content by Topic
 | [Swarm Intelligence](https://interactive-intelligence.github.io/meetings/win2022/meeting-5#swarm-intelligence) | Win 2022 Wk 5 | `Distributed systems`, `RL`, `Research presentation` |
 | [Reinforcement Learning](https://interactive-intelligence.github.io/meetings/win2022/meeting-4#reinforcement-learning) | Win 2022 Wk 4 | `RL`, `Research presentation` |
 
+---
+
+## Philosophy and General Intelligence
+
+| Name | Source | Tags |
+| --- | --- | --- |
+| [AI Ethics](https://interactive-intelligence.github.io/jc/spr2022/meeting-8) | Spr 2022 JC Week 8 | `Ethics`, `General Intelligence`, `Consciousness`, `Philosophy` |
+| [Measuring Intelligence](https://interactive-intelligence.github.io/jc/spr2022/meeting-7) | Spr 2022 JC Week 7 | `General Intelligence`, `Turing`, `McCarthy`, `Chollet`, `AI`, `Philosophy` |
 
 
 
