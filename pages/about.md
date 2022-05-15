@@ -34,7 +34,7 @@ I2 is an environment which aims to create a community of project-driven, outcome
 
 ### Article III: Affiliations
 {:.no_toc}
-None.
+The Paul G. Allen School of Computer Science and Engineering, The Center for Neurotechnology
 
 ### Article IV: Membership
 {:.no_toc}
