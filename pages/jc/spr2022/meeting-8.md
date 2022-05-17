@@ -40,12 +40,13 @@ Monday, 5/16/2022
 - Self-consciousness - aware of ourself as an agent in the world, we have slef-recognition, meta-cognition. We can reason about our own thinking.
 - Other human specialties - language, brain size, tool usage
 
-## Discussion Notes
-- Back to are trees conscious or not
-- Can AI be conscious?
-- 
+---
 
+## Slides
 
+Access [here](https://interactive-intelligence.github.io/files/AI Ethics Part 1.pptx).
+
+<iframe src="https://interactive-intelligence.github.io/files/AI Ethics Part 1.pptx" width="100%" height="400" style="border:1px solid black;"></iframe>
 
 
 
