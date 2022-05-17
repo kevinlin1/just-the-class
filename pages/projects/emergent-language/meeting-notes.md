@@ -37,6 +37,18 @@ We will meet in CSE2 (exact room to be announced in Discord before meeting start
 
 ---
 
+## Meeting 7, 5/19/22
+
+### Agenda and Goals
+{: .no_toc}
+
+We will meet in CSE2 (exact room to be announced in Discord before meeting starts) at 3:30 PM. The tentative agenda is as follows.
+
+1. Friendly and lively chatter about life (`~10 min max`)
+2. Work to complete poster for Discovering AI @ UW event.
+
+---
+
 ## Meeting 6, 5/11/22
 
 ### Agenda and Goals
