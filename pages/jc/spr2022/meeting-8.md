@@ -29,3 +29,35 @@ Monday, 5/16/2022
 | Presenter | Paper/Topic |
 | --- | --- |
 | Alec | AI Ethics |
+
+---
+
+## Presentation Notes
+- 3 levels of consciousness 
+- Functional awareness/responsiveness - lowest level of consciousness. Responding to stimuli in semi-intelligent ways 
+- Subjective experience - the 'conscious cutoff'. Experiences things subjectively.
+  - Good heuristic for consciousness - is it 'like something' to be that creature.
+- Self-consciousness - aware of ourself as an agent in the world, we have slef-recognition, meta-cognition. We can reason about our own thinking.
+- Other human specialties - language, brain size, tool usage
+
+## Discussion Notes
+- Back to are trees conscious or not
+- Can AI be conscious?
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
