@@ -34,6 +34,24 @@ We will meet in CSE2 (exact room to be announced in Discord before meeting start
 1. Friendly and lively chatter about life (`~10 min max`)
 2. Get significant work done on writing paper, assign sections and deadlines
 
+### Notes
+{: .no_toc }
+
+Approximate deadline to get the paper ready for submission: end of July.
+
+Things we want to try
+- Disentanglement penalty term
+- Fix up PyTorch model to use sampling
+- Procedurally generated shapes (optional)
+- More rigorous analysis of sequences
+- Code up relational dataset - try that out.
+
+Stuff to work on:
+- Yegor - getting the PyTorch model up to speed and incorporating various novel developments.
+- Andre - start writing section 1, Introduction and Contexts
+- Alec - start writing section 2, Benchmark Task
+
+
 
 ---
 
