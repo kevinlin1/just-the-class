@@ -22,13 +22,10 @@ Jamieson’s research explores how to leverage already-collected data to inform 
 Jamieson will be coming to I2's journal club to talk about theoretical reinforcement learning and multi-armed bandits.
 
 ## Recording
-Forthcoming.
 
-## Notes
+Access the video in a [separate tab](https://youtu.be/sV6f8vIfVns){:target="_blank"}.
 
-
-
-
+{% include youtubePlayer.html id="sV6f8vIfVns" %}
 
 
 
