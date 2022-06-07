@@ -10,7 +10,7 @@ permalink: /jc/spr2022/meeting-10
 # Meeting #10
 {: .no_toc }
 
-Monday, 5/30/2022
+Monday, 6/6/2022
 {: .fs-6 .fw-300 }
 
 ---
