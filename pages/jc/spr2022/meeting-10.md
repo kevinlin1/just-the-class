@@ -15,4 +15,4 @@ Monday, 6/6/2022
 
 ---
 
-We had a discussion with Kevin Jamieson. Guest speakers have their own page: [page]().
+We had a discussion with Kevin Jamieson. Guest speakers have their own page: [Kevin Jamieson](https://interactive-intelligence.github.io/guest-speakers/jamieson).
