@@ -1,11 +1,11 @@
----
+<!-- ---
 layout: default
 title: Kevin Jamieson
 nav_order: 2
 parent: Guest Speakers
 has_children: false
 permalink: /guest-speakers/jamieson
----
+--- -->
 
 # Kevin Jamieson
 
