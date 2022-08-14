@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Meeting 2
+title: Meeting 2 - Neural RPE
 parent: Spring 2022
 grand_parent: Journal Club
 nav_order: -2
