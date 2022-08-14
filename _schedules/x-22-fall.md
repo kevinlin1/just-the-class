@@ -13,6 +13,12 @@ timeline:
   - '7:30 PM'
   - '8:00 PM'
 schedule:
+  name: Monday
+    events:
+      name: Journal Club
+      start: 5:30 PM
+      end: 7:30 PM
+      location: TBD
 <!--   - name: Monday
     events:
       - name: Journal Club
