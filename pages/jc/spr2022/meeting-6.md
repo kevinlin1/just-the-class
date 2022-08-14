@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Meeting 6
+title: Meeting 6 - Attention
 parent: Spring 2022
 grand_parent: Journal Club
 nav_order: -6
