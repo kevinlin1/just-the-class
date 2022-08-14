@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Meeting 3
+title: Meeting 3 - Memory & Neocortex
 parent: Spring 2022
 grand_parent: Journal Club
 nav_order: -3
@@ -28,7 +28,7 @@ Monday, 4/11/2022
 
 | Presenter | Paper/Topic |
 | --- | --- |
-| Chaytan | Biological Prediction - "Why Neurons Have Thousands of Synapses, a Theory of Sequence Memory in Neocrtex" |
+| Chaytan | Biological Prediction - "Why Neurons Have Thousands of Synapses, a Theory of Sequence Memory in Neocortex" |
 
 ---
 
