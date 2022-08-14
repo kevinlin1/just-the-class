@@ -25,6 +25,7 @@ I2 is an environment which aims to create a community of project-driven, outcome
 [Insta 📸](https://www.instagram.com/uw_i2/){: .btn }
 [YouTube 📺](https://www.youtube.com/channel/UCnOSBig3HbEHFUi2HBA7EtA){: .btn }
 [Twitter 📱](https://twitter.com/InteractiveInt9){: .btn }
+[LinkTree 🌳](https://linktr.ee/interactive_intelligence){: .btn }
 
 <!-- <a href="https://discord.gg/DZuyeyVHVV"><img src="https://user-images.githubusercontent.com/73039742/156947590-e515ea57-2803-4752-a6fa-cf0c561fdfe6.png" width="50" height="50" /></a>
 <a href="mailto:interintel@uw.edu"><img src="https://user-images.githubusercontent.com/73039742/156947555-2db4cf96-3e4d-4bd9-b9d8-ca50c12a153c.png" width="50" height="50" /></a>
@@ -32,16 +33,16 @@ I2 is an environment which aims to create a community of project-driven, outcome
 <a href="https://www.youtube.com/channel/UCnOSBig3HbEHFUi2HBA7EtA"><img src="https://user-images.githubusercontent.com/73039742/164153358-0988a737-c3c6-4768-8c0a-c30584e51567.png" width="50" height="50" /></a>
 <a href="https://twitter.com/InteractiveInt9"><img src="https://user-images.githubusercontent.com/73039742/164153289-c5d28a85-711e-4bb5-8719-be0a0b43a913.png" width="50" height="50" /></a> -->
 
-Share all of our socials and links in one place [here](https://linktr.ee/interactive_intelligence){:target="_blank"}.
+<!-- Share all of our socials and links in one place [here](https://linktr.ee/interactive_intelligence){:target="_blank"}. -->
 
 *Affiliated with...*
 
 <center>
-<img src="https://user-images.githubusercontent.com/73039742/168341119-2b12fe20-e93f-49fb-a4dd-bb3538811067.png" width="60%" />
+<img src="https://user-images.githubusercontent.com/73039742/168341119-2b12fe20-e93f-49fb-a4dd-bb3538811067.png" width="50%" />
 </center>
 
 <center>
-<img src="https://user-images.githubusercontent.com/73039742/168341203-af039d67-8607-4234-a286-25360d536169.png" width="60%" />
+<img src="https://user-images.githubusercontent.com/73039742/168341203-af039d67-8607-4234-a286-25360d536169.png" width="50%" />
 </center>
 
 
