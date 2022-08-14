@@ -2,7 +2,7 @@
 layout: page
 title: For the Record
 permalink: /4-the-record
-nav_order: 1000
+nav_order: 9
 description: Recording I2 history.
 ---
 
