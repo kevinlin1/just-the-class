@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Meeting 1 - Backpropagation
+title: Meeting 1 - Backprop
 parent: Spring 2022
 grand_parent: Journal Club
 nav_order: -1
