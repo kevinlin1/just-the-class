@@ -1,11 +1,11 @@
----
+<!-- ---
 layout: default
 title: Stephen Grossberg
 nav_order: 1
 parent: Guest Speakers
 has_children: false
 permalink: /guest-speakers/grossberg
----
+--- -->
 
 # Stephen Grossberg
 {: .no_toc }
