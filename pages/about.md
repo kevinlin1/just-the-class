@@ -19,10 +19,10 @@ description: I2's purpose, mission, and goals.
 
 ## About
 
-Interactive Intelligence is a team of students at the University of Washington working to make computation resemble what humans describe as intelligence. We are uniquely interdisciplinary, blending ideas from neuroscience to inform the structure of our algorithms and computations. We explore the many different approaches of engineered intelligence, from neuromorphic hardware to meta-cognitive machine learning algorithms. We are a project driven, outcome oriented team, and throughout Winter and Spring quarters we will be making, experimenting, and creating!
+Interactive Intelligence is a team of students at the University of Washington working to make computation resemble what humans describe as intelligence. We are uniquely interdisciplinary, blending ideas from neuroscience to inform the structure of our algorithms and computations. We explore the many different approaches of engineered intelligence, from neuromorphic hardware to meta-cognitive machine learning algorithms. Currently, we are running several [projects](){:target="_blank"} and have produced a growing body of [research](){:target="_blank"}. Additionally, we routinely hosted [Journal Clubs](){:target="_blank"} and often invite [notable figures](){:target="_blank"} in the field. We look forward to growing more in the 2022-2023 year!
 
 ## Formal RSO Constitution
-*Shortened in some places*
+*Shortened in some places*. Constitution is published for transparency, ~~although it holds very little weight in how things are actually run.~~
 
 ### Article I: Name
 {:.no_toc}
