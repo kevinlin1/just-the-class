@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Meeting 8
+title: Meeting 8 - AI Ethics
 parent: Spring 2022
 grand_parent: Journal Club
 nav_order: -8
