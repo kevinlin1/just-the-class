@@ -48,6 +48,8 @@ I2 is an environment which aims to create a community of project-driven, outcome
 
 ## Announcements
 
+| **9/10/2022** The paper "Deinforcement Learning" has been accepted into the Canadian Undergraduate Journal of Cognitive Neuroscience! Congrats to the RL team. |
+
 | **8/11/2022** We are very grateful and excited to announce that we have received $24k in funding from the Student Technology Fee fund! We will be purchasing compute devices to level up our experiments and fancy recording equipment to improve our JCs. |
 
 | **4/18/2022** Huge thanks to Stephen Grossberg for a very interesting and eventful Journal Club! View notes, recordings, and resources from the event [here](https://interactive-intelligence.github.io/guest-speakers/grossberg){:target="_blank"}. |
