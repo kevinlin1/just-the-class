@@ -1,7 +1,7 @@
 {% assign start_time = page.timeline | first %}
 {% capture offset %}{% include minutes.liquid time=start_time %}{% endcapture %}
 <div class="schedule">
-  <ul class="schedule-timeline" style="min-width: {{ page.schedule | size | times: 130 }}px">
+  <ul class="schedule-timeline" style="min-width: {{ page.schedule | size | times: 120 }}px">
     {% for time in page.timeline %}
     <li class="schedule-time">{{ time }} </li>
     {% endfor %}
