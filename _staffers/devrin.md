@@ -1,12 +1,12 @@
 ---
 name: Devrin Chen-Sorasith Chullanandana 
-role: Officer
+role: Advisor
 email: dr2592@uw.edu
 website: https://www.instagram.com/devrin.cc/
 photo: devrin.jpg
 ---
 
-Business Lead
+Business Advisor
 {: .label .label-yellow }
 
 Mathematics
