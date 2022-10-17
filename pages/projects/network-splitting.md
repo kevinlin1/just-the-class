@@ -2,7 +2,7 @@
 layout: default
 title: Network Splitting
 parent: Projects
-nav_order: 3
+nav_order: 998
 has_children: false
 permalink: /projects/network-split
 ---
