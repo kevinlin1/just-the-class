@@ -36,7 +36,7 @@ Agenda:
 1. Introduce everyone to each other
 2. Collect information about group member's backgrounds and interests
 3. Begin formulating a project outline and principal questions
-4. Assign Chollet intelligence equation paper
+4. Assign / discuss Chollet intelligence equation paper
 
 Notes:
 - lorem ipsum
