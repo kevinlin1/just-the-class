@@ -13,12 +13,17 @@ timeline:
   - '7:30 PM'
   - '8:00 PM'
 schedule:
-  name: Monday
+  name: Wednesday
     events:
       name: Journal Club
-      start: 5:30 PM
+      start: 6:00 PM
       end: 7:30 PM
-      location: TBD
+      location: Sieg 332
+  name: Friday
+    events:
+      name: 5:00 PM
+      end: 6:30 PM
+      location: Sieg 233
 <!--   - name: Monday
     events:
       - name: Journal Club
