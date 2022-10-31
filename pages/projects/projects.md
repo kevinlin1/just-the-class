@@ -13,3 +13,5 @@ What we're working on!
 
 ---
 
+Project updates
+- [10/28/22](https://washington.zoom.us/rec/share/kHGphXDRTQkcZwiN835WzQQdKzhPM7WyWcNHoI31zjNXaQBXGt3cCVfreUnXsLhl.r8nIYdY92hpqYnxU){:target="_blank"}
