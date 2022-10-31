@@ -21,11 +21,7 @@ We are incredibly honored that Chollet will be coming to visit I2 at the Univers
 See the [Spring Quarter Week 7 JC](https://interactive-intelligence.github.io/jc/spr2022/meeting-7) for an overview on "On the Measure of Intelligence" and the ARC.
 
 ## Recording
-Forthcoming.
-
-## Discussion Notes
-Forthcoming.
-
+forthcoming
 
 
 
