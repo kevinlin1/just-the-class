@@ -18,6 +18,10 @@ iframe {
   max-width: 100%;
 }
 
+details {
+  @extend .mb-4;
+}
+
 summary {
   @extend .btn, .btn-outline;
 
