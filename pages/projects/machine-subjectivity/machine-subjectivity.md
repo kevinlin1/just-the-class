@@ -3,7 +3,7 @@ layout: default
 title: Machine Subjectivity
 parent: Projects
 nav_order: 3
-has_children: false
+has_children: true
 permalink: /projects/machine-subjectivity
 ---
 
