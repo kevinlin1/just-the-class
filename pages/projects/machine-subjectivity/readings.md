@@ -12,6 +12,8 @@ permalink: /projects/machine-subjectivity/readings
 
 ## "How Do You Make Yourself a Body Without Organs?" Deleuze
 
+[`.pdf` of reading](https://interactive-intelligence.github.io/pages/projects/machine-subjectivity/files/DampG_Body.pdf){:target="_blank"}
+
 ### Questions and Inquiry
 - Is Body without Organs something which already reproduces itself as natural resistance to structures (State, money, Party, church, school, etc.)? Or does it require a praxical move?
 
