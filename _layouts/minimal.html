@@ -65,7 +65,7 @@ layout: table_wrappers
 
       {% if page.has_children == true and page.has_toc != false %}
         <hr>
-        <h2 class="text-delta">Table of contents</h2>
+        {% include toc_heading_custom.html %}
         <ul>
           {% for child in toc_list %}
             <li>
@@ -112,12 +112,13 @@ layout: table_wrappers
 
     </div>
   </div>
-</body>
-{% if site.mermaid %}
+
+  {% if site.mermaid %}
   <script>
     var config = {% include mermaid_config.js %};
     mermaid.initialize(config);
     window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
   </script>
-{% endif %}
+  {% endif %}
+</body>
 </html>
