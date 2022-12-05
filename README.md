@@ -2,7 +2,7 @@
 layout: home
 title: Just the Class
 nav_exclude: true
-permalink: index.html
+permalink: /:path/
 seo:
   type: Course
   name: Just the Class
