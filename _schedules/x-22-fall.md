@@ -19,7 +19,7 @@ schedule:
       start: 6:00 PM
       end: 7:30 PM
       location: Sieg 332
-  name: Friday
+  name: Friday 
     events:
       name: 5:00 PM
       end: 6:30 PM
