@@ -24,33 +24,4 @@ schedule:
       name: 5:00 PM
       end: 6:30 PM
       location: Sieg 233
-<!--   - name: Monday
-    events:
-      - name: Journal Club
-        start: 5:30 PM
-        end: 7:30 PM
-        location: Sieg Hall, Room 128
-  - name: Tuesday
-    events:
-      - name: RL Meeting
-        start: 3:30 PM
-        end: 7:00 PM
-        location: CSE2 124
-  - name: Wednesday
-  - name: Thursday
-    events:
-      - name: Emergent Lang Meeting
-        start: 3:30 PM
-        end: 5:30 PM
-        location: CSE2 324
-  - name: Friday
-    events:
-      - name: Recreational Activity
-        start: 4:00 PM
-        end: 5:00 PM
-        location: Check Disc
-      - name: Team Meeting
-        start: 5:00 PM
-        end: 7:00 PM
-        location: Design Lab in Sieg Hall, Room 233 -->
 ---
