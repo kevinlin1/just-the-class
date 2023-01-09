@@ -2,7 +2,7 @@
 name: Nash Rickert
 role: Member
 email: nashr2@uw.edu
-website: [https://www.linkedin.com/in/alecbunn/](https://www.instagram.com/nashrickert/?hl=en)
+website: https://www.instagram.com/nashrickert/?hl=en
 photo: nash.jpg
 ---
 
