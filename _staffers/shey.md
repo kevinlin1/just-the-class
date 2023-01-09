@@ -1,5 +1,5 @@
 ---
-name: Andre Ye
+name: Shey Gao
 role: Member
 email: shengg6@uw.edu
 website: 
