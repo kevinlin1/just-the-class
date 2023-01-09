@@ -11,7 +11,12 @@ nav_order: 5
 
 | These schedules may be subject to change. Check the Discord for the most up-to-date information. |
 
-{% for schedule in site.schedules %}
+- Journal Club: Tuesdays, 6:00 - 7:00 PM, Sieg 332
+- Team Meetings: Fridays, 5:00 PM - 6:00 PM, Sieg 233
+- Machine Subjectivity Group Meetings: Wednesdays, 5:00 PM - 6:00 PM, CSE2 (specific room on Discord)
+- 
+
+<!-- {% for schedule in site.schedules %}
 <h2>{{ schedule.quarter }}</h2>
 {{ schedule }}
-{% endfor %}
+{% endfor %} -->
