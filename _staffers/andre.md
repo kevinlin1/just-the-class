@@ -9,7 +9,7 @@ photo: andre.jpg
 ML Lead
 {: .label .label-yellow }
 
-CS & Phil
+Phil, CHID, & CS
 {: .label .label-blue }
 
 Emergent Lang
