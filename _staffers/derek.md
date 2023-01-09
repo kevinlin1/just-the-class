@@ -1,9 +1,9 @@
 ---
 name: Derek
 role: Member
-email: Unreleased
+email:
 website:
-photo: unnamed.jpg
+photo: blank.png
 ---
 
 <!-- CS
