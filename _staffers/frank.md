@@ -3,7 +3,7 @@ name: Frank Li
 role: Member
 email: angli23@uw.edu
 website: https://www.linkedin.com/in/anglifrank
-photo:
+photo: blank.png
 ---
 
 CS
