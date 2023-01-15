@@ -4,6 +4,7 @@ title: Meetings
 nav_order: 6
 has_children: true
 permalink: /meetings
+include_nav: false
 ---
 
 # Meetings
