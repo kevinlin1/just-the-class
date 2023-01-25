@@ -11,7 +11,7 @@ description: Our publications and presentations
 ## Papers
 
 ### 8/14/22, "Deinforcement Learning" (CUJCN)
-*Accepted by Canadian Undergraduate Journal of Cognitive Neuroscience.* The Reinforcement Learning group presents theoretical perspectives on the incorporation as pain as a driving motivator in reinforcement learning algorithms in the paper ["Deinforcement Learning"](https://interactive-intelligence.github.io/files/Deinforcement_Learning_FinalV1.pdf){:target="_blank"}.
+*Accepted by Canadian Undergraduate Journal of Cognitive Neuroscience.* The Reinforcement Learning group presents theoretical perspectives on the incorporation as pain as a driving motivator in reinforcement learning algorithms in the paper ["Deinforcement Learning"](https://interactive-intelligence.github.io/files/Deinforcement_Learning_V2.pdf){:target="_blank"}.
 
 ## Presentations/Posters
 
