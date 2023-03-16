@@ -1,10 +1,12 @@
 ---
 name: Varun Ananth
-role: Member
+role: Officer
 email: varunananth1@gmail.com
 website: https://www.linkedin.com/in/varunananth1
 photo: varun.jpg
 ---
+
+Business and Instruction Lead {: .label .label-yellow }
 
 CS
 {: .label .label-blue }
