@@ -6,7 +6,8 @@ website: https://www.linkedin.com/in/varunananth1
 photo: varun.jpg
 ---
 
-Education Lead {: .label .label-yellow }
+Education Lead 
+{: .label .label-yellow }
 
 CS
 {: .label .label-blue }
