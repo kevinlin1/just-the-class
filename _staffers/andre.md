@@ -9,10 +9,10 @@ photo: andre.jpg
 ML Lead
 {: .label .label-yellow }
 
-CS & Phil
+Phil, CHID, & CS
 {: .label .label-blue }
 
 Emergent Lang
 {: .label .label-purple }
 
-I have been extensively studying and working with deep neural networks, and I'm fascinated by their potential to exhibit intelligent properties. My specific interests are in computer vision, meta-learning, and neural network computational theory. *If there are any problems with the site, please email me.*
+Hey there! I’m Andre. I work on philosophy and computer science at the University of Washington. I am interested in exploring the epistemology of deep learning algorithms, particularly with respect to ‘deep pedagogy’, adaptive curriculum design, and the potential of such models to develop subjectivity, disagreement, opinions, and bias. *If there are any problems with the site, please email me or contact me on Discord.*

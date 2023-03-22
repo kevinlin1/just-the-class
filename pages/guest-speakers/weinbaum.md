@@ -1,11 +1,11 @@
----
+<!-- ---
 layout: default
 title: Alys Weinbaum
 nav_order: 4
 parent: Guest Speakers
 has_children: false
 permalink: /guest-speakers/weinbaum
----
+--- -->
 
 # Alys Weinbaum
 

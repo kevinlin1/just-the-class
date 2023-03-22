@@ -1,11 +1,11 @@
----
+<!-- ---
 layout: default
 title: Kevin Jamieson
 nav_order: 2
 parent: Guest Speakers
 has_children: false
 permalink: /guest-speakers/jamieson
----
+--- -->
 
 # Kevin Jamieson
 
@@ -19,17 +19,13 @@ Kevin Jamieson is an Assistant Professor in the Paul G. Allen School of Computer
 
 Jamieson’s research explores how to leverage already-collected data to inform what future measurements to make next, in a closed loop. Such active learning can extract considerably richer insights than any measurement plan fixed in advance, using the same statistical budget. His work ranges from theory to practical algorithms with guarantees to open-source machine learning systems and has been adopted in a range of applications, including measuring human perception in psychology studies, adaptive A/B/n testing in dynamic web-environments, numerical optimization, and choosing hyperparameters for deep neural networks.
 
-Jamieson will be coming to I2's journal club to talk about [x].
+Jamieson will be coming to I2's journal club to talk about theoretical reinforcement learning and multi-armed bandits.
 
 ## Recording
-Forthcoming.
 
-## Discussion Notes
-Forthcoming.
+Access the video in a [separate tab](https://youtu.be/sV6f8vIfVns){:target="_blank"}.
 
-
-
-
+{% include youtubePlayer.html id="sV6f8vIfVns" %}
 
 
 

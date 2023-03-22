@@ -19,10 +19,14 @@ description: I2's purpose, mission, and goals.
 
 ## About
 
-Interactive Intelligence is a team of students at the University of Washington working to make computation resemble what humans describe as intelligence. We are uniquely interdisciplinary, blending ideas from neuroscience to inform the structure of our algorithms and computations. We explore the many different approaches of engineered intelligence, from neuromorphic hardware to meta-cognitive machine learning algorithms. We are a project driven, outcome oriented team, and throughout Winter and Spring quarters we will be making, experimenting, and creating!
+Interactive Intelligence is a team of students at the University of Washington working to make computation resemble what humans describe as intelligence. We are uniquely interdisciplinary, blending ideas from neuroscience to inform the structure of our algorithms and computations. We explore the many different approaches of engineered intelligence, from neuromorphic hardware to meta-cognitive machine learning algorithms. Currently, we are running several [projects](https://interactive-intelligence.github.io/projects){:target="_blank"} and have produced a growing body of [research](https://interactive-intelligence.github.io/research){:target="_blank"}. Additionally, we routinely hosted [Journal Clubs](https://interactive-intelligence.github.io/jc){:target="_blank"} and often invite [notable figures](https://interactive-intelligence.github.io/guest-speakers){:target="_blank"} in the field. You can explore additional content we produce [here](https://interactive-intelligence.github.io/resources/topic-index){:target="_blank"}. We look forward to growing more in the 2022-2023 year!
+
+We are affiliated with the Allen School and the Center for Neurotechnology. We are advised by Eric Chudler and collaborate with other faculty.
+
+In a nutshell: we are the funnest student-led research group on campus!
 
 ## Formal RSO Constitution
-*Shortened in some places*
+*Shortened in some places*. Constitution is published for transparency, ~~although it holds very little weight in how things are actually run.~~
 
 ### Article I: Name
 {:.no_toc}
@@ -34,7 +38,7 @@ I2 is an environment which aims to create a community of project-driven, outcome
 
 ### Article III: Affiliations
 {:.no_toc}
-None.
+The Paul G. Allen School of Computer Science and Engineering, The Center for Neurotechnology
 
 ### Article IV: Membership
 {:.no_toc}

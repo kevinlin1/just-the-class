@@ -29,4 +29,6 @@ Development phases:
 2. Modify Mordatch & Abbeel's "emergent language" environment
 3. Train on a predator-prey environment for adversarial language development
 
-**Team members**: Alec, Amelia, Andre, Eric, Yegor
+**Fall '22 Team Members**: Alec, Andre, Yegor
+
+**Spring '22 Team members**: Alec, Amelia, Andre, Eric, Yegor

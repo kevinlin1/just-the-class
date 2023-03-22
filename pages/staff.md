@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Team
-nav_order: 10
+nav_order: 8
 permalink: /staff
 description: Meet our awesome team members!
 ---
@@ -32,7 +32,7 @@ Meet our awesome team members!
 
 {% assign advisors = site.staffers | where: 'role', 'Advisor' %}
 
-## Faculty Advisors
+## Advisors
 
 {% for staffer in advisors %}
 {{ staffer }}

@@ -24,7 +24,7 @@ Agendas, notes, and ideas from project meetings
 
 ---
 
-## Meeting 8, 5/25/22
+## Meeting 8, 5/26/22
 
 ### Agenda and Goals
 {: .no_toc}
@@ -32,8 +32,38 @@ Agendas, notes, and ideas from project meetings
 We will meet in CSE2 (exact room to be announced in Discord before meeting starts) at 5:30 PM. Note in Discord if you do not have building access, since CSE2 locks at 5:00 PM; a member will give you access. The tentative agenda is as follows.
 
 1. Friendly and lively chatter about life (`~10 min max`)
-2. Work significantly on writing paper
+2. Get significant work done on writing paper, assign sections and deadlines
 
+### Notes
+{: .no_toc }
+
+Approximate deadline to get the paper ready for submission: end of July.
+
+Things we want to try
+- Disentanglement penalty term
+- Fix up PyTorch model to use sampling
+- Procedurally generated shapes (optional)
+- More rigorous analysis of sequences
+- Code up relational dataset - try that out.
+
+Stuff to work on:
+- Yegor - getting the PyTorch model up to speed and incorporating various novel developments.
+- Andre - start writing section 1, Introduction and Contexts
+- Alec - start writing section 2, Benchmark Task
+
+
+
+---
+
+## Meeting 7, 5/19/22
+
+### Agenda and Goals
+{: .no_toc}
+
+We will meet in CSE2 (exact room to be announced in Discord before meeting starts) at 3:30 PM. The tentative agenda is as follows.
+
+1. Friendly and lively chatter about life (`~10 min max`)
+2. Work to complete poster for Discovering AI @ UW event.
 
 ---
 

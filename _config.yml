@@ -34,6 +34,10 @@ footer_content: I2 - Fusing neuroscience and AI to study intelligent computation
 ga_tracking: UA-220485381-1
 ga_tracking_anonymize_ip: false # Use GDPR compliant Google Analytics settings (true/nil by default)
 
+aux_links:
+  "Pub":
+    - "https://interactive-intelligence.github.io/pub/"
+
 # Collections for website data
 collections:
   staffers:

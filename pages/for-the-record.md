@@ -2,7 +2,7 @@
 layout: page
 title: For the Record
 permalink: /4-the-record
-nav_order: 1000
+nav_order: 9
 description: Recording I2 history.
 ---
 
@@ -44,6 +44,11 @@ The (Un)Official I2 History Books
 *DLSM model: chaotic overfitting at its finest. :)*
 
 ![image](https://user-images.githubusercontent.com/73039742/167777166-22889686-443c-4998-bd5a-8b48086e0c14.png)
+
+*DLSM model: creatively draws a lava moat and castle.*
+
+![image](https://user-images.githubusercontent.com/73039742/168405996-d462d605-7ab5-495b-af89-985dbad348bc.png)
+
 
 
 
