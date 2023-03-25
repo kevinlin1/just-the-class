@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Readings
+title: Short Readings
 parent: Machine Subjectivity
 grand_parent: Projects
-nav_order: 3
+nav_order: 99
 has_children: false
-permalink: /projects/machine-subjectivity/readings
+permalink: /projects/machine-subjectivity/short-readings
 ---
 
-# Readings
+# Short Readings
 
 ## "How Do You Make Yourself a Body Without Organs?" Deleuze
 
