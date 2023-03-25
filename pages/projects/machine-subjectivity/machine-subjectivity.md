@@ -10,7 +10,7 @@ permalink: /projects/machine-subjectivity
 # Machine Subjectivity
 {: .no_toc }
 
-Exploring subjectness in machine representations
+Philosophy of Deep Learning
 {: .fs-6 .fw-300 }
 
 ---
@@ -23,21 +23,4 @@ Exploring subjectness in machine representations
 
 ---
 
-## Description
-
-## Meetings
-
-### Meeting 1
-{: .no_toc}
-
-4:30 to 5:30 PM, Engineering Library Room 302.
-
-Agenda:
-1. Introduce everyone to each other
-2. Collect information about group member's backgrounds and interests
-3. Begin formulating a project outline and principal questions
-4. Assign / discuss Chollet intelligence equation paper
-
-Notes:
-- lorem ipsum
-
+We are a close-knit community of writers and readers discussing topics in the philosophy of deep learning. Currently we are reading *On the Existence of Digital Objects* by Yuk Hui. Members can access the PDFs [here](https://drive.google.com/drive/folders/14eLdZmvNeYVRvrB6EcdX18Fs9-mbzxua?usp=sharing){:target="_blank"}. We meet on Tuesdays at 4:30 PM in Savery Hall (join Discord for details).
