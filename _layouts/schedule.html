@@ -9,7 +9,7 @@
   <ul class="schedule-group">
     {% for day in page.schedule %}
     <li class="schedule-day">
-      <h2 class="schedule-header">{{ day.name }}</h2>
+      <h2 class="schedule-header no_anchor">{{ day.name }}</h2>
       {% if day.events %}
       <ul class="schedule-events" style="height: {{ page.timeline | size | times: 40 }}px">
       {% for event in day.events %}
