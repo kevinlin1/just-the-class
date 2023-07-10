@@ -9,9 +9,19 @@
     width: auto;
   }
 
-  p,
+  .anchor-heading {
+    right: auto;
+    left: -$sp-5;
+  }
+
+  .staffer-name,
+  .staffer-meta,
+  p {
+    margin: 0 0 $sp-1 0;
+  }
+
   .staffer-name {
-    margin: $sp-1 !important;
+    @extend .d-inline-block;
   }
 
   .staffer-pronouns {
