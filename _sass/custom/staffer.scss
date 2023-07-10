@@ -31,6 +31,15 @@
   }
 
   .staffer-meta {
-    @extend .text-grey-dk-000;
+    dt, dd, dd + dt {
+      margin-top: 0;
+    }
+  }
+
+  @include mq(sm) {
+    .staffer-meta {
+      display: grid;
+      grid-template-columns: auto 1fr;
+    }
   }
 }
