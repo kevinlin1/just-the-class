@@ -2,7 +2,7 @@
 layout: default
 title: Self-Improving RL
 parent: Projects
-nav_order: 2
+nav_order: 4
 has_children: false
 permalink: /projects/self-improving-rl
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Intelligent NCA
 parent: Projects
-nav_order: 2
+nav_order: 1000
 has_children: false
 permalink: /projects/intelligent-nca
 ---

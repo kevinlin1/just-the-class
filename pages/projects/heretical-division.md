@@ -2,7 +2,7 @@
 layout: default
 title: Heretical Division
 parent: Projects
-nav_order: 999
+nav_order: 10000
 has_children: false
 permalink: /projects/heresy
 ---
