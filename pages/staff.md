@@ -49,3 +49,11 @@ Meet our awesome team members!
 {{ staffer }}
 {% endfor %}
 {% endif %}
+
+## Alumni
+
+{% assign member = site.staffers | where: 'role', 'Alumni' %}
+{% for staffer in alumni %}
+{{ staffer }}
+{% endfor %}
+{% endif %}
