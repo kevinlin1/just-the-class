@@ -10,6 +10,7 @@ nav_order: 5
 View the course website [here](https://interactive-intelligence.github.io/intro-neuro-ai-website/){:target="_blank"}.
 
 ## Graduates
+Total number of graduates: 17
 
 Spring 2023
 - Albert Wang
