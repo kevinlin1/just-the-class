@@ -52,7 +52,7 @@ Meet our awesome team members!
 
 ## Alumni
 
-{% assign member = site.staffers | where: 'role', 'Alumni' %}
+{% assign alumni = site.staffers | where: 'role', 'Alumni' %}
 {% for staffer in alumni %}
 {{ staffer }}
 {% endfor %}
