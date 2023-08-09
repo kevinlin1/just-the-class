@@ -37,6 +37,12 @@ ga_tracking_anonymize_ip: false # Use GDPR compliant Google Analytics settings (
 aux_links:
   "Pub":
     - "https://interactive-intelligence.github.io/pub/"
+  "DreamSeed":
+    - "https://www.i2axon.com/"
+  "Intro Course":
+    - "https://interactive-intelligence.github.io/intro-neuro-ai-website/"
+  "I2 Labs":
+    - "https://i2-labs.org/"
 
 # Collections for website data
 collections:
