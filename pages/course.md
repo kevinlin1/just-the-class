@@ -1,0 +1,33 @@
+---
+layout: page
+title: Intro Course
+description:
+nav_order: 5
+---
+
+# Intro Neuro/AI Course
+
+View the course website [here](https://interactive-intelligence.github.io/intro-neuro-ai-website/){:target="_blank"}.
+
+## Graduates
+
+Spring 2023
+- Albert Wang
+- Angelo Dauz
+- Ethan Bai
+- Feier Long
+- Frankie Reyna
+- Jay Yu
+- Justin Dong
+- Kelland Harrison
+- Molly Park
+- Siddharth Thiagarajan
+- Tyler Ramos
+
+Winter 2023
+- Ameya Agrawal
+- Eric Ye
+- Frank Li
+- Greg Baimetov
+- Gunn Kim
+- Vibhav Peri

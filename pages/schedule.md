@@ -2,7 +2,7 @@
 layout: page
 title: Schedule
 description: The weekly event schedule.
-nav_order: 5
+nav_order: 20
 ---
 
 # Weekly Schedule
@@ -11,10 +11,11 @@ nav_order: 5
 
 | These schedules may be subject to change. Check the Discord for the most up-to-date information. |
 
-- Journal Club: Tuesdays, 6:00 - 7:00 PM, Sieg 332
+On break over summer
+
+<!-- - Journal Club: Tuesdays, 6:00 - 7:00 PM, Sieg 332
 - Team Meetings: Fridays, 5:00 PM - 6:00 PM, Sieg 233
-- Machine Subjectivity Group Meetings: Wednesdays, 5:00 PM - 6:00 PM, CSE2 (specific room on Discord)
-- 
+- Machine Subjectivity Group Meetings: Wednesdays, 5:00 PM - 6:00 PM, CSE2 (specific room on Discord) -->
 
 <!-- {% for schedule in site.schedules %}
 <h2>{{ schedule.quarter }}</h2>
