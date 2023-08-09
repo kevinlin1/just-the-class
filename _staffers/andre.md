@@ -1,6 +1,6 @@
 ---
 name: Andre Ye
-role: Officer
+role: Alumni
 email: andreye@uw.edu
 website: https://andre-ye.github.io
 photo: andre.jpg
