@@ -10,8 +10,8 @@ permalink: /projects/network-split
 # Network Splitting
 {: .no_toc }
 
-Tagline
-{: .fs-6 .fw-300 }
+<!-- Tagline
+{: .fs-6 .fw-300 } -->
 
 ---
 
