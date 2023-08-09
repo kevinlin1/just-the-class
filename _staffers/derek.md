@@ -1,6 +1,6 @@
 ---
 name: Derek
-role: Member
+role: Alumni
 email:
 website:
 photo: blank.png

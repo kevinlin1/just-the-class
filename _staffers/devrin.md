@@ -1,6 +1,6 @@
 ---
 name: Devrin Chen-Sorasith Chullanandana 
-role: Advisor
+role: Alumni
 email: dr2592@uw.edu
 website: https://www.instagram.com/devrin.cc/
 photo: devrin.jpg
