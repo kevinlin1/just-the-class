@@ -1,6 +1,6 @@
 ---
 name: Charles M. S. Strauss
-role: Member
+role: Alumni
 email: cstrau2@uw.edu
 website: https://www.linkedin.com/in/charles-strauss-a53883161/
 photo: blank.png

@@ -1,6 +1,6 @@
 ---
 name: Sabrina Burka 
-role: Member
+role: Alumni
 email: sburka@uw.edu
 website: https://www.linkedin.com/in/sabrina-burka
 photo: sabrina.jpg

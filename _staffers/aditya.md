@@ -1,6 +1,6 @@
 ---
 name: Aditya Deepak Setty
-role: Member
+role: Alumni
 email: ads1103@uw.edu
 website: https://www.instagram.com/aditya_deepak_setty/
 photo: aditya.jpg

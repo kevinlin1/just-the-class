@@ -1,6 +1,6 @@
 ---
 name: Drew Nguyen
-role: Member
+role: Alumni
 email: nguyen.mail496@gmail.com
 website: https://www.linkedin.com/in/drew-nguyen-68abb5173/
 photo: blank.png

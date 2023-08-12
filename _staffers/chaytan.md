@@ -3,7 +3,7 @@ name: Chaytan Inman
 role: President
 email: chaytan@uw.edu
 website: https://www.linkedin.com/in/chaytan-inman/
-photo: chaytan.jpg
+photo: chaytan.png
 ---
 
 Team Captain

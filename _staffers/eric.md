@@ -1,6 +1,6 @@
 ---
 name: Eric Xia
-role: Member
+role: Alumni
 email: ericxia@uw.edu
 website: https://www.linkedin.com/in/eric-xia-seattle/
 photo: eric.jpg
