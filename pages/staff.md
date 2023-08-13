@@ -20,30 +20,30 @@ Meet our awesome team members!
 {{ staffer }}
 {% endfor %}
 
+## Officers
+
 {% assign officers = site.staffers | where: 'role', 'Officer' %}
 {% assign num_officers = officers | size %}
 {% if num_officers != 0 %}
-
-## Officers
 
 {% for staffer in officers %}
 {{ staffer }}
 {% endfor %}
 
-{% assign advisors = site.staffers | where: 'role', 'Advisor' %}
-
 ## Advisors
+
+{% assign advisors = site.staffers | where: 'role', 'Advisor' %}
 
 {% for staffer in advisors %}
 {{ staffer }}
 {% endfor %}
 {% endif %}
 
+## Members
+
 {% assign member = site.staffers | where: 'role', 'Member' %}
 {% assign num_member = member | size %}
 {% if num_member != 0 %}
-
-## Members
 
 {% for staffer in member %}
 {{ staffer }}
