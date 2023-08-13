@@ -34,6 +34,8 @@ Headings (markdown format) can be used to specify page sections. There are also 
 ```
 Here is a list of strings you can place in tags (curly braces) to add properties (text style,weight, clickable, etc.) to elements: [UI Components](https://just-the-docs.com/docs/ui-components).
 
+Also see: [Website Guide](https://interactive-intelligence.github.io/internal/website-guide/)
+
 ### Creating child/grandchild pages:
 
 Example of a page that has children.
