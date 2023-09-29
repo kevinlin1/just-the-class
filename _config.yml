@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Just the Class
+title: Hamster's Teaching
 tagline: A Jekyll template for course websites
 description: A modern, highly customizable, responsive Jekyll template for course websites
-author: Kevin Lin
-baseurl: '/just-the-class' # the subpath of your site, e.g. /blog
+author: Hamster
+# baseurl: '/just-the-class' # the subpath of your site, e.g. /blog
 url: 'https://kevinl.info' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
@@ -40,8 +40,15 @@ collections:
   modules:
   schedules:
   announcements:
+  VE203:
 # Default layouts for each collection type
 defaults:
+  - scope:
+      path: ''
+      type: VE203
+    values:
+      layout: VE203
+      subpath: '/assets/VE203/'
   - scope:
       path: ''
       type: staffers

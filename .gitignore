@@ -7,3 +7,6 @@ Gemfile.lock
 _site/
 node_modules/
 vendor/
+
+.vscode/
+_hidden/
