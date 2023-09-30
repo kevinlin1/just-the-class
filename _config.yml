@@ -28,6 +28,8 @@ search_enabled: true
 heading_anchors: true
 permalink: pretty
 aux_links:
+  HomePage:
+    - 'https://hamham223.com/teaching/'
   Hamster:
     - 'https://hamham223.com'
   Just the Class on GitHub:
