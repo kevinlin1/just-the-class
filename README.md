@@ -11,7 +11,8 @@ seo:
 # Hamster's Teaching Page
 
 Hi! I'm Yinchen Ni (Hamster), this is my teaching page!
----
+
+
 Please use the sidebar to navigate to the desired section.
 
 
@@ -19,14 +20,14 @@ Please use the sidebar to navigate to the desired section.
 
 Course assisted in previous semesters:
 
-|Semester   |   Course                                          |Enrollments|
-|:----------|:--------------------------------------------------|:---------:|
-|2021 Fall  |[VV186 (MATH1860J) Honors Mathematics II](VV186.md)|125        |
-|2021 Fall  |VV115 (MATH1150J) Calculas I                       |24         |
-|2022 Spring|VE203 (MATH2030J) Discrete Math                    |107        |
-|2022 Summer|VG101 (ENGR1010J) Intro. to Computer Programming   |78         |
-|2022 Fall  |[VE280 (ECE2800J) Elem. Programing](VE280.md)      |132        |
-|2023 Summer|[VE203 (MATH2030J) Discrete Math](VE203.md)        |69         |
+|Semester   |   Course                                                   |Enrollments|
+|:----------|:-----------------------------------------------------------|:---------:|
+|2021 Fall  |[VV186 (MATH1860J) Honors Mathematics II](VV186.md)         |125        |
+|2021 Fall  |VV115 (MATH1150J) Calculas I                                |24         |
+|2022 Spring|VE203 (MATH2030J) Discrete Math                             |107        |
+|2022 Summer|[VG101 (ENGR1010J) Intro. to Computer Programming](VG101.md)|78         |
+|2022 Fall  |[VE280 (ECE2800J) Elem. Programing](VE280.md)               |132        |
+|2023 Summer|[VE203 (MATH2030J) Discrete Math](VE203.md)                 |69         |
 
 ## Future Plans on the Page
 
