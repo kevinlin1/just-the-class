@@ -14,11 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Hamster's Teaching
-tagline: A Jekyll template for course websites
+tagline: A collection on my teaching works in UM-SJTU JI
 description: A modern, highly customizable, responsive Jekyll template for course websites
 author: Hamster
 # baseurl: '/just-the-class' # the subpath of your site, e.g. /blog
-url: 'https://kevinl.info' # the base hostname & protocol for your site, e.g. http://example.com
+url: 'https://hamham223.com/teaching' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
 # Theme settings
@@ -42,7 +42,6 @@ collections:
   modules:
   schedules:
   announcements:
-  VE203:
 # Default layouts for each collection type
 defaults:
   - scope:
