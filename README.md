@@ -38,6 +38,14 @@ Course assisted in previous semesters:
   - [ ] academic related activities (integration bee, linux install party)
 + Ask more JI TAs to review this page
 
+## Contribute to the Page
+
+I welcome any comments or feasible suggestions you may have to help me improve. Thank you in advance for your support! You may:
+
++ Open up github issues: [https://github.com/hamham223/just-the-class/issues](https://github.com/hamham223/just-the-class/issues)
++ Create pull requests: [https://github.com/hamham223/just-the-class/pulls](https://github.com/hamham223/just-the-class/pulls)
++ Contact me: [http://hamham223.com/#contact](http://hamham223.com/#contact)
+
 ## About the template
 
 Just the Class is a GitHub Pages template developed for the purpose of quickly deploying course websites. It extends the popular [Just the Docs](https://github.com/just-the-docs/just-the-docs) theme, which provides a robust and thoroughly-tested foundation for your website. Just the Docs include features such as:
