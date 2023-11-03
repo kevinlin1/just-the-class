@@ -9,9 +9,7 @@ nav_order: 20
 
 <!-- | **!!!** I2 will not have weekly meetings on the Fridays 3/18 (finals week) and 3/25 (Spring break). The last Journal Club meeting is on Monday (3/14) from 5:00 PM to 7:00 PM at HUB 238, not the usual Sieg 332. | -->
 
-| These schedules may be subject to change. Check the Discord for the most up-to-date information. |
-
-On break over summer
+Please join our discord for the most up to date information about our meetings!
 
 <!-- - Journal Club: Tuesdays, 6:00 - 7:00 PM, Sieg 332
 - Team Meetings: Fridays, 5:00 PM - 6:00 PM, Sieg 233

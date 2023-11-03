@@ -1,6 +1,6 @@
 ---
 name: Janna Hong
-role: Officer
+role: Alumni
 email: jannahg@uw.edu
 website: https://www.linkedin.com/in/janna-hong-662956231/
 photo: janna.jpg

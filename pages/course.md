@@ -2,12 +2,14 @@
 layout: page
 title: Intro Course
 description:
-nav_order: 5
+nav_order: 3
 ---
 
 # Intro Neuro/AI Course
 
 View the course website [here](https://interactive-intelligence.github.io/intro-neuro-ai-website/){:target="_blank"}.
+
+Congratulations to all of our graduates!
 
 ## Graduates
 Total number of graduates: 17

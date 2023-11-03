@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Backburner
-parent: Projects
+parent: Legacy Projects
 nav_order: 1000
 has_children: false
-permalink: /projects/backburner
+permalink: /legacy-projects/backburner
 ---
 
 # Backburner

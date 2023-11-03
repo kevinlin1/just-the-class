@@ -1,6 +1,6 @@
 ---
 name: Catherine Rasgaitis
-role: Member
+role: Alumni
 email: catraz@uw.edu
 website: https://www.linkedin.com/in/catherine-rasgaitis/
 photo: catherine.jpg

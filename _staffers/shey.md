@@ -1,6 +1,6 @@
 ---
 name: Shey Gao
-role: Member
+role: Alumni
 email: shengg6@uw.edu
 website: 
 photo: shey.jpg

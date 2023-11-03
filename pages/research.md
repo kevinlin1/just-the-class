@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Research
-nav_order: 3
+nav_order: 6
 permalink: /research
 description: Our publications and presentations
 ---

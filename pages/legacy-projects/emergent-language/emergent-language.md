@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Emergent Language
-parent: Projects
+parent: Legacy Projects
 nav_order: 10
 has_children: true
-permalink: /projects/emergent-lang
+permalink: /legacy-projects/emergent-lang
 ---
 
 # Emergent Language

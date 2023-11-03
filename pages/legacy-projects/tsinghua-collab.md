@@ -1,17 +1,16 @@
 ---
 layout: default
 title: Autonomous Robotics
-parent: Projects
+parent: Legacy Projects
 nav_order: 2
 has_children: false
-permalink: /projects/autonomous-robotics
+permalink: /legacy-projects/autonomous-robotics
 ---
 
 # Autonomous Robotics
 {: .no_toc }
 
 Collaboration with Tsinghua University
-{: .fs-6 .fw-300 } -->
 
 ---
 

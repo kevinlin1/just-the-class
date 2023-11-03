@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Self-Improving RL
-parent: Projects
+parent: Legacy Projects
 nav_order: 4
 has_children: false
-permalink: /projects/self-improving-rl
+permalink: /legacy-projects/self-improving-rl
 ---
 
 # Self-Improving RL

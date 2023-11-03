@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Team
-nav_order: 8
+nav_order: 7
 permalink: /staff
 description: Meet our awesome team members!
 ---

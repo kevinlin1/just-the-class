@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Bio-RL
-parent: Projects
+parent: Legacy Projects
 nav_order: 5
 has_children: true
-permalink: /projects/bio-rl
+permalink: /legacy-projects/bio-rl
 ---
 
 # Bio-RL

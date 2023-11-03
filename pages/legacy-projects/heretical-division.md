@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Heretical Division
-parent: Projects
+parent: Legacy Projects
 nav_order: 10000
 has_children: false
-permalink: /projects/heresy
+permalink: /legacy-projects/heresy
 ---
 
 # Heretical Division

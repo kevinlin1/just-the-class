@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Intelligent NCA
-parent: Projects
+title: Neural Graphs
+parent: Legacy Projects
 nav_order: 1000
 has_children: false
-permalink: /projects/intelligent-nca
+permalink: /legacy-projects/intelligent-nca
 ---
 
 # Intelligent NCA

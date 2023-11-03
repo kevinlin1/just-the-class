@@ -1,6 +1,6 @@
 ---
 name: Hilal Mufti
-role: Member
+role: Alumni
 email: hilalmufti1@gmail.com 
 website:
 photo: blank.png

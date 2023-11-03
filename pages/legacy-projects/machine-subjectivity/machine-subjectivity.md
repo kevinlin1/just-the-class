@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Machine Subjectivity
-parent: Projects
+parent: Legacy Projects
 nav_order: 1000
 has_children: true
-permalink: /projects/machine-subjectivity
+permalink: /legacy-projects/machine-subjectivity
 ---
 
 # Machine Subjectivity
