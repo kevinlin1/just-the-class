@@ -10,7 +10,7 @@ permalink: /current-projects/neural-graphs
 # Neural Graphs
 {: .no_toc }
 
-Super cool stuff Yegor help me w/ a description
+Meta-Learning Intelligence in Recurrent Graph Neural Networks
 {: .fs-6 .fw-300 }
 
 ## Project Leadership

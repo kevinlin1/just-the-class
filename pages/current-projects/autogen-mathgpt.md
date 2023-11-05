@@ -36,5 +36,8 @@ The future of this research project:
 2. Paper(Since multi-agent is a hot topic in academia now).
 3. Adapt to other field: programming, essay writing, etc.
 
+## Project Video
+{% include youtubePlayer.html id="aT2EtN1WNnM" %}
+
 ## Alignment with I2
 This project embodies I2's mission by innovating AI interactions, simulating human learning, and enhancing problem-solving intelligence.
