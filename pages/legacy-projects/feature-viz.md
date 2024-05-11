@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Feature Visualization
-parent: Current Projects
+parent: Legacy Projects
 nav_order: 4
 has_children: false
-permalink: /current-projects/feature-viz
+permalink: /legacy-projects/feature-viz
 ---
 
 # Feature Visualization

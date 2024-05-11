@@ -38,21 +38,3 @@ Meet our awesome team members!
 {{ staffer }}
 {% endfor %}
 {% endif %}
-
-## Members
-
-{% assign member = site.staffers | where: 'role', 'Member' %}
-{% assign num_member = member | size %}
-{% if num_member != 0 %}
-
-{% for staffer in member %}
-{{ staffer }}
-{% endfor %}
-{% endif %}
-
-## Alumni
-
-{% assign alumni = site.staffers | where: 'role', 'Alumni' %}
-{% for staffer in alumni %}
-{{ staffer }}
-{% endfor %}

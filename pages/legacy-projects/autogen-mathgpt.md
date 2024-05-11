@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Autogen MathGPT
-parent: Current Projects
+parent: Legacy Projects
 nav_order: 3
 has_children: false
-permalink: /current-projects/autogen-mathgpt
+permalink: /legacy-projects/autogen-mathgpt
 ---
 
 # Autogen MathGPT
