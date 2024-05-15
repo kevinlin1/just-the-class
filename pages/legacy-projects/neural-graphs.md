@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Neural Graphs
-parent: Current Projects
+parent: Legacy Projects
 nav_order: 1
 has_children: false
-permalink: /current-projects/neural-graphs
+permalink: /legacy-projects/neural-graphs
 ---
 
 # Neural Graphs

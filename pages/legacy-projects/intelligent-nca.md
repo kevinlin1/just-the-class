@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Neural Graphs
+title: Intelligent NCA
 parent: Legacy Projects
 nav_order: 1000
 has_children: false

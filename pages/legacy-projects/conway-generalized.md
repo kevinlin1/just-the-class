@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Conway Generalized
-parent: Current Projects
+parent: Legacy Projects
 nav_order: 2
 has_children: false
-permalink: /current-projects/conway-generalized
+permalink: /legacy-projects/conway-generalized
 ---
 
 # Conway Generalized
