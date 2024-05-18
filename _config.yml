@@ -48,6 +48,12 @@ collections:
   modules:
   schedules:
   announcements:
+  main:
+    output: true
+  initiatives:
+    output: true
+  archives:
+    output: true
 # Default layouts for each collection type
 defaults:
   - scope:
@@ -79,6 +85,15 @@ compress_html:
   startings: []
   blanklines: false
   profile: false
+
+just_the_docs:
+  collections:
+    main:
+      name: Main
+    initiatives:
+      name: Initiatives
+    archives:
+      name: Archives
 
 plugins:
   - jekyll-seo-tag
