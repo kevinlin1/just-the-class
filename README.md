@@ -6,7 +6,7 @@ Thanks to Kevin Lin, creator of Just the Class, the template upon which this web
 
 ### Basic pages:
 
-Pages can be created under the pages folder, and each one has a header at the top.
+Pages can be created under the `_main`, `_initiatives`, or `_archives` folders, and each one has a header at the top.
 
 ```
 ---
