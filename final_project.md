@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Final_Project
+title: Final Project
 description: Final_Project
 ---
 
