@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Calendar
+title: Scripts
 description: Listing of course modules and topics.
 ---
 
-# Calendar
+# Scripts
 
 {% for module in site.modules %}
 {{ module }}
