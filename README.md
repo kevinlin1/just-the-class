@@ -17,7 +17,7 @@ Fall 2024
 
 **Course Description:**  ;;;  
 
-**Prerequisites:**  
+**Prerequisites:** One previous statistics course.  
 
 **Main Goal of this Course:**  
 
