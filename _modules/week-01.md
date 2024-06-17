@@ -1,16 +1,16 @@
 ---
-title: Introduction to Java
+title: Introduction to Statistical Modeling
 ---
 
-Sep 28
-: [Java & Git](#)
+Aug 21
+: [R script](#)
   : [1.1](#)
 
-Sep 29
-: **Section**{: .label .label-purple }[Intro to Java](#)
+Aug 23
+: **Section**{: .label .label-purple }[Intro to Stat Modeling](#)
   : [Solution](#)
 
-Sep 30
+Aug 26
 : [Variables & Objects](#)
   : [1.2](#), [2.1](#)
 
