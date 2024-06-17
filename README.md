@@ -15,9 +15,10 @@ Fall 2024
 
 **Time:** Mon-Wed-Fri 9:30 am - 10.20 am  
 
-**Course Description:**  ;;;  
+**Course Description:**  This course introduces students to statistical modeling and, more broadly, statistical thinking (more on statistical thinking here and here). 
+We will cover linear regression, ANOVA, model checking, and model selection. We may cover more advanced topics like generalized linear (mixed) models, Bayesian regression and missing data techniques.
 
-**Prerequisites:** One previous statistics course.  
+**Prerequisites:** One previous statistics course. Some background R programming is convenient, but not required.   
 
 **Main Goal of this Course:**  
 
