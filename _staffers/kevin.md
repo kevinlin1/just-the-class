@@ -1,11 +1,11 @@
 ---
-name: Kevin Lin
+name: Josefina Lacasa
 role: Instructor
-email: me@example.com
-website: https://kevinl.info
-photo: kevin.jpg
+email: lacasa 'at' ksu.edu
+website: https://jlacasa.github.io
+photo: josefina.jpg
 meta:
-  Office Hours: Somewhere on the internet
+  Office Hours: M-W-F 10.20-11.20 am
 ---
 
 [Schedule an appointment](#){: .btn .btn-outline }
