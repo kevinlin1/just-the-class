@@ -22,7 +22,5 @@ We will cover linear regression, ANOVA, model checking, and model selection. We 
 
 **Main Goal of this Course:**  
 
-**What I expect:**  
-
-**What I expect:**  
+**What this course is not:**  
 
