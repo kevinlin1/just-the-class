@@ -23,7 +23,7 @@ To encourage students to think statistically, considering the data generating pr
 At the end of this course, students are expected to know how to apply different basic statistical concepts using R software.  
 
 **What this course is not:**  
-- An R programming course.However, help will be provided.
+- An R programming course. However, help will be provided.
 - 
 
 **Prerequisites:** One previous statistics course. Some background R programming is convenient, but not required.   
