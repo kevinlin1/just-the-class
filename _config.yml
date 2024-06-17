@@ -28,10 +28,8 @@ search_enabled: true
 heading_anchors: true
 permalink: pretty
 aux_links:
-  Kevin Lin:
-    - 'https://kevinl.info'
-  Just the Class on GitHub:
-    - 'https://github.com/kevinlin1/just-the-class'
+  Dr. Lacasa:
+    - 'https://jlacasa.github.io'
 footer_content:
 
 # Collections for website data
