@@ -11,7 +11,7 @@ seo:
 # STAT 705 - Regression and Analysis of Variance  
 Fall 2024  
 
-**Instructor:** Dr. Josefina Lacasa (see more in the [staff](staff.md) page)  
+**Instructor:** Dr. Josefina Lacasa (see [staff](staff.md) page)  
 
 **Time:** Mon-Wed-Fri 9:30 am - 10.20 am  
 
