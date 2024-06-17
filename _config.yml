@@ -28,8 +28,8 @@ search_enabled: true
 heading_anchors: true
 permalink: pretty
 aux_links:
-  Dr. Lacasa:
-    - 'https://jlacasa.github.io'
+#  Dr. Lacasa:
+#    - 'https://jlacasa.github.io'
 footer_content:
 
 # Collections for website data
