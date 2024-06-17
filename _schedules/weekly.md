@@ -30,6 +30,9 @@ schedule:
         end: 11:30 AM
         location: D 107
   - name: Tuesday
+      - name: HW Deadline
+        start: 8:00 AM
+        end: 8:00 AM
   - name: Wednesday
     events:
       - name: Lecture
