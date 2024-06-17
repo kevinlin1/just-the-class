@@ -25,10 +25,10 @@ schedule:
         start: 9:30 AM
         end: 10:20 AM
         location: D 207
-      - name: Office Hours (in-person)
+      - name: Office Hours
         start: 10:30 AM
         end: 11:30 AM
-        location: 271 Soda
+        location: D 107
   - name: Tuesday
   - name: Wednesday
     events:
@@ -36,7 +36,7 @@ schedule:
         start: 9:30 AM
         end: 10:20 AM
         location: D 207
-      - name: Office Hours (Zoom)
+      - name: Office Hours
         start: 10:30 AM
         end: 11:30 AM
         location: Zoom
@@ -47,7 +47,7 @@ schedule:
         start: 9:30 AM
         end: 10:20 AM
         location: 150 Wheeler
-      - name: Office Hours (in-person)
+      - name: Office Hours
         start: 10:30 AM
         end: 11:30 AM
         location: D 107
