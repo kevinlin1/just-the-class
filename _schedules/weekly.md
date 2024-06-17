@@ -22,9 +22,8 @@ schedule:
   - name: Monday
     events:
       - name: Lecture
-        start: 9:30 AM
+        start: 9:20 AM
         end: 10:30 AM
-        location: 150 Wheeler
       - name: Section
         start: 11:30 AM
         end: 12:30 PM
