@@ -7,9 +7,9 @@ Aug 19
   : [R](), [RStudio](), [other resources]().
 
 Aug 21
-: [R script](#)
-  : [1.1](#)
+: Intro to statistical modeling
+  : [R script](#)
 
 Aug 23
 : **Section**{: .label .label-purple }[Intro to Stat Modeling](#)
-  : [Solution](#)
+  : [R script](#); [Assignment due 08/30]().
