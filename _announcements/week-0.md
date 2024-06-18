@@ -4,5 +4,5 @@ week: 0
 date: 2019-04-01
 ---
 
-Hello world!
+Welcome to Linear Regression and ANOVA!
 {: .fs-5 }
