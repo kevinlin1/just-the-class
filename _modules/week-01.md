@@ -12,5 +12,5 @@ Aug 21
 
 Aug 23
 : **Section**{: .label .label-purple }[Intro to Stat Modeling](#)
-: **New Assignment**{: .label .label-green }
-  : [R script](#); [Assignment due 08/30]().
+: **New Assignment**{: .label .label-green } Due 08/30.
+  : [R script](#).
