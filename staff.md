@@ -15,9 +15,9 @@ description: A listing of all the course staff members.
 {% assign teaching_assistants = site.staffers | where: 'role', 'Teaching Assistant' %}
 {% assign num_teaching_assistants = teaching_assistants | size %}
 {% if num_teaching_assistants != 0 %}
-[comment]: ## Teaching Assistant
+<!-- ## Teaching Assistant
 
-[comment]: {% for staffer in teaching_assistants %}
-[comment]: {{ staffer }}
-[comment]: {% endfor %}
-[comment]: {% endif %}
+{% for staffer in teaching_assistants %}
+{{ staffer }}
+{% endfor %}
+{% endif %} -->
