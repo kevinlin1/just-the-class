@@ -1,5 +1,5 @@
 ---
-title: Basic Data Structures
+title: Applied Linear Models
 ---
 
 Aug 29
