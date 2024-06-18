@@ -2,10 +2,6 @@
 title: Introduction to Statistical Modeling
 ---
 
-**Date**
-: Topic
-  : Resources
-
 Aug 19
 : Welcome!
   : [R](), [RStudio](), [other resources]().
