@@ -7,5 +7,3 @@ photo: profile.png
 meta:
   Office Hours: M-W-F 10.20-11.20 am
 ---
-
-[Schedule an appointment](#){: .btn .btn-outline }
