@@ -1,0 +1,17 @@
+---
+title: "Day 1 - 08/19/2024"
+format: html
+editor: visual
+---
+
+## Welcome to STAT 705!
+
+About me.
+
+About you.
+
+```{r}
+plot(cars)
+```
+
+## Goals
