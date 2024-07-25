@@ -29,11 +29,11 @@ editor: visual
 - Fitting the model using R
 
 ## In-class activity  
-How much do 100 candy weigh?
+How much do 100 corn kernels weigh?
 
 ```{r eval=FALSE}
-candy <- read.csv("../classes/data/candy_data.csv")
-hist(candy)
+kernels <- read.csv("../classes/data/corn_kernel_data.csv")
+hist(kernels)
 ```
 
 
@@ -42,6 +42,6 @@ hist(candy)
 - Install [R](https://cran.r-project.org/) and [RStudio](https://posit.co/download/rstudio-desktop/).  
 - Send me an email if you wish to use a different software.  
 - Think of your semester project.  
-
+- Complete [this survey]().
 
 
