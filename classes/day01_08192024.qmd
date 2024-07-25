@@ -6,12 +6,42 @@ editor: visual
 
 ## Welcome to STAT 705!
 
-About me.
+- [About me](https://jlacasa.github.io/)
 
-About you.
+- About you  
+  - about 50% of you study some type of natural science.  
+  - about 20% PhD, 50% Master's, 30% undergraduates
 
-```{r}
-plot(cars)
+## About this course
+
+### Logistics  
+- Website  
+- Syllabus  
+- Statistical programming  
+- Rough draft of the course  
+- Semester project  
+- Grades  
+
+### Philosophy and goals    
+- Statistical thinking  
+- Think of data generating processes
+- Writing out statistical models
+- Fitting the model using R
+
+## In-class activity  
+How much do 100 candy weigh?
+
+```{r eval=FALSE}
+candy <- read.csv("../classes/data/candy_data.csv")
+hist(candy)
 ```
 
-## Goals
+
+## Homework  
+
+- Install [R](https://cran.r-project.org/) and [RStudio](https://posit.co/download/rstudio-desktop/).  
+- Send me an email if you wish to use a different software.  
+- Think of your semester project.  
+
+
+

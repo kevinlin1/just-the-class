@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -62,11 +96,62 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="welcome-to-stat-705" class="level2">
 <h2 class="anchored" data-anchor-id="welcome-to-stat-705">Welcome to STAT 705!</h2>
-<p>About me.</p>
-<p>About you.</p>
+<ul>
+<li><p><a href="https://jlacasa.github.io/">About me</a></p></li>
+<li><p>About you</p>
+<ul>
+<li>about 50% of you study some type of natural science.<br>
+</li>
+<li>about 20% PhD, 50% Master’s, 30% undergraduates</li>
+</ul></li>
+</ul>
 </section>
-<section id="goals" class="level2">
-<h2 class="anchored" data-anchor-id="goals">Goals</h2>
+<section id="about-this-course" class="level2">
+<h2 class="anchored" data-anchor-id="about-this-course">About this course</h2>
+<section id="logistics" class="level3">
+<h3 class="anchored" data-anchor-id="logistics">Logistics</h3>
+<ul>
+<li>Website<br>
+</li>
+<li>Syllabus<br>
+</li>
+<li>Statistical programming<br>
+</li>
+<li>Rough draft of the course<br>
+</li>
+<li>Semester project<br>
+</li>
+<li>Grades</li>
+</ul>
+</section>
+<section id="philosophy-and-goals" class="level3">
+<h3 class="anchored" data-anchor-id="philosophy-and-goals">Philosophy and goals</h3>
+<ul>
+<li>Statistical thinking<br>
+</li>
+<li>Think of data generating processes</li>
+<li>Writing out statistical models</li>
+<li>Fitting the model using R</li>
+</ul>
+</section>
+</section>
+<section id="in-class-activity" class="level2">
+<h2 class="anchored" data-anchor-id="in-class-activity">In-class activity</h2>
+<p>How much do 100 candy weigh?</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>candy <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"../classes/data/candy_data.csv"</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">hist</span>(candy)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="homework" class="level2">
+<h2 class="anchored" data-anchor-id="homework">Homework</h2>
+<ul>
+<li>Install <a href="https://cran.r-project.org/">R</a> and <a href="https://posit.co/download/rstudio-desktop/">RStudio</a>.<br>
+</li>
+<li>Send me an email if you wish to use a different software.<br>
+</li>
+<li>Think of your semester project.</li>
+</ul>
 </section>
 
 </main>
