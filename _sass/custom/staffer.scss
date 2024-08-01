@@ -2,10 +2,24 @@
   display: flex;
   margin: $sp-4;
 
-  .staffer-image {
+  .staffer-image-container {
     border-radius: 50%;
-    height: 100px;
+    position: relative;
+    overflow: hidden;
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 100px;
+    max-height: 100px;
     margin-right: $sp-4;
+  }
+
+  .staffer-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   p,
