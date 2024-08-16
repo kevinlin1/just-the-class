@@ -6,29 +6,34 @@ editor: visual
 
 ## Welcome to STAT 705!
 
-- [About me](https://jlacasa.github.io/)
+-   [About me](https://jlacasa.github.io/)
 
-- About you  
-  - about 50% of you study some type of natural science.  
-  - about 20% PhD, 50% Master's, 30% undergraduates
+-   About you
+
+    ![](misc_plots/students_fall2024.png)
+    -   more than 50% of you study some type of natural science.\
+    -   about 20% PhD, 60% Master's, 20% undergraduates.
 
 ## About this course
 
-### Logistics  
-- Website  
-- Syllabus  
-- Statistical programming  
-- Rough draft of the course  
-- Semester project  
-- Grades  
+### Logistics
 
-### Philosophy and goals    
-- Statistical thinking  
-- Think of data generating processes
-- Writing out statistical models
-- Fitting the model using R
+-   Website\
+-   Syllabus\
+-   Statistical programming\
+-   Rough draft of the course\
+-   Semester project\
+-   Grades
 
-## In-class activity  
+### Philosophy and goals
+
+-   Statistical thinking\
+-   Think of data generating processes
+-   Writing out statistical models
+-   Fitting the model using R
+
+## In-class activity
+
 How much do 100 corn kernels weigh?
 
 ```{r eval=FALSE}
@@ -36,12 +41,9 @@ kernels <- read.csv("../classes/data/corn_kernel_data.csv")
 hist(kernels)
 ```
 
+## For next class:
 
-## Homework  
-
-- Install [R](https://cran.r-project.org/) and [RStudio](https://posit.co/download/rstudio-desktop/).  
-- Send me an email if you wish to use a different software.  
-- Think of your semester project.  
-- Complete [this survey]().
-
-
+-   Install [R](https://cran.r-project.org/) and [RStudio](https://posit.co/download/rstudio-desktop/).\
+-   Send me an email if you wish to use a different software.\
+-   Think of your semester project.\
+-   Complete [this survey](https://docs.google.com/forms/d/e/1FAIpQLSc65j67J344gpDt9NByylEJmQTuFi8uoO1XTpMORrp5OWPWMw/viewform?usp=pp_url).\
