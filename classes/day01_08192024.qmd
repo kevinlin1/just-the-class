@@ -6,7 +6,9 @@ editor: visual
 
 ## Welcome to STAT 705!
 
--   [About me](https://jlacasa.github.io/)
+-   About us
+    - [Josefina](https://jlacasa.github.io/)
+    - [Robert](https://sites.google.com/view/rmshollksu/home)
 
 -   About you
 
