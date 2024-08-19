@@ -38,7 +38,7 @@ editor: visual
 
 ## In-class activity
 
-How much do 100 corn kernels weigh?
+How much do 10 corn kernels weigh?
 
 ```{r eval=TRUE}
 kernels <- read.csv("data/corn_kernel_data.csv")
