@@ -105,8 +105,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><p>About you</p>
 <p><img src="misc_plots/students_fall2024.png" class="img-fluid"></p>
 <ul>
-<li>more than 50% of you study some type of natural science.<br>
-</li>
+<li>more than 50% of you study some type of biological science.</li>
 <li>about 20% PhD, 60% Master’s, 20% undergraduates.</li>
 </ul></li>
 </ul>
@@ -116,24 +115,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="logistics" class="level3">
 <h3 class="anchored" data-anchor-id="logistics">Logistics</h3>
 <ul>
-<li>Website<br>
-</li>
-<li>Syllabus<br>
-</li>
-<li>Statistical programming<br>
-</li>
-<li>Rough draft of the course<br>
-</li>
-<li>Semester project<br>
-</li>
+<li>Website</li>
+<li>Syllabus</li>
+<li>Statistical programming</li>
+<li>Rough draft of the course</li>
+<li>Semester project</li>
 <li>Grades</li>
 </ul>
 </section>
 <section id="philosophy-and-goals" class="level3">
 <h3 class="anchored" data-anchor-id="philosophy-and-goals">Philosophy and goals</h3>
 <ul>
-<li>Statistical thinking<br>
-</li>
+<li>Statistical thinking</li>
 <li>Think of data generating processes</li>
 <li>Writing out statistical models</li>
 <li>Fitting the model using R</li>
@@ -144,19 +137,24 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="in-class-activity">In-class activity</h2>
 <p>How much do 100 corn kernels weigh?</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>kernels <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"../classes/data/corn_kernel_data.csv"</span>)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">hist</span>(kernels)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>kernels <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"data/corn_kernel_data.csv"</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">hist</span>(kernels<span class="sc">$</span>weight_g,</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>     <span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">3</span>,<span class="dv">6</span>, <span class="at">by =</span> .<span class="dv">1</span>), </span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>     <span class="at">main =</span> <span class="st">"Histogram of 10 corn kernels weight (g)"</span>, </span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>     <span class="at">xlab =</span> <span class="st">"10 kernel weight (g)"</span>, </span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>     <span class="at">ylab =</span> <span class="st">"count"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="day01_08192024_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid" width="672"></p>
+</div>
 </div>
 </section>
 <section id="for-next-class" class="level2">
 <h2 class="anchored" data-anchor-id="for-next-class">For next class:</h2>
 <ul>
-<li>Install <a href="https://cran.r-project.org/">R</a> and <a href="https://posit.co/download/rstudio-desktop/">RStudio</a>.<br>
-</li>
-<li>Send me an email if you wish to use a different software.<br>
-</li>
-<li>Think of your semester project.<br>
-</li>
+<li>Read Chapter 1 from <a href="https://www.amazon.com/Linear-Models-Chapman-Statistical-Science/dp/1439887330">the book</a>.</li>
+<li>Install <a href="https://cran.r-project.org/">R</a> and <a href="https://posit.co/download/rstudio-desktop/">RStudio</a>.</li>
+<li>Send me an email if you wish to use a different software.</li>
+<li>Think of your semester project.</li>
 <li>Complete <a href="https://docs.google.com/forms/d/e/1FAIpQLSc65j67J344gpDt9NByylEJmQTuFi8uoO1XTpMORrp5OWPWMw/viewform?usp=pp_url">this survey</a>.<br>
 </li>
 </ul>
