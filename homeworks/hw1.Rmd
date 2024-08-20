@@ -1,0 +1,24 @@
+---
+title: "HW01 Intro Stat Modeling"
+author: "J Lacasa"
+date: "2024-08-20"
+output: html_document
+---
+
+## Learning objectives  
+- Check R skills. 
+- Review concepts. 
+
+## Exercise 1. 
+
+Load the data using the R code below and visualize the relationship between day of year (doy) and stem length. Propose a statistical model to describe this relationship. 
+
+```{r}
+url <- "https://raw.githubusercontent.com/jlacasa/stat705_fall2024/main/classes/data/lotus_hw1.csv"
+data <- read.csv(url)
+```
+
+## Exercise 2. 
+When you read the newspaper this week, find an article with a statement that is backed up by a statistical analysis. 
+- Paste the article url in your handout and point at the statistical analysis.
+- List one strength and one weakness of this analysis.
