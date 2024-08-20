@@ -40,7 +40,7 @@ editor: visual
 
 How much do 10 corn kernels weigh?
 
-```{r eval=TRUE}
+```{r }
 kernels <- read.csv("data/corn_kernel_data.csv")
 hist(kernels$weight_g,
      breaks = seq(3,6, by = .1), 

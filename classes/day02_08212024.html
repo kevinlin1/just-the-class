@@ -98,8 +98,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="from-last-class">From last class</h2>
 <ul>
 <li><p>Think of your project topic!</p></li>
-<li><p><a href="https://jlacasa.github.io/STAT705_F2024/assignments/hw1">Assignment 1</a> is due next Tuesday 27th.</p></li>
-<li><p>Review: go to <a href="https://kahoot.it/">kahoot.it</a> and enter code on screen.</p></li>
+<li><p>Talk to us if you need data. Check out <a href="https://www.kaggle.com/">kaggle</a>, <a href="https://dataverse.harvard.edu/">Harvard Dataverse</a>, <a href="https://cran.r-project.org/web/packages/agridat/index.html">this R package</a>.</p></li>
+<li><p>About R versus SAS, versus python…</p></li>
+<li><p><a href="https://jlacasa.github.io/stat705_fall2024/assignments/hw1">Assignment 1</a> is due next Wednesday 28th.</p></li>
 </ul>
 </section>
 <section id="intro-to-statistical-modeling" class="level2">
@@ -107,124 +108,81 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="mental-checklist" class="level3">
 <h3 class="anchored" data-anchor-id="mental-checklist">Mental checklist:</h3>
 <ol type="1">
-<li>What is the problem or question?</li>
-<li>What is the objective?</li>
+<li>What is the problem or question? (what is the objective?)</li>
 <li>How is the data generated?</li>
 </ol>
 </section>
-<section id="story-growing-clover-in-your-backyard" class="level3">
-<h3 class="anchored" data-anchor-id="story-growing-clover-in-your-backyard">Story: growing clover in your backyard</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://ucanr.edu/blogs/statewidemgnews/blogfiles/97013_original.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">flooded backyard</figcaption>
-</figure>
-</div>
+<section id="short-story" class="level3">
+<h3 class="anchored" data-anchor-id="short-story">Short story</h3>
+<section id="my-dad-wants-to-grow-clover-in-our-farm-and-has-different-species-to-pick-from." class="level4">
+<h4 class="anchored" data-anchor-id="my-dad-wants-to-grow-clover-in-our-farm-and-has-different-species-to-pick-from.">My dad wants to grow clover in our farm and has different species to pick from.</h4>
 <blockquote class="blockquote">
-<p>How does the mental checklist look like?</p>
+<p><strong>How does the mental checklist look like?</strong><br>
+1. What is the problem or question? (what is the objective?)<br>
+2. How is the data generated?</p>
 </blockquote>
 </section>
-</section>
-<section id="summaries" class="level2">
-<h2 class="anchored" data-anchor-id="summaries">Summaries</h2>
+<section id="the-data" class="level4">
+<h4 class="anchored" data-anchor-id="the-data">The data</h4>
+<p>We planted several different legume species tolerance to flooding.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(car)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>dd_lotus <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"data/lotus.csv"</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(trat <span class="sc">==</span> <span class="st">"c"</span>, doy <span class="sc">==</span> <span class="dv">237</span><span class="co">#, planta %in% c("Lotus corniculatus",  "Trebol balansa")</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>         ) <span class="sc">%&gt;%</span> </span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">select</span>(planta, tallo_1) </span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(dd_lotus)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>dd_lotus <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"data/lotus_part1.csv"</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">transmute</span>(<span class="at">species =</span> <span class="fu">factor</span>(species), agb_g) </span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(dd_lotus)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>'data.frame':   58 obs. of  2 variables:
- $ planta : chr  "Trebol frutilla" "Trebol frutilla" "Trebol frutilla" "Trebol frutilla" ...
- $ tallo_1: num  99.5 69 84.5 105.8 92.2 ...</code></pre>
+<pre><code> species     agb_g      
+ A:24    Min.   :1.265  
+ C:24    1st Qu.:1.969  
+ D:24    Median :2.355  
+         Mean   :2.492  
+         3rd Qu.:2.936  
+         Max.   :4.354  </code></pre>
 </div>
 </div>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>dd_lotus <span class="sc">%&gt;%</span> </span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(planta, tallo_1))<span class="sc">+</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(species, agb_g))<span class="sc">+</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">y =</span> <span class="fu">expression</span>(Aboveground<span class="sc">~</span>Biomass<span class="sc">~</span>(g<span class="sc">~</span>plant<span class="sc">^</span>{<span class="sc">-</span><span class="dv">1</span>})))<span class="sc">+</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <p><img src="day02_08212024_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># library(mgcv)</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>m1 <span class="ot">&lt;-</span> <span class="fu">lm</span>(tallo_1 <span class="sc">~</span> planta, <span class="at">data =</span> dd_lotus)</span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(m1)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>
-Call:
-lm(formula = tallo_1 ~ planta, data = dd_lotus)
-
-Residuals:
-    Min      1Q  Median      3Q     Max 
--27.250  -8.406  -1.021   8.125  37.500 
-
-Coefficients:
-                      Estimate Std. Error t value Pr(&gt;|t|)    
-(Intercept)             58.750      4.750  12.367  &lt; 2e-16 ***
-plantaLotus tenuis      23.500      6.432   3.653 0.000594 ***
-plantaTrebol balansa    30.708      6.432   4.774 1.46e-05 ***
-plantaTrebol blanco     -3.250      6.432  -0.505 0.615463    
-plantaTrebol frutilla   32.042      6.432   4.981 7.09e-06 ***
----
-Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-
-Residual standard error: 15.02 on 53 degrees of freedom
-Multiple R-squared:  0.5263,    Adjusted R-squared:  0.4905 
-F-statistic: 14.72 on 4 and 53 DF,  p-value: 3.772e-08</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(m1)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>dd_lotus <span class="sc">%&gt;%</span> </span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(agb_g))<span class="sc">+</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="fu">expression</span>(Aboveground<span class="sc">~</span>Biomass<span class="sc">~</span>(g<span class="sc">~</span>plant<span class="sc">^</span>{<span class="sc">-</span><span class="dv">1</span>})))<span class="sc">+</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>( <span class="at">fill =</span> <span class="cn">NA</span>, <span class="at">color =</span> <span class="st">"black"</span>)<span class="sc">+</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_classic</span>()<span class="sc">+</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">aspect.ratio =</span> <span class="dv">1</span>, </span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>        <span class="at">panel.grid.major.x =</span> <span class="fu">element_line</span>())<span class="sc">+</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span>species)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <p><img src="day02_08212024_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
 </div>
-<div class="cell-output-display">
-<p><img src="day02_08212024_files/figure-html/unnamed-chunk-4-2.png" class="img-fluid" width="672"></p>
 </div>
-<div class="cell-output-display">
-<p><img src="day02_08212024_files/figure-html/unnamed-chunk-4-3.png" class="img-fluid" width="672"></p>
-</div>
-<div class="cell-output-display">
-<p><img src="day02_08212024_files/figure-html/unnamed-chunk-4-4.png" class="img-fluid" width="672"></p>
-</div>
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">shapiro.test</span>(m1<span class="sc">$</span>residuals)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>
-    Shapiro-Wilk normality test
-
-data:  m1$residuals
-W = 0.98587, p-value = 0.7345</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">leveneTest</span>(tallo_1 <span class="sc">~</span> planta, <span class="at">data =</span> dd_lotus)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning in leveneTest.default(y = y, group = group, ...): group coerced to
-factor.</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Levene's Test for Homogeneity of Variance (center = median)
-      Df F value Pr(&gt;F)
-group  4  1.9662 0.1131
-      53               </code></pre>
-</div>
-</div>
+</section>
+</section>
 </section>
 <section id="data-generating-process" class="level2">
 <h2 class="anchored" data-anchor-id="data-generating-process">Data generating process</h2>
+<p>To the whiteboard!</p>
 </section>
-<section id="statistical-thinking" class="level2">
-<h2 class="anchored" data-anchor-id="statistical-thinking">Statistical thinking</h2>
+<section id="fitting-the-model-to-data" class="level2">
+<h2 class="anchored" data-anchor-id="fitting-the-model-to-data">Fitting the model to data</h2>
+<p>Live R session</p>
 </section>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section"></h2>
-</section>
-<section id="take-home" class="level2">
-<h2 class="anchored" data-anchor-id="take-home">Take home</h2>
-<p>On summarizing data</p>
+<section id="for-next-class" class="level2">
+<h2 class="anchored" data-anchor-id="for-next-class">For next class:</h2>
+<ul>
+<li><p>Read Chapter 2 from the book.</p></li>
+<li><p>Think of your project topic!</p></li>
+<li><p>Schedule a 15-min meeting and we can chat about your project.</p></li>
+</ul>
 </section>
 
 </main>

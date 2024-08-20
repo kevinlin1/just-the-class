@@ -1,7 +1,79 @@
 ---
-title: "Day Two"
+title: "Day 2 - 08/21/2024"
 format: html
 editor: visual
 ---
 
-## Review  
+## From last class
+
+-   Think of your project topic!
+
+-   Talk to us if you need data. Check out [kaggle](https://www.kaggle.com/), [Harvard Dataverse](https://dataverse.harvard.edu/), [this R package](https://cran.r-project.org/web/packages/agridat/index.html).
+
+-   About R versus SAS, versus python...
+
+-   [Assignment 1](https://jlacasa.github.io/stat705_fall2024/assignments/hw1) is due next Wednesday 28th.
+
+## Intro to statistical modeling
+
+### Mental checklist:
+
+1.  What is the problem or question? (what is the objective?)
+2.  How is the data generated?
+
+### Short story
+
+#### My dad wants to grow clover in our farm and has different species to pick from.
+
+> **How does the mental checklist look like?**  
+1.  What is the problem or question? (what is the objective?)  
+2.  How is the data generated?
+
+#### The data
+
+We planted several different legume species tolerance to flooding.
+
+```{r warning=FALSE, message=FALSE}
+library(tidyverse)
+library(car)
+```
+
+```{r}
+dd_lotus <- read.csv("data/lotus_part1.csv") %>% 
+  transmute(species = factor(species), agb_g) 
+summary(dd_lotus)
+```
+
+```{r}
+dd_lotus %>% 
+  ggplot(aes(species, agb_g))+
+  labs(y = expression(Aboveground~Biomass~(g~plant^{-1})))+
+  geom_boxplot()
+```
+
+```{r message=FALSE, warning=FALSE}
+dd_lotus %>% 
+  ggplot(aes(agb_g))+
+  labs(x = expression(Aboveground~Biomass~(g~plant^{-1})))+
+  geom_histogram( fill = NA, color = "black")+
+  theme_classic()+
+  theme(aspect.ratio = 1, 
+        panel.grid.major.x = element_line())+
+  facet_wrap(~species)
+```
+
+
+## Data generating process  
+To the whiteboard!  
+
+## Fitting the model to data    
+Live R session
+
+## For next class:
+
+-   Read Chapter 2 from the book.
+
+-   Think of your project topic!
+
+-   Schedule a 15-min meeting and we can chat about your project.
+
