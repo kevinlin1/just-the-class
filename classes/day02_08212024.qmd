@@ -39,7 +39,7 @@ We planted three different legume species and waited two months for them to grow
 
 ![](misc_plots/lotus-tenuis.jpg){fig-align="center" width="288"}
 
-source [1](https://s3.semencesdupuy.com/19042-large_default/trifolium-fragiferum.jpg), 2, 3.
+source [1](https://s3.semencesdupuy.com/19042-large_default/trifolium-fragiferum.jpg), [2](https://profesional.semillasbatlle.com/wp-content/uploads/2020/07/semillas_forrajeras_trebol_balansa.jpg), [3](https://s3.semencesdupuy.com/19042-large_default/trifolium-fragiferum.jpg).
 
 ```{r warning=FALSE, message=FALSE}
 library(tidyverse)
