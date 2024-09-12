@@ -4,7 +4,8 @@ title: Schedule
 description: The weekly event schedule.
 nav_order: 3
 ---
-# Weekly Schedule
+
+# I2 Schedule
 
 <!-- | **!!!** I2 will not have weekly meetings on the Fridays 3/18 (finals week) and 3/25 (Spring break). The last Journal Club meeting is on Monday (3/14) from 5:00 PM to 7:00 PM at HUB 238, not the usual Sieg 332. | -->
 
@@ -19,7 +20,29 @@ Please join our discord for the most up to date information about our meetings!
     </a>
 </div>
 
-## Insert Google Calendar Here
+<br/>
+<script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js'></script>
+<script src="https://cdn.jsdelivr.net/npm/@fullcalendar/google-calendar@6.1.15/index.global.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var calendarEl = document.getElementById('calendar');
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+        initialView: 'dayGridMonth',
+        headerToolbar: {
+            left: 'prev,next today',
+            center: 'title',
+            right: 'dayGridMonth,timeGridWeek,timeGridDay,listWeek'
+        },
+        googleCalendarApiKey: 'AIzaSyDtiM3TSDe-a7utsfODUZhBMcSiVf1iCj4',
+        events: {
+            googleCalendarId: 'fe3bc5fcf625903e24af9c0b19158ced9d96fc549ecc9253c44b9b4dfe6b517f@group.calendar.google.com'
+        },
+        eventColor: '#453ca8',
+    });
+    calendar.render();
+});
+</script>
+<div id="calendar"></div>
 
 <!-- - Journal Club: Tuesdays, 6:00 - 7:00 PM, Sieg 332
 - Team Meetings: Fridays, 5:00 PM - 6:00 PM, Sieg 233
