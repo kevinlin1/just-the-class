@@ -40,6 +40,12 @@
   padding: 0.2em 0.5em;
 }
 
+.fc .fc-button.fc-next-button, .fc .fc-button.fc-prev-button {
+  box-sizing: content-box;
+  height: 24px;
+  display: flex;
+}
+
 .fc .fc-button-primary:not(:disabled).fc-button-active:focus {
   box-shadow: rgba(83, 92, 180, 0.5) 0px 0px 0px 0.2rem;
 }
