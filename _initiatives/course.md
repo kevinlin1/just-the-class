@@ -12,7 +12,28 @@ View the course website [here](https://interactive-intelligence.github.io/intro-
 Congratulations to all of our graduates!
 
 ## Graduates
-Total number of graduates: 47
+Total number of graduates: 66
+
+Spring 2024
+- Ajit Mallavarapu
+- Ping Wang
+- Kaden Pothisuntorn
+- Eden McPeek
+- Adam Skoglund
+- Nathan Zeon
+- Anoushka Dalvi
+- Kandace Kimball
+- Christopher Tan
+- Anupritaa Parasnis
+- Maya Falodia
+- Johnathan Nister
+- Vaibhav Paranji
+- Ruize Jia
+- Aditya Shirodkar
+- John Jin
+- Elaine Lu
+- Brinda Moudgalya
+- Jeffrey Lee
 
 Fall 2023
 - Aiden Reeder
