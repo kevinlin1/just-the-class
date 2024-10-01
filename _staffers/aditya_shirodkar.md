@@ -1,7 +1,7 @@
 ---
 name: Aditya Shirodkar
 role: Officer
-email: aj1tmallav@gmail.com
+email: shirodkar987@gmail.com
 photo: aditya_shirodkar.jpg
 ---
 
