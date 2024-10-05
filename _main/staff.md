@@ -49,3 +49,4 @@ Meet our awesome team members!
 {% for staffer in alumni %}
 {{ staffer }}
 {% endfor %}
+{% endif %}
