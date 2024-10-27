@@ -9,7 +9,7 @@ description: Our publications and presentations
 # Research
 
 ## 🔬 Fall 2024 Research Groups!
-We will have our first research meeting on Friday, October 25, 2024 from 5pm to 7pm in Sieg 233! We will start to talk about your research projects, forming groups, and how to get started. We look forward to seeing you there! 😀
+We will have our next meeting on Friday, November 1, 2024 from 5pm to 7pm. Hope to see you there!
 
 ## Papers
 
