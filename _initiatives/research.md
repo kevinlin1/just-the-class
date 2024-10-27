@@ -9,7 +9,7 @@ description: Our publications and presentations
 # Research
 
 ## 🔬 Fall 2024 Research Groups!
-We will have our next meeting on Friday, November 1, 2024 from 5pm to 7pm. Hope to see you there!
+We will have our next meeting on Friday, November 1, 2024 from 5pm to 7pm in Sieg 233. Hope to see you there!
 
 ## Papers
 
