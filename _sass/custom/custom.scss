@@ -35,7 +35,7 @@ summary {
   }
 
   dt {
-    font-weight: 700;
+    font-weight: bold;
     text-align: start;
 
     &::after {
@@ -44,8 +44,6 @@ summary {
   }
 
   dd {
-    font-weight: normal;
-
     + dt {
       margin-top: 1em;
     }
