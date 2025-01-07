@@ -19,7 +19,7 @@ description: A modern, highly customizable, responsive Jekyll template for cours
 author: Kevin Lin
 baseurl: '/just-the-class' # the subpath of your site, e.g. /blog
 url: 'https://kevinl.info' # the base hostname & protocol for your site, e.g. http://example.com
-exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
+exclude: ["Gemfile", "Gemfile.lock", "LICENSE", vendor]
 
 # Theme settings
 remote_theme: just-the-docs/just-the-docs@v0.10.1
